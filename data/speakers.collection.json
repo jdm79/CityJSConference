@@ -330,7 +330,7 @@
         "country": "United States",
         "twitter": "dylans",
         "linkedin": "",
-        "year": 2019,
+        "year": 2020,
         "videoUrl": "https:\/\/www.youtube.com\/watch?v=2cX_NSos11k&list=PL8xuokhAnn4pv5CimOe9DnAGRosVkTF4r&index=2&t=0s",
         "image": {
             "path": "images\/2019-speakers\/dylans.jpg"
@@ -340,7 +340,7 @@
         },
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1558439827,
+        "_modified": 1576566089,
         "_created": 1544095624,
         "_id": "5c090788653133337b000356",
         "order": 4,
@@ -846,5 +846,74 @@
         "_modified": 1553169914,
         "_created": 1553167838,
         "_id": "5c9375de65313346150000c2"
+    },
+    {
+        "name": "Theodore Vorillas",
+        "bio": "<p>Theodore is a software engineer at Workable in Athens, currently working with a large scale JavaScript codebase. He recently started researching A11Y and he realized he could combine IoT and JavaScript to help visually impaired people. He loves FOSS, coffee, drones, woodworking and DIYing all the things.<\/p>",
+        "company": "Workable",
+        "title": "Rise of the robots",
+        "talk": "<p>End-to-end testing has been close to impossible since mobile devices are quite restrictive even for simple use cases. In this talk, you will find out how you can prototype a robot that swipes, pinches and taps using JavaScript.<\/p>",
+        "country": "Greece",
+        "twitter": "vorillaz",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "thumbnail": {
+            "path": "images\/2020-speakers\/vorillaz.png"
+        },
+        "image": [],
+        "order": 1,
+        "event": "talk",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1576565902,
+        "_created": 1576565902,
+        "_id": "5df87c8e653133bea800007f"
+    },
+    {
+        "name": "Stefano Magni",
+        "bio": "<p>Stefano is a front-end developer, a Cypress ambassador, and an instructor. He&rsquo;s passionate about testing, automation, and learning. He's developed every kind of UI: games, product configurators, drawing tools, highly responsive websites, and mobile apps. He loves creating quality products, good testing confidence, sharing his knowledge and working with passionate teams. He's currently focused on React, TypeScript and all their ecosystems. Stefano's working on a big \"UI Testing Best Practices\" project on GitHub and speak regularly at meetups and conferences.<\/p>",
+        "company": "Cypress.io \/ WorkWave",
+        "title": "Front-end testing on steroids",
+        "talk": "<p>Writing tests is like using GIT: as soon as you gain a bit of experience you wonder how you could work before discovering it. Why testing a front-end application is so hard? What are the main challenges you need to face? Why do the tests fail without a clear reason? If you have ever wanted to test your front-end app, if you ever tried to test it, if you have ever hated a bunch of UI tests and removed them from your pipelines... Well, this talk is for you \ud83d\ude4c I am going to show the challenges coming from automating user flows, checking everything worthwhile for the end-user, creating an ally that prevents you to add regressions, and why Cypress is an amazing tool for these purposes. Cypress enforces you to respect a lot of testing best practices, guarantees a good developer experience, and allow you to forget a lot of bad testing habits. And if you feel you are not ready for writing tests yet... I am going to show you what are the Cypress' features that could improve your everyday productivity, something you always care about \ud83d\ude0a.<\/p>",
+        "country": "Italy",
+        "twitter": "@NoriSte",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "thumbnail": {
+            "path": "images\/2020-speakers\/stefano.png"
+        },
+        "image": [],
+        "order": "",
+        "event": "talk",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1576566434,
+        "_created": 1576566255,
+        "_id": "5df87def653133c0600001be"
+    },
+    {
+        "name": "Divya Sasidharan",
+        "bio": "<p>Divya is a web developer who is passionate about open source and the web. She is currently a developer experience engineer at Netlify, and believes that there is a better workflow for building and deploying sites that doesn&rsquo;t require a server&mdash;ask her about the JAMstack. You will most likely find her in the sunniest spot in the room with a cup of tea in hand.<\/p>",
+        "company": "Netlify",
+        "title": "The subtle art of predictive prefetching",
+        "talk": "<p>The decisions we make when we decide the prioritization of prefetching resources is more art than science. While we do draw from existing analytics data and user research to determine how and what to prefetch, this process is still largely manual. Making an accurate prediction that noticeably saves one render time becomes progressively more difficult as your site scales since there&rsquo;s no sure way of knowing where a user will go next. This is where machine learning comes in handy. Advances in machine learning have given us the capacity to train models that will more accurately predict user flows and determine the resources a user will need on next page render.<\/p>\n<p>&nbsp;<\/p>\n<p>The convergence of machine learning and web performance is still in its infancy. However, with the growing popularity of machine learning (especially among web developers), it&rsquo;s only a matter of time when techniques like predictive prefetching will become more commonplace on the web.<\/p>",
+        "country": "USA",
+        "twitter": "shortdiv",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "thumbnail": {
+            "path": "images\/2020-speakers\/divya.png"
+        },
+        "image": [],
+        "order": 0,
+        "event": "talk",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1576566414,
+        "_created": 1576566414,
+        "_id": "5df87e8e653133c12900034f"
     }
 ]

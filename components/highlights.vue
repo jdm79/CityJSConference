@@ -57,7 +57,7 @@ export default {
             if (typeof this.items !== "undefined") {
                 return this.items.filter(item => {
                     return (
-                        item.year === parseInt(this.current.year) &&
+                        item.year === parseInt(this.current.year-1) &&
                         (item.event === "talk" || item.event === "both")
                     );
                 });
