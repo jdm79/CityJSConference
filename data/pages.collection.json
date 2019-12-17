@@ -18,14 +18,14 @@
                 "display": "About our event"
             },
             {
-                "_id": "5d98d5966531334af500024d",
-                "link": "widgets",
-                "display": "about-venue"
-            },
-            {
                 "_id": "5de975ff653133d0e70000ba",
                 "link": "widgets",
                 "display": "Speakers"
+            },
+            {
+                "_id": "5d98d5966531334af500024d",
+                "link": "widgets",
+                "display": "about-venue"
             },
             {
                 "_id": "5d62cea4653133433900015d",
@@ -59,7 +59,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1576568112,
+        "_modified": 1576568265,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0003c5",
         "_mby": "5ba3ca7b6531330bbd0003ca"

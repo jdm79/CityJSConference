@@ -47,8 +47,8 @@
                                         <p class="title is-4">{{item.name}}</p>
                                         <p><span class="title is-6"><a :href="`//twitter.com/${item.twitter}`">@{{item.twitter}}</a></span></p>
                                         <p class="subtitle is-6">{{item.company}}</p>
-                                        <!-- <p v-html="item.title" />
-                                        <a href="/speakers"> Read more </a> -->
+                                         <p v-html="item.bio" />
+                                        <!--<a href="/speakers"> Read more </a> -->
                                     </div>
                                     
                                 </div>

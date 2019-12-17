@@ -57,11 +57,7 @@ export default {
             if (typeof this.items !== "undefined") {
                 return this.items.filter(item => {
                     return (
-<<<<<<< HEAD
-                        item.year === parseInt(this.current.year-1) &&
-=======
                         item.year === parseInt((this.current.title === 'Home') ? '2019' : this.current.year) &&
->>>>>>> develop
                         (item.event === "talk" || item.event === "both")
                     );
                 });
