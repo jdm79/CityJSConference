@@ -3,7 +3,7 @@
     <div class="testimonials has-text-centered">
         <app-h2
             title="2020 Speakers"
-            subtitle="We are excited  to announce our selected Speakers <br/> for more information check our <a href='/speakers'>speakers</a> section"
+            subtitle="We are excited  to announce our <b>first four</b> selected Speakers"
             :is-h2="true"
         >
         </app-h2>
@@ -47,8 +47,7 @@
                                         <p class="title is-4">{{item.name}}</p>
                                         <p><span class="title is-6"><a :href="`//twitter.com/${item.twitter}`">@{{item.twitter}}</a></span></p>
                                         <p class="subtitle is-6">{{item.company}}</p>
-                                         <p v-html="item.bio" />
-                                        <!--<a href="/speakers"> Read more </a> -->
+                                        <p class="bio is-6" v-html="item.bio" />
                                     </div>
                                     
                                 </div>
@@ -56,8 +55,6 @@
                         </div>
                     </div>
                 </div>
-<!-- 
-                <Speaker :data="item" /> -->
             </div>
         </div>
     </div>
@@ -138,6 +135,9 @@ export default {
         background: $red;
         color: white;
 
+    .title, .subtitle
+        margin: 0px !important;
+
     .label
         width: 50%;
         padding: 20px;
@@ -209,6 +209,7 @@ export default {
         font-weight: bold;
         color: #00304a;
         position: absolute;
+        overflow: scroll;
         top: 6vw;
         left: 0;
         right: 0;
@@ -218,4 +219,13 @@ export default {
         +mobile
            font-size: 0.70rem;
            top: 16vw;
+
+    .bio
+        color: $black;
+        padding-top: 5px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        +mobile
+            height: 110px;
+            line-height: 12px;
 </style>
