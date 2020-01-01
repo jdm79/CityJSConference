@@ -18,12 +18,14 @@
                 <br />Regent Street Cinema
             </h1>
             <a href="/buytickets" class="is-info button info is-primary">Get your tickets</a>
-             <a href="https://www.papercall.io/cityjs2020" class="is-info button info is-primary">Submit your proposal</a>
+            <br/> 
+            <!-- <p>save 30 pounds from final price</p> -->
+             <!-- <a href="https://www.papercall.io/cityjs2020" class="is-info button info is-primary">Submit your proposal</a> -->
           </div>
         </div>
       </div>
     </div>
-    <!-- <Timer starttime="May 1, 2019 09:00:00" endtime="May 1, 2019 17:00:00"></Timer> -->
+    <Timer starttime="March 27, 2020 09:00:00" endtime="March 27, 2020 17:00:00"></Timer>
   </div>
 </template>
 
