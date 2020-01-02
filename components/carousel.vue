@@ -53,10 +53,10 @@ export default {
     padding: 5px;
 
   h1 
-    margin-bottom: 4.2rem;
-    margin-top: 5.2rem;
+    margin-bottom: 3.2rem;
+    margin-top: 1.5rem;
     +mobile
-      margin-top: 2.5rem;
+      margin-top: 0.1rem;
 
 
   .contend
