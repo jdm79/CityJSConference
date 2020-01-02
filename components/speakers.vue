@@ -2,15 +2,15 @@
     <section class="section shallow">
     <div class="testimonials has-text-centered">
         <app-h2
-            title="2019 Speakers"
-            subtitle="We are excited  to announce our selected Speakers <br/> for more information check our <a href='/speakers'>speakers</a> section"
+            title="2020 Speakers"
+            subtitle="We are excited  to announce our <b>first four</b> selected Speakers"
             :is-h2="true"
         >
         </app-h2>
-       <div class="row columns is-mobile is-multiline"> 
+        <div class="row columns is-mobile is-multiline"> 
             <div 
                 class="column is-one-quarter-desktop is-full-mobile"  
-                v-for="item in speakers"
+                v-for="item in filteredSpeakers"
                 v-bind:key="item._id"
             >
                 <div class="card">
@@ -28,6 +28,8 @@
                                 </figure>
                                 <figcaption class="label label-small bg-blue top-100 m-3 position-absolute right-0 text-uppercase text-white">
                                     {{item.name}}
+
+                                    {{item.company}}
                                 </figcaption>
                             </div>
                             <div class="back">
@@ -45,15 +47,13 @@
                                         <p class="title is-4">{{item.name}}</p>
                                         <p><span class="title is-6"><a :href="`//twitter.com/${item.twitter}`">@{{item.twitter}}</a></span></p>
                                         <p class="subtitle is-6">{{item.company}}</p>
-                                        <p v-html="item.title" />
-                                        <a href="/speakers"> Read more </a>
+                                        <p class="bio is-6" v-html="item.bio" />
                                     </div>
                                     
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--  -->
                 </div>
             </div>
         </div>
@@ -65,37 +65,47 @@
 import bulmaCarousel from "bulma-extensions/bulma-carousel/dist/js/bulma-carousel.min.js";
 import "bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css";
 import h2 from '@/components/h2';
+import { mapGetters } from 'vuex'
+
 export default {
-  props: {
-    items: {
-      type: Array
-    }
-  },
   components: {
     'app-h2': h2,
   },
   mounted: function() {
     this.carousel = bulmaCarousel.attach();
+    this.$store.dispatch('speakers/get');
   },
   computed: {
+    ...mapGetters({
+        speakers: 'speakers/speakers',
+    }),
     isMobile () {
         return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) ? true : false;
     }, 
-    speakers () {
-        if (typeof this.items!== 'undefined') {
-            let speakers = [];
-            speakers = this.items.filter(item => {
-                return (item.year === 2019)
-            }); 
+    filteredSpeakers() {
+         if (typeof this.speakers!== 'undefined') {
+             return this.speakers.filter(speaker => {
+                 return speaker.year === 2020
+             })
+         }
+    },
+    // speakers () {
+    //  //   if (typeof this.speakers!== 'undefined') {
 
-           return speakers.sort(function(a, b) {
-                return a.order-b.order
-            });
+    //         console.log(this.speakers)
+    //     //    return this.speakers.filter(item => {
+    //     //         return (item.year === 2019)
+    //     //     }); 
 
-        } else {
-            return [];
-        }
-    }
+    //     //    return speakers.sort(function(a, b) {
+    //     //         return a.order-b.order
+    //     //     });
+
+    //     // } else {
+    //     //     return [];
+    //     // }
+    //     return [];
+    // }
   }
   
 };
@@ -124,6 +134,9 @@ export default {
     .bg-blue
         background: $red;
         color: white;
+
+    .title, .subtitle
+        margin: 0px !important;
 
     .label
         width: 50%;
@@ -182,7 +195,7 @@ export default {
         height: 30%;
         img
             position: absolute;
-            top: 15px;
+            bottom: 15px;
             text-align: center;
             left: 35%;
             border-radius: 50%;
@@ -196,6 +209,7 @@ export default {
         font-weight: bold;
         color: #00304a;
         position: absolute;
+        overflow: scroll;
         top: 6vw;
         left: 0;
         right: 0;
@@ -205,4 +219,13 @@ export default {
         +mobile
            font-size: 0.70rem;
            top: 16vw;
+
+    .bio
+        color: $black;
+        padding-top: 5px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        +mobile
+            height: 110px;
+            line-height: 12px;
 </style>

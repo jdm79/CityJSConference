@@ -55,7 +55,7 @@ export default {
 <style lang="sass" scoped>
     @import '~/assets/css/mq.sass';
     .about-home
-        margin-top: -130px;
+        margin-top: -140px;
         +mobile
           margin-top: 0vw;
     .backimg

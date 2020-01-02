@@ -9,10 +9,11 @@
         >
         </app-h2>
         <div class="columns  is-mobile is-multiline is-centered"> 
+            tsest
            <div 
                 class="column is-three-quarters-mobile is-two-thirds-tablet
                  is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
-                v-for="item in speakers"
+                v-for="item in filteredSpeakers"
                 v-bind:key="item._id"
            >
                     <div class="is-one  ">
@@ -101,6 +102,7 @@ import bulmaCarousel from "bulma-extensions/bulma-carousel/dist/js/bulma-carouse
 import "bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css";
 import h2 from '@/components/h2';
 import talk from '@/components/talk';
+import { mapGetters } from 'vuex'
 
 export default {
   data: function() {
@@ -132,27 +134,18 @@ export default {
     }
   },
   computed: {
+    ...mapGetters({
+        speakers: 'speakers/speakers',
+    }),
     isMobile () {
         return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) ? true : false;
     }, 
-    speakers () {
-        if (typeof this.items!== 'undefined') {
-            let speakers = [];
-            speakers = this.items.filter(item => {
-                return (item.year === 2019)
-            }); 
-
-            this.chosen = speakers[0];
-
-
-           return speakers.sort(function(a, b) {
-                return a.order-b.order
-            });
-
-      
-        } else {
-            return [];
-        }
+     filteredSpeakers() {
+         if (typeof this.speakers!== 'undefined') {
+             return this.speakers.filter(speaker => {
+                 return speaker.year === 2020
+             })
+         }
     }
   }
   
