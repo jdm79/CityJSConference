@@ -140,7 +140,7 @@ export default {
     .media-content
         padding: 5%;
         max-height: 200px;
-        overflow: scroll;
+        overflow: auto;
 
     /* front pane, placed above back */
     .front
