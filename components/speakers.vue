@@ -1,6 +1,7 @@
 <template>
   <section class="section shallow">
     <div class="testimonials has-text-centered">
+
       <app-h2
         title="2020 Speakers"
         subtitle="We are excited  to announce our selected Speakers <br/> for more information check our <a href='/speakers'>speakers</a> section"
@@ -39,6 +40,7 @@
               <div class="content">
                 <p v-html="item.bio" />
               </div>
+
             </div>
           </div>
           <!-- 
@@ -115,6 +117,9 @@ export default {
         background: $red;
         color: white;
 
+    .title, .subtitle
+        margin: 0px !important;
+
     .label
         width: 50%;
         padding: 20px;
@@ -148,4 +153,62 @@ export default {
         /* for firefox 31 */
         transform: rotateY(0deg);
 
+
+    /* back, initially hidden pane */
+    .back
+        transform: rotateY(180deg);
+    
+    .back-logo
+        width: 30%;
+        height: 30%;
+        img
+            position: absolute;
+            top: 0px;
+            text-align: center;
+            eft: 35%;
+            border-radius: 50%;
+            width: 30%;
+            +mobile
+                margin: 0 auto;
+                top: 0px;
+
+    
+    .back-logo
+        width: 30%;
+        height: 30%;
+        img
+            position: absolute;
+            bottom: 15px;
+            text-align: center;
+            left: 35%;
+            border-radius: 50%;
+            width: 30%;
+            +mobile
+                margin: 0 auto;
+                top: 0px;
+
+    .back-content
+        padding-top: 40px;
+        font-weight: bold;
+        color: #00304a;
+        position: absolute;
+        overflow: scroll;
+        top: 6vw;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-family: Courier;
+        font-size: 0.75rem;
+        +mobile
+           font-size: 0.70rem;
+           top: 16vw;
+
+    .bio
+        color: $black;
+        padding-top: 5px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        +mobile
+            height: 110px;
+            line-height: 12px;
 </style>
