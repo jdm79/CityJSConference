@@ -1,118 +1,100 @@
 <template>
-    <section class="section shallow">
+  <section class="section shallow">
     <div class="testimonials has-text-centered">
-        <app-h2
-            title="2020 Speakers"
-            subtitle="We are excited  to announce our <b>first four</b> selected Speakers"
-            :is-h2="true"
-        >
-        </app-h2>
-        <div class="row columns is-mobile is-multiline"> 
-            <div 
-                class="column is-one-quarter-desktop is-full-mobile"  
-                v-for="item in filteredSpeakers"
-                v-bind:key="item._id"
-            >
-                <div class="card">
-                    <div class="card-image position-relative flip-container">
-                        <div class="flipper">
-                            <div class="front">
-                                <figure class="image is-40x40">
-                                    <img 
-                                        v-if="typeof 
-                                            item.image!== 'undefined'"  
-                                            width="150" :alt="item.name" 
-                                            :src="`/siteimages/${item.thumbnail.path}`"
-                                            class="speaker"
-                                    />
-                                </figure>
-                                <figcaption class="label label-small bg-blue top-100 m-3 position-absolute right-0 text-uppercase text-white">
-                                    {{item.name}}
 
-                                    {{item.company}}
-                                </figcaption>
-                            </div>
-                            <div class="back">
-                                 <figure class="back-logo">
-                                    <img 
-                                        v-if="typeof 
-                                            item.image!== 'undefined'"  
-                                            :alt="item.name" 
-                                            :src="`/siteimages/${item.thumbnail.path}`"
-                                            class="speaker"
-                                    />
-                                </figure>
-                                <div class="back-card content">
-                                    <div class="media-content back-content">
-                                        <p class="title is-4">{{item.name}}</p>
-                                        <p><span class="title is-6"><a :href="`//twitter.com/${item.twitter}`">@{{item.twitter}}</a></span></p>
-                                        <p class="subtitle is-6">{{item.company}}</p>
-                                        <p class="bio is-6" v-html="item.bio" />
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
+      <app-h2
+        title="2020 Speakers"
+        subtitle="We are excited  to announce our selected Speakers <br/> for more information check our <a href='/speakers'>speakers</a> section"
+        :is-h2="true"
+      ></app-h2>
+      <div class="row columns is-mobile is-multiline">
+        <div
+          class="column is-one-quarter-desktop is-full-mobile"
+          v-for="item in filteredSpeakers"
+          v-bind:key="item._id"
+        >
+          <div class="card">
+            <div class="card-image front">
+              <figure class="image is-40x40">
+                <img
+                  v-if="typeof 
+                  item.image!== 'undefined'"
+                  width="150"
+                  :alt="item.name"
+                  :src="`/siteimages/${item.thumbnail.path}`"
+                  class="speaker"
+                />
+              </figure>
+              <div class="name">
+                <div class="columns">
+                    <div class="column marginless paddingless">
+                        <strong>{{item.name}}      <a class="icon" :href="`//twitter.com/${item.twitter}`"><i class="fa fa-twitter"></i></a>    </strong><br/>
+                        {{item.company}}
+                    </div>
+                    <div class="column">
                     </div>
                 </div>
+              </div>
             </div>
+            <div class="media-content">
+              <div class="content">
+                <p v-html="item.bio" />
+              </div>
+
+            </div>
+          </div>
+          <!-- 
+          <Speaker :data="item" />-->
         </div>
+      </div>
     </div>
-    </section>
+  </section>
 </template>
 
 <script>
 import bulmaCarousel from "bulma-extensions/bulma-carousel/dist/js/bulma-carousel.min.js";
 import "bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css";
-import h2 from '@/components/h2';
-import { mapGetters } from 'vuex'
+import h2 from "@/components/h2";
+import { mapGetters } from "vuex";
 
 export default {
   components: {
-    'app-h2': h2,
+    "app-h2": h2
   },
   mounted: function() {
     this.carousel = bulmaCarousel.attach();
-    this.$store.dispatch('speakers/get');
+    this.$store.dispatch("speakers/get");
   },
   computed: {
     ...mapGetters({
-        speakers: 'speakers/speakers',
+      speakers: "speakers/speakers"
     }),
-    isMobile () {
-        return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) ? true : false;
-    }, 
-    filteredSpeakers() {
-         if (typeof this.speakers!== 'undefined') {
-             return this.speakers.filter(speaker => {
-                 return speaker.year === 2020
-             })
-         }
+    isMobile() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      )
+        ? true
+        : false;
     },
-    // speakers () {
-    //  //   if (typeof this.speakers!== 'undefined') {
-
-    //         console.log(this.speakers)
-    //     //    return this.speakers.filter(item => {
-    //     //         return (item.year === 2019)
-    //     //     }); 
-
-    //     //    return speakers.sort(function(a, b) {
-    //     //         return a.order-b.order
-    //     //     });
-
-    //     // } else {
-    //     //     return [];
-    //     // }
-    //     return [];
-    // }
+    filteredSpeakers() {
+      if (typeof this.speakers !== "undefined") {
+        return this.speakers.filter(speaker => {
+          return speaker.year === 2020;
+        });
+      }
+    }
   }
-  
 };
 </script>
 
 <style lang="sass" scoped>
     @import '~/assets/css/mq.sass';
+
+    .card
+        position: relative;
+        display: block;
+        max-height: 720px;
+        height: 680px;
 
     .card-image
        overflow: hidden
@@ -142,34 +124,35 @@ export default {
         width: 50%;
         padding: 20px;
 
-    .flip-container
-        @include per(1000);
-        &:hover
-            .flipper
-                transform: rotateY(180deg)
-        .flipper 
-            transition: 0.6s;
-            transform-style: preserve-3d;
-            position: relative;
-    
-    .front, .back
-        backface-visibility: hidden;
+    .name 
         position: absolute;
-        top: 0;
-        left: 0;
-    
+        bottom: -3px;
+        left: 3%;
+        z-index: 200;
+        width: 95%;
+        background: $white;
+        text-align: left;
+        padding-left: 2%;
+        padding-top: 2%;
 
-    .flip-container, .front, .back
-        width: 100%;
-        height: 21vw;
-        +mobile
-            height: 80vw;
+    .card-content
+        max-height: 300px;
+        position: relative;
+        z-index: 10;
+        padding-top: 0px !important;
+        display: block;
+
+    .media-content
+        padding: 5%;
+        max-height: 200px;
+        overflow: auto;
 
     /* front pane, placed above back */
     .front
         z-index: 2;
         /* for firefox 31 */
         transform: rotateY(0deg);
+
 
     /* back, initially hidden pane */
     .back
