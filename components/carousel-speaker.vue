@@ -23,7 +23,7 @@
 
 <script>
 import VueScreenSize from 'vue-screen-size'
-import Speaker from "@/components/Speaker";
+import Speaker from "@/components/speaker";
 import "bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css";
 export default {
     components: {
