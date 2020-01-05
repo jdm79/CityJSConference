@@ -1,5 +1,7 @@
 import Vue from 'vue'
-import VueAgile from 'vue-agile'
+import { Carousel, Slide } from "vue-carousel";
 
-Vue.use(VueAgile)
-Vue.component('carousel', VueAgile)
+Vue.use(Carousel)
+Vue.use(Slide)
+Vue.component('VCarousel', Carousel)
+Vue.component('Slide', Slide);
