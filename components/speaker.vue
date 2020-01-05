@@ -1,41 +1,22 @@
 <template>
-  <section class="section shallow">
-    <div class="testimonials has-text-centered">
-
-      <app-h2
-        title="2020 Speakers"
-        subtitle="We are excited  to announce our selected Speakers <br/> for more information check our <a href='/speakers'>speakers</a> section"
-        :is-h2="true"
-      ></app-h2>
-      <div class="row is-hidden-desktop is-hidden-tablet">
-       <speaker-carousel
-          :speakers="filteredSpeakers"
-        
-        />
-      </div>
-      <div class="row columns is-mobile is-multiline is-hidden-mobile">
-        <div
-          class="column is-3 is-paddingless"
-          v-for="item in filteredSpeakers"
-          v-bind:key="item._id"
-        >
-          <div class="card">
+  <div>
+        <div class="card">
             <div class="card-image front">
               <figure class="image is-40x40">
                 <img
                   v-if="typeof 
-                  item.image!== 'undefined'"
+                  image!== 'undefined'"
                   width="150"
-                  :alt="item.name"
-                  :src="`/siteimages/${item.thumbnail.path}`"
+                  :alt="name"
+                  :src="`/siteimages/${thumbnail.path}`"
                   class="speaker"
                 />
               </figure>
               <div class="name">
                 <div class="columns">
                     <div class="column marginless paddingless">
-                        <strong>{{item.name}}      <a class="icon" :href="`//twitter.com/${item.twitter}`"><i class="fa fa-twitter"></i></a>    </strong><br/>
-                        {{item.company}}
+                        <strong>{{name}}      <a class="icon" :href="`//twitter.com/${twitter}`"><i class="fa fa-twitter"></i></a>    </strong><br/>
+                        {{company}}
                     </div>
                     <div class="column">
                     </div>
@@ -44,56 +25,27 @@
             </div>
             <div class="media-content">
               <div class="content">
-                <p v-html="item.bio" />
+                <p v-html="bio" />
               </div>
 
             </div>
-          </div>
-          <!-- 
-          <Speaker :data="item" />-->
         </div>
-      </div>
-    </div>
-  </section>
+  </div>
 </template>
 
 <script>
-import bulmaCarousel from "bulma-extensions/bulma-carousel/dist/js/bulma-carousel.min.js";
-import "bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css";
-import h2 from "@/components/h2";
-import SpeakerCarousel from "@/components/carousel-speaker";
-import { mapGetters } from "vuex";
-
 export default {
-  components: {
-    "app-h2": h2,
-    "speaker-carousel": SpeakerCarousel
-  },
-  mounted: function() {
-    this.carousel = bulmaCarousel.attach();
-    this.$store.dispatch("speakers/get");
-  },
-  computed: {
-    ...mapGetters({
-      speakers: "speakers/speakers"
-    }),
-    isMobile() {
-      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        navigator.userAgent
-      )
-        ? true
-        : false;
-    },
-    filteredSpeakers() {
-      if (typeof this.speakers !== "undefined") {
-        return this.speakers.filter(speaker => {
-          return speaker.year === 2020;
-        });
-      }
-    }
+  props: {
+      image: Object,
+      thumbnail: Object, 
+      name: String,
+      company: String,
+      twitter: String,
+      bio: String
   }
 };
 </script>
+
 
 <style lang="sass" scoped>
     @import '~/assets/css/mq.sass';
@@ -152,9 +104,8 @@ export default {
 
     .media-content
         padding: 5%;
-        max-height: 200px;
-        overflow: auto
-
+        max-height: 350px;
+        overflow: auto;
 
     /* front pane, placed above back */
     .front
