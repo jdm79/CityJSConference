@@ -33,7 +33,7 @@
               </figure>
               <div class="name">
                 <div class="columns">
-                    <div class="column marginless paddingless">
+                    <div class="column marginless paddingless is-8">
                         <strong>{{item.name}}      <a class="icon" :href="`//twitter.com/${item.twitter}`"><i class="fa fa-twitter"></i></a>    </strong><br/>
                         {{item.company}}
                     </div>
@@ -88,6 +88,8 @@ export default {
       if (typeof this.speakers !== "undefined") {
         return this.speakers.filter(speaker => {
           return speaker.year === 2020;
+        }).sort(function(a, b) {
+            return a.order-b.order
         });
       }
     }
@@ -152,7 +154,7 @@ export default {
 
     .media-content
         padding: 5%;
-        max-height: 200px;
+        max-height: 150px;
         overflow: auto
 
 

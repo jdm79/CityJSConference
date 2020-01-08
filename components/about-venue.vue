@@ -106,6 +106,13 @@
     .about-content
         padding: 10.3rem
 
+    
+    .card
+        +ipadpro
+            top: 0px;
+            bottom: 10px;
+            width: 50%;
+
     .card-content
         +mobile
             margin-top: 60%;

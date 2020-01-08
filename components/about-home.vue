@@ -64,6 +64,8 @@ export default {
         background-size: cover;
         padding: 220px 0;
         height: 672px;
+        +ipadpro
+          height: 750px;
         &.lazyloaded
           background-image: url(/images/audience.jpg); 
           background-repeat: no-repeat; 
@@ -78,6 +80,10 @@ export default {
             top: -50px;
             +mobile
                 top: 35vw;
+            +ipadpro
+              top: 0px;
+              bottom: 10px;
+              width: 50%;
     h2
         font-size: 1.8rem;
         font-weight: 700;

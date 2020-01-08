@@ -36,6 +36,11 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="sass">
+    @import '~/assets/css/mq.sass';
+    .carouselWrap
+        +ipadpro
+            margin: 0 auto;
+            width: 50%;
 
   </style>
