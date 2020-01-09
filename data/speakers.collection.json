@@ -287,7 +287,7 @@
         "videoUrl": "https:\/\/cityjsconf2018.streameventlive.com\/home\/video\/30",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578142515,
+        "_modified": 1578524057,
         "_created": 1538578845,
         "_id": "5bb4d99d6531339e4c000223",
         "image": {
@@ -297,7 +297,7 @@
         "thumbnail": {
             "path": "images\/2020speakers\/jo.jpg"
         },
-        "order": 12,
+        "order": 6,
         "event": "talk"
     },
     {
@@ -326,7 +326,7 @@
     {
         "name": "Dylan Schiemann",
         "bio": "<p>As CEO of SitePen and co-founder of Dojo, Dylan Schiemann is an established presence in the JavaScript and open source communities.&nbsp;<\/p>",
-        "company": "SitePen - Dojo",
+        "company": "SitePen - Dojo co-Founder",
         "title": "BTR FSTR AWSMR SSR - Building Apps with Dojo, A Progressive TypeScript Framework for Modern Web Apps",
         "talk": "<p>In a world where developer experience is often at odds with end user performance and experience, attempts to keep these conflicts at peace are evolving rapidly.<\/p>\n<p>This talk will look at some of the benefits and challenges with more common approaches to server-side rendering (SSR), and explore our team&rsquo;s journey into finding a better faster awesomer approach.<\/p>",
         "country": "United States",
@@ -342,7 +342,7 @@
         },
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1576566089,
+        "_modified": 1578524245,
         "_created": 1544095624,
         "_id": "5c090788653133337b000356",
         "order": 4,
@@ -866,11 +866,11 @@
         "thumbnail": {
             "path": "images\/2020speakers\/theodore.jpg"
         },
-        "order": 1,
+        "order": 12,
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578141758,
+        "_modified": 1578524030,
         "_created": 1576565902,
         "_id": "5df87c8e653133bea800007f"
     },
@@ -891,18 +891,18 @@
         "thumbnail": {
             "path": "images\/2020speakers\/alexlobera.jpg"
         },
-        "order": "",
-        "event": "",
+        "order": 9,
+        "event": "workshop",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578141973,
+        "_modified": 1578524110,
         "_created": 1576566045,
         "_id": "5df87d1d653133bf5f000318"
     },
     {
         "name": "Stefano Magni",
-        "bio": "<p>Stefano is a front-end developer, a Cypress ambassador, and an instructor. He&rsquo;s passionate about testing, automation, and learning.<\/p>",
-        "company": "Cypress.io \/ WorkWave",
+        "bio": "<p>Stefano is a front-end developer, a Cypress ambassador, and an instructor. He&rsquo;s passionate about testing, automation, and learning. He's developed every kind of UI: games, product configurators, drawing tools, highly responsive websites, and mobile apps. He loves creating quality products, good testing confidence, sharing his knowledge and working with passionate teams. He's currently focused on React, TypeScript and all their ecosystems. Stefano's working on a big \"UI Testing Best Practices\" project on GitHub and speak regularly at meetups and conferences.<\/p>",
+        "company": "Cypress.io Ambassador \/ WorkWave",
         "title": "Front-end testing on steroids",
         "talk": "<p>Writing tests is like using GIT: as soon as you gain a bit of experience you wonder how you could work before discovering it. Why testing a front-end application is so hard? What are the main challenges you need to face? Why do the tests fail without a clear reason? If you have ever wanted to test your front-end app, if you ever tried to test it, if you have ever hated a bunch of UI tests and removed them from your pipelines... Well, this talk is for you \ud83d\ude4c I am going to show the challenges coming from automating user flows, checking everything worthwhile for the end-user, creating an ally that prevents you to add regressions, and why Cypress is an amazing tool for these purposes. Cypress enforces you to respect a lot of testing best practices, guarantees a good developer experience, and allow you to forget a lot of bad testing habits. And if you feel you are not ready for writing tests yet... I am going to show you what are the Cypress' features that could improve your everyday productivity, something you always care about \ud83d\ude0a.<\/p>",
         "country": "Italy",
@@ -920,7 +920,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578141986,
+        "_modified": 1578524180,
         "_created": 1576566255,
         "_id": "5df87def653133c0600001be"
     },
@@ -941,11 +941,11 @@
         "thumbnail": {
             "path": "images\/2020speakers\/divya.jpeg"
         },
-        "order": 0,
+        "order": 2,
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578142000,
+        "_modified": 1578524018,
         "_created": 1576566414,
         "_id": "5df87e8e653133c12900034f"
     },
@@ -966,11 +966,11 @@
         "thumbnail": {
             "path": "images\/2020speakers\/tonyedwards.jpg"
         },
-        "order": "",
+        "order": 8,
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578142604,
+        "_modified": 1578524006,
         "_created": 1578142581,
         "_id": "5e108b75653133c56a000273"
     },
@@ -991,12 +991,62 @@
         "thumbnail": {
             "path": "images\/2020speakers\/peter.jpg"
         },
-        "order": "",
+        "order": 9,
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578142688,
+        "_modified": 1578523984,
         "_created": 1578142688,
         "_id": "5e108be0653133c5e8000056"
+    },
+    {
+        "name": "Alexandre Chopin",
+        "bio": "<p>You can call him Alex. I love Frontend. Since my brother and I had our first computer, it became our passion. Soon after, we created our first website. It was about our favorite sport, basketball. We wanted to learn everything about Web Development, so we could improve our site.<\/p>",
+        "company": "Creator of NuxtJS",
+        "title": "Creator of NuxtJS",
+        "talk": "",
+        "country": "FRANCE",
+        "twitter": "iamnuxt",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/alexchopin.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/alexchopin.jpg"
+        },
+        "order": 1,
+        "event": "talk",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1578523950,
+        "_created": 1578522800,
+        "_id": "5e1658b065313369d50003cd"
+    },
+    {
+        "name": "Patrick Kunka",
+        "bio": "<p>Principal Software Engineer at DAZN<\/p>",
+        "company": "DAZN",
+        "title": "Simulating Network Conditions with JavaScript",
+        "talk": "<p>When working with video streaming, being able to accurately simulate customer network conditions for development and testing is crucial. In this talk, I'll be looking at how we can use containers and server-side JavaScript to programmatically shape network conditions and gain valuable insights about the behaviour and performance of our client-side JavaScript - from Adaptive Bitrate video players to entire single-page applications.<\/p>",
+        "country": "",
+        "twitter": "",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/patrick.jpeg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/patrick.jpeg"
+        },
+        "order": 10,
+        "event": "talk",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1578523201,
+        "_created": 1578523198,
+        "_id": "5e165a3e6531336bf7000059"
     }
 ]

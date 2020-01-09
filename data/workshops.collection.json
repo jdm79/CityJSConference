@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Advanced React Workshop ",
+        "description": "<p class=\"p-rich_text_section\">In this advanced workshop, you will learn how to implement advanced features and improve performance in React apps leveraging functional programming in JavaScript<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p class=\"p-rich_text_section\"><strong>Learning outcomes<\/strong><\/p>\n<p class=\"p-rich_text_section\">- Effectively start &ldquo;thinking in hooks&rdquo; to fully comprehend how the new composition model works<\/p>\n<p class=\"p-rich_text_section\">- Leverage functional programming in modern React<\/p>\n<p class=\"p-rich_text_section\">- Learn how to apply the new React patterns and how to identify the right use cases for each one.<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>",
+        "instructor": "Alex Lobera",
+        "date": "2020-03-25",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1578519123,
+        "_created": 1578515244,
+        "_id": "5e163b2c65313341b80000e8",
+        "image": {
+            "path": "images\/2020speakers\/alex2.jpg"
+        }
+    },
+    {
+        "title": "Building Real-World GraphQL API",
+        "description": "<p class=\"p-rich_text_section\">In this zero to hero GraphQL workshop, you will learn how to effectively migrate REST APIs to GraphQL avoiding common pitfalls<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p class=\"p-rich_text_section\"><strong>Learning outcomes<\/strong><\/p>\n<p class=\"p-rich_text_section\">- Learn how to migrate a REST API to GraphQL<\/p>\n<p class=\"p-rich_text_section\">- Understand how to design a GraphQL schema solving real-world use cases<\/p>\n<p class=\"p-rich_text_section\">- Error handling &amp; security design<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>",
+        "instructor": "Alex Lobera",
+        "date": "2020-03-26",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1578519112,
+        "_created": 1578515285,
+        "_id": "5e163b5565313341f800010d",
+        "image": {
+            "path": "images\/2020speakers\/alex1.jpg"
+        }
+    }
+]
