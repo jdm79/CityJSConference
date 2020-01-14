@@ -94,7 +94,7 @@ export default {
             height: 50vh;
             overflow: scroll
         +ipadpro
-            height: 35vh;
+            height: 50vh;
             min-height: 10vh
 
     .card-image
