@@ -5,7 +5,7 @@
         <div class="column is-8">
           <h2> 
               React, and GraphQL <a href="/workshops">Workshops</a> <br/>
-              11 International <a href="/speakers">Speakers</a> <br/>all about Frameworks, React, Vue, Testing, IoT, NodeJS <br/>
+              11 International <a href="/speakers">Speakers</a> <br/>all about Frameworks, TypeScript, React, Vue, Testing, IoT, NodeJS <br/>
           </h2>
         </div>
         <div class="column is-4">
@@ -141,8 +141,8 @@
       color: $darkred;
     h2 
       color: $black
-      font-size: 1.875rem;
-      line-height: 2.75rem;
+      font-size: 1.675rem;
+      line-height: 2.25rem;
       text-transform: none;
       padding: 20px;
       +mobile
