@@ -299,7 +299,7 @@
         "subtitle": "",
         "url": "workshops",
         "type": "Standard",
-        "description": "<h3>Coaches<\/h3>\n<h3><strong>&nbsp;Alex Lobera<\/strong><\/h3>\n<p>Alex is a&nbsp; Full-stack JavaScript Developer very passionate about&nbsp;teaching React to professional developers since May 2016. Alex holds a&nbsp;<strong>computer science degree<\/strong>&nbsp;and he is also a&nbsp;<strong>certified teacher<\/strong>&nbsp;in the Spanish language. He is organizer of the&nbsp;<a href=\"https:\/\/www.meetup.com\/JavaScript-london\/\" target=\"_blank\" rel=\"noopener\">JavaScript London Meetup<\/a>&nbsp;and other popular meetups in the EU.<\/p>\n<p>&nbsp;<\/p>\n<h3>Workshops<\/h3>\n<p>Our workshops for this year can be seen below:<\/p>\n<div class=\"Box__StyledBox-sc-15eb79u-0 FZPeL Card__StyledCard-sc-1h5y10m-0 eUrMtZ\">&nbsp;<\/div>",
+        "description": "<h3>Coaches<\/h3>\n<h3><strong>&nbsp;Alex Lobera<\/strong><\/h3>\n<p>Alex is a&nbsp; Full-stack JavaScript Developer very passionate about&nbsp;teaching React to professional developers since May 2016. Alex holds a&nbsp;<strong>computer science degree<\/strong>&nbsp;and he is also a&nbsp;<strong>certified teacher<\/strong>&nbsp;in the Spanish language. He is organizer of the&nbsp;<a href=\"https:\/\/www.meetup.com\/JavaScript-london\/\" target=\"_blank\" rel=\"noopener\">JavaScript London Meetup<\/a>&nbsp;and other popular meetups in the EU.<\/p>\n<p>&nbsp;<\/p>\n<h3><strong>Michel Weststrate&nbsp;<\/strong><\/h3>\n<p>Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on Dev tooling<\/p>\n<p>&nbsp;<\/p>\n<h3>Workshops<\/h3>\n<p>Our workshops for this year can be seen below:<\/p>\n<div class=\"Box__StyledBox-sc-15eb79u-0 FZPeL Card__StyledCard-sc-1h5y10m-0 eUrMtZ\">&nbsp;<\/div>",
         "shortDescription": "",
         "widgets": [
             {
@@ -326,7 +326,7 @@
         "color": "",
         "components": "",
         "year": "",
-        "_modified": 1578520828,
+        "_modified": 1578567312,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f00032f",
         "_mby": "5ba3ca7b6531330bbd0003ca"

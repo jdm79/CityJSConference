@@ -852,7 +852,7 @@
     {
         "name": "Theodore Vorillas",
         "bio": "<p>Theodore is a software engineer at Workable in Athens, currently working with a large scale JavaScript codebase. He recently started researching A11Y and he realized he could combine IoT and JavaScript to help visually impaired people. He loves FOSS, coffee, drones, woodworking and DIYing all the things.<\/p>",
-        "company": "WorkWave",
+        "company": "Workable",
         "title": "Rise of the robots",
         "talk": "<p>End-to-end testing has been close to impossible since mobile devices are quite restrictive even for simple use cases. In this talk, you will find out how you can prototype a robot that swipes, pinches and taps using JavaScript.<\/p>",
         "country": "Greece",
@@ -870,7 +870,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578524030,
+        "_modified": 1578526106,
         "_created": 1576565902,
         "_id": "5df87c8e653133bea800007f"
     },
@@ -952,7 +952,7 @@
     {
         "name": "Tony Edwards",
         "bio": "<p>Tony Edwards is one half of Future Sync Events, a tech-focused event company based in the South West. Tony is also part of the team at Software Cornwall, a network of digital businesses in the county, where he has helped inspire the next generation of budding developers to follow their digital dreams and enter the broader software industry. In recent years, Tony has been supporting the region's digital communities through volunteering, speaking and helping to organise events. Whether it&rsquo;s live blogging for award-winning Agile conferences, managing social media for community meetups, producing swag for awards ceremonies or simply attending, if there&rsquo;s something happening for the digitally minded in the far South West&hellip;. chances are Tony is in the mix somehow.<\/p>",
-        "company": "Future Sync",
+        "company": "Future Sync / MC of the 2020 Event ",
         "title": "MC",
         "talk": "",
         "country": "",
@@ -1048,5 +1048,30 @@
         "_modified": 1578523201,
         "_created": 1578523198,
         "_id": "5e165a3e6531336bf7000059"
+    },
+    {
+        "name": "Michel Weststrate",
+        "bio": "<p>Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on Dev tooling<\/p>",
+        "company": "Author of MobX, MobX-State-Tree Author \/ Facebook",
+        "title": "MobX, or: going from Mutable to Immutable to Reactive state management",
+        "talk": "<p>MobX is a state management library that is used across the globe, by companies big and small, such as Microsoft, EA, Netflix, Amazon and so on. The library is renown for its ease of use and lack of boilerplate. But also, it is quite magical. Or isn't it? And shouldn't we have stopped using mutative data structures by know? Or is the world not just limited to mutable and immutable, and is there a third kind of data structures? Join this talk to learn about the wonderful world of reactive data structures and the benefits they yield in both developer and runtime efficiency.<\/p>",
+        "country": "Netherlands",
+        "twitter": "mweststrate",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/michel.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/michel.jpg"
+        },
+        "order": "",
+        "event": "",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1578566698,
+        "_created": 1578566698,
+        "_id": "5e17042a6531335800000066"
     }
 ]
