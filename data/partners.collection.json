@@ -273,8 +273,7 @@
         "_id": "5c19038065313351040001be",
         "middle": "Yes",
         "Year": [
-            2019,
-            2020
+            2019
         ]
     },
     {
@@ -291,8 +290,7 @@
         "_id": "5c41301f6531332522000338",
         "middle": "No",
         "Year": [
-            2019,
-            2020
+            2019
         ]
     },
     {
@@ -490,7 +488,7 @@
         "image": {
             "path": "images\/sponsors\/cypress.png"
         },
-        "url": "cypress.io",
+        "url": "https:\/\/cypress.io",
         "level": "Bronze",
         "middle": "Yes",
         "Year": [
@@ -498,8 +496,25 @@
         ],
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1577478907,
+        "_modified": 1578999559,
         "_created": 1577478907,
         "_id": "5e066afb65313357af000012"
+    },
+    {
+        "name": "Black Females Code",
+        "image": {
+            "path": "images\/sponsors\/cbf.png"
+        },
+        "url": "https:\/\/codingblackfemales.com\/",
+        "level": "Community",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1578999850,
+        "_created": 1578999850,
+        "_id": "5e1da02a65313305f500025b"
     }
 ]
