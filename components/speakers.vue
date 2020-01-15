@@ -19,38 +19,14 @@
           v-for="item in filteredSpeakers"
           v-bind:key="item._id"
         >
-          <div class="card">
-            <div class="card-image front">
-              <figure class="image is-40x40">
-                <img
-                  v-if="typeof 
-                  item.image!== 'undefined'"
-                  width="150"
-                  :alt="item.name"
-                  :src="`/siteimages/${item.thumbnail.path}`"
-                  class="speaker"
-                />
-              </figure>
-              <div class="name">
-                <div class="columns">
-                    <div class="column marginless paddingless is-8">
-                        <strong>{{item.name}}      <a class="icon" :href="`//twitter.com/${item.twitter}`"><i class="fa fa-twitter"></i></a>    </strong><br/>
-                        {{item.company}}
-                    </div>
-                    <div class="column">
-                    </div>
-                </div>
-              </div>
-            </div>
-            <div class="media-content">
-              <div class="content">
-                <p v-html="item.bio" />
-              </div>
-
-            </div>
-          </div>
-          <!-- 
-          <Speaker :data="item" />-->
+          <speaker 
+            :image="item.image"
+            :thumbnail="item.thumbnail" 
+            :name="item.name"
+            :company="item.company"
+            :twitter="item.twitter"
+            :bio="item.bio"
+          />
         </div>
       </div>
     </div>
@@ -62,12 +38,14 @@ import bulmaCarousel from "bulma-extensions/bulma-carousel/dist/js/bulma-carouse
 import "bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css";
 import h2 from "@/components/h2";
 import SpeakerCarousel from "@/components/carousel-speaker";
+import Speaker from "@/components/speaker";
 import { mapGetters } from "vuex";
 
 export default {
   components: {
     "app-h2": h2,
-    "speaker-carousel": SpeakerCarousel
+    "speaker-carousel": SpeakerCarousel,
+    "speaker": Speaker
   },
   mounted: function() {
     this.carousel = bulmaCarousel.attach();

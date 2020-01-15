@@ -1,47 +1,62 @@
 <template>
-  <div>
-        <div class="card">
-            <div class="card-image front">
-              <figure class="image is-40x40">
-                <img
-                  v-if="typeof 
+  <div class="">
+    <div class="card ">
+      <div class="card-image front">
+        <figure class="image is-40x40">
+          <img
+            v-if="typeof 
                   image!== 'undefined'"
-                  width="150"
-                  :alt="name"
-                  :src="`/siteimages/${thumbnail.path}`"
-                  class="speaker"
-                />
-              </figure>
-              <div class="name">
-                <div class="columns">
-                    <div class="column marginless paddingless">
-                        <strong>{{name}}      <a class="icon" :href="`//twitter.com/${twitter}`"><i class="fa fa-twitter"></i></a>    </strong><br/>
-                        {{company}}
-                    </div>
-                    <div class="column">
-                    </div>
-                </div>
-              </div>
+            width="150"
+            :alt="name"
+            :src="`/siteimages/${thumbnail.path}`"
+            class="speaker"
+          />
+        </figure>
+        <div class="name">
+          <div class="columns">
+            <div class="column is-12 marginless paddingless">
+              <strong>
+                {{name}}
+                <a class="icon" :href="`//twitter.com/${twitter}`">
+                  <em class="fa fa-twitter"></em>
+                </a>
+              </strong>
+              <br />
+              {{company}}
+              <br/>
+              <a class="bioBtn" @click='toggle()'>bio <span :class="`fa ${showModal?'fa-minus':'fa-plus'}`"></span></a>
             </div>
-            <div class="media-content">
-              <div class="content">
-                <p v-html="bio" />
-              </div>
-
-            </div>
+          </div>
         </div>
+      </div>
+      <div class="media-content" v-show="showModal">
+        <div class="content">
+          <p v-html="bio" />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-      image: Object,
-      thumbnail: Object, 
-      name: String,
-      company: String,
-      twitter: String,
-      bio: String
+    image: Object,
+    thumbnail: Object,
+    name: String,
+    company: String,
+    twitter: String,
+    bio: String
+  },
+  data: function() {
+    return {
+      showModal: false
+    };
+  },
+  methods: {
+    toggle: function() {
+      this.showModal = !this.showModal;
+    }
   }
 };
 </script>
@@ -50,11 +65,37 @@ export default {
 <style lang="sass" scoped>
     @import '~/assets/css/mq.sass';
 
+    .modal-mask
+        background-color: rgba(0, 0, 0, .5);
+        transition: opacity .3s ease;
+
+    .bioBtn
+        padding: 2px;
+        font-size: 0.9rem;
+        color: #333 !important;
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 2px 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        
     .card
         position: relative;
         display: block;
-        max-height: 720px;
-        height: 680px;
+        height: 40vh;
+        min-height: 10vh
+        height: 55vh;
+        font-size: 0.9rem;
+        +mobile
+            height: 50vh;
+            overflow: scroll
+        +ipadpro
+            height: 50vh;
+            min-height: 10vh
 
     .card-image
        overflow: hidden
@@ -86,7 +127,7 @@ export default {
 
     .name 
         position: absolute;
-        bottom: -3px;
+        bottom: 0px
         left: 3%;
         z-index: 200;
         width: 95%;
@@ -104,8 +145,13 @@ export default {
 
     .media-content
         padding: 5%;
+        padding-top: 2%;
         max-height: 350px;
         overflow: auto;
+        position: absolute;
+        z-index: 100;
+        background: $white;
+        
 
     /* front pane, placed above back */
     .front
@@ -125,7 +171,7 @@ export default {
             position: absolute;
             top: 0px;
             text-align: center;
-            eft: 35%;
+            left: 35%;
             border-radius: 50%;
             width: 30%;
             +mobile
@@ -138,7 +184,7 @@ export default {
         height: 30%;
         img
             position: absolute;
-            bottom: 15px;
+            bottom: 0px;
             text-align: center;
             left: 35%;
             border-radius: 50%;
