@@ -14,8 +14,8 @@
                 <br />CityJS Conference
                
               </b>
-               <br />27 March 2020
-                <br />Regent Street Cinema
+               <br />25-27 March 2020
+                <br />Regent Street Cinema / Birkbeck University (Workshops) 
             </h1>
             <a href="/buytickets" class="is-info button info is-primary">Get your tickets</a>
             <br/> 
@@ -55,8 +55,16 @@ export default {
   h1 
     margin-bottom: 3.2rem;
     margin-top: 1.5rem;
+    font-size: 2rem;
+    line-height: 3rem
     +mobile
-      margin-top: 0.1rem;
+      line-height: 1.2rem;
+      margin-top: 0rem;
+      font-size: 0.9rem;
+    +ipadpro
+      line-height: 1.2rem;
+      margin-top: 0rem;
+      font-size: 0.9rem;
 
 
   .contend

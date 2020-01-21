@@ -59,7 +59,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1576568265,
+        "_modified": 1579601653,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0003c5",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -101,7 +101,7 @@
         "color": "transparent",
         "components": "",
         "year": 2019,
-        "_modified": 1578515506,
+        "_modified": 1579601508,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0001f7",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -111,8 +111,8 @@
         "subtitle": "",
         "url": "schedule",
         "type": "Standard",
-        "description": "",
-        "shortDescription": "",
+        "description": "<p>We are currently in the process of picking up the remaining speakers.<\/p>\n<p>Once the process is completed we will print our schedule.&nbsp;<\/p>",
+        "shortDescription": "<p>We are currently in the process of picking up the remaining speakers.<\/p>\n<p>Once the process is completed we will print our schedule.&nbsp;<\/p>",
         "widgets": [
             {
                 "_id": "5d6acecf6531334555000322",
@@ -121,26 +121,27 @@
             }
         ],
         "tags": "",
-        "image": "",
+        "image": [],
         "displayAtHome": "",
         "orderOnTopMenu": 1,
         "isRedirect": "No",
         "topMenu": "Yes",
-        "bannerimage": "",
+        "bannerimage": [],
         "hide": "Yes",
         "color": "transparent",
         "components": "",
-        "year": "",
-        "_modified": 1575213910,
+        "year": 2020,
+        "_modified": 1578904165,
         "_created": 1575213910,
-        "_id": "5de3db56653133e56f000094"
+        "_id": "5de3db56653133e56f000094",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "title": "Buy Tickets",
         "subtitle": "",
         "url": "buytickets",
         "type": "Standard",
-        "description": "<p>Get your tickets now for the Conference day and the workshops, numbers are limited for both get yours as soon as you can. For Workshops, you can optionally donate, all the profits from your donations will be given to non-profit&nbsp;groups.<\/p>\n<p>If the tickets section not loading please get your&nbsp; tickets using our <a href=\"https:\/\/ti.to\/cityjsconf-london\/cityjs-2020\">ticket provider<\/a><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>",
+        "description": "<p>Get your tickets now for the Conference day and the workshops, numbers are limited for both get yours as soon as you can. For Workshops, you can optionally donate, all the profits from your donations will be given to non-profit&nbsp;groups.<\/p>\n<p>If the tickets section not loading please get your&nbsp; tickets using our <a href=\"https:\/\/ti.to\/cityjs-conference\/cityjs-2020\">ticket provider<\/a><\/p>",
         "shortDescription": "",
         "widgets": [
             {
@@ -162,7 +163,7 @@
         "color": "transparent",
         "components": "",
         "year": "",
-        "_modified": 1575215349,
+        "_modified": 1579435303,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f00001b",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -172,7 +173,7 @@
         "subtitle": "",
         "url": "venue",
         "type": "Standard",
-        "description": "<p>The conference main event will take place at Regent Street Cinema.<\/p>\n<p>Built in 1848 and housed within the Polytechnic Institution on London&rsquo;s Regent Street, the cinema was the first in the country to show moving pictures. In 1896, the cinema showcased the Lumi&egrave;re brothers&rsquo; Cin&eacute;matographe to a paying audience, and, as the curtain fell, British cinema was born.<\/p>\n<p>After being used as a student lecture hall by the university of Westminister since 1980, it was restored into a working cinema featuring a state-of-the-art auditorium as well as an inclusive space for learning, cultural exchange and exhibitions. It is a truly landmark venue for the British film industry in the heart of London&rsquo;s West End.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Screen Capacities &amp; Access:<\/strong><\/p>\n<p>187-seat&nbsp; and 2 wheelchair spaces (front row of rear seating section).<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Oxford Circus, Great Portland Street<\/p>\n<p>&nbsp;<\/p>",
+        "description": "<p><strong>Workshops Venue&nbsp;<\/strong><\/p>\n<p>Workshops will be held at:&nbsp; Birkbeck University,&nbsp;Malet St, Bloomsbury, London WC1E 7HX<\/p>\n<p><strong>Conference Venue<\/strong><\/p>\n<p>The conference main event will take place at Regent Street Cinema.<\/p>\n<p>Built in 1848 and housed within the Polytechnic Institution on London&rsquo;s Regent Street, the cinema was the first in the country to show moving pictures. In 1896, the cinema showcased the Lumi&egrave;re brothers&rsquo; Cin&eacute;matographe to a paying audience, and, as the curtain fell, British cinema was born.<\/p>\n<p>After being used as a student lecture hall by the university of Westminister since 1980, it was restored into a working cinema featuring a state-of-the-art auditorium as well as an inclusive space for learning, cultural exchange and exhibitions. It is a truly landmark venue for the British film industry in the heart of London&rsquo;s West End.<\/p>\n<p><strong>Screen Capacities &amp; Access:<\/strong><\/p>\n<p>187-seat&nbsp; and 2 wheelchair spaces (front row of rear seating section).<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Oxford Circus, Great Portland Street<\/p>\n<p>&nbsp;<\/p>",
         "shortDescription": "",
         "widgets": [
             {
@@ -182,19 +183,20 @@
             }
         ],
         "tags": "",
-        "image": "",
+        "image": [],
         "displayAtHome": "",
         "orderOnTopMenu": 4,
         "isRedirect": "No",
         "topMenu": "Yes",
-        "bannerimage": "",
+        "bannerimage": [],
         "hide": "Yes",
         "color": "transparent",
         "components": "",
         "year": "",
-        "_modified": 1575213910,
+        "_modified": 1579601367,
         "_created": 1575213910,
-        "_id": "5de3db56653133e56f0000ae"
+        "_id": "5de3db56653133e56f0000ae",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "title": "Sponsors",
@@ -299,7 +301,7 @@
         "subtitle": "",
         "url": "workshops",
         "type": "Standard",
-        "description": "<h3>Coaches<\/h3>\n<h3><strong>&nbsp;Alex Lobera<\/strong><\/h3>\n<p>Alex is a&nbsp; Full-stack JavaScript Developer very passionate about&nbsp;teaching React to professional developers since May 2016. Alex holds a&nbsp;<strong>computer science degree<\/strong>&nbsp;and he is also a&nbsp;<strong>certified teacher<\/strong>&nbsp;in the Spanish language. He is organizer of the&nbsp;<a href=\"https:\/\/www.meetup.com\/JavaScript-london\/\" target=\"_blank\" rel=\"noopener\">JavaScript London Meetup<\/a>&nbsp;and other popular meetups in the EU.<\/p>\n<p>&nbsp;<\/p>\n<h3><strong>Michel Weststrate&nbsp;<\/strong><\/h3>\n<p>Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on Dev tooling<\/p>\n<p>&nbsp;<\/p>\n<h3>Workshops<\/h3>\n<p>Our workshops for this year can be seen below:<\/p>\n<div class=\"Box__StyledBox-sc-15eb79u-0 FZPeL Card__StyledCard-sc-1h5y10m-0 eUrMtZ\">&nbsp;<\/div>",
+        "description": "<h3>Coaches<\/h3>\n<h3><strong>&nbsp;Alex Lobera<\/strong><\/h3>\n<p>Alex is a&nbsp; Full-stack JavaScript Developer very passionate about&nbsp;teaching React to professional developers since May 2016. Alex holds a&nbsp;<strong>computer science degree<\/strong>&nbsp;and he is also a&nbsp;<strong>certified teacher<\/strong>&nbsp;in the Spanish language. He is organizer of the&nbsp;<a href=\"https:\/\/www.meetup.com\/JavaScript-london\/\" target=\"_blank\" rel=\"noopener\">JavaScript London Meetup<\/a>&nbsp;and other popular meetups in the EU.<\/p>\n<p>&nbsp;<\/p>\n<h3><strong>Michel Weststrate&nbsp;<\/strong><\/h3>\n<p>Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on Dev tooling<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Workshops Venue&nbsp;<\/strong><\/p>\n<p>Workshops will be held at Birkbeck University,&nbsp;Malet St, Bloomsbury, London WC1E 7HX<\/p>\n<p>&nbsp;<\/p>\n<h3>Workshops<\/h3>\n<p>Our workshops for this year can be seen below:<\/p>\n<div class=\"Box__StyledBox-sc-15eb79u-0 FZPeL Card__StyledCard-sc-1h5y10m-0 eUrMtZ\">&nbsp;<\/div>",
         "shortDescription": "",
         "widgets": [
             {
@@ -314,7 +316,9 @@
             }
         ],
         "tags": "",
-        "image": "",
+        "image": {
+            "path": "images\/workshops.jpg"
+        },
         "displayAtHome": "",
         "orderOnTopMenu": 2,
         "isRedirect": "No",
@@ -326,7 +330,7 @@
         "color": "",
         "components": "",
         "year": "",
-        "_modified": 1578567312,
+        "_modified": 1579601464,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f00032f",
         "_mby": "5ba3ca7b6531330bbd0003ca"
