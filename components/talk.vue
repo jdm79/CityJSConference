@@ -1,8 +1,8 @@
 <template>
-    <div :class="['columns talk',  !open?'is-hidden': '']" 
+    <div :class="['columns talk', ]" 
         v-if="talk"
     >
-      <div class="column is-three-quarters-desktop is-mobile">
+      <div class="column is-three-quarters-desktop">
         <div class="card">
             <div class="card-content">
                 <div class="columns">
@@ -95,7 +95,7 @@
     background: $darkred;
     +mobile
       position: initial;
-      top: 20%;
+      top: 30%;
       left: 0px;
       background: $darkred;
       z-index: 1000;

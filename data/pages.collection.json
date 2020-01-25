@@ -33,9 +33,9 @@
                 "display": "Sponsors"
             },
             {
-                "_id": "5d6abf6565313335bf0002f2",
+                "_id": "5e2b66c1653133a0b80001e9",
                 "link": "widgets",
-                "display": "Highlights"
+                "display": "Schedule"
             },
             {
                 "_id": "5d69d50c653133384d000350",
@@ -59,7 +59,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1579601653,
+        "_modified": 1579902736,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0003c5",
         "_mby": "5ba3ca7b6531330bbd0003ca"

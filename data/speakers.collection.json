@@ -952,7 +952,7 @@
     {
         "name": "Tony Edwards",
         "bio": "<p>Tony Edwards is one half of Future Sync Events, a tech-focused event company based in the South West. Tony is also part of the team at Software Cornwall, a network of digital businesses in the county, where he has helped inspire the next generation of budding developers to follow their digital dreams and enter the broader software industry. In recent years, Tony has been supporting the region's digital communities through volunteering, speaking and helping to organise events. Whether it&rsquo;s live blogging for award-winning Agile conferences, managing social media for community meetups, producing swag for awards ceremonies or simply attending, if there&rsquo;s something happening for the digitally minded in the far South West&hellip;. chances are Tony is in the mix somehow.<\/p>",
-        "company": "Future Sync / MC of the 2020 Event ",
+        "company": "Future Sync",
         "title": "MC",
         "talk": "",
         "country": "",
@@ -1073,5 +1073,30 @@
         "_modified": 1578566698,
         "_created": 1578566698,
         "_id": "5e17042a6531335800000066"
+    },
+    {
+        "name": "Anton McConville",
+        "bio": "<p>Anton is a digital designer and developer with a passion for building data inspired mobile apps made with iOS or HTML. He is a graduate engineer, with art school training in illustration, and experience leading both ux design, and development teams for projects in telecoms, finance and retail. In his current job,<\/p>\n<p>Anton leads a digital creative team, producing case study apps, workshops and projects on IBM's cloud platform and the services it offers - for sharing with corporate clients, analysts and the tech community. Anton is also a regular speaker at international software design and development conferences.<\/p>",
+        "company": "IBM",
+        "title": "",
+        "talk": "",
+        "country": "",
+        "twitter": "@antonmc",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/angtonmc.jpeg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/angtonmc.jpeg"
+        },
+        "order": 5,
+        "event": "talk",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1579974714,
+        "_created": 1579974197,
+        "_id": "5e2c7e35653133c37d000094"
     }
 ]
