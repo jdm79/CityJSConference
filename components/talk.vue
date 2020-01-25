@@ -87,8 +87,6 @@
     text-transform: unset;
     color: $white;
 
-  strong
-    color: $white;
 
   .talk
     display: block;
@@ -102,6 +100,8 @@
       width: 100%;
       min-height: 200vw;
       overflow-y: scroll;
+    a
+      color: $white;
 
     
 </style>

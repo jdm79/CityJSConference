@@ -14,8 +14,6 @@
                 <div class="">
                     <div class="container">
                         <div class="">
-
-                            {{Days}}
                             <div class="tabs">
                                 <ul class="">
                                     <li 
@@ -25,14 +23,13 @@
                                         <a v-on:click="select(date)">Day {{index+1}}</a>
                                     </li>
                                 </ul>
-                                
                             </div>
                               <app-day
                                     :items= 'schedule'
                                     :speakers= 'speakers'
                                     :day= 'selectedDate'
                                 >
-                                </app-day>  
+                               </app-day>  
                         </div>
                           
                     </div> 
@@ -75,7 +72,9 @@
             }),
             Days() {
               if (typeof this.schedule !== 'undefined') {
-                  return [...new Set(this.schedule.map(date => date.date))];
+                  return [...new Set(this.schedule.map(date => date.date))].sort(function(a,b){
+                            return new Date(a) - new Date(b);
+                            });;
               } else {
                   return [];
               }
