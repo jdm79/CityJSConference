@@ -1,6 +1,6 @@
 [
     {
-        "time": "12:30 - 14:30",
+        "time": "09:00 - 17:00",
         "title": " Building Real-World GraphQL API by Alex Lobera",
         "speaker": [
             {
@@ -11,16 +11,18 @@
         ],
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579963657,
+        "_modified": 1579975766,
         "_created": 1546556771,
         "_id": "5c2e95636531339114000206",
-        "date": "2020-03-25",
+        "date": "2020-03-26",
         "type": "Workshop",
         "link": "TBC",
         "description": "<p class=\"p-rich_text_section\">In this zero to hero GraphQL workshop, you will learn how to effectively migrate REST APIs to GraphQL avoiding common pitfalls<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p class=\"p-rich_text_section\"><strong>Learning outcomes<\/strong><\/p>\n<p class=\"p-rich_text_section\">- Learn how to migrate a REST API to GraphQL<\/p>\n<p class=\"p-rich_text_section\">- Understand how to design a GraphQL schema solving real-world use cases<\/p>\n<p class=\"p-rich_text_section\">- Error handling &amp; security design<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p><strong data-v-83a16682=\"\">Date: 26\/3\/2020 09:00 - 17:00<\/strong><br data-v-83a16682=\"\" \/><br data-v-83a16682=\"\" \/><strong data-v-83a16682=\"\"><a href=\"https:\/\/cityjsconf.org\/buytickets\" data-v-83a16682=\"\">Buy Tickets &gt;&gt;<\/a><\/strong><\/p>",
         "bio": "<h3><strong>&nbsp;Alex Lobera<\/strong><\/h3>\n<p>Alex is a&nbsp; Full-stack JavaScript Developer very passionate about&nbsp;teaching React to professional developers since May 2016. Alex holds a&nbsp;<strong>computer science degree<\/strong>&nbsp;and he is also a&nbsp;<strong>certified teacher<\/strong>&nbsp;in the Spanish language. He is organizer of the&nbsp;<a href=\"https:\/\/www.meetup.com\/JavaScript-london\/\" target=\"_blank\" rel=\"noopener\">JavaScript London Meetup<\/a>&nbsp;and other popular meetups in the EU.<\/p>\n<p>&nbsp;<\/p>",
         "location": "Birkbeck University",
-        "image": [],
+        "image": {
+            "path": "images\/2020speakers\/alexlobera.jpg"
+        },
         "speakers": [
             {
                 "_id": "5df87d1d653133bf5f000318",
@@ -29,7 +31,7 @@
             }
         ],
         "order": 2,
-        "day": 1,
+        "day": 2,
         "group": "workshop"
     },
     {
@@ -44,24 +46,21 @@
         "bio": "",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579901592,
+        "_modified": 1579975729,
         "_created": 1546557769,
         "_id": "5c2e9949653133945a0000fd",
         "speakers": [
             {
-                "_id": "5c937550653133456400032c",
+                "_id": "5e17042a6531335800000066",
                 "link": "speakers",
-                "display": "Hew Ingram"
-            },
-            {
-                "_id": "5c9375de65313346150000c2",
-                "link": "speakers",
-                "display": "Thomas Ankcorn"
+                "display": "Michel Weststrate"
             }
         ],
-        "image": [],
+        "image": {
+            "path": "images\/2020speakers\/michel.jpg"
+        },
         "order": 1,
-        "day": 1,
+        "day": 2,
         "group": "workshop"
     },
     {
@@ -76,7 +75,7 @@
         "bio": "",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579964843,
+        "_modified": 1579976073,
         "_created": 1546557887,
         "_id": "5c2e99bf65313394bb00022d",
         "speakers": [
@@ -86,14 +85,16 @@
                 "display": "Alex Lobera"
             }
         ],
-        "image": [],
+        "image": {
+            "path": "images\/2020speakers\/alexlobera.jpg"
+        },
         "order": 1,
-        "day": 1,
+        "day": 3,
         "group": "workshop"
     },
     {
         "date": "2020-03-27",
-        "time": "09:00-10:00",
+        "time": "09:00-09:35",
         "location": "Regent Street Cinema",
         "title": "Doors Open",
         "type": "standard",
@@ -103,7 +104,7 @@
         "speaker": "",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579901961,
+        "_modified": 1579977111,
         "_created": 1547204578,
         "_id": "5c3877e265313369d800017d",
         "speakers": null,
@@ -114,27 +115,27 @@
     },
     {
         "date": "2020-03-27",
-        "time": "10:15 - 10:45",
+        "time": "09:55 - 10:20",
         "location": "Regent Street Cinema",
-        "title": "Personality Hacking: using Node, WebAudio and Houdini to visualize psychology of song lyrics",
+        "title": "TBC",
         "type": "",
         "link": "",
-        "description": "<p>In this session we use JavaScript to harvest Natural Language Processing data. We serve a beautifully designed app with Node.JS, and explain how to use JavaScript and Canvas within the emerging CSS Houdini Paint API.<\/p>\n<p>The fascinating app, analyzes how a song writer&rsquo;s personality changes through time.<\/p>",
+        "description": "<p>TBC<\/p>",
         "bio": "",
         "speaker": "",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579974393,
+        "_modified": 1579979362,
         "_created": 1547204685,
         "_id": "5c38784d6531336a670003d9",
         "image": {
-            "path": "images\/2020speakers\/AngtonMc.jpeg"
+            "path": "images\/2019-speakers\/dylan.jpg"
         },
         "speakers": [
             {
-                "_id": "5e2c7e35653133c37d000094",
+                "_id": "5c090788653133337b000356",
                 "link": "speakers",
-                "display": "Anton McConville"
+                "display": "Dylan Schiemann"
             }
         ],
         "order": 3,
@@ -143,7 +144,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "12:55 - 13:40",
+        "time": "12:50 - 13:30",
         "location": "Regent Street Cinema",
         "title": "Lunch",
         "type": "standard",
@@ -155,7 +156,7 @@
         "order": 9,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579964600,
+        "_modified": 1579979514,
         "_created": 1549835267,
         "_id": "5c609c03653133f9cf000010",
         "day": 3,
@@ -163,7 +164,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "10:00 - 10:15",
+        "time": "09:40 - 09:55",
         "location": "Regent Street Cinema",
         "title": "Welcome to CityJSConf",
         "type": "standard",
@@ -175,7 +176,7 @@
         "order": 2,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579902040,
+        "_modified": 1579979664,
         "_created": 1552923165,
         "_id": "5c8fba1d6531331480000012",
         "group": "morning",
@@ -183,27 +184,27 @@
     },
     {
         "date": "2020-03-27",
-        "time": "10:50 - 11:20",
+        "time": "10:25 - 10:45",
         "location": "Regent Street Cinema",
-        "title": "Machine Learning with JavaScript",
+        "title": "TBC",
         "type": "",
         "link": "",
-        "description": "<p>JavaScript probably isn't the first language which springs to mind when you say 'machine learning', but that does seem to be changing, especially with the release of TensorFlow.js last year.<\/p>\n<p>&nbsp;<\/p>\n<p>This talk gives a high level overview of what machine learning and neural networks are, shows how to get started with TensorFlow.js, and demos a number of projects which use JavaScript and AI.<\/p>",
+        "description": "<p>TBC<\/p>",
         "bio": "",
         "speakers": [
             {
-                "_id": "5c090ddc65313338d50002f4",
+                "_id": "5e1658b065313369d50003cd",
                 "link": "speakers",
-                "display": "Elle Haproff"
+                "display": "Alexandre Chopin"
             }
         ],
         "image": {
-            "path": "images\/2019-speakers\/elle.jpg"
+            "path": "images\/2020speakers\/alexchopin.jpg"
         },
         "order": 5,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579902100,
+        "_modified": 1579979432,
         "_created": 1552923487,
         "_id": "5c8fbb5f65313315ba000176",
         "group": "morning",
@@ -211,7 +212,27 @@
     },
     {
         "date": "2020-03-27",
-        "time": "11:25 - 11:45",
+        "day": 4,
+        "time": "10:50- 11:20",
+        "location": "Regent Street Cinema",
+        "title": "TBC",
+        "type": "standard",
+        "link": "",
+        "description": "<p>TBC<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": "",
+        "group": "",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1579980377,
+        "_created": 1579980096,
+        "_id": "5e2c9540653133db620001bc"
+    },
+    {
+        "date": "2020-03-27",
+        "time": "11:20 - 11:40",
         "location": "Regent Street Cinema",
         "title": "Break 1",
         "type": "standard",
@@ -220,10 +241,10 @@
         "bio": "",
         "speakers": "",
         "image": [],
-        "order": 6,
+        "order": 5,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579902132,
+        "_modified": 1579979128,
         "_created": 1552923684,
         "_id": "5c8fbc246531331693000201",
         "group": "morning",
@@ -231,7 +252,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "11:50 - 12:20",
+        "time": "11:40 - 12:10",
         "location": "Regent Street Cinema",
         "title": "The subtle art of predictive prefetching",
         "type": "",
@@ -251,7 +272,7 @@
         "order": 7,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579973560,
+        "_modified": 1579979560,
         "_created": 1552924273,
         "_id": "5c8fbe7165313318d3000316",
         "group": "midday",
@@ -259,7 +280,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "12:20 - 12:50",
+        "time": "12:15 - 12:45",
         "location": "Regent Street Cinema",
         "title": "Front-end testing on steroids",
         "type": "",
@@ -287,7 +308,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "13:45 - 14:15",
+        "time": "12:50 - 13:30",
         "location": "Regent Street Cinema",
         "title": "Rise of the robots",
         "type": "",
@@ -315,7 +336,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "14:15 - 14:45",
+        "time": "13:30 - 13:55",
         "location": "Regent Street Cinema",
         "title": "Building Tesla\u2019s Battery Range Calculator with Vue.js or ReactJS. Here are the Differences!",
         "type": "",
@@ -335,7 +356,7 @@
         "order": 11,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579973452,
+        "_modified": 1579978620,
         "_created": 1552924997,
         "_id": "5c8fc1456531331bdd0002c3",
         "group": "midday",
@@ -343,7 +364,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "14:50 - 15:20",
+        "time": "14:20 - 14:55",
         "location": "Regent Street Cinema",
         "title": "TBC",
         "type": "",
@@ -363,7 +384,7 @@
         "order": 12,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579973350,
+        "_modified": 1579978586,
         "_created": 1552925130,
         "_id": "5c8fc1ca6531331c620002ea",
         "group": "midday",
@@ -371,7 +392,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "15:25 - 15:45",
+        "time": "14:50 - 15:10",
         "location": "Regent Street Cinema",
         "title": "Break 2",
         "type": "standard",
@@ -383,7 +404,7 @@
         "order": 12,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579964394,
+        "_modified": 1579978554,
         "_created": 1552925229,
         "_id": "5c8fc22d6531331ce40000aa",
         "group": "afternoon",
@@ -391,7 +412,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "15:50 - 16:20",
+        "time": "15:10 - 15:40",
         "location": "Regent Street Cinema",
         "title": "Simulating Network Conditions with JavaScript",
         "type": "",
@@ -411,7 +432,7 @@
         "order": 13,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579973196,
+        "_modified": 1579978523,
         "_created": 1552925475,
         "_id": "5c8fc3236531331dc30001e2",
         "group": "afternoon",
@@ -419,7 +440,7 @@
     },
     {
         "date": "2020-03-27",
-        "time": "16:20 - 16:50",
+        "time": "15:40 - 16:15",
         "location": "Regent Street Cinema",
         "title": "MobX, or: going from Mutable to Immutable to Reactive state management",
         "type": "",
@@ -439,7 +460,7 @@
         "order": 14,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579973065,
+        "_modified": 1579978486,
         "_created": 1552925652,
         "_id": "5c8fc3d46531331e8600010c",
         "group": "afternoon",
@@ -447,27 +468,27 @@
     },
     {
         "date": "2020-03-27",
-        "time": "16:55 - 17:25",
+        "time": "16:15 - 16:40",
         "location": "Regent Street Cinema",
-        "title": "TBC",
+        "title": "Personality Hacking: using Node, WebAudio and Houdini to visualize psychology of song lyrics",
         "type": "",
         "link": "",
-        "description": "<p>In a world where developer experience is often at odds with end user performance and experience, attempts to keep these conflicts at peace are evolving rapidly.<\/p>\n<p>&nbsp;<\/p>\n<p>This talk will look at some of the benefits and challenges with more common approaches to server-side rendering (SSR), and explore our team&rsquo;s journey into finding a better faster awesomer approach.<\/p>",
+        "description": "<p>In this session we use JavaScript to harvest Natural Language Processing data. We serve a beautifully designed app with Node.JS, and explain how to use JavaScript and Canvas within the emerging CSS Houdini Paint API.<\/p>\n<p>The fascinating app, analyzes how a song writer&rsquo;s personality changes through time.<\/p>",
         "bio": "",
         "speakers": [
             {
-                "_id": "5c090788653133337b000356",
+                "_id": "5e2c7e35653133c37d000094",
                 "link": "speakers",
-                "display": "Dylan Schiemann"
+                "display": "Anton McConville"
             }
         ],
         "image": {
-            "path": "images\/2019-speakers\/dylan.jpg"
+            "path": "images\/2020speakers\/angtonmc.jpeg"
         },
         "order": 14,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579972715,
+        "_modified": 1579978430,
         "_created": 1552925856,
         "_id": "5c8fc4a06531331f43000138",
         "group": "afternoon",
