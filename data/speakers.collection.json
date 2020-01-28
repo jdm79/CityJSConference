@@ -1086,10 +1086,10 @@
         "year": 2020,
         "videoUrl": "",
         "image": {
-            "path": "images\/2020speakers\/angtonmc.jpeg"
+            "path": "images\/2020speakers\/antonmc.jpeg"
         },
         "thumbnail": {
-            "path": "images\/2020speakers\/angtonmc.jpeg"
+            "path": "images\/2020speakers\/antonmc.jpeg"
         },
         "order": 5,
         "event": "talk",
