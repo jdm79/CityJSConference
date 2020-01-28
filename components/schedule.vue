@@ -1,6 +1,6 @@
 <template>
-    <section id="schedule" class="hero section schedule ">
-        <div class="container">
+    <section id="schedule" class="hero schedule">
+        <div class="">
             <div class="hero-body">
                 <div>
                     <app-h2
@@ -11,10 +11,10 @@
                     >
                     </app-h2>
                 </div>
-                <div class="columns is-centered">
-                    <div class="column is-half-desktop">
-                        <div class="column is-7 ">
-                            <div class="tabs is-toggle">
+                <div class="">
+                    <div class="container">
+                        <div class="">
+                            <div class="tabs">
                                 <ul class="">
                                     <li 
                                         v-for="(date, index) in Days"
@@ -24,13 +24,14 @@
                                     </li>
                                 </ul>
                             </div>
+                              <app-day
+                                    :items= 'schedule'
+                                    :speakers= 'speakers'
+                                    :day= 'selectedDate'
+                                >
+                               </app-day>  
                         </div>
-                        <app-day
-                            :items= 'items'
-                            :speakers= 'speakers'
-                            :day= 'selectedDate'
-                        >
-                        </app-day>  
+                          
                     </div> 
                 </div>
             </div>
@@ -41,6 +42,7 @@
 <script>
     import h2 from '@/components/h2';
     import day from '@/components/day';
+    import { mapGetters } from "vuex";
 
     export default {
         data: function() {
@@ -61,18 +63,26 @@
                 this.chosen = date;
             }
         },
+        mounted: function() {
+            this.$store.dispatch("schedule/get");
+        },
         computed: {
+            ...mapGetters({
+                schedule: "schedule/schedule"
+            }),
             Days() {
-              if (typeof this.items!== 'undefined') {
-                  return [...new Set(this.items.map(date => date.date))];
+              if (typeof this.schedule !== 'undefined') {
+                  return [...new Set(this.schedule.map(date => date.date))].sort(function(a,b){
+                            return new Date(a) - new Date(b);
+                            });;
               } else {
                   return [];
               }
             },
             selectedDate() {
-                if (typeof this.items!== 'undefined') {
-                   if (this.chosen === '' && this.items.length > 0) {
-                       this.chosen = this.items[0].date;
+                if (typeof this.schedule !== 'undefined') {
+                   if (this.chosen === '' && this.schedule.length > 0) {
+                       this.chosen = this.schedule[0].date;
                    }
 
                    return this.chosen

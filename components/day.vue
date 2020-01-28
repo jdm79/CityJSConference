@@ -1,10 +1,10 @@
 <template>
-    <section class="section bordered"
+    <section class="bordered"
     >
-      <div id="talk" class="container">
+      <div id="talk" class="">
       <div class="columns">
       <div
-        :class="['column is-8', {'is-hidden':open === true}]"
+        :class="['column is-4', {'is-hidden-mobile':open === true}]"
       > 
         <aside 
             class="menu"
@@ -28,10 +28,10 @@
                     >   
                         <div v-if="talk.type !== 'standard'">
                                 <div class="columns talk ">
-                                    <div class="column is-2">
+                                    <div class="column is-4">
                                         {{talk.time}}      
                                     </div>
-                                    <div class="column is-6">
+                                    <div class="column is-8">
                                         {{talk.title}} <br/>
                                         <strong>
                                             <span
@@ -46,10 +46,10 @@
                         </div>
                         <div v-if="talk.type === 'standard'">
                             <div class="columns talk ">
-                             <div class="column is-2">
+                             <div class="column is-4">
                                 {{talk.time}}      
                             </div>
-                             <div class="column is-2">
+                             <div class="column is-8">
                                {{talk.title}}
                             </div>
                             </div>
@@ -59,10 +59,9 @@
             </ul>
         </aside>
       </div>
-      <div  class="column is-9 scheduletlk">
+      <div  :class="['column is-8 scheduletlk', {'is-hidden-mobile':open === false}]">
         <a  :class="['button  close closebtn', {'closed':open === false}]"
             v-on:click="close()"
-            v-scroll-to="'#talk'"
         >
             <span class="icon is-small">
                 X
@@ -233,5 +232,9 @@
 
     .subtitle
         color: $white
+
+    h3
+        a
+            color: $white;
 
 </style>
