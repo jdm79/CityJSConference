@@ -276,7 +276,7 @@
         "event": "talk"
     },
     {
-        "name": "Jo Balleti",
+        "name": "Jo Balletti",
         "bio": "<p>Jo is a developer advocate at Ably. She is passionate about WebVR, PWAs, and great CSS. She&rsquo;s got 7 years experience as a front end developer and has worked in various parts of the tech industry from startups, agencies, charities to large organisations. She is also a mentor and organiser at codebar.io where she is able to act on her passion not only for teaching good use of the web but also for improving the diversity and inclusivity of the tech industry.<\/p>",
         "company": "Ably",
         "talk": "<p>TBC<\/p>",
@@ -287,7 +287,7 @@
         "videoUrl": "https:\/\/cityjsconf2018.streameventlive.com\/home\/video\/30",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578524057,
+        "_modified": 1580857509,
         "_created": 1538578845,
         "_id": "5bb4d99d6531339e4c000223",
         "image": {
@@ -1086,16 +1086,16 @@
         "year": 2020,
         "videoUrl": "",
         "image": {
-            "path": "images\/2020speakers\/angtonmc.jpeg"
+            "path": "images\/2020speakers\/antonmc.jpeg"
         },
         "thumbnail": {
-            "path": "images\/2020speakers\/angtonmc.jpeg"
+            "path": "images\/2020speakers\/antonmc.jpeg"
         },
         "order": 5,
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1579974714,
+        "_modified": 1580401275,
         "_created": 1579974197,
         "_id": "5e2c7e35653133c37d000094"
     }
