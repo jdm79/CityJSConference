@@ -74,7 +74,7 @@
               if (typeof this.schedule !== 'undefined') {
                   return [...new Set(this.schedule.map(date => date.date))].sort(function(a,b){
                             return new Date(a) - new Date(b);
-                            });;
+                            });
               } else {
                   return [];
               }

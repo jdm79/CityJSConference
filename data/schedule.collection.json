@@ -16,12 +16,15 @@
                 "display": "Alex Lobera"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/alexlobera.jpg"
+        },
         "order": 2,
         "group": "workshop",
-        "_modified": 1579983612,
+        "_modified": 1580861967,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e920000218"
+        "_id": "5e2ca2fc653133e920000218",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-26",
@@ -40,12 +43,15 @@
                 "display": "Michel Weststrate"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/michel.jpg"
+        },
         "order": 1,
         "group": "workshop",
-        "_modified": 1579983612,
+        "_modified": 1580861985,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e920000298"
+        "_id": "5e2ca2fc653133e920000298",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-25",
@@ -64,12 +70,15 @@
                 "display": "Alex Lobera"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/alexlobera.jpg"
+        },
         "order": 1,
         "group": "workshop",
-        "_modified": 1579983612,
+        "_modified": 1580862004,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e92000012e"
+        "_id": "5e2ca2fc653133e92000012e",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
@@ -92,12 +101,12 @@
     {
         "date": "2020-03-27",
         "day": 3,
-        "time": "09:55 - 10:20",
+        "time": "09:55 - 10:25",
         "location": "Regent Street Cinema",
-        "title": "TBC",
+        "title": " theRiseOfTypeScript(rate: Meteoric | Meandering): Story[] { return History; }",
         "type": "",
         "link": "",
-        "description": "<p>TBC<\/p>",
+        "description": "<div class=\"p-rich_text_section\">TypeScript has many stories which are not well known. For example, did you know that:<\/div>\n<ul class=\"p-rich_text_list p-rich_text_list__bullet\" data-stringify-type=\"unordered-list\" data-indent=\"0\">\n<li>TypeScript was originally called Strada and first started by Luke Hoban and Steve Lucco? (Anders joined shortly thereafter)<\/li>\n<li>Many of the more painful choices made with TypeScript were the result of attempting to implement much needed language features before ES6 was finalized?<\/li>\n<li>TypeScript did not move to GitHub until 2014?<\/li>\n<\/ul>\n<div class=\"p-rich_text_section\">This talk will explore some of the interesting and quirky history of the TypeScript project from outside the walls of Redmond, from the perspective of someone who took a very early look at TypeScript (0.9.2), was skeptical due to a previous open source cease and desist warning from Microsoft, and over many months was grudgingly persuaded of the value of TypeScript. We&rsquo;ll also look at key advances in TypeScript that took the project from promising yet flawed to something that made it possible to rewrite the longest-lived, actively-maintained JavaScript framework in TypeScript and become a development approach that we love and appreciate. Expect a healthy dose of humor and ridiculousness along the way.<\/div>",
         "bio": "",
         "speakers": [
             {
@@ -106,12 +115,15 @@
                 "display": "Dylan Schiemann"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2019-speakers\/JGP8Q6bC_400x400.jpeg"
+        },
         "order": 3,
         "group": "morning",
-        "_modified": 1579983612,
+        "_modified": 1580862015,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e920000067"
+        "_id": "5e2ca2fc653133e920000067",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
@@ -152,7 +164,7 @@
     {
         "date": "2020-03-27",
         "day": 3,
-        "time": "10:25 - 10:45",
+        "time": "10:30 - 10:55",
         "location": "Regent Street Cinema",
         "title": "TBC",
         "type": "",
@@ -166,17 +178,18 @@
                 "display": "Alexandre Chopin"
             }
         ],
-        "image": "",
-        "order": 5,
+        "image": [],
+        "order": 4,
         "group": "morning",
-        "_modified": 1579983612,
+        "_modified": 1580863008,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e9200000f3"
+        "_id": "5e2ca2fc653133e9200000f3",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
-        "day": 4,
-        "time": "10:50- 11:20",
+        "day": 3,
+        "time": "11:00- 11:25",
         "location": "Regent Street Cinema",
         "title": "TBC",
         "type": "standard",
@@ -185,9 +198,9 @@
         "bio": "",
         "speakers": "",
         "image": [],
-        "order": 4,
+        "order": 5,
         "group": "",
-        "_modified": 1579983931,
+        "_modified": 1580863043,
         "_created": 1579983612,
         "_id": "5e2ca2fc653133e920000095",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -195,7 +208,7 @@
     {
         "date": "2020-03-27",
         "day": 3,
-        "time": "11:20 - 11:40",
+        "time": "11:25 - 11:40",
         "location": "Regent Street Cinema",
         "title": "Break 1",
         "type": "standard",
@@ -206,9 +219,10 @@
         "image": [],
         "order": 5,
         "group": "morning",
-        "_modified": 1579983612,
+        "_modified": 1580863053,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e9200003c3"
+        "_id": "5e2ca2fc653133e9200003c3",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
@@ -227,12 +241,15 @@
                 "display": "Divya Sasidharan"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/divya.jpeg"
+        },
         "order": 7,
         "group": "midday",
-        "_modified": 1579983612,
+        "_modified": 1580862070,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e9200003ab"
+        "_id": "5e2ca2fc653133e9200003ab",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
@@ -251,17 +268,20 @@
                 "display": "Stefano Magni"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/stefano.jpg"
+        },
         "order": 8,
         "group": "",
-        "_modified": 1579983612,
+        "_modified": 1580862210,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e920000328"
+        "_id": "5e2ca2fc653133e920000328",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
         "day": 3,
-        "time": "12:50 - 13:30",
+        "time": "12:50 - 13:25",
         "location": "Regent Street Cinema",
         "title": "Rise of the robots",
         "type": "",
@@ -275,12 +295,15 @@
                 "display": "Theodore Vorillas"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/theodore.jpg"
+        },
         "order": 10,
         "group": "midday",
-        "_modified": 1579983612,
+        "_modified": 1580863491,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e9200002b3"
+        "_id": "5e2ca2fc653133e9200002b3",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
@@ -299,36 +322,39 @@
                 "display": "Peter Eijgermans"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/peter.jpg"
+        },
         "order": 11,
         "group": "midday",
-        "_modified": 1579983612,
+        "_modified": 1580862300,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e9200000c2"
+        "_id": "5e2ca2fc653133e9200000c2",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
         "day": 3,
-        "time": "14:20 - 14:55",
+        "time": "14:00 - 14:35",
         "location": "Regent Street Cinema",
-        "title": "Build your own IoTshirt",
+        "title": "MobX, or: going from Mutable to Immutable to Reactive state management",
         "type": "",
         "link": "",
-        "description": "<p>Ever wanted your clothing to respond to the music you&rsquo;re listening to? With a bit of JS and soldering, they can! This talk will cover how to make your own wearable LED display using a microcontroller and hook it up to the internet. Then we&rsquo;ll learn how to do music recognition with an API, node and some vanilla JS. All suitable for absolute beginners! I&rsquo;ll help you to avoid some of the silly mistakes I made while working on my first wearable and encourage you to give IoT a try!<br \/><br \/><\/p>",
+        "description": "<p>MobX is a state management library that is used across the globe, by companies big and small, such as Microsoft, EA, Netflix, Amazon and so on. The library is renown for its ease of use and lack of boilerplate. But also, it is quite magical.<\/p>\n<p>Or isn't it? And shouldn't we have stopped using mutative data structures by know? Or is the world not just limited to mutable and immutable, and is there a third kind of data structures? Join this talk to learn about the wonderful world of reactive data structures and the benefits they yield in both developer and runtime efficiency.<\/p>",
         "bio": "",
         "speakers": [
             {
-                "_id": "5bb4d99d6531339e4c000223",
+                "_id": "5e17042a6531335800000066",
                 "link": "speakers",
-                "display": "Jo Balletti"
+                "display": "Michel Weststrate"
             }
         ],
         "image": {
-            "path": "images\/2020speakers\/jo.jpg"
+            "path": "images\/2020speakers\/michel.jpg"
         },
         "order": 12,
         "group": "midday",
-        "_modified": 1580857647,
+        "_modified": 1580863641,
         "_created": 1579983612,
         "_id": "5e2ca2fc653133e92000037b",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -336,7 +362,7 @@
     {
         "date": "2020-03-27",
         "day": 3,
-        "time": "14:50 - 15:10",
+        "time": "14:35 - 15:00",
         "location": "Regent Street Cinema",
         "title": "Break 2",
         "type": "standard",
@@ -347,14 +373,15 @@
         "image": [],
         "order": 12,
         "group": "afternoon",
-        "_modified": 1579983612,
+        "_modified": 1580863985,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e92000025a"
+        "_id": "5e2ca2fc653133e92000025a",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
         "day": 3,
-        "time": "15:10 - 15:40",
+        "time": "15:00 - 15:30",
         "location": "Regent Street Cinema",
         "title": "Simulating Network Conditions with JavaScript",
         "type": "",
@@ -368,41 +395,47 @@
                 "display": "Patrick Kunka"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/patrick.jpeg"
+        },
         "order": 13,
         "group": "afternoon",
-        "_modified": 1579983612,
+        "_modified": 1580864017,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e92000038b"
+        "_id": "5e2ca2fc653133e92000038b",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
         "day": 3,
-        "time": "15:40 - 16:15",
+        "time": "15:35 - 16:05",
         "location": "Regent Street Cinema",
-        "title": "MobX, or: going from Mutable to Immutable to Reactive state management",
+        "title": "Build your own IoTshirt",
         "type": "",
         "link": "",
-        "description": "<p>MobX is a state management library that is used across the globe, by companies big and small, such as Microsoft, EA, Netflix, Amazon and so on. The library is renown for its ease of use and lack of boilerplate. But also, it is quite magical.<\/p>\n<p>Or isn't it? And shouldn't we have stopped using mutative data structures by know? Or is the world not just limited to mutable and immutable, and is there a third kind of data structures? Join this talk to learn about the wonderful world of reactive data structures and the benefits they yield in both developer and runtime efficiency.<\/p>",
+        "description": "<p>Ever wanted your clothing to respond to the music you&rsquo;re listening to? With a bit of JS and soldering, they can! This talk will cover how to make your own wearable LED display using a microcontroller and hook it up to the internet. Then we&rsquo;ll learn how to do music recognition with an API, node and some vanilla JS.<\/p>\n<p>All suitable for absolute beginners! I&rsquo;ll help you to avoid some of the silly mistakes I made while working on my first wearable and encourage you to give IoT a try!<br \/><br \/><\/p>",
         "bio": "<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"945327643\">\n<div class=\"freebirdFormviewerViewItemsTextTextItemContainer\">\n<div class=\"freebirdFormviewerViewItemsTextLongText freebirdFormviewerViewItemsTextDisabledText freebirdThemedInput\">Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on Dev tooling<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"1364869577\">\n<div class=\"freebirdFormviewerViewItemsItemItemHeader\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleDescContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleContainer\">&nbsp;<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>",
         "speakers": [
             {
-                "_id": "5e17042a6531335800000066",
+                "_id": "5bb4d99d6531339e4c000223",
                 "link": "speakers",
-                "display": "Michel Weststrate"
+                "display": "Jo Balletti"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/jo.jpg"
+        },
         "order": 14,
         "group": "afternoon",
-        "_modified": 1579983612,
+        "_modified": 1580863779,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e920000375"
+        "_id": "5e2ca2fc653133e920000375",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
         "day": 3,
-        "time": "16:15 - 16:40",
+        "time": "16:10 - 16:35",
         "location": "Regent Street Cinema",
         "title": "Personality Hacking: using Node, WebAudio and Houdini to visualize psychology of song lyrics",
         "type": "",
@@ -416,18 +449,21 @@
                 "display": "Anton McConville"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/antonmc.jpeg"
+        },
         "order": 14,
         "group": "afternoon",
-        "_modified": 1579983612,
+        "_modified": 1580863810,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e9200002ba"
+        "_id": "5e2ca2fc653133e9200002ba",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-03-27",
         "day": 3,
         "time": "18:30 - Late",
-        "location": "Waxy O Connors",
+        "location": "Afterparty",
         "title": "After Conference Drinks",
         "type": "conference",
         "link": "",
@@ -437,8 +473,9 @@
         "image": [],
         "order": 17,
         "group": "",
-        "_modified": 1579983612,
+        "_modified": 1580864296,
         "_created": 1579983612,
-        "_id": "5e2ca2fc653133e920000366"
+        "_id": "5e2ca2fc653133e920000366",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     }
 ]
