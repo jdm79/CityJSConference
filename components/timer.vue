@@ -5,7 +5,7 @@
         <div class="column is-8">
           <h2> 
               React, and GraphQL <a href="/workshops">Workshops</a> <br/>
-              11 International <a href="/speakers">Speakers</a> <br/>all about Frameworks, TypeScript, React, Vue, Testing, IoT, NodeJS <br/>
+              11 International <a href="/speakers">Speakers</a> <br/>all about TypeScript, React, Vue, Testing, IoT, NodeJS, React Native <br/>
           </h2>
         </div>
         <div class="column is-4">

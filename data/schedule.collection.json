@@ -191,16 +191,24 @@
         "day": 3,
         "time": "11:00- 11:25",
         "location": "Regent Street Cinema",
-        "title": "TBC",
-        "type": "standard",
+        "title": " Simulating Network Conditions with JavaScript",
+        "type": "",
         "link": "",
-        "description": "<p>TBC<\/p>",
+        "description": "<p>When working with video streaming, being able to accurately simulate customer network conditions for development and testing is crucial.<\/p>\n<p>In this talk, I'll be looking at how we can use containers and server-side JavaScript to programmatically shape network conditions and gain valuable insights about the behaviour and performance of our client-side JavaScript - from Adaptive Bitrate video players to entire single-page applications.<\/p>\n<p>&nbsp;<\/p>",
         "bio": "",
-        "speakers": "",
-        "image": [],
+        "speakers": [
+            {
+                "_id": "5e165a3e6531336bf7000059",
+                "link": "speakers",
+                "display": "Patrick Kunka"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/patrick.jpeg"
+        },
         "order": 5,
         "group": "",
-        "_modified": 1580863043,
+        "_modified": 1580977481,
         "_created": 1579983612,
         "_id": "5e2ca2fc653133e920000095",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -383,24 +391,24 @@
         "day": 3,
         "time": "15:00 - 15:30",
         "location": "Regent Street Cinema",
-        "title": "Simulating Network Conditions with JavaScript",
+        "title": "I picked up React Native as a web developer and here's what I learned",
         "type": "",
         "link": "",
-        "description": "<p>When working with video streaming, being able to accurately simulate customer network conditions for development and testing is crucial.<\/p>\n<p>In this talk, I'll be looking at how we can use containers and server-side JavaScript to programmatically shape network conditions and gain valuable insights about the behaviour and performance of our client-side JavaScript - from Adaptive Bitrate video players to entire single-page applications.<\/p>\n<p>&nbsp;<\/p>",
+        "description": "<p>For six months Laura and her team were involved into the wonderful and mysterious world of native apps. They chose React Native for this, a technology that none of them had any first-hand experience with &ndash; and learned a lot in the process.<\/p>\n<p>&nbsp;<\/p>",
         "bio": "",
         "speakers": [
             {
-                "_id": "5e165a3e6531336bf7000059",
+                "_id": "5e3b29ef65313352e20002f7",
                 "link": "speakers",
-                "display": "Patrick Kunka"
+                "display": "Laura Gonz\u00e1lez"
             }
         ],
         "image": {
-            "path": "images\/2020speakers\/patrick.jpeg"
+            "path": "images\/2020speakers\/laura.jpg"
         },
         "order": 13,
         "group": "afternoon",
-        "_modified": 1580864017,
+        "_modified": 1580977566,
         "_created": 1579983612,
         "_id": "5e2ca2fc653133e92000038b",
         "_mby": "5ba3ca7b6531330bbd0003ca"
