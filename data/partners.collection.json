@@ -43,11 +43,11 @@
         "image": {
             "path": "images\/2018sponsors\/IG_flat_red_bg.png"
         },
-        "url": "igindex.com",
-        "level": "Diversity",
+        "url": "https:\/\/www.iggroup.com\/",
+        "level": "",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205971,
+        "_modified": 1580229976,
         "_created": 1538945013,
         "_id": "5bba6ff5653133f74b0002f8",
         "middle": null,
@@ -343,8 +343,7 @@
         "_id": "5c6d14826531332d600000a1",
         "middle": "Yes",
         "Year": [
-            2019,
-            2020
+            2019
         ]
     },
     {
