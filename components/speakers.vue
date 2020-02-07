@@ -7,7 +7,7 @@
             :is-h2="true"
         >
         </app-h2>
-        <div class="columns  is-mobile is-multiline is-centered"> 
+        <div class="columns  is-mobile is-multiline is-centered" > 
            <div 
                 class="column is-three-quarters-mobile is-two-thirds-tablet
                  is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
@@ -52,6 +52,7 @@
            <div 
                 :class="['column spekers-card-container modal-background', {'closed':open === false}]" 
                 v-if="this.chosen"
+                v-on:click="select(item)"
             >
                 <div class="card speaker-card">
                     <div class="card-content">
