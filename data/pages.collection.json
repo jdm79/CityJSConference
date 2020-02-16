@@ -175,7 +175,7 @@
         "subtitle": "",
         "url": "venue",
         "type": "Standard",
-        "description": "<p><strong>Workshops Venue&nbsp;<\/strong><\/p>\n<p>Workshops will be held at:&nbsp; Birkbeck University,&nbsp;Malet St, Bloomsbury, London WC1E 7HX<\/p>\n<p><strong>Conference Venue<\/strong><\/p>\n<p>The conference main event will take place at Regent Street Cinema.<\/p>\n<p>Built in 1848 and housed within the Polytechnic Institution on London&rsquo;s Regent Street, the cinema was the first in the country to show moving pictures. In 1896, the cinema showcased the Lumi&egrave;re brothers&rsquo; Cin&eacute;matographe to a paying audience, and, as the curtain fell, British cinema was born.<\/p>\n<p>After being used as a student lecture hall by the university of Westminister since 1980, it was restored into a working cinema featuring a state-of-the-art auditorium as well as an inclusive space for learning, cultural exchange and exhibitions. It is a truly landmark venue for the British film industry in the heart of London&rsquo;s West End.<\/p>\n<p><strong>Screen Capacities &amp; Access:<\/strong><\/p>\n<p>187-seat&nbsp; and 2 wheelchair spaces (front row of rear seating section).<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Oxford Circus, Great Portland Street<\/p>\n<p>&nbsp;<\/p>",
+        "description": "<p><strong>Workshops Venue&nbsp; (25, 26 March)<\/strong><\/p>\n<p>Workshops will be held at:&nbsp; Birkbeck University,&nbsp;Malet St, Bloomsbury, London WC1E 7HX<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Russell Square, Kings Cross, Euston Square, Euston&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Conference Venue (27th March)<\/strong><\/p>\n<p>The conference main event will take place at Regent Street Cinema.<\/p>\n<p>Built in 1848 and housed within the Polytechnic Institution on London&rsquo;s Regent Street, the cinema was the first in the country to show moving pictures. In 1896, the cinema showcased the Lumi&egrave;re brothers&rsquo; Cin&eacute;matographe to a paying audience, and, as the curtain fell, British cinema was born.<\/p>\n<p>After being used as a student lecture hall by the university of Westminister since 1980, it was restored into a working cinema featuring a state-of-the-art auditorium as well as an inclusive space for learning, cultural exchange and exhibitions. It is a truly landmark venue for the British film industry in the heart of London&rsquo;s West End.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Screen Capacities &amp; Access:<\/strong><\/p>\n<p>187-seat&nbsp; and 2 wheelchair spaces (front row of rear seating section).<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Oxford Circus, Great Portland Street<\/p>\n<p>&nbsp;<\/p>",
         "shortDescription": "",
         "widgets": [
             {
@@ -185,17 +185,19 @@
             }
         ],
         "tags": "",
-        "image": [],
+        "image": {
+            "path": "images\/Cinema-auditorium-1200x611.jpg"
+        },
         "displayAtHome": "",
         "orderOnTopMenu": 4,
         "isRedirect": "No",
         "topMenu": "Yes",
         "bannerimage": [],
-        "hide": "Yes",
+        "hide": "No",
         "color": "transparent",
         "components": "",
         "year": "",
-        "_modified": 1579601367,
+        "_modified": 1581813162,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0000ae",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -392,11 +394,11 @@
         "isRedirect": "No",
         "topMenu": "No",
         "bannerimage": [],
-        "hide": "No",
+        "hide": "Yes",
         "color": "button",
         "components": "",
         "year": "",
-        "_modified": 1575215071,
+        "_modified": 1581812939,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0001d2",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -406,7 +408,7 @@
         "subtitle": "",
         "url": "scholarships",
         "type": "Standard",
-        "description": "<div id=\":c8\">\n<div class=\"btm\"><strong>CityJSConf<\/strong> is a community joint event created by our Londons JavaScript meet-up groups. This is a non-profitable&nbsp;conference and our purpose is to give back to our community. Thanks to the great generosity of our sponsors we are giving away 20 tickets for this year&rsquo;s main event.<\/div>\n<\/div>\n<div class=\"\">\n<div id=\":ca\" class=\"ii gt adO\">\n<div id=\":c9\" class=\"a3s aXjCH \">\n<p>&nbsp;<\/p>\n<p>We wish to support our community and highly encourage students and others coming from diverse backgrounds (people of color, LGBTQIA, people with disabilities, refugees, women, students and people facing economic or social hardships) to apply for scholarships. Travel and accommodation expenses are not included.<\/p>\n<p>&nbsp;<\/p>\n<p>If you are keen to attend CityJSConf but have difficulty attending the conference due to lack of money or resources, this is your chance. We will be delighted to have you with us!<\/p>\n<p>&nbsp;<\/p>\n<p>Applications for Scholarships are now open, please apply using our <a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSe2vlQbWtjWY-x02gpf3E9GIuxN6VoHY9blzSYTXBUzDipsDQ\/viewform?usp=sf_link\">application form<\/a>.<\/p>\n<p>Application deadline ends on 01\/02\/2020<\/p>\n<h2>&nbsp;<\/h2>\n<h2>QUESTIONS<\/h2>\n<p>For any questions please contact us by email&nbsp;<a href=\"mailto:cityjsconf@gmail.com\" target=\"_blank\" rel=\"noopener\">cityjsconf@gmail.com<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<p>&nbsp;<\/p>",
+        "description": "<div id=\":c8\">\n<div class=\"btm\"><strong>CityJSConf<\/strong> is a community joint event created by our Londons JavaScript meet-up groups. This is a non-profitable&nbsp;conference and our purpose is to give back to our community. Thanks to the great generosity of our sponsors we are giving away 20 tickets for this year&rsquo;s main event.<\/div>\n<\/div>\n<div class=\"\">\n<div id=\":ca\" class=\"ii gt adO\">\n<div id=\":c9\" class=\"a3s aXjCH \">\n<p>&nbsp;<\/p>\n<p>We wish to support our community and highly encourage students and others coming from diverse backgrounds (people of color, LGBTQIA, people with disabilities, refugees, women, students and people facing economic or social hardships) to apply for scholarships. Travel and accommodation expenses are not included.<\/p>\n<p>&nbsp;<\/p>\n<p>If you are keen to attend CityJSConf but have difficulty attending the conference due to lack of money or resources, this is your chance. We will be delighted to have you with us!<\/p>\n<p>The application deadline&nbsp;has been ended on 01\/02\/2020<\/p>\n<h2>&nbsp;<\/h2>\n<h2>QUESTIONS<\/h2>\n<p>For any questions please contact us by email&nbsp;<a href=\"mailto:cityjsconf@gmail.com\" target=\"_blank\" rel=\"noopener\">cityjsconf@gmail.com<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<p>&nbsp;<\/p>",
         "shortDescription": "<p>dT<\/p>",
         "widgets": [
             {
@@ -428,7 +430,7 @@
         "color": "",
         "components": "",
         "year": "",
-        "_modified": 1575214449,
+        "_modified": 1581813241,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0002f7",
         "_mby": "5ba3ca7b6531330bbd0003ca"

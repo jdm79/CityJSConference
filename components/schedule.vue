@@ -21,7 +21,7 @@
                                         v-bind:key="date"
                                         :class="{'is-active':date === chosen}">
                                         <a v-on:click="select(date)">
-                                            <span v-if="index < 2"> Workshop  Day {{index+1}}</span>
+                                            <span v-if="index < 2">  Day {{index+1}}</span>
                                             <span v-if="index === 2"> Conference Day</span>
                                         </a>
                                     </li>
