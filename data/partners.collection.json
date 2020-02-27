@@ -28,7 +28,7 @@
         "_modified": 1574808790,
         "_created": 1538944989,
         "_id": "5bba6fdd653133f73b000293",
-        "middle": "No",
+        "middle": "Yes",
         "Year": [
             2020,
             2019,
@@ -47,7 +47,7 @@
         "level": "Diversity",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580229976,
+        "_modified": 1582811448,
         "_created": 1538945013,
         "_id": "5bba6ff5653133f74b0002f8",
         "middle": null,
@@ -263,13 +263,13 @@
     {
         "name": "Nexmo",
         "image": {
-            "path": "images\/2019-sponsors\/Nexmo_VonageAPI_horiz.png"
+            "path": "images\/2019-sponsors\/nexmo_vonageapi_vert.png"
         },
         "url": "http:\/\/www.nexmo.com",
         "level": "Silver",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205831,
+        "_modified": 1582811242,
         "_created": 1545143168,
         "_id": "5c19038065313351040001be",
         "middle": "Yes",
@@ -292,8 +292,7 @@
         "_id": "5c41301f6531332522000338",
         "middle": "No",
         "Year": [
-            2019,
-            2020
+            2019
         ]
     },
     {
@@ -376,7 +375,7 @@
         "_modified": 1572205753,
         "_created": 1552323494,
         "_id": "5c8693a6653133e9c8000096",
-        "middle": "No",
+        "middle": "Yes",
         "Year": [
             2018,
             2019,
@@ -518,5 +517,22 @@
         "_modified": 1578999850,
         "_created": 1578999850,
         "_id": "5e1da02a65313305f500025b"
+    },
+    {
+        "name": "Developer Ecomonics",
+        "image": {
+            "path": "images\/2019-sponsors\/de_logo_low-res.png"
+        },
+        "url": "https:\/\/www.developereconomics.com\/",
+        "level": "Bronze",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1582811762,
+        "_created": 1582811762,
+        "_id": "5e57ca726531337fb60002c4"
     }
 ]
