@@ -28,7 +28,7 @@
         "_modified": 1574808790,
         "_created": 1538944989,
         "_id": "5bba6fdd653133f73b000293",
-        "middle": "Yes",
+        "middle": "No",
         "Year": [
             2020,
             2019,
@@ -338,12 +338,13 @@
         "level": "Community",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205799,
+        "_modified": 1582813900,
         "_created": 1550652546,
         "_id": "5c6d14826531332d600000a1",
         "middle": "Yes",
         "Year": [
-            2019
+            2019,
+            2020
         ]
     },
     {
@@ -375,7 +376,7 @@
         "_modified": 1572205753,
         "_created": 1552323494,
         "_id": "5c8693a6653133e9c8000096",
-        "middle": "Yes",
+        "middle": "No",
         "Year": [
             2018,
             2019,
