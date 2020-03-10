@@ -206,7 +206,7 @@
         position: initial;
     .close
         position: absolute;
-        top: 10px;
+        top: 60px;
         right: 20px;
         display: none;
         z-index: 1000000;
@@ -236,5 +236,6 @@
     h3
         a
             color: $white;
+            
 
 </style>

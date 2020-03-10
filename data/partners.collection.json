@@ -47,7 +47,7 @@
         "level": "Diversity",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205971,
+        "_modified": 1582811448,
         "_created": 1538945013,
         "_id": "5bba6ff5653133f74b0002f8",
         "middle": null,
@@ -263,13 +263,13 @@
     {
         "name": "Nexmo",
         "image": {
-            "path": "images\/2019-sponsors\/Nexmo_VonageAPI_horiz.png"
+            "path": "images\/2019-sponsors\/nexmo_vonageapi_vert.png"
         },
         "url": "http:\/\/www.nexmo.com",
         "level": "Silver",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205831,
+        "_modified": 1582811242,
         "_created": 1545143168,
         "_id": "5c19038065313351040001be",
         "middle": "Yes",
@@ -338,7 +338,7 @@
         "level": "Community",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205799,
+        "_modified": 1582813900,
         "_created": 1550652546,
         "_id": "5c6d14826531332d600000a1",
         "middle": "Yes",
@@ -518,5 +518,22 @@
         "_modified": 1578999850,
         "_created": 1578999850,
         "_id": "5e1da02a65313305f500025b"
+    },
+    {
+        "name": "Developer Ecomonics",
+        "image": {
+            "path": "images\/2019-sponsors\/de_logo_low-res.png"
+        },
+        "url": "https:\/\/www.developereconomics.com\/",
+        "level": "Bronze",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1582811762,
+        "_created": 1582811762,
+        "_id": "5e57ca726531337fb60002c4"
     }
 ]

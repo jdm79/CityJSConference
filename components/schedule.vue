@@ -20,7 +20,10 @@
                                         v-for="(date, index) in Days"
                                         v-bind:key="date"
                                         :class="{'is-active':date === chosen}">
-                                        <a v-on:click="select(date)">Day {{index+1}}</a>
+                                        <a v-on:click="select(date)">
+                                            <span v-if="index > 0">  Day {{index+1}}</span>
+                                            <span v-if="index === 0"> Conference Day</span>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -74,7 +77,7 @@
               if (typeof this.schedule !== 'undefined') {
                   return [...new Set(this.schedule.map(date => date.date))].sort(function(a,b){
                             return new Date(a) - new Date(b);
-                            });;
+                            });
               } else {
                   return [];
               }
@@ -82,7 +85,7 @@
             selectedDate() {
                 if (typeof this.schedule !== 'undefined') {
                    if (this.chosen === '' && this.schedule.length > 0) {
-                       this.chosen = this.schedule[0].date;
+                       this.chosen = this.schedule[3].date;
                    }
 
                    return this.chosen
