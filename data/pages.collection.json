@@ -106,7 +106,7 @@
         "subtitle": "",
         "url": "schedule",
         "type": "Standard",
-        "description": "<p>Please scroll below to navigate to our schedule, our talks will go through Frameworks React, VueJS, TypeScript React, Testing, IoT and NodeJS.&nbsp;<\/p>\n<p>In the first two days 25 and 26 of March, we will have three workshops at Birkbeck University on React, GraphQL and TypeScript.<\/p>\n<p>&nbsp;<\/p>\n<p>The main event is on the third day on the 27 of March at Regent Street Cinema<\/p>",
+        "description": "<p>Please scroll below to navigate to our schedule, our talks will go through Frameworks React, VueJS, TypeScript React, Testing, IoT and NodeJS.&nbsp;<\/p>\n<p>In the last two days 15 and 16 of September, we will have three workshops at Birkbeck University on React, GraphQL and TypeScript.<\/p>\n<p>&nbsp;<\/p>\n<p>The main event is on the third day on the 14 of September at Regent Street Cinema<\/p>",
         "shortDescription": "<p>We are currently in the process of picking up the remaining speakers.<\/p>\n<p>Once the process is completed we will print our schedule.&nbsp;<\/p>",
         "widgets": [
             {
@@ -133,7 +133,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1581811675,
+        "_modified": 1583766357,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f000094",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -175,7 +175,7 @@
         "subtitle": "",
         "url": "venue",
         "type": "Standard",
-        "description": "<p><strong>Workshops Venue&nbsp; (25, 26 March)<\/strong><\/p>\n<p>Workshops will be held at:&nbsp; Birkbeck University,&nbsp;Malet St, Bloomsbury, London WC1E 7HX<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Russell Square, Kings Cross, Euston Square, Euston&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Conference Venue (27th March)<\/strong><\/p>\n<p>The conference main event will take place at Regent Street Cinema.<\/p>\n<p>Built in 1848 and housed within the Polytechnic Institution on London&rsquo;s Regent Street, the cinema was the first in the country to show moving pictures. In 1896, the cinema showcased the Lumi&egrave;re brothers&rsquo; Cin&eacute;matographe to a paying audience, and, as the curtain fell, British cinema was born.<\/p>\n<p>After being used as a student lecture hall by the university of Westminister since 1980, it was restored into a working cinema featuring a state-of-the-art auditorium as well as an inclusive space for learning, cultural exchange and exhibitions. It is a truly landmark venue for the British film industry in the heart of London&rsquo;s West End.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Screen Capacities &amp; Access:<\/strong><\/p>\n<p>187-seat&nbsp; and 2 wheelchair spaces (front row of rear seating section).<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Oxford Circus, Great Portland Street<\/p>\n<p>&nbsp;<\/p>",
+        "description": "<p><strong>Workshops Venue&nbsp; (15, 16 March)<\/strong><\/p>\n<p>Workshops will be held at:&nbsp; Birkbeck University,&nbsp;Malet St, Bloomsbury, London WC1E 7HX<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Russell Square, Kings Cross, Euston Square, Euston&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Conference Venue (14th March)<\/strong><\/p>\n<p>The conference main event will take place at Regent Street Cinema.<\/p>\n<p>Built in 1848 and housed within the Polytechnic Institution on London&rsquo;s Regent Street, the cinema was the first in the country to show moving pictures. In 1896, the cinema showcased the Lumi&egrave;re brothers&rsquo; Cin&eacute;matographe to a paying audience, and, as the curtain fell, British cinema was born.<\/p>\n<p>After being used as a student lecture hall by the university of Westminister since 1980, it was restored into a working cinema featuring a state-of-the-art auditorium as well as an inclusive space for learning, cultural exchange and exhibitions. It is a truly landmark venue for the British film industry in the heart of London&rsquo;s West End.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Screen Capacities &amp; Access:<\/strong><\/p>\n<p>187-seat&nbsp; and 2 wheelchair spaces (front row of rear seating section).<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Oxford Circus, Great Portland Street<\/p>\n<p>&nbsp;<\/p>",
         "shortDescription": "",
         "widgets": [
             {
@@ -197,7 +197,7 @@
         "color": "transparent",
         "components": "",
         "year": "",
-        "_modified": 1581813162,
+        "_modified": 1583766488,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0000ae",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -518,5 +518,30 @@
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0002f8",
         "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "title": "COVID-19 UPDATE ",
+        "subtitle": "",
+        "url": "covid19update",
+        "type": "",
+        "description": "<p>Due to the international health and safety concerns and travel restrictions because of the coronavirus situation, we have decided to move the event to the 14th of September.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>As our conference has speakers and attendees flying from across the globe, we were forced to make the difficult yet necessary of postponing the event.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>In case you cannot make the new date let us know and we will process a refund by email cityjsconf@gmail.com&nbsp;<\/p>",
+        "shortDescription": "",
+        "widgets": "",
+        "tags": "",
+        "image": [],
+        "displayAtHome": "Yes",
+        "orderOnTopMenu": 3,
+        "isRedirect": "",
+        "topMenu": "Yes",
+        "bannerimage": [],
+        "hide": "No",
+        "color": "",
+        "components": "",
+        "year": 2020,
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1583767407,
+        "_created": 1583767212,
+        "_id": "5e665eac6531332fdd000136"
     }
 ]

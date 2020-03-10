@@ -14,7 +14,7 @@
                 <br />CityJS Conference
                
               </b>
-               <br /><br />25-27 March 2020
+               <br /><br />14-16 September 2020
                 <br />Regent Street Cinema 
                 <br /> Birkbeck University (Workshops) 
             </h1>
@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <Timer starttime="March 27, 2020 09:00:00" endtime="March 27, 2020 17:00:00"></Timer>
+    <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
   </div>
 </template>
 

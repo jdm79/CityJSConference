@@ -21,8 +21,8 @@
                                         v-bind:key="date"
                                         :class="{'is-active':date === chosen}">
                                         <a v-on:click="select(date)">
-                                            <span v-if="index < 2">  Day {{index+1}}</span>
-                                            <span v-if="index === 2"> Conference Day</span>
+                                            <span v-if="index > 0">  Day {{index+1}}</span>
+                                            <span v-if="index === 0"> Conference Day</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -85,7 +85,7 @@
             selectedDate() {
                 if (typeof this.schedule !== 'undefined') {
                    if (this.chosen === '' && this.schedule.length > 0) {
-                       this.chosen = this.schedule[2].date;
+                       this.chosen = this.schedule[3].date;
                    }
 
                    return this.chosen
