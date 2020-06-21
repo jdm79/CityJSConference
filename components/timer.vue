@@ -4,9 +4,8 @@
     <div class="columns">
         <div class="column is-8">
           <h2> 
-              3 days of JavaScript Festivities including, <br/>
-              6 Free <a href="/workshops">Workshops</a>,  <br/>
-              10 International <a href="/speakers">Speakers</a><br/>
+              React, and GraphQL <a href="/workshops">Workshops</a> <br/>
+              11 International <a href="/speakers">Speakers</a> <br/>all about TypeScript, React, Vue, Testing, IoT, NodeJS, React Native <br/>
           </h2>
         </div>
         <div class="column is-4">
@@ -127,10 +126,9 @@
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 40px
     font-size: 0.9rem;
     background: $white;
-    margin-top: 0vw;
+    margin-top: -2.75rem;
     top: -50px;
     +mobile
       background: $white;
@@ -143,8 +141,8 @@
       color: $darkred;
     h2 
       color: $black
-      font-size: 1.875rem;
-      line-height: 2.75rem;
+      font-size: 1.675rem;
+      line-height: 2.25rem;
       text-transform: none;
       padding: 20px;
       +mobile

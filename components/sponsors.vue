@@ -60,6 +60,16 @@
                <div class="column is-10 has-text-centered">
                 <app-sponsor
                   :items="filteredSponsors"
+                  level="Diversity"
+                  :is-h2="false"
+                >
+                </app-sponsor>
+              </div>
+            </div>
+            <div class="columns is-centered is-half">
+               <div class="column is-10 has-text-centered">
+                <app-sponsor
+                  :items="filteredSponsors"
                   level="Video"
                   :is-h2="false"
                 >

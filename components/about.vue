@@ -3,11 +3,11 @@
         <app-banner 
             :title="current-title"
         />
-        <section class="section ">
+        <section :class="`section ${isPaddingless?'is-paddingless': ''}`">
 
         <div class="container ">
             <div class="columns">
-            <div class="column is-two">
+            <div class="column is-6">
                 <h2 class="title" v-html="current.title"></h2>
                 <p class="subtitle" v-html="current.description"></p>
                 <app-payments 
@@ -15,7 +15,7 @@
                 >
                 </app-payments>
             </div>
-            <div class="column img" :style="style">
+            <div class="column img" :style="style" v-if="this.current.image">
             </div>
             </div>
         </div>
@@ -52,6 +52,7 @@
             title: String,
             description: String,
             image: String,
+            isPaddingless: Boolean
         }
     };
 </script>

@@ -17,7 +17,7 @@
         ]
     },
     {
-        "name": "JS Weekly", 
+        "name": "JS Weekly",
         "image": {
             "path": "images\/2018sponsors\/jsweekly.png"
         },
@@ -25,31 +25,35 @@
         "level": "Bronze",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205986,
+        "_modified": 1574808790,
         "_created": 1538944989,
         "_id": "5bba6fdd653133f73b000293",
         "middle": "No",
         "Year": [
+            2020,
             2019,
             2018,
-            2020 
-       ]
+            2020,
+            2019,
+            2018
+        ]
     },
     {
         "name": "IG Index",
         "image": {
             "path": "images\/2018sponsors\/IG_flat_red_bg.png"
         },
-        "url": "igindex.com",
-        "level": "",
+        "url": "https:\/\/www.iggroup.com",
+        "level": "Diversity",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205971,
+        "_modified": 1582811448,
         "_created": 1538945013,
         "_id": "5bba6ff5653133f74b0002f8",
         "middle": null,
         "Year": [
-            2018
+            2018,
+            2020
         ]
     },
     {
@@ -189,14 +193,18 @@
         "level": "Platinum",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572211062,
+        "_modified": 1572211172,
         "_created": 1539517412,
         "_id": "5bc32be46531335cbc00027b",
         "middle": null,
         "Year": [
             2018,
             2019,
-            2020
+            2020,
+            2018,
+            2019,
+            2018,
+            2019
         ]
     },
     {
@@ -255,18 +263,19 @@
     {
         "name": "Nexmo",
         "image": {
-            "path": "images\/2019-sponsors\/Nexmo_VonageAPI_horiz.png"
+            "path": "images\/2019-sponsors\/nexmo_vonageapi_vert.png"
         },
         "url": "http:\/\/www.nexmo.com",
         "level": "Silver",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205831,
+        "_modified": 1582811242,
         "_created": 1545143168,
         "_id": "5c19038065313351040001be",
         "middle": "Yes",
         "Year": [
-            2019
+            2019,
+            2020
         ]
     },
     {
@@ -283,8 +292,7 @@
         "_id": "5c41301f6531332522000338",
         "middle": "No",
         "Year": [
-            2019,
-            2020
+            2019
         ]
     },
     {
@@ -330,12 +338,13 @@
         "level": "Community",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205799,
+        "_modified": 1582813900,
         "_created": 1550652546,
         "_id": "5c6d14826531332d600000a1",
         "middle": "Yes",
         "Year": [
-            2019
+            2019,
+            2020
         ]
     },
     {
@@ -458,5 +467,73 @@
         "Year": [
             2019
         ]
+    },
+    {
+        "name": "Twillio",
+        "image": {
+            "path": "images\/sponsors\/twilio-logo-red.dfec78ee.png"
+        },
+        "url": "http:\/\/www.twilio.com\/",
+        "level": "Silver",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1575326790,
+        "_created": 1575326790,
+        "_id": "5de59446653133f2460003d3"
+    },
+    {
+        "name": "Cypress",
+        "image": {
+            "path": "images\/sponsors\/cypress.png"
+        },
+        "url": "https:\/\/cypress.io",
+        "level": "Bronze",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1578999559,
+        "_created": 1577478907,
+        "_id": "5e066afb65313357af000012"
+    },
+    {
+        "name": "Black Females Code",
+        "image": {
+            "path": "images\/sponsors\/cbf.png"
+        },
+        "url": "https:\/\/codingblackfemales.com\/",
+        "level": "Community",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1578999850,
+        "_created": 1578999850,
+        "_id": "5e1da02a65313305f500025b"
+    },
+    {
+        "name": "Developer Ecomonics",
+        "image": {
+            "path": "images\/2019-sponsors\/de_logo_low-res.png"
+        },
+        "url": "https:\/\/www.developereconomics.com\/",
+        "level": "Bronze",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1582811762,
+        "_created": 1582811762,
+        "_id": "5e57ca726531337fb60002c4"
     }
 ]

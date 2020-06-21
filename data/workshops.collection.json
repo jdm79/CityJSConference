@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Advanced React Workshop ",
+        "description": "<p class=\"p-rich_text_section\">In this advanced workshop, you will learn how to implement advanced features and improve performance in React apps leveraging functional programming in JavaScript<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p class=\"p-rich_text_section\"><strong>Learning outcomes<\/strong><\/p>\n<p class=\"p-rich_text_section\">- Effectively start &ldquo;thinking in hooks&rdquo; to fully comprehend how the new composition model works<\/p>\n<p class=\"p-rich_text_section\">- Leverage functional programming in modern React<\/p>\n<p class=\"p-rich_text_section\">- Learn how to apply the new React patterns and how to identify the right use cases for each one.<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>",
+        "instructor": "Alex Lobera",
+        "date": "2020-09-16",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1583766043,
+        "_created": 1578515244,
+        "_id": "5e163b2c65313341b80000e8",
+        "image": {
+            "path": "images\/2020speakers\/alex2.jpg"
+        }
+    },
+    {
+        "title": "Building Real-World GraphQL API",
+        "description": "<p class=\"p-rich_text_section\">In this zero to hero GraphQL workshop, you will learn how to effectively migrate REST APIs to GraphQL avoiding common pitfalls<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p class=\"p-rich_text_section\"><strong>Learning outcomes<\/strong><\/p>\n<p class=\"p-rich_text_section\">- Learn how to migrate a REST API to GraphQL<\/p>\n<p class=\"p-rich_text_section\">- Understand how to design a GraphQL schema solving real-world use cases<\/p>\n<p class=\"p-rich_text_section\">- Error handling &amp; security design<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>",
+        "instructor": "Alex Lobera",
+        "date": "2020-09-15",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1583766017,
+        "_created": 1578515285,
+        "_id": "5e163b5565313341f800010d",
+        "image": {
+            "path": "images\/2020speakers\/alex1.jpg"
+        }
+    },
+    {
+        "title": "In-depth TypeScript",
+        "description": "<p>The JavaScript Eco System is moving to TypeScript. Fast. This workshop will explain why and when you might want to use TypeScript, and get you up and running with all the essentials. In this workshop we will cover practically the full language. And we will go deep. That is: do the cool and weird meta programming stuff. Learn all the tricks you won't find in the handbook.<br \/><br \/>This workshop is also suitable for those that have basic experience with TypeScript. Since the basics only take ~2 hours to cover, most of the day is still super valuable to enhance your TypeScript skills, even if you already have real project experience with TypeScript! Did you ever encounter super confusing types in some of the libraries you use? Did you get some super vague compiler errors? After this workshop you will be able to understand them!<\/p>",
+        "instructor": "Michel Weststrate",
+        "date": "2020-09-15",
+        "image": {
+            "path": "images\/2020speakers\/michel.jpg"
+        },
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1583765994,
+        "_created": 1578566990,
+        "_id": "5e17054e653133596b000237"
+    }
+]

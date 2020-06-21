@@ -130,5 +130,44 @@
         "_modified": 1570297345,
         "_created": 1570297238,
         "_id": "5d98d5966531334af500024d"
+    },
+    {
+        "title": "Speakers",
+        "shortDescription": "",
+        "url": "",
+        "image": [],
+        "type": "Component",
+        "custom": "speakers",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1575581288,
+        "_created": 1575581183,
+        "_id": "5de975ff653133d0e70000ba"
+    },
+    {
+        "title": "Workshops",
+        "shortDescription": "",
+        "url": "",
+        "image": [],
+        "type": "Component",
+        "custom": "workshops",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1578515427,
+        "_created": 1578515389,
+        "_id": "5e163bbd653133428700002e"
+    },
+    {
+        "title": "Schedule",
+        "shortDescription": "",
+        "url": "",
+        "image": [],
+        "type": "Component",
+        "custom": "schedule",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1579902657,
+        "_created": 1579902657,
+        "_id": "5e2b66c1653133a0b80001e9"
     }
 ]
