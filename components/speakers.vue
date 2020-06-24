@@ -3,7 +3,7 @@
     <div class="testimonials is-text  ">
         <app-h2
             title="2020 Speakers"
-            subtitle="We are excited  to announce our talks for this year"
+            subtitle="We are excited to announce our talks for this year"
             :is-h2="true"
         >
         </app-h2>
@@ -37,11 +37,12 @@
                                         class="titlebtn"
                                         v-on:click="select(item)"
                                     >
-                                        <h3 class="small-title">
+                                        <p>{{item.country}}
+                                        <h3 class="small-title talk-title">
                                             {{item.title}}                                                                  
                                         </h3>
                                     </a>
-                                    <p class="subtitle is-6">{{item.name}}  <a class="icon" :href="`//twitter.com/${item.twitter}`"><i class="fa fa-twitter"></i></a>   
+                                    <p class="subtitle is-6 speaker-name">{{item.name}}  <a class="icon" :href="`//twitter.com/${item.twitter}`"><i class="fa fa-twitter"></i></a>   
                                        <br/>  {{item.company}}
                                      </p>  
                                 </div>
@@ -161,6 +162,15 @@ export default {
 <style lang="sass" scoped>
     @import '~/assets/css/mq.sass';
     
+    .talk-title
+        height: 120px;
+
+    .small-title
+        text-align: left;  
+
+    .speaker-name
+        text-align: left;
+
     a.titlebtn
         color: $black;
         h3 
@@ -171,7 +181,6 @@ export default {
     img
         text-align: center;
         left: 30%;
-        border-radius: 50%;
         margin: 0 auto;
         top: 0px;
     .spekers-card-container
@@ -206,6 +215,7 @@ export default {
                 right: 10px;
         
         .small-title
+            color: red;
             font-size: 0.9rem;
             line-height: 1rem;
             text-transform: initial;

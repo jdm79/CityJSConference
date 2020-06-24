@@ -1,5 +1,49 @@
 <template>
   <div>
+   <div class="home-info">
+      <div class="overlay">
+      </div>
+      <div class="home-info__inner content">
+        <div class="info left">
+          <h1>
+            <b>
+              City of London JavaScript Conference
+              <br />CityJS Conference
+            </b>
+            <br />27 March 2020 <br />Regent Street Cinema
+          </h1>
+        </div>
+        <div class="info">
+          <div class="info-vertical">
+            <div class="info-number">
+              2
+            </div>
+            <div class="info-text">
+              <span class="info-text__main">TRACKS</span>
+              <span class="info-text__sub">General + React Native</span>
+            </div>
+          </div>
+          <div class="info-vertical">
+            <div class="info-number">
+              25+
+            </div>
+            <div class="info-text">
+              <span class="info-text__main">SPEAKERS</span>
+              <span class="info-text__sub">Sharing newest insights</span>
+            </div>
+          </div>
+          <div class="info-vertical">
+            <div class="info-number">
+              1500
+            </div>
+            <div class="info-text">
+              <span class="info-text__main">REACT DEVS</span>
+              <span class="info-text__sub">From all over the globe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="overlay">
       <div class="overlay-container">
         <section id="home">
@@ -167,5 +211,72 @@ export default {
     font-size: 0.5em;
     +mobile
       font-size: .9rem;   
+  .home-info 
+    background-image: url(/images/audience.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    +mobile
+      height: 100vh;
+      min-height: 300px;
+    +tablet
+      height: 47vw;
+      min-height: 40vw;
+    +desktop
+      min-height: 100vw;
+    .overlay
+      background-color: rgba(255, 48, 48, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  .home-info__inner
+    position: relative;
+    margin: auto;
+    padding: 10vw 0px;
+    top: 0;
+    display: flex;
+    width: 100%;
+    +mobile
+      height: 100vh;
+      text-align: center;
+      display: block;
+    +tablet
+      max-width: 1344px;
+    +desktop
+      max-width: 1344px;
+    .info
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      .info-vertical
+        +mobile
+          padding: 26px;
+        right: 0;
+        flex-grow: 1;
+        display: flex;
+        .info-number
+          line-height: 3rem;
+          flex: 1;
+          margin-right: 20px;
+          font-size: 2.5rem;
+        .info-text
+          flex: 6;
+          span
+            font-size: 1.25rem
+            display: block;
+    .left
+      flex: 2;
+    h1
+      margin-top: 0px;
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      font-size: 3rem;
+
+  .timer
+    top: 100vh !important;
   
 </style>
