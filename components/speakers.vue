@@ -38,6 +38,7 @@
                                         v-on:click="select(item)"
                                     >
                                         <p>{{item.country}}
+                                    <i class="fa flag-icon-uk"></i>
                                         <h3 class="small-title talk-title">
                                             {{item.title}}                                                                  
                                         </h3>

@@ -26,10 +26,11 @@
         { name: 'viewport', content: 'initial-scale=1.0, width=device-width' }
       ],
       link: [
-      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' },
-      { rel: 'stylesheet', href: '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' },
-      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Oswald:400,300,700' },
-      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' }
+        { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' },
+        { rel: 'stylesheet', href: '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' },
+        { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Oswald:400,300,700' },
+        { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' },
+        { rel: 'stylesheet', href: '//cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css' }
       ]
     },
     computed: { 
