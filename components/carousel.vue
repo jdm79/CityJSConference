@@ -1,17 +1,31 @@
 <template>
-  <div>
+  <div id="topsection" style="position:relative; display: block;">
    <div class="home-info">
       <div class="overlay">
       </div>
+  
       <div class="home-info__inner content">
         <div class="info left">
           <h1>
             <b>
-              City of London JavaScript Conference
-              <br />CityJS Conference
+              City of London JS Community Conference <br/>
+              CityJS Conference
             </b>
-            <br />27 March 2020 <br />Regent Street Cinema
           </h1>
+          <div class="columns">
+            <div class="column is-4">
+                <h2>
+                  14-18 Sep 2020 <br/>
+                  <span> Remotely </span>
+                </h2>
+            </div>
+            <div class="column is-4">
+              <h2>
+                26-29  Mar 2021<br/>
+                <span> Regent Street Cinema</span>
+              </h2>
+            </div>
+          </div>
         </div>
         <div class="info">
           <div class="info-vertical">
@@ -19,8 +33,8 @@
               2
             </div>
             <div class="info-text">
-              <span class="info-text__main">TRACKS</span>
-              <span class="info-text__sub">General + React Native</span>
+              <span class="info-text__main">DAYS</span>
+              <span class="info-text__sub">inc 2 DAYS Workshops</span>
             </div>
           </div>
           <div class="info-vertical">
@@ -29,48 +43,33 @@
             </div>
             <div class="info-text">
               <span class="info-text__main">SPEAKERS</span>
-              <span class="info-text__sub">Sharing newest insights</span>
+              <span class="info-text__sub">Across all the continents</span>
             </div>
           </div>
           <div class="info-vertical">
             <div class="info-number">
-              1500
+              1000
             </div>
             <div class="info-text">
-              <span class="info-text__main">REACT DEVS</span>
-              <span class="info-text__sub">From all over the globe</span>
+              <span class="info-text__main">JAVASCRIPT DEVELOPERS</span>
+              <span class="info-text__sub">Connecting across the world</span>
             </div>
           </div>
         </div>
+        
       </div>
+      <footer>
+            <div class="container">
+              <section>
+                  <div class="columns">
+                    <div class="column">
+                      <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
+                    </div>
+                  </div>
+              </section> 
+            </div>
+         </footer>
     </div>
-    <div class="overlay">
-      <div class="overlay-container">
-        <section id="home">
-          <div class="video_shader"></div>
-          <div class="video_contain lazyload" data-bg="/images/previous_year/cinema1.jpg"></div>
-        </section>
-        <div class="columns has-text-centered slide is-marginless">
-          <div class="column is-two-thirds is-6 is-offset-4 contend">
-            <h1>
-              <b>
-                City of London JavaScript Conference
-                <br />CityJS Conference
-               
-              </b>
-               <br /><br />14-16 September 2020
-                <br />Regent Street Cinema 
-                <br /> Birkbeck University (Workshops) 
-            </h1>
-            <a href="/buytickets" class="is-info button info is-primary">Get your tickets</a>
-            <br/> 
-            <!-- <p>save 30 pounds from final price</p> -->
-             <!-- <a href="https://www.papercall.io/cityjs2020" class="is-info button info is-primary">Submit your proposal</a> -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
   </div>
 </template>
 
@@ -94,9 +93,6 @@ export default {
 <style lang="sass">
   @import '~/assets/css/mq.sass';
 
-  h2
-    padding: 5px;
-
   h1 
     margin-bottom: 3.2rem;
     margin-top: 1.5rem;
@@ -111,6 +107,14 @@ export default {
       margin-top: 0rem;
       font-size: 0.9rem;
 
+  .content
+    h2 
+      font-size: 1.5rem;
+      color: $white;
+      background: $black;
+      padding: 10px;
+      span 
+        font-size: 1.1rem;
 
   .contend
     color: $white;
@@ -261,7 +265,9 @@ export default {
         .info-number
           line-height: 3rem;
           flex: 1;
-          margin-right: 20px;
+          width: 2rem;
+          height: 11vh;
+          margin-right: 50px;
           font-size: 2.5rem;
         .info-text
           flex: 6;

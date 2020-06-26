@@ -1,5 +1,5 @@
 <template>
-  <section class="section shallow">
+  <section class="shallow">
     <div class="testimonials is-text  ">
         <app-h2
             title="2020 Speakers"
@@ -7,19 +7,21 @@
             :is-h2="true"
         >
         </app-h2>
-        <div class="columns  is-mobile is-multiline is-centered" > 
+        <div class="columns  is-mobile is-multiline is-centered is-gapless" > 
            <div 
                 class="column is-three-quarters-mobile is-two-thirds-tablet
-                 is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+                 is-half-desktop is-one-third-widescreen 
+                 is-one-quarter-fullhd 
+                 "
                 v-for="item in filteredSpeakers"
                 v-bind:key="item._id"
            >
-                    <div class="is-one  ">
+                    <div class="is-one ">
                          <div class="card-image">
                             <a 
                                 v-on:click="select(item)"
                             >
-                                <figure class="image is-92x92">
+                                <figure class="image is-40x40">
                                     <img 
                                         v-if="typeof 
                                         item.image!== 'undefined'"  
@@ -28,26 +30,43 @@
                                         class="speaker"
                                     />
                                 </figure>
-                            </a>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content has-text-centered">
-                                     <a 
-                                        class="titlebtn"
-                                        v-on:click="select(item)"
-                                    >
-                                        <p>{{item.country}}
-                                    <i class="fa flag-icon-uk"></i>
-                                        <h3 class="small-title talk-title">
-                                            {{item.title}}                                                                  
+                                    
+                                <div class="columns">
+                                    <div class="column is-12" style="padding: 0 3rem 0 3rem; margin-top: -50px; position: relative; background: white; margin: 0 auto; width: 85%; margin-bottom: 20px;">
+                                        <h3>
+                                            {{item.name}}   
+                                            
+                                            <span>
+                                                <a :href="`//twitter.com/${item.twitter}`">
+                                                    <i data-v-4a676ae2="" class="fa fa-twitter"></i>
+                                                </a>
+                                            </span>
                                         </h3>
-                                    </a>
-                                    <p class="subtitle is-6 speaker-name">{{item.name}}  <a class="icon" :href="`//twitter.com/${item.twitter}`"><i class="fa fa-twitter"></i></a>   
-                                       <br/>  {{item.company}}
-                                     </p>  
+                                      
+                                        <span style="margin-top: 10px; font-size: 14px">
+                                            <i class="fa fa-building" style=" font-size: 11px; margin-right:5px" aria-hidden="true"></i>
+                                            {{item.company}}
+                                        </span>
+                                        <br/>
+                                        <span style="margin-top: 10px; font-size: 14px">
+                                                <i class="fa fa-map-marker" style=" margin-right:7px" aria-hidden="true"></i>
+                                                {{item.town}},  {{item.country}}
+                                        </span>
+
+                                        <span>
+                                            <a 
+                                                class="titlebtn"
+                                                v-on:click="select(item)"
+                                            >
+                                                <h4 class="small-title talk-title">
+                                                    {{item.title}}                                                                  
+                                                </h4>
+                                            </a>
+                                        </span>
+                                    </div>
+                                     
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
            </div>
@@ -87,13 +106,10 @@
                                 {{chosen.company}}
                             </p>
                         </div>
-                       
-                    
                         </div>
                        <div>
                              <h2 class="small-title">{{chosen.title}}</h2>
-
-                                  <div v-html="chosen.talk" />
+                            <div v-html="chosen.talk" />
                         </div>
                     </div>
                 </div>
@@ -162,6 +178,14 @@ export default {
 
 <style lang="sass" scoped>
     @import '~/assets/css/mq.sass';
+
+    h3
+     margin-bottom: 0px;
+
+    
+    h4
+     padding:  10px 0;
+     font-weight: 500;
     
     .talk-title
         height: 120px;
@@ -175,7 +199,7 @@ export default {
     a.titlebtn
         color: $black;
         h3 
-            min-height: 80px;
+            min-height: 50px;
 
     .closed
         display: none

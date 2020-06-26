@@ -8,14 +8,16 @@
                         <div class="card-content">
                             <div class="media">
                                 <div class="media-content copy">
-                                    <p class="title is-4 no-padding">Regent Street Cinema will be our venue for the 2020 event</p>
+                                    <p class="title is-4 no-padding">Regent Street Cinema will be our venue for the 2021 event</p>
                                     <div class="banner-heading">
                                         <span > </span>
                                     </div>
                                 </div>
                             </div>
                             <div class="content">
-                                <p>Our main event, on the 27th of March,  is taking place at one of the most iconic places right at the city
+                                <p> Due to Covid-19 our 2020 event will take place remotely </p>
+
+                                <p> We will be hosting the classic event on the 26th of March 2021,  is taking place at one of the most iconic places right at the city
                                 centre of London, in the heart of London 2 minutes away from Oxford Circus.
                                 </p>
                                 <p>

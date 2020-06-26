@@ -880,7 +880,7 @@
         "company": "React GraphQL Academy",
         "title": "Workshops on Advanced React & GraphQL",
         "talk": "<p>Alex will be providing two workshops on Advanced React and GraphQL. If you think you need a boost in your daily job then this eight hours on the 25th and 26th of March will help you close your gaps on the framework and the library respectively.<\/p>",
-        "country": "Spain",
+        "country": "UK",
         "twitter": "alex_lobera",
         "linkedin": "",
         "year": 2020,
@@ -895,7 +895,7 @@
         "event": "workshop",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580944049,
+        "_modified": 1592311742,
         "_created": 1576566045,
         "_id": "5df87d1d653133bf5f000318"
     },
@@ -920,7 +920,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580946846,
+        "_modified": 1592311726,
         "_created": 1576566255,
         "_id": "5df87def653133c0600001be"
     },
@@ -945,7 +945,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578524018,
+        "_modified": 1592311709,
         "_created": 1576566414,
         "_id": "5df87e8e653133c12900034f"
     },
@@ -955,7 +955,7 @@
         "company": "Future Sync",
         "title": "MC of the Conference",
         "talk": "<p>Tony Edwards is one half of Future Sync Events, a tech-focused event company based in the South West. Tony is also part of the team at Software Cornwall, a network of digital businesses in the county, where he has helped inspire the next generation of budding developers to follow their digital dreams and enter the broader software industry. In recent years, Tony has been supporting the region's digital communities through volunteering, speaking and helping to organise events. Whether it&rsquo;s live blogging for award-winning Agile conferences, managing social media for community meetups, producing swag for awards ceremonies or simply attending, if there&rsquo;s something happening for the digitally minded in the far South West&hellip;. chances are Tony is in the mix somehow.<\/p>",
-        "country": "",
+        "country": "UK",
         "twitter": "tonyedwardspz",
         "linkedin": "",
         "year": 2020,
@@ -970,7 +970,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580945617,
+        "_modified": 1592311695,
         "_created": 1578142581,
         "_id": "5e108b75653133c56a000273"
     },
@@ -1000,29 +1000,30 @@
         "_id": "5e108be0653133c5e8000056"
     },
     {
-        "name": "Alexandre Chopin",
+        "name": "Debbie O'brian",
         "bio": "<p>You can call him Alex. I love Frontend. Since my brother and I had our first computer, it became our passion. Soon after, we created our first website. It was about our favorite sport, basketball. We wanted to learn everything about Web Development, so we could improve our site.<\/p>",
         "company": "Creator of NuxtJS",
         "title": "Find out whats coming to nuxtJS framework from its own creator",
         "talk": "<p>Alex will take us through the VueJS framework NuxtJS that he has created with his brother, and show us what is new to the upcoming version 3.<\/p>",
-        "country": "FRANCE",
+        "country": "es",
         "twitter": "iamnuxt",
         "linkedin": "",
         "year": 2020,
         "videoUrl": "",
         "image": {
-            "path": "images\/2020speakers\/alexchopin.jpg"
+            "path": "images\/2020speakers\/debbieo.jpg"
         },
         "thumbnail": {
-            "path": "images\/2020speakers\/alexchopin.jpg"
+            "path": "images\/2020speakers\/debbieo.jpg"
         },
         "order": 1,
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580944327,
+        "_modified": 1593122224,
         "_created": 1578522800,
-        "_id": "5e1658b065313369d50003cd"
+        "_id": "5e1658b065313369d50003cd",
+        "town": "Spain"
     },
     {
         "name": "Patrick Kunka",
@@ -1030,7 +1031,7 @@
         "company": "DAZN",
         "title": "Simulating Network Conditions with JavaScript",
         "talk": "<p>When working with video streaming, being able to accurately simulate customer network conditions for development and testing is crucial. In this talk, I'll be looking at how we can use containers and server-side JavaScript to programmatically shape network conditions and gain valuable insights about the behaviour and performance of our client-side JavaScript - from Adaptive Bitrate video players to entire single-page applications.<\/p>",
-        "country": "",
+        "country": "uk",
         "twitter": "patrickkunka",
         "linkedin": "",
         "year": 2020,
@@ -1045,9 +1046,10 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580945767,
+        "_modified": 1593121330,
         "_created": 1578523198,
-        "_id": "5e165a3e6531336bf7000059"
+        "_id": "5e165a3e6531336bf7000059",
+        "town": "London"
     },
     {
         "name": "Michel Weststrate",
@@ -1055,7 +1057,7 @@
         "company": "Author of MobX, MobX-State-Tree Author \/ Facebook",
         "title": "MobX, or: going from Mutable to Immutable to Reactive state management & TypeScript Workshop",
         "talk": "<p>MobX is a state management library that is used across the globe, by companies big and small, such as Microsoft, EA, Netflix, Amazon and so on. The library is renown for its ease of use and lack of boilerplate. But also, it is quite magical. Or isn't it? And shouldn't we have stopped using mutative data structures by know? Or is the world not just limited to mutable and immutable, and is there a third kind of data structures? Join this talk to learn about the wonderful world of reactive data structures and the benefits they yield in both developer and runtime efficiency.<\/p>",
-        "country": "Netherlands",
+        "country": "uk",
         "twitter": "mweststrate",
         "linkedin": "",
         "year": 2020,
@@ -1070,9 +1072,10 @@
         "event": "both",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580945133,
+        "_modified": 1593121312,
         "_created": 1578566698,
-        "_id": "5e17042a6531335800000066"
+        "_id": "5e17042a6531335800000066",
+        "town": "London"
     },
     {
         "name": "Anton McConville",
@@ -1080,7 +1083,7 @@
         "company": "IBM",
         "title": "Personality Hacking: using Node, WebAudio and Houdini to visualize psychology of song lyrics",
         "talk": "<p>In this session we use JavaScript to harvest Natural Language Processing data. We serve a beautifully designed app with Node.JS, and explain how to use JavaScript and Canvas within the emerging CSS Houdini Paint API. The fascinating app, analyzes how a song writer&rsquo;s personality changes through time.<\/p>",
-        "country": "",
+        "country": "ca",
         "twitter": "antonmc",
         "linkedin": "",
         "year": 2020,
@@ -1095,9 +1098,10 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580946797,
+        "_modified": 1593122329,
         "_created": 1579974197,
-        "_id": "5e2c7e35653133c37d000094"
+        "_id": "5e2c7e35653133c37d000094",
+        "town": "Canada"
     },
     {
         "name": "Laura Gonz\u00e1lez",
@@ -1108,7 +1112,7 @@
         "country": "Spain",
         "twitter": "freezydorito",
         "linkedin": "",
-        "year": 2020,
+        "year": "",
         "videoUrl": "",
         "image": {
             "path": "images\/2020speakers\/laura.jpg"
@@ -1120,7 +1124,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580935663,
+        "_modified": 1593121192,
         "_created": 1580935663,
         "_id": "5e3b29ef65313352e20002f7"
     }
