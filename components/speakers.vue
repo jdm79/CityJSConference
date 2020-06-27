@@ -33,7 +33,7 @@
                                     
                                 <div class="columns">
                                       
-                                    <div class="column is-12" style="padding: 0 3rem 0 3rem; margin-top: -50px; position: relative; background: white; margin: 0 auto; width: 85%; margin-bottom: 20px;">
+                                    <div class="column is-12" style="padding: 1rem 3rem 0 3rem; margin-top: -50px; position: relative; background: white; margin: 0 auto; width: 85%; margin-bottom: 20px;">
                                        <span>
                                             <a 
                                                 class="titlebtn"
@@ -59,8 +59,8 @@
                                             {{item.company}}
                                         </span>
                                         <br/>
-                                        <span style="margin-top: 10px; font-size: 14px">
-                                                <i class="fa fa-signal-stream"></i>
+                                        <span class="pill">
+                                               <i class="fa fa-globe"></i>
                                                 {{item.town}},  {{item.country}}
                                         </span>
 
@@ -184,9 +184,27 @@ export default {
     h3
      margin-bottom: 0px;
 
+    .titlebtn
+            padding-top: 40px;
+
+    .pill 
+        background-color: $white;
+        border: gray;
+        color: $black;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+        position: absolute;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+        top: -20px;
+        left: 40px
     
     h4
-     padding:  10px 0;
+     padding-top:  5px;
      font-weight: 500;
     
     .talk-title
@@ -251,6 +269,7 @@ export default {
             font-weight: bold;
             padding: 0px;
             margin-bottom: 5px;
-
-        
+            
+   
+       
 </style>

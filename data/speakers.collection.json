@@ -287,7 +287,7 @@
         "videoUrl": "https:\/\/cityjsconf2018.streameventlive.com\/home\/video\/30",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580946747,
+        "_modified": 1593295116,
         "_created": 1538578845,
         "_id": "5bb4d99d6531339e4c000223",
         "image": {
@@ -298,7 +298,8 @@
             "path": "images\/2020speakers\/jo.jpg"
         },
         "order": 6,
-        "event": "talk"
+        "event": "talk",
+        "town": "London"
     },
     {
         "name": "Gen Ashley",
@@ -329,7 +330,7 @@
         "company": "SitePen - Dojo co-Founder",
         "title": "theRiseOfTypeScript(rate: Meteoric | Meandering): Story[] { return History; }",
         "talk": "<div class=\"p-rich_text_section\">TypeScript has many stories which are not well known. For example, did you know that:<\/div>\n<div class=\"p-rich_text_section\">&nbsp;<\/div>\n<div class=\"p-rich_text_section\">&nbsp;- TypeScript was originally called Strada and first started by Luke Hoban and Steve Lucco? (Anders joined shortly thereafter.<\/div>\n<div class=\"p-rich_text_section\">- Many of the more painful choices made with TypeScript were the result of attempting to implement much-needed language features before ES6 was finalized<\/div>\n<div class=\"p-rich_text_section\">- TypeScript did not move to GitHub until 2014?<\/div>\n<div class=\"p-rich_text_section\">&nbsp;<\/div>\n<div class=\"p-rich_text_section\">This talk will explore some of the interesting and quirky history of the TypeScript project from outside the walls of Redmond, from the perspective of someone who took a very early look at TypeScript (0.9.2), was skeptical due to a previous open-source cease and desist warning from Microsoft, and over many months was grudgingly persuaded of the value of TypeScript. We&rsquo;ll also look at key advances in TypeScript that took the project from promising yet flawed to something that made it possible to rewrite the longest-lived, actively-maintained JavaScript framework in TypeScript and become a development approach that we love and appreciate. Expect a healthy dose of humor and ridiculousness along the way.<\/div>",
-        "country": "United States",
+        "country": "USA",
         "twitter": "dylans",
         "linkedin": "",
         "year": 2020,
@@ -342,11 +343,12 @@
         },
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580944898,
+        "_modified": 1593295753,
         "_created": 1544095624,
         "_id": "5c090788653133337b000356",
         "order": 4,
-        "event": "talk"
+        "event": "talk",
+        "town": "Phoenix"
     },
     {
         "name": "Chris Heilmann",
@@ -870,9 +872,10 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1578526106,
+        "_modified": 1593295604,
         "_created": 1576565902,
-        "_id": "5df87c8e653133bea800007f"
+        "_id": "5df87c8e653133bea800007f",
+        "town": "Athens"
     },
     {
         "name": "Alex Lobera",
@@ -895,9 +898,10 @@
         "event": "workshop",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1592311742,
+        "_modified": 1593295681,
         "_created": 1576566045,
-        "_id": "5df87d1d653133bf5f000318"
+        "_id": "5df87d1d653133bf5f000318",
+        "town": "London"
     },
     {
         "name": "Stefano Magni",
@@ -920,9 +924,10 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1592311726,
+        "_modified": 1593292106,
         "_created": 1576566255,
-        "_id": "5df87def653133c0600001be"
+        "_id": "5df87def653133c0600001be",
+        "town": "Lecco"
     },
     {
         "name": "Divya Sasidharan",
@@ -933,7 +938,7 @@
         "country": "USA",
         "twitter": "shortdiv",
         "linkedin": "",
-        "year": 2020,
+        "year": "",
         "videoUrl": "",
         "image": {
             "path": "images\/2020speakers\/divya.jpeg"
@@ -945,9 +950,10 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1592311709,
+        "_modified": 1593294217,
         "_created": 1576566414,
-        "_id": "5df87e8e653133c12900034f"
+        "_id": "5df87e8e653133c12900034f",
+        "town": null
     },
     {
         "name": "Tony Edwards",
@@ -970,9 +976,10 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1592311695,
+        "_modified": 1593295865,
         "_created": 1578142581,
-        "_id": "5e108b75653133c56a000273"
+        "_id": "5e108b75653133c56a000273",
+        "town": "Cornwall"
     },
     {
         "name": "Peter Eijgermans",
@@ -995,17 +1002,18 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1580946709,
+        "_modified": 1593295564,
         "_created": 1578142688,
-        "_id": "5e108be0653133c5e8000056"
+        "_id": "5e108be0653133c5e8000056",
+        "town": "Amsterdam"
     },
     {
         "name": "Debbie O'brian",
         "bio": "<p>You can call him Alex. I love Frontend. Since my brother and I had our first computer, it became our passion. Soon after, we created our first website. It was about our favorite sport, basketball. We wanted to learn everything about Web Development, so we could improve our site.<\/p>",
-        "company": "Creator of NuxtJS",
-        "title": "Find out whats coming to nuxtJS framework from its own creator",
-        "talk": "<p>Alex will take us through the VueJS framework NuxtJS that he has created with his brother, and show us what is new to the upcoming version 3.<\/p>",
-        "country": "es",
+        "company": "NuxtJS",
+        "title": "What's new in Nuxt.js",
+        "talk": "<p>Nuxt.js, the intuitive web framework, has had some killer features recently released. Debbie will take you through those new features and shed some light on what is to come in Nuxt.js<\/p>",
+        "country": "Spain",
         "twitter": "iamnuxt",
         "linkedin": "",
         "year": 2020,
@@ -1020,10 +1028,10 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593122224,
+        "_modified": 1593295933,
         "_created": 1578522800,
         "_id": "5e1658b065313369d50003cd",
-        "town": "Spain"
+        "town": "Palma de Mallorca"
     },
     {
         "name": "Patrick Kunka",
@@ -1031,7 +1039,7 @@
         "company": "DAZN",
         "title": "Simulating Network Conditions with JavaScript",
         "talk": "<p>When working with video streaming, being able to accurately simulate customer network conditions for development and testing is crucial. In this talk, I'll be looking at how we can use containers and server-side JavaScript to programmatically shape network conditions and gain valuable insights about the behaviour and performance of our client-side JavaScript - from Adaptive Bitrate video players to entire single-page applications.<\/p>",
-        "country": "uk",
+        "country": "UK",
         "twitter": "patrickkunka",
         "linkedin": "",
         "year": 2020,
@@ -1046,7 +1054,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593121330,
+        "_modified": 1593295771,
         "_created": 1578523198,
         "_id": "5e165a3e6531336bf7000059",
         "town": "London"
@@ -1057,7 +1065,7 @@
         "company": "Author of MobX, MobX-State-Tree Author \/ Facebook",
         "title": "MobX, or: going from Mutable to Immutable to Reactive state management & TypeScript Workshop",
         "talk": "<p>MobX is a state management library that is used across the globe, by companies big and small, such as Microsoft, EA, Netflix, Amazon and so on. The library is renown for its ease of use and lack of boilerplate. But also, it is quite magical. Or isn't it? And shouldn't we have stopped using mutative data structures by know? Or is the world not just limited to mutable and immutable, and is there a third kind of data structures? Join this talk to learn about the wonderful world of reactive data structures and the benefits they yield in both developer and runtime efficiency.<\/p>",
-        "country": "uk",
+        "country": "UK",
         "twitter": "mweststrate",
         "linkedin": "",
         "year": 2020,
@@ -1072,7 +1080,7 @@
         "event": "both",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593121312,
+        "_modified": 1593295728,
         "_created": 1578566698,
         "_id": "5e17042a6531335800000066",
         "town": "London"
@@ -1083,7 +1091,7 @@
         "company": "IBM",
         "title": "Personality Hacking: using Node, WebAudio and Houdini to visualize psychology of song lyrics",
         "talk": "<p>In this session we use JavaScript to harvest Natural Language Processing data. We serve a beautifully designed app with Node.JS, and explain how to use JavaScript and Canvas within the emerging CSS Houdini Paint API. The fascinating app, analyzes how a song writer&rsquo;s personality changes through time.<\/p>",
-        "country": "ca",
+        "country": "Canada",
         "twitter": "antonmc",
         "linkedin": "",
         "year": 2020,
@@ -1098,10 +1106,10 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593122329,
+        "_modified": 1593295089,
         "_created": 1579974197,
         "_id": "5e2c7e35653133c37d000094",
-        "town": "Canada"
+        "town": "Ottawa"
     },
     {
         "name": "Laura Gonz\u00e1lez",
@@ -1127,5 +1135,265 @@
         "_modified": 1593121192,
         "_created": 1580935663,
         "_id": "5e3b29ef65313352e20002f7"
+    },
+    {
+        "name": "Jen Looper ",
+        "bio": "<p>Jen Looper is a Google Developer Expert and a Cloud Developer Advocate Lead at Microsoft on the Academic Team with over 20 years' experience as a web and mobile developer, specializing in creating cross-platform mobile and web apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, Vue.js, machine learning and discovering new things every day. With a PhD in medieval French literature, Jen's area of focus is currently in applied machine learning, applying new techniques to rediscover ancient artifacts. She is the founder and CEO of Vue Vixens, an international nonprofit charity that promotes diversity in the Vue.js community. Visit Vue Vixens Inc at&nbsp;<a href=\"https:\/\/www.vuevixens.org\/\" rel=\"nofollow\">https:\/\/www.vuevixens.org<\/a>. Visit Jen's personal site at&nbsp;<a href=\"https:\/\/www.jenlooper.com\/\" rel=\"nofollow\">https:\/\/www.jenlooper.com<\/a>, or via Twitter @jenlooper.<\/p>",
+        "company": "Microsoft",
+        "title": "Ombromanie: Storytelling with Machine-Learning Infused Hand Shadows",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Remember the spooky shadows you used to make on the walls, late at night, with nothing but a flashlight, your hands, and your imagination? Remember how they used to freak out your younger siblings? Wouldn't it be nice if we could reproduce the experience using the latest technology? Introducing Ombromanie, a new way to tell stories with your hands, on the web.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Remember the spooky shadows you used to make on the walls, late at night, with nothing but a flashlight, your hands, and your imagination? Remember how they used to freak out your younger siblings? Wouldn't it be nice if we could reproduce the experience using the latest technology? Introducing Ombromanie, a new way to tell stories with your hands, on the web.<\/span><\/p>\n<p>&nbsp;<\/p>",
+        "country": "USA",
+        "twitter": "@jenlooper",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/jen-looper.png"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/jen-looper.png"
+        },
+        "order": "",
+        "event": "",
+        "town": "Boston",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593292812,
+        "_created": 1593263931,
+        "_id": "5ef7473b65313334e50003a5"
+    },
+    {
+        "name": "Milecia McGregor ",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Milecia is a senior software engineer, but she also has a master's degree in mechanical and aerospace engineering and has published research in machine learning and robotics. She started Flipped Coding in 2017 to help people learn web development with real-world projects.\\n\\nMilecia also speaks at tech conferences around the world and writes about tech. In her free time, she spends time with her husband and dogs while learning kung fu and learning how to play the harmonica. &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Milecia is a senior software engineer, but she also has a master's degree in mechanical and aerospace engineering and has published research in machine learning and robotics. She started Flipped Coding in 2017 to help people learn web development with real-world projects.<br \/><br \/>Milecia also speaks at tech conferences around the world and writes about tech. In her free time, she spends time with her husband and dogs while learning kung fu and learning how to play the harmonica. <\/span><\/p>",
+        "company": "Mediavine",
+        "title": "Reading Thoughts With JavaScript",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;An important skill people in tech need to have is learning how to combine unusual, unrelated concepts into things real people can use every day. JavaScript is the most popular programming language and it&rsquo;s already being used in machine learning so why not take it to the next level and add neurology?&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">An important skill people in tech need to have is learning how to combine unusual, unrelated concepts into things real people can use every day. JavaScript is the most popular programming language and it&rsquo;s already being used in machine learning so why not take it to the next level and add neurology?<\/span><\/p>",
+        "country": "USA",
+        "twitter": "@FlippedCoding ",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/milecia.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/milecia.jpg"
+        },
+        "order": "",
+        "event": "",
+        "town": "Oklahoma",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593293107,
+        "_created": 1593268474,
+        "_id": "5ef758fa6531334b6d000304"
+    },
+    {
+        "name": "Shodipo Ayomide",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Shodipo Ayomide is a Senior Developer Advocate, Software Engineer, Program manger and teacher, who also contributes to a lot of open-source projects over on GitHub, he also runs some major communities like unStack, Developers Circles Lagos from Facebook, Open Source Community Africa and NaijaHacks driving Nigeria &amp; Africa forward in Technology, he is an international speaker who has spoken at a lot of conferences over time in various locations, in his free time he loves to, Read, See a Movie and Occasionally play video games, Loves Travelling and Family.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Shodipo Ayomide is a Senior Developer Advocate, Software Engineer, Program manger and teacher, who also contributes to a lot of open-source projects over on GitHub, he also runs some major communities like unStack, Developers Circles Lagos from Facebook, Open Source Community Africa and NaijaHacks driving Nigeria &amp; Africa forward in Technology, he is an international speaker who has spoken at a lot of conferences over time in various locations, in his free time he loves to, Read, See a Movie and Occasionally play video games, Loves Travelling and Family.<\/span><\/p>",
+        "company": "Fleek",
+        "title": "Getting up to Speed With Deno",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;In this talk, I would be Presentation of the new JavaScript Runtime called Deno the advantages like Security by Default, TypeScript first-class language, ES Modules, Distributed Package Management, Top-Level Await, Standard Library and more.\\n\\nThe key things this talk would cover would be:\\n\\n- Getting you up to speed on how Deno works\\n- The Deno Infrastructure \\n- The Deno CLI\\n- Using Deno in Production&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">In this talk, I would be Presentation of the new JavaScript Runtime called Deno the advantages like Security by Default, TypeScript first-class language, ES Modules, Distributed Package Management, Top-Level Await, Standard Library and more.<br \/><br \/>The key things this talk would cover would be:<br \/><br \/>- Getting you up to speed on how Deno works<br \/>- The Deno Infrastructure <br \/>- The Deno CLI<br \/>- Using Deno in Production<\/span><\/p>",
+        "country": "Nigeria",
+        "twitter": "@developerayo",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/shopido.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/shopido.jpg"
+        },
+        "order": "",
+        "event": "",
+        "town": "Lagos",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593295443,
+        "_created": 1593269268,
+        "_id": "5ef75c146531334ec30000cd"
+    },
+    {
+        "name": "Maximiliano Firtman",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Max Firtman (@firt) is a mobile + web developer, trainer, speaker, and writer. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web published by O&rsquo;Reilly Media, and many online courses at Lynda, LinkedIn Learning, PluralSight, O'Reilly Learning, Udemy and more publishers. He is a frequent speaker at conferences worldwide and he has been widely recognized for his work in the mobile-web community. He teaches mobile (Android &amp; iOS), HTML5, PWA and web performance trainings for top companies around the world.\\n&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Max Firtman (@firt) is a mobile + web developer, trainer, speaker, and writer. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web published by O&rsquo;Reilly Media, and many online courses at Lynda, LinkedIn Learning, PluralSight, O'Reilly Learning, Udemy and more publishers. He is a frequent speaker at conferences worldwide and he has been widely recognized for his work in the mobile-web community. He teaches mobile (Android &amp; iOS), HTML5, PWA and web performance trainings for top companies around the world.<br \/><\/span><\/p>",
+        "company": "",
+        "title": "The Mysterious Life of Web Apps in the Background",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Do you know what happens with your code when the user presses the home button, receives a call, or reply to a WhatsApp message while using your web app? Let's spy on the lifecycle of web apps today and uncover the secrets of their mysterious life in the background. \\n&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Do you know what happens with your code when the user presses the home button, receives a call, or reply to a WhatsApp message while using your web app? Let's spy on the lifecycle of web apps today and uncover the secrets of their mysterious life in the background. <br \/><\/span><\/p>",
+        "country": " Argentina",
+        "twitter": "@firt",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/firt.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/firt.jpg"
+        },
+        "order": "",
+        "event": "",
+        "town": "Buenos Aires",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593294444,
+        "_created": 1593269644,
+        "_id": "5ef75d8c653133504d0003b7"
+    },
+    {
+        "name": "Luciano Mammino",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Luciano Mammino wrote his first line of code at the age of 12 on his father's old i386. Since then, he has never stopped coding. He is currently working at  FabFitFun as Principal Software Engineer where he is building microservices to serve millions of users every day. Luciano is co-author of Node.js Design Patterns (nodejsdp.link) and he runs Fullstack Bulletin (fstack.link), a free weekly newsletter for fullstack developers.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Luciano Mammino wrote his first line of code at the age of 12 on his father's old i386. Since then, he has never stopped coding. He is currently working at FabFitFun as Principal Software Engineer where he is building microservices to serve millions of users every day. Luciano is co-author of Node.js Design Patterns (nodejsdp.link) and he runs Fullstack Bulletin (fstack.link), a free weekly newsletter for fullstack developers.<\/span><\/p>",
+        "company": "FabFitFun",
+        "title": "Node.js - Scalability tips",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Did you hear that Node.js is single threaded and therefore it does not scale, right? Well, this is a myth and, once again, we needs to bust this myth! In this talk I will walk you through about the architecture of Node.js and show you few tips and tricks about web application scalability and how they can be applied to Node.js.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Did you hear that Node.js is single threaded and therefore it does not scale, right? Well, this is a myth and, once again, we need to bust this myth! In this talk, I will walk you through about the architecture of Node.js and show you a few tips and tricks about web application scalability and how they can be applied to Node.js.<\/span><\/p>",
+        "country": "Ireland",
+        "twitter": "@loige",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/luciano.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/luciano.jpg"
+        },
+        "order": "",
+        "event": "",
+        "town": "Dublin",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593293906,
+        "_created": 1593270490,
+        "_id": "5ef760da65313353f100038f"
+    },
+    {
+        "name": "Zack Jackson",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Principal Engineer, specializing in distributed application architecture at scale&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Principal Engineer, specializing in distributed application architecture at scale<\/span><\/p>",
+        "company": "lululemon",
+        "title": "Webpack 5 Module Federation",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Consume parts of independently deployed Javascript applications at runtime. &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Consume parts of independently deployed Javascript applications at runtime. <\/span><\/p>",
+        "country": "USA",
+        "twitter": "@ScriptedAlchemy",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/zack.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/zack.jpg"
+        },
+        "order": "",
+        "event": "",
+        "town": "Redmond, WA",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593294087,
+        "_created": 1593271293,
+        "_id": "5ef763fd65313357190002cc"
+    },
+    {
+        "name": "Matteo Collina",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;\\nMatteo is Technical Director at NearForm, where he consults for some of the top brands in the world. In 2014, he defended his Ph.D. thesis titled \\&quot;Application Platforms for the Internet of Things\\&quot;. Matteo is a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast logger Pino and of the Fastify web framework. Matteo is a renowned international speaker after presenting at more than 50 conferences, including Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. He is also co-author of the book \\&quot;Node.js Cookbook, Third Edition\\&quot; edited by Packt. In the summer he loves sailing the Sirocco.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\"><br \/>Matteo is Technical Director at NearForm, where he consults for some of the top brands in the world. In 2014, he defended his Ph.D. thesis titled \"Application Platforms for the Internet of Things\". Matteo is a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast logger Pino and of the Fastify web framework. Matteo is a renowned international speaker after presenting at more than 50 conferences, including Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. He is also co-author of the book \"Node.js Cookbook, Third Edition\" edited by Packt. In the summer he loves sailing the Sirocco.<\/span><\/p>",
+        "company": "NearForm",
+        "title": "GraphQL. Accelerated",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;\\nGraphQL is a query language that combines type validation with a query and filtering syntax that makes it easy to get up-and-running with a powerful web API in almost no time. Add to that a vibrant community that keeps creating excellent tooling and documentation, it&rsquo;s clear why GraphQL has become so popular with developers.\\n\\nEvery abstraction has a cost, and GraphQL is no exception. The added complexity and a new schema format to parse and execute mean new performance bottlenecks. In addition to performance issues, the wrong use of GraphQL can lead to architectural bottlenecks. \\n\\nInstead of viewing this as a problem we took this as a challenge, and in this talk we will unveil how we made it run a lot faster on Node.js using different performance techniques that we have learned in the last few years.\\n&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\"><br \/>GraphQL is a query language that combines type validation with a query and filtering syntax that makes it easy to get up-and-running with a powerful web API in almost no time. Add to that a vibrant community that keeps creating excellent tooling and documentation, it&rsquo;s clear why GraphQL has become so popular with developers.<br \/><br \/>Every abstraction has a cost, and GraphQL is no exception. The added complexity and a new schema format to parse and execute mean new performance bottlenecks. In addition to performance issues, the wrong use of GraphQL can lead to architectural bottlenecks. <br \/><br \/>Instead of viewing this as a problem, we took this as a challenge, and in this talk, we will unveil how we made it run a lot faster on Node.js using different performance techniques that we have learned in the last few years.<br \/><\/span><\/p>",
+        "country": "Italy",
+        "twitter": "@matteocollina",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/mateo.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/mateo.jpg"
+        },
+        "order": "",
+        "event": "",
+        "town": "Forli",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593294708,
+        "_created": 1593271633,
+        "_id": "5ef7655165313358550000e5"
+    },
+    {
+        "name": "Jemima Abu",
+        "bio": "",
+        "company": "Telesoftas ",
+        "title": "Accessible.JS",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;It&rsquo;s no secret that modern JavaScript is taking over the web. While this is great for performance and optimization, it begs the question &ldquo;Just how accessible is JavaScript?&rdquo; In this talk, we&rsquo;ll cover all the ways to make your JavaScript site as accessible and unobtrusive as possible.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">It&rsquo;s no secret that modern JavaScript is taking over the web. While this is great for performance and optimization, it begs the question &ldquo;Just how accessible is JavaScript?&rdquo; In this talk, we&rsquo;ll cover all the ways to make your JavaScript site as accessible and unobtrusive as possible.<\/span><\/p>",
+        "country": "Lithuania ",
+        "twitter": "@jemimaabu",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/jemina.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/jemina.jpg"
+        },
+        "order": "",
+        "event": "",
+        "town": "Kaunas",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593294943,
+        "_created": 1593271959,
+        "_id": "5ef76697653133599800011c"
+    },
+    {
+        "name": "ITALO JOSE GONCALVES DE OLIVEIRA",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Italo Jos&eacute; is Microsoft MVP in AI category and works at Vortx as a lead solutions architect, also he's Lead of Developer Circle SP from Facebook in S&atilde;o Paulo and is a Self-driving car assistant teacher at FIAP university in the mechatronic course. He wins (3&ordm;) the real self-driving car global hackathon in China by Pix Moving in 2019 and contributes with the community speaking about AI, mentoring communities by the communup.tech project and writing on medium and in the IMaster (IT Forum) as a columnist.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Italo Jos&eacute; is Microsoft MVP in AI category and works at Vortx as a lead solutions architect, also he's Lead of Developer Circle SP from Facebook in S&atilde;o Paulo and is a Self-driving car assistant teacher at FIAP university in the mechatronic course. He wins (3&ordm;) the real self-driving car global hackathon in China by Pix Moving in 2019 and contributes with the community speaking about AI, mentoring communities by the communup.tech project and writing on medium and in the IMaster (IT Forum) as a columnist.<\/span><\/p>",
+        "company": "Vortx",
+        "title": "RealTime exoskeleton-mapping and body segmentation on the browser with Tensorflow.js",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;In this talk, we will show how we can implement a deep learning model with Tensorflow.js that makes it for us, and the best part, everything running in the browser!&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">In this talk, we will show how we can implement a deep learning model with Tensorflow.js that makes it for us, and the best part, everything running in the browser!<\/span>https:\/\/twitter.com\/italojs_<\/p>",
+        "country": "Brasil ",
+        "twitter": "https:\/\/twitter.com\/italojs_",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/italo.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/italo.jpg"
+        },
+        "order": "",
+        "event": "",
+        "town": "S\u00e3o Paulo",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593293599,
+        "_created": 1593272392,
+        "_id": "5ef768486531335b200001d8"
+    },
+    {
+        "name": "Tan Li Hau",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Originally from Malaysia, Li Hau is an expert engineer at Shopee, Svelte core member and Babel contributor. He is a polyglot. He speaks English, Chinese, Malay, JavaScript, CSS, and HTML. In his free time, he writes about JavaScript frameworks and tools.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Originally from Malaysia, Li Hau is an expert engineer at Shopee, Svelte core member and Babel contributor. He is a polyglot. He speaks English, Chinese, Malay, JavaScript, CSS, and HTML. In his free time, he writes about JavaScript frameworks and tools.<\/span><\/p>",
+        "company": "Shopee",
+        "title": "Looking into the Svelte compiler",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Have you ever wonder how does the Svelte compilation process works?\\nHave you ever feeling curious and want to read Svelte source code but does not know where to start?\\n\\nThis talk will give you an overview of the Svelte compilation process, from parsing the source code, analyse the code to generating final JavaScript code.\\n\\nAt the end of the talk, you will get a deeper understanding of the Svelte compilation process.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Have you ever wonder how does the Svelte compilation process works?<br \/>Have you ever feeling curious and want to read Svelte source code but does not know where to start?<br \/><br \/>This talk will give you an overview of the Svelte compilation process, from parsing the source code, analyse the code to generating final JavaScript code.<br \/><br \/>At the end of the talk, you will get a deeper understanding of the Svelte compilation process.<\/span><\/p>",
+        "country": "Singapore",
+        "twitter": "@lihautan",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/lihautan.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/lihautan.jpg"
+        },
+        "order": "",
+        "event": "",
+        "town": "Pulau Ujong",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593292420,
+        "_created": 1593272604,
+        "_id": "5ef7691c6531335bed0002e0"
     }
 ]
