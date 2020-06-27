@@ -1,75 +1,82 @@
 <template>
-  <div id="topsection" style="position:relative; display: block;">
-   <div class="home-info">
-      <div class="overlay">
-      </div>
-  
-      <div class="home-info__inner content">
-        <div class="info left">
-          <h1>
-            <b>
-              City of London JS Community Conference <br/>
-              CityJS Conference
-            </b>
-          </h1>
-          <div class="columns">
-            <div class="column is-4">
-                <h2>
-                  14-18 Sep 2020 <br/>
-                  <span> Remotely </span>
-                </h2>
-            </div>
-            <div class="column is-4">
-              <h2>
-                26-29  Mar 2021<br/>
-                <span> Regent Street Cinema</span>
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="info">
-          <div class="info-vertical">
-            <div class="info-number">
-              2
-            </div>
-            <div class="info-text">
-              <span class="info-text__main">DAYS</span>
-              <span class="info-text__sub">inc 2 DAYS Workshops</span>
-            </div>
-          </div>
-          <div class="info-vertical">
-            <div class="info-number">
-              25+
-            </div>
-            <div class="info-text">
-              <span class="info-text__main">SPEAKERS</span>
-              <span class="info-text__sub">Across all the continents</span>
-            </div>
-          </div>
-          <div class="info-vertical">
-            <div class="info-number">
-              1000
-            </div>
-            <div class="info-text">
-              <span class="info-text__main">JAVASCRIPT DEVELOPERS</span>
-              <span class="info-text__sub">Connecting across the world</span>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      <footer>
-            <div class="container">
-              <section>
-                  <div class="columns">
-                    <div class="column">
-                      <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
-                    </div>
+  <div style="background: black;">
+  <div class="home-info">
+    <div class="overlay"></div>
+    <section class="section">
+      <div class="container">
+        <div class="columns  is-multiline  home-info__inner content">
+          <div class="column is-12">
+            <div class="columns  is-mobile  is-multiline contend">
+              <div class="column is-6-desktop is-12-mobile is-12-tablet">
+                <h1>
+                  <b>
+                    City of London JS Community Conference
+                    <br />CityJS Conference
+                  </b>
+                </h1>
+                <div class="columns is-mobile is-multiline events">
+                  <div class="column is-12-mobile">
+                    <h2>
+                      14-18 Sep 2020
+                      <br />
+                      <span>GLOBAL ONLINE EVENT</span>
+                    </h2>
                   </div>
-              </section> 
+                  <div class="column is-12-mobile">
+                    <h2>
+                      26-29 Mar 2021
+                      <br />
+                      <span>Regent Street Cinema</span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-multiline is-mobile is-4-desktop is-offset-2-desktop">
+                <div class="info">
+                  <section>
+                    <div class="container">
+                      <div class="columns is-multiline is-mobile">
+                        <div class="column is-1-tablet is-1-desktop is-1-mobile info-vertical ">
+                          <div class="info-number">2</div>
+                        </div>
+                        <div class="column is-9-desktop is-9-tablet is-9-mobile info-vertical is-offset-2">
+                          <div class="info-text">
+                            <span class="info-text__main">DAYS Conference</span>
+                            <span class="info-text__sub">inc 2 DAYS Workshops</span>
+                          </div>
+                        </div>
+                        <div class="column is-1-tablet is-1-desktop  is-1-mobile info-vertical ">
+                          <div class="info-number">25+</div>
+                        </div>
+                        <div class="column is-9-desktop  is-9-tablet  is-9-mobile info-vertical  is-offset-2">
+                          <div class="info-text">
+                            <span class="info-text__main">SPEAKERS</span>
+                            <span class="info-text__sub">Across all the continents</span>
+                          </div>
+                        </div>
+                        <div class="column is-1-tablet is-1-desktop is-1-mobile info-vertical">
+                          <div class="info-number">1000</div>
+                        </div>
+                        <div class="column is-8-desktop  is-9-tablet  is-9-mobile info-vertical  is-offset-2">
+                          <div class="info-text">
+                            <span class="info-text__main">JAVASCRIPT DEVELOPERS</span>
+                            <span class="info-text__sub">Connecting across the world</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
             </div>
-         </footer>
-    </div>
+             <div class="timer">
+                <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
+             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
   </div>
 </template>
 
@@ -97,70 +104,38 @@ export default {
     margin-bottom: 3.2rem;
     margin-top: 1.5rem;
     font-size: 2rem;
-    line-height: 3rem
     +mobile
       line-height: 1.2rem;
       margin-top: 0rem;
       font-size: 0.9rem;
     +ipadpro
       line-height: 1.2rem;
-      margin-top: 0rem;
       font-size: 0.9rem;
 
+  .events 
+    margin-top: 50px;
+    font-size: 3rem;
+
   .content
-    h2 
-      font-size: 1.5rem;
-      color: $white;
-      background: $black;
-      padding: 10px;
-      span 
-        font-size: 1.1rem;
+    margin-bottom: 0px;
+    .events
+      h2 
+        font-size: 1.5rem;
+        +mobile
+          font-size: 0.9rem;
+        color: $white;
+        background: $black;
+        padding: 10px;
+        span 
+          font-size: 1.1rem;
 
   .contend
     color: $white;
     font-size: 1.9rem;
-    font-weight: 700
-    line-height: 2rem
+    font-weight: 700;
     text-transform: uppercase
     font-family: 'Oswald', sans-serif;
-    position: absolute
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
-    left: 0;
-    right: 0;
-    @include position(absolute, $top: 20%, $left: -10%)
-    +mobile
-      top: 0px;
-      font-size: 1.2rem;
-      height: 200vw;
-      @include position(absolute, $top: 13%, $left: 4%)
-    +tablet
-      top: 20%;
-
-  .video_contain
-    &.lazyloaded
-      background: url(/images/previous_year/cinema1.jpg) no-repeat top;
-      position: absolute;
-      background-repeat: no-repeat;
-      padding: 150px 0;
-      height: 100vw;
-      background-position-y: -156px;
-      left: 0;
-      width: 98%;
-      height: 215vw;
-      top: -1.2rem;
-      background-size: contain;
-      +mobile
-        top: -25%;
-        left: -78%;
-        width: 320%;
-      +tablet
-        left: 3px;
-        width: 100%;
-        height: 215vw;
-        top: -1.5rem;
-      +desktop
+    margin: 0 auto;
 
   .location
     font-size: 1.8rem;
@@ -171,84 +146,64 @@ export default {
     position: relative;
     display: block;
     overflow: hidden;
+    height: 90vh;
     +mobile
-      height: 113vw;
-      min-height: 300px;
+      height: 125vh;
     +tablet
-      height: 47vw;
-      min-height: 40vw;
-    +desktop
-      min-height: 100vw;
-
+      height: 100vh
 
   .banner:before
     content: "";
     @include position(absolute, $top: 0, $left: 0);
     z-index: 1;
     width: 100%;
-    height: auto;
-  
-  .video-player
-    position: absolute;
-    width: 100%;
-    height: auto;
 
   .overlay-container
     position:absolute
     background: rgba($red, 0.7)
-    height: 230vw;
-  
-  .slide
-    width: 100%
-    height: 100%;
-    background: inherit
-    text-align: center
-    @include position(absolute, $top: 0px, $left: 0px)
-    +mobile
-      padding: 0px;
-      margin: 0px;
-    +tablet
-    +desktop
 
   .info 
-    margin-top: 5px;
     font-size: 0.5em;
     +mobile
-      font-size: .9rem;   
+   
   .home-info 
-    background-image: url(/images/audience.jpg);
-    background-repeat: no-repeat;
+    left: 0;
     background-size: cover;
-    width: 100%;
-    overflow: hidden;
+    background-image:  url(/images/previous_year/cinema1.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -180px;
+    height: 70vh;
     +mobile
-      height: 100vh;
-      min-height: 300px;
-    +tablet
-      height: 47vw;
-      min-height: 40vw;
-    +desktop
-      min-height: 100vw;
+      height: 140vh
     .overlay
       background-color: rgba(255, 48, 48, 0.7);
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%;
+    +mobile
+      left: -108%;
+      font-size: .3rem;   
+      background-position-x: -200px;
+      margin: 0px;
+    +tablet
+      height: 100vh
+      left: 3px;
+      width: 100%;
+      top: -1.5rem;
   .home-info__inner
-    position: relative;
     margin: auto;
-    padding: 10vw 0px;
+    padding-top: 20vh;
     top: 0;
     display: flex;
     width: 100%;
     +mobile
-      height: 100vh;
+      padding-top: 0vw;
       text-align: center;
       display: block;
     +tablet
       max-width: 1344px;
+      padding-top: 5vw;
     +desktop
       max-width: 1344px;
     .info
@@ -258,21 +213,25 @@ export default {
       color: white;
       .info-vertical
         +mobile
-          padding: 26px;
-        right: 0;
-        flex-grow: 1;
-        display: flex;
+          padding-top: 10px;
         .info-number
           line-height: 3rem;
-          flex: 1;
           width: 2rem;
           height: 11vh;
           margin-right: 50px;
           font-size: 2.5rem;
+          +mobile
+            height: 5vh;
+            font-size: 2rem;
         .info-text
-          flex: 6;
+          text-align: left;
+          padding-left: 20px;
+          +mobile
+            font-size: 2rem;
           span
             font-size: 1.25rem
+            +mobile
+              font-size: 1.5rem;
             display: block;
     .left
       flex: 2;
@@ -281,8 +240,17 @@ export default {
       color: white;
       font-family: 'Oswald', sans-serif;
       font-size: 3rem;
+      +mobile
+        font-size: 1.3rem
+      +tablet 
+        font-size: 2rem;
 
-  .timer
-    top: 100vh !important;
-  
+    .timer
+      +tablet
+        margin-top: 8rem;
+      +mobile
+        margin-top: 80px
+
+
+
 </style>

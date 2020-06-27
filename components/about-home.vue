@@ -3,12 +3,12 @@
     <section class="about-home section backimg is-mobile lazyload">
       <div class="container">
         <div class="columns level-right">
-          <div class="column is-4-desktop is-12-mobile is-12-tablet is-offset-4">
+          <div class="column is-4-desktop tablet is-12-tablet is-12-mobile is-offset-4-desktop">
             <div class="card">
               <div class="card-content">
                 <div class="media">
                   <div class="media-content copy">
-                    <div class="title is-4 no-padding" v-html="subtitle"></div>
+                    <div class="title is-6 no-padding" v-html="subtitle"></div>
                     <p class="subtitle" v-html="current.subtitle"></p>
                     <div class="banner-heading">
                       <span></span>
@@ -55,21 +55,22 @@ export default {
 <style lang="sass" scoped>
     @import '~/assets/css/mq.sass';
     .about-home
-        margin-top: -140px;
         +mobile
-          margin-top: 0vw;
+          margin-top: -30vw;
     .backimg
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         padding: 220px 0;
-        height: 672px;
         +ipadpro
-          height: 750px;
+          padding: 320px 0;
+        +mobile
+          height: 140vh;
         &.lazyloaded
           background-image: url(/images/audience.jpg); 
           background-repeat: no-repeat; 
           background-size: cover;
+          background-position-y: -300px;
           +mobile
               background-position: 41% -273px;
               background-repeat: no-repeat;
@@ -141,5 +142,9 @@ export default {
         margin-left: 0px !important;
         bottom: 0px;
         padding: 0px;
+
+    .tablet 
+      +ipadpro
+        width: 100%;
 
 </style>

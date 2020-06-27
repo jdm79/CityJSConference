@@ -32,8 +32,19 @@
                                 </figure>
                                     
                                 <div class="columns">
+                                      
                                     <div class="column is-12" style="padding: 0 3rem 0 3rem; margin-top: -50px; position: relative; background: white; margin: 0 auto; width: 85%; margin-bottom: 20px;">
-                                        <h3>
+                                       <span>
+                                            <a 
+                                                class="titlebtn"
+                                                v-on:click="select(item)"
+                                            >
+                                                <h3 class="small-title talk-title">
+                                                    {{item.title}}                                                                  
+                                                </h3>
+                                            </a>
+                                        </span>
+                                        <h4>
                                             {{item.name}}   
                                             
                                             <span>
@@ -41,7 +52,7 @@
                                                     <i data-v-4a676ae2="" class="fa fa-twitter"></i>
                                                 </a>
                                             </span>
-                                        </h3>
+                                        </h4>
                                       
                                         <span style="margin-top: 10px; font-size: 14px">
                                             <i class="fa fa-building" style=" font-size: 11px; margin-right:5px" aria-hidden="true"></i>
@@ -49,20 +60,11 @@
                                         </span>
                                         <br/>
                                         <span style="margin-top: 10px; font-size: 14px">
-                                                <i class="fa fa-map-marker" style=" margin-right:7px" aria-hidden="true"></i>
+                                                <i class="fa fa-signal-stream"></i>
                                                 {{item.town}},  {{item.country}}
                                         </span>
 
-                                        <span>
-                                            <a 
-                                                class="titlebtn"
-                                                v-on:click="select(item)"
-                                            >
-                                                <h4 class="small-title talk-title">
-                                                    {{item.title}}                                                                  
-                                                </h4>
-                                            </a>
-                                        </span>
+                                      
                                     </div>
                                      
                                 </div>
@@ -200,6 +202,8 @@ export default {
         color: $black;
         h3 
             min-height: 50px;
+            font-size: 1.1rem;
+            height: auto;
 
     .closed
         display: none

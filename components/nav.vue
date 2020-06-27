@@ -110,12 +110,7 @@ export default {
       background: $white;
       color: $black;
     +ipadpro
-      background: $white;
-      color: $black;
-    +ipadpro
-      background: transparent;
-
-
+      color: $white;
   .logo 
     +mobile
       background: transparent;
@@ -144,7 +139,7 @@ export default {
     +mobile
       color: $black
     +ipadpro
-      color: $black;
+      color: $white;
 
   .navbar-burger
     &:hover

@@ -3,7 +3,7 @@
         <section class="section backimgVenue is-mobile" :style="style">
         <div class="container">
             <div class="columns level-right">
-                <div class="column is-4 is-offset-4">
+                <div class="column is-4 tablet is-offset-4">
                     <div class="card ">
                         <div class="card-content">
                             <div class="media">
@@ -134,4 +134,8 @@
         margin-left: 0px !important;
         bottom: 0px;
         padding: 0px;
+
+    .tablet 
+      +ipadpro
+        width: 100%;
 </style>

@@ -2,7 +2,7 @@
   <section>
   <div class="timer">
     <div class="columns">
-        <div class="column is-8">
+        <div class="column is-8 is-hidden-mobile ">
           <h2> 
               React, and GraphQL <a href="/workshops">Workshops</a> <br/>
               All about TypeScript, React, Vue, Testing, IoT, NodeJS, React Native <br/>
@@ -127,10 +127,11 @@
     text-transform: uppercase;
     text-align: center;
     font-size: 0.9rem;
-    background: $white;
     z-index: 10000;
+    background: $white;
     +mobile
-      background: $white;
+      background: initial;
+
     a
       color: $darkred;
     h2 
@@ -139,10 +140,10 @@
       line-height: 2.25rem;
       text-transform: none;
       padding: 20px;
+      background: none;
       +mobile
         line-height: 2rem;
         font-size: 1.2rem;
-        padding: 10px;
     .block
       background-color: $black;
       height: 20px
