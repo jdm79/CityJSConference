@@ -33,7 +33,8 @@
                                     
                                 <div class="columns">
                                       
-                                    <div class="column is-12" style="padding: 1rem 3rem 0 3rem; margin-top: -50px; position: relative; background: white; margin: 0 auto; width: 85%; margin-bottom: 20px;">
+                                    <div class="column is-12 talkinfo"
+                                     >
                                        <span>
                                             <a 
                                                 class="titlebtn"
@@ -54,8 +55,7 @@
                                             </span>
                                         </h4>
                                       
-                                        <span style="margin-top: 10px; font-size: 14px">
-                                            <i class="fa fa-building" style=" font-size: 11px; margin-right:5px" aria-hidden="true"></i>
+                                        <span style="company">
                                             {{item.company}}
                                         </span>
                                         <br/>
@@ -184,6 +184,19 @@ export default {
     h3
      margin-bottom: 0px;
 
+    .talkinfo
+        padding: 1rem 3rem 0 3rem; 
+        margin-top: -50px;
+        position: relative; 
+        background: white; 
+        margin: 0 auto; 
+        width: 85%; 
+        margin-bottom: 20px;
+    
+    .company
+        font-size: 11px; 
+        margin-right: 5px;
+
     .titlebtn
             padding-top: 40px;
 
@@ -271,5 +284,5 @@ export default {
             margin-bottom: 5px;
             
    
-       
+
 </style>
