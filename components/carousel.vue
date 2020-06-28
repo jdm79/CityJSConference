@@ -247,7 +247,7 @@ export default {
 
     .timer
       +tablet
-        margin-top: 8rem;
+        margin-top: 3rem;
       +mobile
         margin-top: 80px
 

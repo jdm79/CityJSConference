@@ -56,7 +56,7 @@ export default {
     @import '~/assets/css/mq.sass';
     .about-home
         +mobile
-          margin-top: -30vw;
+          margin-top: -20vw;
     .backimg
         background-position: center center;
         background-repeat: no-repeat;
@@ -78,7 +78,7 @@ export default {
               padding: 2.0rem 0;
               height: 255vw;
         .card
-            top: -50px;
+            top: -90px;
             +mobile
                 top: 35vw;
             +ipadpro

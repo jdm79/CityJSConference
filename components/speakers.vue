@@ -3,7 +3,7 @@
     <div class="testimonials is-text  ">
         <app-h2
             title="2020 Speakers"
-            subtitle="We are excited to announce our talks for this year"
+            subtitle="We are excited to announce our global speakers for this year"
             :is-h2="true"
         >
         </app-h2>
@@ -18,9 +18,7 @@
            >
                     <div class="is-one ">
                          <div class="card-image">
-                            <a 
-                                v-on:click="select(item)"
-                            >
+                           <nuxt-link :to="`/speaker/${item._id}`" no-prefetch>
                                 <figure class="image is-40x40">
                                     <img 
                                         v-if="typeof 
@@ -68,53 +66,9 @@
                                     </div>
                                      
                                 </div>
-                            </a>
+                            </nuxt-link>
                         </div>
                     </div>
-           </div>
-           <div 
-                :class="['column spekers-card-container modal-background', {'closed':open === false}]" 
-                v-if="this.chosen"
-                v-on:click="select(item)"
-            >
-                <div class="card speaker-card">
-                    <div class="card-content">
-                        <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                                <img 
-                                    v-if="typeof 
-                                    chosen.image!== 'undefined'"  
-                                    :alt="chosen.name" 
-                                    :src="`/siteimages/${chosen.thumbnail.path}`"
-                                    class="speaker"
-                                />
-                            </figure>
-                            <a 
-                                :class="['button  close closebtn', {'closed':open === false}]"
-                                v-on:click="close()"
-                            >
-                                <span class="icon is-small">
-                                    X
-                                </span>
-                            </a>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4">{{chosen.name}}</p>
-                            <p class="subtitle is-6">
-                                <a :href="`//twitter.com/${chosen.twitter}`">
-                                    @{{chosen.twitter}}
-                                </a><br/>
-                                {{chosen.company}}
-                            </p>
-                        </div>
-                        </div>
-                       <div>
-                             <h2 class="small-title">{{chosen.title}}</h2>
-                            <div v-html="chosen.talk" />
-                        </div>
-                    </div>
-                </div>
            </div>
         </div>
     </div>
@@ -129,12 +83,6 @@ import talk from '@/components/talk';
 import { mapGetters } from 'vuex'
 
 export default {
-  data: function() {
-    return {
-        chosen: null,
-        open: false,
-    } 
-  },
   props: {
     items: {
       type: Array,
@@ -145,17 +93,7 @@ export default {
     "app-talk" : talk
   },
   mounted: function() {
-    this.carousel = bulmaCarousel.attach();
     this.$store.dispatch("speakers/get");
-  },
-  methods: {
-    select: function (talk) {
-        this.chosen = talk;
-        this.open = !this.open;
-    },
-    close: function () {
-        this.open = !this.open;
-    }
   },
   computed: {
     ...mapGetters({
@@ -164,14 +102,15 @@ export default {
     isMobile () {
         return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) ? true : false;
     }, 
-     filteredSpeakers() {
-      if (typeof this.speakers !== "undefined") {
-        return this.speakers.filter(speaker => {
-          return speaker.year === 2020;
-        }).sort(function(a, b) {
-            return a.order-b.order
-        });
-      }
+    filteredSpeakers() {
+        console.log(this.speakers)
+        if (typeof this.speakers !== "undefined") {
+            return this.speakers.filter(speaker => {
+            return speaker.year === 2020;
+            }).sort(function(a, b) {
+                return a.order-b.order
+            });
+        }
       }
   }
   
