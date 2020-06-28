@@ -4,7 +4,7 @@
         "subtitle": "An event that is run by four London JavaScript meetups",
         "url": "home",
         "type": "Home",
-        "description": "<p>CityJS Conference&nbsp;is a JavaScript festival across London, a joint event from the London's JavaScript meetups, including&nbsp;<a href=\"https:\/\/www.meetup.com\/London-JavaScript-Community\/\">London JS Community<\/a>,&nbsp;<a href=\"https:\/\/www.meetup.com\/js-monthly\/\">JS Monthly<\/a>,&nbsp;<a href=\"https:\/\/www.meetup.com\/halfstack\/\">Halfstack<\/a> and <a href=\"https:\/\/www.meetup.com\/london-nodejs\/\">Node User Group.<\/a><\/p>\n<p>This is a fantastic opportunity<span style=\"font-weight: 400;\">&nbsp;for the&nbsp;JavaScipt community, and for those aiming to stay in touch with the industry, be updated on innovative changes around the industry and JS as an entity, absorb knowledge while you can hop on and off thought-provoking workshops and talks this is possibly the most central and reasonably priced event to attend in London.&nbsp;<\/span><\/p>",
+        "description": "<p>CityJS Conference&nbsp;is a JavaScript festival across London, a joint event from London's JavaScript meetups, including&nbsp;<a href=\"https:\/\/www.meetup.com\/London-JavaScript-Community\/\">London JS Community<\/a>,&nbsp;<a href=\"https:\/\/www.meetup.com\/js-monthly\/\">JS Monthly<\/a>,&nbsp;<a href=\"https:\/\/www.meetup.com\/halfstack\/\">Halfstack<\/a> and <a href=\"https:\/\/www.meetup.com\/london-nodejs\/\">Node User Group.<\/a><\/p>\n<p>This is a fantastic opportunity<span style=\"font-weight: 400;\">&nbsp;for the&nbsp;JavaScript community, and for those aiming to stay in touch with the industry, to be updated on innovative changes around the industry and JS as an entity, absorb knowledge whilst hopping on and off thought-provoking workshops and talks. This is possibly the most central and reasonably priced event to attend in London.&nbsp;<\/span><\/p>",
         "shortDescription": "<p>An event run for developers, by developers<\/p>",
         "widgets": [
             {
@@ -64,7 +64,7 @@
         "subtitle": "",
         "url": "speakers",
         "type": "Standard",
-        "description": "<p>&nbsp;<\/p>\n<p>The CFP for the 2020 event is now closed.<\/p>\n<p>&nbsp;<\/p>\n<p>We would like to thank everyone for submitting your proposals we have been really excited by your response to our call for papers.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Below you can see some of the speakers selected. We will be revealing some more speakers soon.<\/p>",
+        "description": "<p>&nbsp;<\/p>\n<p>The CFP for the 2020 event is now closed.<\/p>\n<p>&nbsp;<\/p>\n<p>We would like to thank everyone for submitting proposals - we've been really excited by the response to our call for papers.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Below you can see some of the speakers selected. We will be revealing some more speakers soon.<\/p>",
         "shortDescription": "",
         "widgets": [
             {
@@ -106,7 +106,7 @@
         "subtitle": "",
         "url": "schedule",
         "type": "Standard",
-        "description": "<p>Please scroll below to navigate to our schedule, our talks will go through Frameworks React, VueJS, TypeScript React, Testing, IoT and NodeJS.&nbsp;<\/p>\n<p>In the last two days 15 and 16 of September, we will have three workshops at Birkbeck University on React, GraphQL and TypeScript.<\/p>\n<p>&nbsp;<\/p>\n<p>The main event is on the third day on the 14 of September at Regent Street Cinema<\/p>",
+        "description": "<p>Please scroll below to navigate to our schedule. Our talks will go through frameworks such as React, VueJS, TypeScript React, Testing, IoT and NodeJS.&nbsp;<\/p>\n<p>In the last two days of the conference - 15 and 16 of September - we will have three workshops at Birkbeck University on React, GraphQL and TypeScript.<\/p>\n<p>&nbsp;<\/p>\n<p>The main event is on the third day on the 14th of September at Regent Street Cinema<\/p>",
         "shortDescription": "<p>We are currently in the process of picking up the remaining speakers.<\/p>\n<p>Once the process is completed we will print our schedule.&nbsp;<\/p>",
         "widgets": [
             {
@@ -408,7 +408,7 @@
         "subtitle": "",
         "url": "scholarships",
         "type": "Standard",
-        "description": "<div id=\":c8\">\n<div class=\"btm\"><strong>CityJSConf<\/strong> is a community joint event created by our Londons JavaScript meet-up groups. This is a non-profitable&nbsp;conference and our purpose is to give back to our community. Thanks to the great generosity of our sponsors we are giving away 20 tickets for this year&rsquo;s main event.<\/div>\n<\/div>\n<div class=\"\">\n<div id=\":ca\" class=\"ii gt adO\">\n<div id=\":c9\" class=\"a3s aXjCH \">\n<p>&nbsp;<\/p>\n<p>We wish to support our community and highly encourage students and others coming from diverse backgrounds (people of color, LGBTQIA, people with disabilities, refugees, women, students and people facing economic or social hardships) to apply for scholarships. Travel and accommodation expenses are not included.<\/p>\n<p>&nbsp;<\/p>\n<p>If you are keen to attend CityJSConf but have difficulty attending the conference due to lack of money or resources, this is your chance. We will be delighted to have you with us!<\/p>\n<p>The application deadline&nbsp;has been ended on 01\/02\/2020<\/p>\n<h2>&nbsp;<\/h2>\n<h2>QUESTIONS<\/h2>\n<p>For any questions please contact us by email&nbsp;<a href=\"mailto:cityjsconf@gmail.com\" target=\"_blank\" rel=\"noopener\">cityjsconf@gmail.com<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<p>&nbsp;<\/p>",
+        "description": "<div id=\":c8\">\n<div class=\"btm\"><strong>CityJSConf<\/strong> is a community joint event created by London's JavaScript meet-up groups. This is a not-for-profit&nbsp;conference and our purpose is to give back to our community. Thanks to the great generosity of our sponsors we are giving away 20 tickets for this year&rsquo;s main event.<\/div>\n<\/div>\n<div class=\"\">\n<div id=\":ca\" class=\"ii gt adO\">\n<div id=\":c9\" class=\"a3s aXjCH \">\n<p>&nbsp;<\/p>\n<p>We wish to support our community and highly encourage students and others coming from diverse backgrounds (people of color, LGBTQIA, people with disabilities, refugees, women, students and people facing economic or social hardships) to apply for scholarships. Travel and accommodation expenses are not included.<\/p>\n<p>&nbsp;<\/p>\n<p>If you are keen to attend CityJSConf but have difficulty attending the conference due to lack of money or resources, this is your chance. We will be delighted to have you with us!<\/p>\n<p>The application deadline&nbsp;ended on 01\/02\/2020<\/p>\n<h2>&nbsp;<\/h2>\n<h2>QUESTIONS<\/h2>\n<p>For any questions please contact us by email&nbsp;<a href=\"mailto:cityjsconf@gmail.com\" target=\"_blank\" rel=\"noopener\">cityjsconf@gmail.com<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<p>&nbsp;<\/p>",
         "shortDescription": "<p>dT<\/p>",
         "widgets": [
             {
@@ -482,8 +482,8 @@
         "subtitle": "CityJS 2018",
         "url": 2018,
         "type": "",
-        "description": "<p>2018 was the year of our first conference, the idea of the conference arisen from the debate talk between Kyle Simpson and Dylan Schiemann. We also had some great speakers, contributors to great libraries such as Chai, AVA, and Dojo. In total, we had 12 talks from speakers around the world.<\/p>\n<p>Kyle Simpson delivered two amazing workshops in JavaScript and NodeJS the last two days of the event.&nbsp;<\/p>",
-        "shortDescription": "<p>2018 was the year of our first conference, the idea of the conference arisen from the debate talk between Kyle Simpson and Dylan Schiemann. We also had some great speakers, contributors to great libraries such as Chai, AVA, and Dojo. In total, we had 12 talks from speakers around the world.<\/p>\n<p>Kyle Simpson delivered two amazing workshops in JavaScript and NodeJS the last two days of the event.&nbsp;<\/p>",
+        "description": "<p>2018 was the year of our first conference, the idea of the conference arose from the debate talk between Kyle Simpson and Dylan Schiemann. We also had some great speakers, contributors to great libraries such as Chai, AVA, and Dojo. In total, we had 12 talks from speakers around the world.<\/p>\n<p>Kyle Simpson delivered two amazing workshops in JavaScript and NodeJS on the last two days of the event.&nbsp;<\/p>",
+        "shortDescription": "<p>2018 was the year of our first conference, the idea of the conference arisen from the debate talk between Kyle Simpson and Dylan Schiemann. We also had some great speakers, contributors to great libraries such as Chai, AVA, and Dojo. In total, we had 12 talks from speakers around the world.<\/p>\n<p>Kyle Simpson delivered two amazing workshops in JavaScript and NodeJS on the last two days of the event.&nbsp;<\/p>",
         "widgets": [
             {
                 "_id": "5d6acecf6531334555000322",
@@ -524,7 +524,7 @@
         "subtitle": "",
         "url": "covid19update",
         "type": "",
-        "description": "<p>Due to the international health and safety concerns and travel restrictions because of the coronavirus situation, we have decided to move the event to the 14th of September.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>As our conference has speakers and attendees flying from across the globe, we were forced to make the difficult yet necessary of postponing the event.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>In case you cannot make the new date let us know and we will process a refund by email cityjsconf@gmail.com&nbsp;<\/p>",
+        "description": "<p>Due to the international health and safety concerns and travel restrictions because of the coronavirus situation, we have decided to move the event to the 14th of September.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>As our conference has speakers and attendees flying from across the globe, we were forced to make the difficult yet necessary decision of postponing the event.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>In case you cannot make the new date let us know and we will process a refund by email cityjsconf@gmail.com&nbsp;<\/p>",
         "shortDescription": "",
         "widgets": "",
         "tags": "",
