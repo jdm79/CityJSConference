@@ -1,47 +1,56 @@
 [
-  {
-      "question": "Will you be able to pay for speakers' travel?",
-      "answer": "<p>We would advise you to first let us know what the title\/subject of your talk is before we make a decision on paying for travel and accommodation.<\/p>",
-      "_mby": "5ba3ca7b6531330bbd0003ca",
-      "_by": "5ba3ca7b6531330bbd0003ca",
-      "_modified": 1538557895,
-      "_created": 1538557895,
-      "_id": "5bb487c76531335783000282"
-  },
-  {
-      "question": "Do you have a code of conduct?",
-      "answer": "<p>Check our <a href=\"\/coc\" target=\"_blank\" rel=\"noopener\">Code of Conduct<\/a> page<\/p>",
-      "_mby": "5ba3ca7b6531330bbd0003ca",
-      "_by": "5ba3ca7b6531330bbd0003ca",
-      "_modified": 1549987817,
-      "_created": 1538557925,
-      "_id": "5bb487e565313357a00001ae"
-  },
-  {
-      "question": "What is your refund policy?",
-      "answer": "<p>Refunds are permitted until 20 July 2020 for the very early birds, tickets are fully transferrable to another attendee until the day prior to the event.&nbsp;<\/p>",
-      "_mby": "5ba3ca7b6531330bbd0003ca",
-      "_by": "5ba3ca7b6531330bbd0003ca",
-      "_modified": 1570781113,
-      "_created": 1538557961,
-      "_id": "5bb4880965313357c40003b2"
-  },
-  {
-      "question": "Do I get a free workshop with my ticket?",
-      "answer": "<p>No, you will have to buy your workshop tickets separately.<\/p>",
-      "_mby": "5ba3ca7b6531330bbd0003ca",
-      "_by": "5ba3ca7b6531330bbd0003ca",
-      "_modified": 1544023651,
-      "_created": 1544023651,
-      "_id": "5c07ee63653133f69a00015d"
-  },
-  {
-      "question": "Coronavirus update",
-      "answer": "<p>Due to the international health and safety concerns and travel restrictions because of the coronavirus situation, we have decided to move the event to the 14th of September.&nbsp;<\/p>\n<p>As our conference has speakers and attendees flying from across the globe, we were forced to make the difficult yet necessary of postponing the event.&nbsp;<\/p>\n<p>In case you cannot make the new date let us know and we will process a refund by email cityjsconf@gmail.com&nbsp;<\/p>",
-      "_mby": "5ba3ca7b6531330bbd0003ca",
-      "_by": "5ba3ca7b6531330bbd0003ca",
-      "_modified": 1583767144,
-      "_created": 1583766918,
-      "_id": "5e665d866531332ecc0003cb"
-  }
+    {
+        "question": "Will you be able to pay for speakers travel?",
+        "answer": "<p>We would advise you to first let us know what is the title\/subject of your talk before we make a decision on paying for travel and accommodation.<\/p>",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1538557895,
+        "_created": 1538557895,
+        "_id": "5bb487c76531335783000282"
+    },
+    {
+        "question": "Do you have a code of conduct",
+        "answer": "<p>Check our <a href=\"\/coc\" target=\"_blank\" rel=\"noopener\">Code of Conduct<\/a> page<\/p>",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1549987817,
+        "_created": 1538557925,
+        "_id": "5bb487e565313357a00001ae"
+    },
+    {
+        "question": "What is your refund policy?",
+        "answer": "<p>Refunds permitted until 28th of December for the very early birds, tickets are fully transferrable to another attendee until the day prior to the event.&nbsp;<\/p>",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1570781113,
+        "_created": 1538557961,
+        "_id": "5bb4880965313357c40003b2"
+    },
+    {
+        "question": "Do I get a free workshop with my ticket?",
+        "answer": "<p>No you have to get your workshop seperately. Workshops tickets will be given seperately.<\/p>",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1544023651,
+        "_created": 1544023651,
+        "_id": "5c07ee63653133f69a00015d"
+    },
+    {
+        "question": "Coronavirus update",
+        "answer": "<p>Due to the international health and safety concerns and travel restrictions because of the coronavirus situation, we have decided to move the event to the 14th of September.&nbsp;<\/p>\n<p>As our conference has speakers and attendees flying from across the globe, we were forced to make the difficult yet necessary of postponing the event.&nbsp;<\/p>\n<p>In case you cannot make the new date let us know and we will process a refund by email cityjsconf@gmail.com&nbsp;<\/p>",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1583767144,
+        "_created": 1583766918,
+        "_id": "5e665d866531332ecc0003cb"
+    },
+    {
+        "question": "Do I get a free ticket for the Private Online Event?",
+        "answer": "<p>If you have purchased a ticket (Workshop, Combo Workshop, Standard, NewYears and Early Bird) for our postponed March event you automatically get a FREE online ticket.&nbsp;<\/p>\n<p>You will have access to:<\/p>\n<ul>\n<li>Speakers Q\/A<\/li>\n<li>Speakers Sessions<\/li>\n<li>The private lounge area where you can meet the speakers and other attendees and sponsors booths<\/li>\n<li>Participate in Sponsors Workshops&nbsp;<\/li>\n<\/ul>\n<p>Your venue ticket will automatically move to next year's event.&nbsp;<\/p>\n<p>Alternatively, if you choose to cancel your ticket you will need to buy a ticket for the private online event.&nbsp;<\/p>",
+        "_mby": "5ef8a28b65313371010000cf",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593435170,
+        "_created": 1593434557,
+        "_id": "5ef9e1bd653133f259000086"
+    }
 ]
