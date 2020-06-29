@@ -9,7 +9,7 @@
         </app-h2>
         <div class="columns  is-mobile is-multiline is-centered is-gapless" > 
            <div 
-                class="column is-three-quarters-mobile is-two-thirds-tablet
+                class="column is-12-mobile is-two-thirds-tablet
                  is-half-desktop is-one-third-widescreen 
                  is-one-quarter-fullhd 
                  "
@@ -18,7 +18,7 @@
            >
                     <div class="is-one ">
                          <div class="card-image">
-                           <nuxt-link :to="`/speaker/${item._id}`" no-prefetch>
+                           <a :href="`/speaker/${item._id}`">
                                 <figure class="image is-40x40">
                                     <img 
                                         v-if="typeof 
@@ -66,7 +66,7 @@
                                     </div>
                                      
                                 </div>
-                            </nuxt-link>
+                            </a>
                         </div>
                     </div>
            </div>
