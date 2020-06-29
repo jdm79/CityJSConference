@@ -15,13 +15,12 @@
                                 </div>
                             </div>
                             <div class="content">
-                                <p> Due to Covid-19 our 2020 event will take place remotely </p>
+                                <p> Due to Covid-19 our 2020 event will take place remotely. </p>
 
-                                <p> We will be hosting the classic event on the 26th of March 2021,  is taking place at one of the most iconic places right at the city
-                                centre of London, in the heart of London 2 minutes away from Oxford Circus.
+                                <p> We will be hosting the classic event on the 26th of March 2021, in one of the most iconic locations in the heart of London, a mere 2 minutes away from Oxford Circus.
                                 </p>
                                 <p>
-                                Your chance to be at the centre of JavaScript at the heart of London.
+                                Your chance to be at the centre of JavaScript in the heart of London.
 
                                 Book your  <a href="/buytickets"> tickets </a> now!
                                 </p>
