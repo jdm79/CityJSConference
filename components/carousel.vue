@@ -51,7 +51,7 @@
                         <div class="column is-9-desktop  is-9-tablet  is-9-mobile info-vertical  is-offset-2">
                           <div class="info-text">
                             <span class="info-text__main">SPEAKERS</span>
-                            <span class="info-text__sub">Across all the continents</span>
+                            <span class="info-text__sub">Across five continents</span>
                           </div>
                         </div>
                         <div class="column is-1-tablet is-1-desktop is-1-mobile info-vertical">
