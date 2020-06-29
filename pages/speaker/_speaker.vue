@@ -28,7 +28,6 @@
   import Vue from 'vue'
   import nav from '@/components/nav';
   import banner from '@/components/banner';
-  import page from '@/components/page';
   import speaker from '@/components/speaker';
   import { mapGetters } from 'vuex';
 
@@ -36,16 +35,16 @@
     components: {
       'app-nav': nav,
       'banner': banner,
-      'page': page,
       'Speaker': speaker
     },
     data: () => ({
       pagename: 'Speaker page',
+      id: null
     }),
-    async mounted () {
-      let pagename= this.$route.params.page;
-      if (typeof pagename !== 'undefined') {
-        this.pagename = pagename;
+    mounted () {
+      let speaker=  this.$route.params.speaker;
+      if (typeof speaker !== 'undefined') {
+        this.id = speaker;
       }
     },
     head () {
@@ -55,9 +54,6 @@
     },
     created (store) {
       this.$store.dispatch('pages/get');
-    },
-    mounted() {
-        this.id = this.$route.params.speaker;
     },
     computed: {
       ...mapGetters({
