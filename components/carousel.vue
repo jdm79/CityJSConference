@@ -16,18 +16,22 @@
                 </h1>
                 <div class="columns is-mobile is-multiline events">
                   <div class="column is-12-mobile">
-                    <h2>
-                      14-18 Sep 2020
-                      <br />
-                      <span>GLOBAL ONLINE EVENT</span>
-                    </h2>
+                     <a href="/buytickets">
+                      <h2>
+                        14-18 Sep 2020
+                        <br />
+                        <span>GLOBAL ONLINE EVENT</span>
+                      </h2>
+                     </a>
                   </div>
                   <div class="column is-12-mobile">
-                    <h2>
-                      26-29 Mar 2021
-                      <br />
-                      <span>Regent Street Cinema</span>
-                    </h2>
+                    <a href="/buytickets">
+                      <h2>
+                        26-29 Mar 2021
+                        <br />
+                        <span>Regent Street Cinema</span>
+                      </h2>
+                    </a>
                   </div>
                 </div>
               </div>

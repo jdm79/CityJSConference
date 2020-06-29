@@ -327,7 +327,7 @@
     {
         "name": "Dylan Schiemann",
         "bio": "<p>As CEO of SitePen and co-founder of Dojo, Dylan Schiemann is an established presence in the JavaScript and open source communities.&nbsp;<\/p>",
-        "company": "SitePen - Dojo co-Founder",
+        "company": "Open Web Conferences - Dojo co-Founder",
         "title": "theRiseOfTypeScript(rate: Meteoric | Meandering): Story[] { return History; }",
         "talk": "<div class=\"p-rich_text_section\">TypeScript has many stories which are not well known. For example, did you know that:<\/div>\n<div class=\"p-rich_text_section\">&nbsp;<\/div>\n<div class=\"p-rich_text_section\">&nbsp;- TypeScript was originally called Strada and first started by Luke Hoban and Steve Lucco? (Anders joined shortly thereafter.<\/div>\n<div class=\"p-rich_text_section\">- Many of the more painful choices made with TypeScript were the result of attempting to implement much-needed language features before ES6 was finalized<\/div>\n<div class=\"p-rich_text_section\">- TypeScript did not move to GitHub until 2014?<\/div>\n<div class=\"p-rich_text_section\">&nbsp;<\/div>\n<div class=\"p-rich_text_section\">This talk will explore some of the interesting and quirky history of the TypeScript project from outside the walls of Redmond, from the perspective of someone who took a very early look at TypeScript (0.9.2), was skeptical due to a previous open-source cease and desist warning from Microsoft, and over many months was grudgingly persuaded of the value of TypeScript. We&rsquo;ll also look at key advances in TypeScript that took the project from promising yet flawed to something that made it possible to rewrite the longest-lived, actively-maintained JavaScript framework in TypeScript and become a development approach that we love and appreciate. Expect a healthy dose of humor and ridiculousness along the way.<\/div>",
         "country": "USA",
@@ -343,7 +343,7 @@
         },
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295753,
+        "_modified": 1593296795,
         "_created": 1544095624,
         "_id": "5c090788653133337b000356",
         "order": 4,
@@ -1153,12 +1153,12 @@
         "thumbnail": {
             "path": "images\/2020speakers\/jen-looper.png"
         },
-        "order": "",
+        "order": 3,
         "event": "",
         "town": "Boston",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593292812,
+        "_modified": 1593419678,
         "_created": 1593263931,
         "_id": "5ef7473b65313334e50003a5"
     },
@@ -1179,12 +1179,12 @@
         "thumbnail": {
             "path": "images\/2020speakers\/milecia.jpg"
         },
-        "order": "",
+        "order": 16,
         "event": "",
         "town": "Oklahoma",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593293107,
+        "_modified": 1593419777,
         "_created": 1593268474,
         "_id": "5ef758fa6531334b6d000304"
     },
@@ -1205,12 +1205,12 @@
         "thumbnail": {
             "path": "images\/2020speakers\/shopido.jpg"
         },
-        "order": "",
+        "order": 10,
         "event": "",
         "town": "Lagos",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295443,
+        "_modified": 1593419321,
         "_created": 1593269268,
         "_id": "5ef75c146531334ec30000cd"
     },
@@ -1231,12 +1231,12 @@
         "thumbnail": {
             "path": "images\/2020speakers\/firt.jpg"
         },
-        "order": "",
+        "order": 15,
         "event": "",
         "town": "Buenos Aires",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593294444,
+        "_modified": 1593419708,
         "_created": 1593269644,
         "_id": "5ef75d8c653133504d0003b7"
     },
@@ -1257,19 +1257,19 @@
         "thumbnail": {
             "path": "images\/2020speakers\/luciano.jpg"
         },
-        "order": "",
+        "order": 20,
         "event": "",
         "town": "Dublin",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593293906,
+        "_modified": 1593419356,
         "_created": 1593270490,
         "_id": "5ef760da65313353f100038f"
     },
     {
         "name": "Zack Jackson",
         "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Principal Engineer, specializing in distributed application architecture at scale&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Principal Engineer, specializing in distributed application architecture at scale<\/span><\/p>",
-        "company": "lululemon",
+        "company": "lululemon - Maintainer of  @webpack  & co-creator of Module Federation",
         "title": "Webpack 5 Module Federation",
         "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Consume parts of independently deployed Javascript applications at runtime. &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Consume parts of independently deployed Javascript applications at runtime. <\/span><\/p>",
         "country": "USA",
@@ -1288,14 +1288,14 @@
         "town": "Redmond, WA",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593294087,
+        "_modified": 1593419883,
         "_created": 1593271293,
         "_id": "5ef763fd65313357190002cc"
     },
     {
         "name": "Matteo Collina",
         "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;\\nMatteo is Technical Director at NearForm, where he consults for some of the top brands in the world. In 2014, he defended his Ph.D. thesis titled \\&quot;Application Platforms for the Internet of Things\\&quot;. Matteo is a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast logger Pino and of the Fastify web framework. Matteo is a renowned international speaker after presenting at more than 50 conferences, including Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. He is also co-author of the book \\&quot;Node.js Cookbook, Third Edition\\&quot; edited by Packt. In the summer he loves sailing the Sirocco.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\"><br \/>Matteo is Technical Director at NearForm, where he consults for some of the top brands in the world. In 2014, he defended his Ph.D. thesis titled \"Application Platforms for the Internet of Things\". Matteo is a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast logger Pino and of the Fastify web framework. Matteo is a renowned international speaker after presenting at more than 50 conferences, including Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. He is also co-author of the book \"Node.js Cookbook, Third Edition\" edited by Packt. In the summer he loves sailing the Sirocco.<\/span><\/p>",
-        "company": "NearForm",
+        "company": "NearForm - Node.js TSC member",
         "title": "GraphQL. Accelerated",
         "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;\\nGraphQL is a query language that combines type validation with a query and filtering syntax that makes it easy to get up-and-running with a powerful web API in almost no time. Add to that a vibrant community that keeps creating excellent tooling and documentation, it&rsquo;s clear why GraphQL has become so popular with developers.\\n\\nEvery abstraction has a cost, and GraphQL is no exception. The added complexity and a new schema format to parse and execute mean new performance bottlenecks. In addition to performance issues, the wrong use of GraphQL can lead to architectural bottlenecks. \\n\\nInstead of viewing this as a problem we took this as a challenge, and in this talk we will unveil how we made it run a lot faster on Node.js using different performance techniques that we have learned in the last few years.\\n&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\"><br \/>GraphQL is a query language that combines type validation with a query and filtering syntax that makes it easy to get up-and-running with a powerful web API in almost no time. Add to that a vibrant community that keeps creating excellent tooling and documentation, it&rsquo;s clear why GraphQL has become so popular with developers.<br \/><br \/>Every abstraction has a cost, and GraphQL is no exception. The added complexity and a new schema format to parse and execute mean new performance bottlenecks. In addition to performance issues, the wrong use of GraphQL can lead to architectural bottlenecks. <br \/><br \/>Instead of viewing this as a problem, we took this as a challenge, and in this talk, we will unveil how we made it run a lot faster on Node.js using different performance techniques that we have learned in the last few years.<br \/><\/span><\/p>",
         "country": "Italy",
@@ -1309,12 +1309,12 @@
         "thumbnail": {
             "path": "images\/2020speakers\/mateo.jpg"
         },
-        "order": "",
+        "order": 7,
         "event": "",
         "town": "Forli",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593294708,
+        "_modified": 1593419612,
         "_created": 1593271633,
         "_id": "5ef7655165313358550000e5"
     },
@@ -1335,12 +1335,12 @@
         "thumbnail": {
             "path": "images\/2020speakers\/jemina.jpg"
         },
-        "order": "",
+        "order": 22,
         "event": "",
         "town": "Kaunas",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593294943,
+        "_modified": 1593419486,
         "_created": 1593271959,
         "_id": "5ef76697653133599800011c"
     },
@@ -1361,19 +1361,19 @@
         "thumbnail": {
             "path": "images\/2020speakers\/italo.jpg"
         },
-        "order": "",
+        "order": 19,
         "event": "",
         "town": "S\u00e3o Paulo",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593293599,
+        "_modified": 1593419423,
         "_created": 1593272392,
         "_id": "5ef768486531335b200001d8"
     },
     {
         "name": "Tan Li Hau",
         "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Originally from Malaysia, Li Hau is an expert engineer at Shopee, Svelte core member and Babel contributor. He is a polyglot. He speaks English, Chinese, Malay, JavaScript, CSS, and HTML. In his free time, he writes about JavaScript frameworks and tools.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Originally from Malaysia, Li Hau is an expert engineer at Shopee, Svelte core member and Babel contributor. He is a polyglot. He speaks English, Chinese, Malay, JavaScript, CSS, and HTML. In his free time, he writes about JavaScript frameworks and tools.<\/span><\/p>",
-        "company": "Shopee",
+        "company": "Shopee - Svelte Contributor",
         "title": "Looking into the Svelte compiler",
         "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Have you ever wonder how does the Svelte compilation process works?\\nHave you ever feeling curious and want to read Svelte source code but does not know where to start?\\n\\nThis talk will give you an overview of the Svelte compilation process, from parsing the source code, analyse the code to generating final JavaScript code.\\n\\nAt the end of the talk, you will get a deeper understanding of the Svelte compilation process.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Have you ever wonder how does the Svelte compilation process works?<br \/>Have you ever feeling curious and want to read Svelte source code but does not know where to start?<br \/><br \/>This talk will give you an overview of the Svelte compilation process, from parsing the source code, analyse the code to generating final JavaScript code.<br \/><br \/>At the end of the talk, you will get a deeper understanding of the Svelte compilation process.<\/span><\/p>",
         "country": "Singapore",
@@ -1387,13 +1387,39 @@
         "thumbnail": {
             "path": "images\/2020speakers\/lihautan.jpg"
         },
-        "order": "",
+        "order": 4,
         "event": "",
         "town": "Pulau Ujong",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593292420,
+        "_modified": 1593419060,
         "_created": 1593272604,
         "_id": "5ef7691c6531335bed0002e0"
+    },
+    {
+        "name": "Kitson P. Kelly",
+        "bio": "<p>An IT consultant by day, a long-term contributor to Deno by night. Prior to ThoughtWorks, was CTO at SitePen, ran technology at NOW TV, worked for Sky for several years as well as other IT consulting firms.<\/p>",
+        "company": "ThoughtWorks - Deno Contributor",
+        "title": "Deno, and the future of JavaScript runtimes",
+        "talk": "<p>Deno is a secure runtime of JavaScript and TypeScript built in Rust. I have been working on it since its early prototype days and want to share some insights with you on what the current state of Deno is and runtimes in general. I will explain how Deno works, what the future of Deno looks like, and what sort of challenges and problems come with running JavaScript and TypeScript.<\/p>",
+        "country": "Australia",
+        "twitter": "@kitsonk",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/kits.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/kits.jpg"
+        },
+        "order": 3,
+        "event": "talk",
+        "town": "Melburne",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1593419027,
+        "_created": 1593419017,
+        "_id": "5ef9a509653133a98a0000ca"
     }
 ]
