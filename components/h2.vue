@@ -33,6 +33,7 @@ export default {
 
     .heading
         margin-bottom: 20px;
+        
     
     .white
         color: $white;

@@ -17,7 +17,7 @@
               v-if="item.hide === 'No' && item.isRedirect  === 'No'" 
               class="navbar-item r-item" 
               :key="item.id" 
-              :to="item.url"
+              :to="`/${item.url}`"
                v-for="item in items"
             >
               {{item.title}}
@@ -29,7 +29,7 @@
               data-toggle="collapse" 
               data-target=".navbar-collapse.show"
               v-if="item.hide === 'No' && item.isRedirect === 'Yes'" 
-              :href="item.url"
+              :href="`/${item.url}`"
               :key="item.id" 
             >
             {{item.title}}
@@ -110,12 +110,7 @@ export default {
       background: $white;
       color: $black;
     +ipadpro
-      background: $white;
-      color: $black;
-    +ipadpro
-      background: transparent;
-
-
+      color: $white;
   .logo 
     +mobile
       background: transparent;
@@ -136,6 +131,7 @@ export default {
   a.r-item
     color: $white;
     font-weight: bold;
+    font-size: 0.9rem;
     text-transform: uppercase;
     padding: 0.5rem 1.75rem
     &:hover
@@ -144,7 +140,7 @@ export default {
     +mobile
       color: $black
     +ipadpro
-      color: $black;
+      color: $white;
 
   .navbar-burger
     &:hover

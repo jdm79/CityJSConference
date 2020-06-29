@@ -1,25 +1,25 @@
 <template>
-  <section class="section shallow">
+  <section class="shallow">
     <div class="testimonials is-text  ">
         <app-h2
             title="2020 Speakers"
-            subtitle="We are excited  to announce our talks for this year"
+            subtitle="We are excited to announce our global speakers for this year"
             :is-h2="true"
         >
         </app-h2>
-        <div class="columns  is-mobile is-multiline is-centered" > 
+        <div class="columns  is-mobile is-multiline is-centered is-gapless" > 
            <div 
                 class="column is-three-quarters-mobile is-two-thirds-tablet
-                 is-half-desktop is-one-third-widescreen is-one-quarter-fullhd"
+                 is-half-desktop is-one-third-widescreen 
+                 is-one-quarter-fullhd 
+                 "
                 v-for="item in filteredSpeakers"
                 v-bind:key="item._id"
            >
-                    <div class="is-one  ">
+                    <div class="is-one ">
                          <div class="card-image">
-                            <a 
-                                v-on:click="select(item)"
-                            >
-                                <figure class="image is-92x92">
+                           <nuxt-link :to="`/speaker/${item._id}`" no-prefetch>
+                                <figure class="image is-40x40">
                                     <img 
                                         v-if="typeof 
                                         item.image!== 'undefined'"  
@@ -28,73 +28,47 @@
                                         class="speaker"
                                     />
                                 </figure>
-                            </a>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content has-text-centered">
-                                     <a 
-                                        class="titlebtn"
-                                        v-on:click="select(item)"
-                                    >
-                                        <h3 class="small-title">
-                                            {{item.title}}                                                                  
-                                        </h3>
-                                    </a>
-                                    <p class="subtitle is-6">{{item.name}}  <a class="icon" :href="`//twitter.com/${item.twitter}`"><i class="fa fa-twitter"></i></a>   
-                                       <br/>  {{item.company}}
-                                     </p>  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-           </div>
-           <div 
-                :class="['column spekers-card-container modal-background', {'closed':open === false}]" 
-                v-if="this.chosen"
-                v-on:click="select(item)"
-            >
-                <div class="card speaker-card">
-                    <div class="card-content">
-                        <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                                <img 
-                                    v-if="typeof 
-                                    chosen.image!== 'undefined'"  
-                                    :alt="chosen.name" 
-                                    :src="`/siteimages/${chosen.thumbnail.path}`"
-                                    class="speaker"
-                                />
-                            </figure>
-                            <a 
-                                :class="['button  close closebtn', {'closed':open === false}]"
-                                v-on:click="close()"
-                            >
-                                <span class="icon is-small">
-                                    X
-                                </span>
-                            </a>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4">{{chosen.name}}</p>
-                            <p class="subtitle is-6">
-                                <a :href="`//twitter.com/${chosen.twitter}`">
-                                    @{{chosen.twitter}}
-                                </a><br/>
-                                {{chosen.company}}
-                            </p>
-                        </div>
-                       
-                    
-                        </div>
-                       <div>
-                             <h2 class="small-title">{{chosen.title}}</h2>
+                                    
+                                <div class="columns">
+                                      
+                                    <div class="column is-12 talkinfo"
+                                     >
+                                       <span>
+                                            <a 
+                                                class="titlebtn"
+                                                v-on:click="select(item)"
+                                            >
+                                                <h3 class="small-title talk-title">
+                                                    {{item.title}}                                                                  
+                                                </h3>
+                                            </a>
+                                        </span>
+                                        <h4>
+                                            {{item.name}}   
+                                            
+                                            <span>
+                                                <a :href="`//twitter.com/${item.twitter}`">
+                                                    <i data-v-4a676ae2="" class="fa fa-twitter"></i>
+                                                </a>
+                                            </span>
+                                        </h4>
+                                      
+                                        <span style="company">
+                                            {{item.company}}
+                                        </span>
+                                        <br/>
+                                        <span class="pill">
+                                               <i class="fa fa-globe"></i>
+                                                {{item.town}},  {{item.country}}
+                                        </span>
 
-                                  <div v-html="chosen.talk" />
+                                      
+                                    </div>
+                                     
+                                </div>
+                            </nuxt-link>
                         </div>
                     </div>
-                </div>
            </div>
         </div>
     </div>
@@ -109,12 +83,6 @@ import talk from '@/components/talk';
 import { mapGetters } from 'vuex'
 
 export default {
-  data: function() {
-    return {
-        chosen: null,
-        open: false,
-    } 
-  },
   props: {
     items: {
       type: Array,
@@ -125,17 +93,7 @@ export default {
     "app-talk" : talk
   },
   mounted: function() {
-    this.carousel = bulmaCarousel.attach();
     this.$store.dispatch("speakers/get");
-  },
-  methods: {
-    select: function (talk) {
-        this.chosen = talk;
-        this.open = !this.open;
-    },
-    close: function () {
-        this.open = !this.open;
-    }
   },
   computed: {
     ...mapGetters({
@@ -144,14 +102,15 @@ export default {
     isMobile () {
         return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) ? true : false;
     }, 
-     filteredSpeakers() {
-      if (typeof this.speakers !== "undefined") {
-        return this.speakers.filter(speaker => {
-          return speaker.year === 2020;
-        }).sort(function(a, b) {
-            return a.order-b.order
-        });
-      }
+    filteredSpeakers() {
+        console.log(this.speakers)
+        if (typeof this.speakers !== "undefined") {
+            return this.speakers.filter(speaker => {
+            return speaker.year === 2020;
+            }).sort(function(a, b) {
+                return a.order-b.order
+            });
+        }
       }
   }
   
@@ -160,18 +119,67 @@ export default {
 
 <style lang="sass" scoped>
     @import '~/assets/css/mq.sass';
+
+    h3
+     margin-bottom: 0px;
+
+    .talkinfo
+        padding: 1rem 3rem 0 3rem; 
+        margin-top: -50px;
+        position: relative; 
+        background: white; 
+        margin: 0 auto; 
+        width: 85%; 
+        margin-bottom: 20px;
     
+    .company
+        font-size: 11px; 
+        margin-right: 5px;
+
+    .titlebtn
+            padding-top: 40px;
+
+    .pill 
+        background-color: $white;
+        border: gray;
+        color: $black;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+        position: absolute;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+        top: -20px;
+        left: 40px
+    
+    h4
+     padding-top:  5px;
+     font-weight: 500;
+    
+    .talk-title
+        height: 120px;
+
+    .small-title
+        text-align: left;  
+
+    .speaker-name
+        text-align: left;
+
     a.titlebtn
         color: $black;
         h3 
-            min-height: 80px;
+            min-height: 50px;
+            font-size: 1.1rem;
+            height: auto;
 
     .closed
         display: none
     img
         text-align: center;
         left: 30%;
-        border-radius: 50%;
         margin: 0 auto;
         top: 0px;
     .spekers-card-container
@@ -206,12 +214,14 @@ export default {
                 right: 10px;
         
         .small-title
+            color: red;
             font-size: 0.9rem;
             line-height: 1rem;
             text-transform: initial;
             font-weight: bold;
             padding: 0px;
             margin-bottom: 5px;
+            
+   
 
-        
 </style>

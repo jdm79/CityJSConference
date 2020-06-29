@@ -27,6 +27,7 @@
     "child_process": "^1.0.2",
     "es6-promise": "^4.2.5",
     "es7-object-polyfill": "0.0.7",
+    "flag-icon-css": "^3.5.0",
     "flickrapi": "^0.6.2",
     "font-awesome": "^4.7.0",
     "fs": "0.0.1-security",

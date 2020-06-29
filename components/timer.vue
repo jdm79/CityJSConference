@@ -1,11 +1,11 @@
 <template>
   <section>
-  <div class="timer container">
+  <div class="timer">
     <div class="columns">
-        <div class="column is-8">
+        <div class="column is-8 is-hidden-mobile ">
           <h2> 
               React, and GraphQL <a href="/workshops">Workshops</a> <br/>
-              11 International <a href="/speakers">Speakers</a> <br/>all about TypeScript, React, Vue, Testing, IoT, NodeJS, React Native <br/>
+              All about TypeScript, React, Vue, Testing, IoT, NodeJS, React Native <br/>
           </h2>
         </div>
         <div class="column is-4">
@@ -127,16 +127,11 @@
     text-transform: uppercase;
     text-align: center;
     font-size: 0.9rem;
+    z-index: 10000;
     background: $white;
-    margin-top: -2.75rem;
-    top: -50px;
     +mobile
-      background: $white;
-      padding: 20px;
-      position: absolute;
-      left: 0%;
-      top: 100vw;
-      width: 100%;
+      background: initial;
+
     a
       color: $darkred;
     h2 
@@ -145,10 +140,10 @@
       line-height: 2.25rem;
       text-transform: none;
       padding: 20px;
+      background: none;
       +mobile
         line-height: 2rem;
         font-size: 1.2rem;
-        padding: 10px;
     .block
       background-color: $black;
       height: 20px
