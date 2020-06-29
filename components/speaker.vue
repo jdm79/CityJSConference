@@ -56,7 +56,6 @@ import "bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css";
 import h2 from '@/components/h2';
 import talk from '@/components/talk';
 import { mapGetters } from 'vuex'
-
 export default {
   components: {
     'app-h2': h2,
@@ -88,7 +87,6 @@ export default {
 
 <style lang="sass" scoped>
     @import '~/assets/css/mq.sass';
-
     .speaker
       margin-bottom: 20px;
       h1
@@ -108,7 +106,6 @@ export default {
        text-transform: initial;
        margin-bottom: 0.5rem;
        margin-top: 1rem;
-
     .talkinfo
         padding: 1rem 3rem 0 3rem; 
         margin-top: -50px;
@@ -121,10 +118,8 @@ export default {
     .company
         font-size: 11px; 
         margin-right: 5px;
-
     .titlebtn
             padding-top: 40px;
-
     .pill 
         background-color: $white;
         border: gray;
@@ -147,20 +142,16 @@ export default {
     
     .talk-title
         height: 120px;
-
     .small-title
         text-align: left;  
-
     .speaker-name
         text-align: left;
-
     a.titlebtn
         color: $black;
         h3 
             min-height: 50px;
             font-size: 1.1rem;
             height: auto;
-
     .closed
         display: none
     img
@@ -207,7 +198,4 @@ export default {
             font-weight: bold;
             padding: 0px;
             margin-bottom: 5px;
-            
-   
-
 </style>
