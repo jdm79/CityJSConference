@@ -50,7 +50,7 @@
     },
     head () {
       return {
-        title: 'CityJS Conference 2019, London UK'
+        title: 'CityJS Conference 2020, London UK'
       }
     },
     created (store) {
