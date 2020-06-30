@@ -36,6 +36,7 @@
     },
     data: () => ({
       pagename: 'Speaker page',
+      id: null
     }),
     async mounted () {
       let pagename= this.$route.params.page;
