@@ -106,7 +106,7 @@
         "subtitle": "",
         "url": "schedule",
         "type": "Standard",
-        "description": "<p>Please scroll below to navigate to our schedule, our talks will go through Frameworks React, VueJS, TypeScript React, Testing, IoT and NodeJS.&nbsp;<\/p>\n<p>In the last two days 15 and 16 of September, we will have three workshops at Birkbeck University on React, GraphQL and TypeScript.<\/p>",
+        "description": "<p>Please scroll below to navigate to our schedule, our talks will go through Frameworks React, VueJS, TypeScript React, Testing, IoT and NodeJS.&nbsp;<\/p>\n<p>In the last two days 16 and 17 of September, we will have using Zoom on React, GraphQL and TypeScript.<\/p>",
         "shortDescription": "<p>We are currently in the process of picking up the remaining speakers.<\/p>\n<p>Once the process is completed we will print our schedule.&nbsp;<\/p>",
         "widgets": [
             {
@@ -128,7 +128,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1593529283,
+        "_modified": 1593556352,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f000094",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -170,7 +170,7 @@
         "subtitle": "",
         "url": "venue",
         "type": "Standard",
-        "description": "<p><strong>Due to the pandemic, we have decided to move our Casual event to 2021. For this year we have decided to do a private online event.<\/strong><\/p>\n<p>&nbsp;<\/p>\n<p><strong>Workshops Venue&nbsp; (24-25 March 2021)<\/strong><\/p>\n<p>Workshops will be held at TBC<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Conference Venue (26th March 2021)<\/strong><\/p>\n<p>The conference main event will take place at Regent Street Cinema.<\/p>\n<p>Built-in 1848 and housed within the Polytechnic Institution on London&rsquo;s Regent Street, the cinema was the first in the country to show moving pictures. In 1896, the cinema showcased the Lumi&egrave;re brothers&rsquo; Cin&eacute;matographe to a paying audience, and, as the curtain fell, British cinema was born.<\/p>\n<p>After being used as a student lecture hall by the university of Westminister since 1980, it was restored into a working cinema featuring a state-of-the-art auditorium as well as an inclusive space for learning, cultural exchange and exhibitions. It is a truly landmark venue for the British film industry in the heart of London&rsquo;s West End.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Screen Capacities &amp; Access:<\/strong><\/p>\n<p>187-seat&nbsp; and 2 wheelchair spaces (front row of rear seating section).<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Oxford Circus, Great Portland Street<\/p>\n<p>&nbsp;<\/p>",
+        "description": "<p><strong>Due to the pandemic, we have decided to move our in-person event to 2021. For 2020 we have decided to do a private online event.<\/strong><\/p>\n<p>&nbsp;<\/p>\n<p><strong>Workshops Venue&nbsp; (24-25 March 2021)<\/strong><\/p>\n<p>Workshops will be held at TBC<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Conference Venue (26th March 2021)<\/strong><\/p>\n<p>The conference main event will take place at Regent Street Cinema.<\/p>\n<p>Built-in 1848 and housed within the Polytechnic Institution on London&rsquo;s Regent Street, the cinema was the first in the country to show moving pictures. In 1896, the cinema showcased the Lumi&egrave;re brothers&rsquo; Cin&eacute;matographe to a paying audience, and, as the curtain fell, British cinema was born.<\/p>\n<p>After being used as a student lecture hall by the university of Westminister since 1980, it was restored into a working cinema featuring a state-of-the-art auditorium as well as an inclusive space for learning, cultural exchange and exhibitions. It is a truly landmark venue for the British film industry in the heart of London&rsquo;s West End.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Screen Capacities &amp; Access:<\/strong><\/p>\n<p>187-seat&nbsp; and 2 wheelchair spaces (front row of rear seating section).<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Getting here:&nbsp;<\/strong><\/p>\n<p>Tube: Oxford Circus, Great Portland Street<\/p>\n<p>&nbsp;<\/p>",
         "shortDescription": "",
         "widgets": [
             {
@@ -192,7 +192,7 @@
         "color": "transparent",
         "components": "",
         "year": "",
-        "_modified": 1593437967,
+        "_modified": 1593556048,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0000ae",
         "_mby": "5ba3ca7b6531330bbd0003ca"
