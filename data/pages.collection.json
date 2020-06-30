@@ -106,7 +106,7 @@
         "subtitle": "",
         "url": "schedule",
         "type": "Standard",
-        "description": "<p>Please scroll below to navigate to our schedule, our talks will go through Frameworks React, VueJS, TypeScript React, Testing, IoT and NodeJS.&nbsp;<\/p>\n<p>In the last two days 15 and 16 of September, we will have three workshops at Birkbeck University on React, GraphQL and TypeScript.<\/p>\n<p>&nbsp;<\/p>\n<p>The main event is on the third day on the 14 of September at Regent Street Cinema<\/p>",
+        "description": "<p>Please scroll below to navigate to our schedule, our talks will go through Frameworks React, VueJS, TypeScript React, Testing, IoT and NodeJS.&nbsp;<\/p>\n<p>In the last two days 15 and 16 of September, we will have three workshops at Birkbeck University on React, GraphQL and TypeScript.<\/p>",
         "shortDescription": "<p>We are currently in the process of picking up the remaining speakers.<\/p>\n<p>Once the process is completed we will print our schedule.&nbsp;<\/p>",
         "widgets": [
             {
@@ -128,7 +128,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1593516319,
+        "_modified": 1593529283,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f000094",
         "_mby": "5ba3ca7b6531330bbd0003ca"
