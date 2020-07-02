@@ -22,12 +22,10 @@
   import banner from '@/components/banner';
   import page from '@/components/page';
   import speaker from '@/components/speaker';
-  import { mapGetters } from 'vuex';
   export default {
     components: {
       'app-nav': nav,
       'banner': banner,
-      'page': page,
       'Speaker': speaker
     },
     data: () => ({
@@ -45,16 +43,8 @@
         title: 'CityJS Conference 2020, London UK'
       }
     },
-    created (store) {
-      this.$store.dispatch('pages/get');
-    },
     mounted() {
         this.id = this.$route.params.speaker;
     },
-    computed: {
-      ...mapGetters({
-        pages: 'pages/pages',
-      }),
-    }
   }
 </script>

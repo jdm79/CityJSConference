@@ -1,10 +1,5 @@
 <template>
     <div>
-        <!-- <app-h2
-            :title="title"
-            :subtitle="subtitle"
-        >
-        </app-h2> -->
         <section class="section backimgVenue is-mobile" :style="style">
         <div class="container">
             <div class="columns level-right">
