@@ -1,11 +1,8 @@
 <template>
-  <div>
     <div id="inner">
-    <section>
-    </section>
     <section class="hero">
       <div class="home">
-        <div>
+       <div class="home">
             <banner 
               title='Speaker name'
               description='Speaker'
@@ -17,7 +14,6 @@
       </div>
     </section> 
     </div>
-  </div>
 </template>
 
 <script>

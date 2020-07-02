@@ -3,8 +3,8 @@
     <div class="testimonials is-text  container "
         v-if="selectedSpeaker"
     >
-        <div class="columns  is-mobile " > 
-             <div class="column is-6-desktop is-12-mobile">
+        <div class="columns is-multiline is-mobile " > 
+             <div class="column marginless">
                 <h1>
                     {{selectedSpeaker.name}} 
                 </h1>
@@ -27,7 +27,7 @@
                  <p v-html="selectedSpeaker.bio" />
             </div>
             <div 
-                class="column is-6-desktop  is-offset-1-desktop"
+                class="column is-12-mobile"
             >
                     <div>
                          <div class="card-image">
@@ -91,7 +91,7 @@ export default {
       margin-bottom: 20px;
       h1
        font-size: 3rem;
-       margin-bottom: 0rem;
+       margin-bottom: 1rem;
        padding-bottom: 0rem;
        position: relative;
        span

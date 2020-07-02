@@ -1425,7 +1425,7 @@
     {
         "name": "Ana Cidre",
         "bio": "<p>Ana is a Developer Advocate at Auth0. She has a degree in Fine Arts and a Master in International Business Economics and Management, so she is not your usual software developer. She loves to code and she especially likes Angular. As a very active member of the community, she regularly organises meetups and conferences, like the amazing ngSpain. In Spain, where she&rsquo;s currently based, she&rsquo;s an organiser of GDG Vigo and the founder of GalsTech, a group for women in tech from Galicia. Because she is so passionate about diversity, she has also been named a Women Techmaker Ambassador.<\/p>",
-        "company": "",
+        "company": "Auth0",
         "title": "The state of Web Components",
         "talk": "<p>A decade in the making, Web Components, a standardised set of technologies allowing us to create reusable web components are now widely supported in modern browsers. In this presentation we will take a look at the overall architecture and some common use cases and patterns of Web Components and why they are now a viable option. We will also look at future features to show how powerful web components are constantly improving.<\/p>",
         "country": "Spain",
@@ -1444,7 +1444,7 @@
         "town": "Vigo",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593600688,
+        "_modified": 1593601637,
         "_created": 1593600686,
         "_id": "5efc6aae653133489e0000c2"
     }

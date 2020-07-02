@@ -103,7 +103,6 @@ export default {
         return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) ? true : false;
     }, 
     filteredSpeakers() {
-        console.log(this.speakers)
         if (typeof this.speakers !== "undefined") {
             return this.speakers.filter(speaker => {
             return speaker.year === 2020;

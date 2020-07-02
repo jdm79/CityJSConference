@@ -1,6 +1,6 @@
 <template>
  <nav class="navbar" :style="style">
-    <div class="container ">
+    <div class="container">
       <div class="navbar-brand">
           <a  href="/home" class="navbar-item logo">
             <img src="/images/logo.png" alt="City of London JavaScript Conference logo" />
@@ -90,9 +90,9 @@ export default {
       },
     );
   },
-   watch: {
-    '$route' () {
-      this.isActive = !this.isActive;
+  watch:{
+    $route (to, from){
+      this.isActive= false;
     }
   },
   props: {
@@ -146,6 +146,8 @@ export default {
     &:hover
       background-color: #F1F1F1
     span
-      background-color: #C1C1C1
+      background-color: #fff
+      font-weight: bold
+
 
 </style>

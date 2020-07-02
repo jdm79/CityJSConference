@@ -44,7 +44,6 @@
                current: 'pages/current',
             }),
             style () {
-               console.log(this.current.image)
                return `background-image: url(/siteimages/${this.current.image.path});`;
             }
         },
