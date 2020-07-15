@@ -920,11 +920,11 @@
         "thumbnail": {
             "path": "images\/2020speakers\/stefano.jpg"
         },
-        "order": "",
+        "order": 6,
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593292106,
+        "_modified": 1594734451,
         "_created": 1576566255,
         "_id": "5df87def653133c0600001be",
         "town": "Lecco"
@@ -1135,32 +1135,6 @@
         "_modified": 1593121192,
         "_created": 1580935663,
         "_id": "5e3b29ef65313352e20002f7"
-    },
-    {
-        "name": "Jen Looper ",
-        "bio": "<p>Jen Looper is a Google Developer Expert and a Cloud Developer Advocate Lead at Microsoft on the Academic Team with over 20 years' experience as a web and mobile developer, specializing in creating cross-platform mobile and web apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, Vue.js, machine learning and discovering new things every day. With a PhD in medieval French literature, Jen's area of focus is currently in applied machine learning, applying new techniques to rediscover ancient artifacts. She is the founder and CEO of Vue Vixens, an international nonprofit charity that promotes diversity in the Vue.js community. Visit Vue Vixens Inc at&nbsp;<a href=\"https:\/\/www.vuevixens.org\/\" rel=\"nofollow\">https:\/\/www.vuevixens.org<\/a>. Visit Jen's personal site at&nbsp;<a href=\"https:\/\/www.jenlooper.com\/\" rel=\"nofollow\">https:\/\/www.jenlooper.com<\/a>, or via Twitter @jenlooper.<\/p>",
-        "company": "Microsoft",
-        "title": "Ombromanie: Storytelling with Machine-Learning Infused Hand Shadows",
-        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Remember the spooky shadows you used to make on the walls, late at night, with nothing but a flashlight, your hands, and your imagination? Remember how they used to freak out your younger siblings? Wouldn't it be nice if we could reproduce the experience using the latest technology? Introducing Ombromanie, a new way to tell stories with your hands, on the web.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Remember the spooky shadows you used to make on the walls, late at night, with nothing but a flashlight, your hands, and your imagination? Remember how they used to freak out your younger siblings? Wouldn't it be nice if we could reproduce the experience using the latest technology? Introducing Ombromanie, a new way to tell stories with your hands, on the web.<\/span><\/p>\n<p>&nbsp;<\/p>",
-        "country": "USA",
-        "twitter": "@jenlooper",
-        "linkedin": "",
-        "year": 2020,
-        "videoUrl": "",
-        "image": {
-            "path": "images\/2020speakers\/jen-looper.png"
-        },
-        "thumbnail": {
-            "path": "images\/2020speakers\/jen-looper.png"
-        },
-        "order": 3,
-        "event": "",
-        "town": "Boston",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
-        "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419678,
-        "_created": 1593263931,
-        "_id": "5ef7473b65313334e50003a5"
     },
     {
         "name": "Milecia McGregor ",
@@ -1447,5 +1421,83 @@
         "_modified": 1593601637,
         "_created": 1593600686,
         "_id": "5efc6aae653133489e0000c2"
+    },
+    {
+        "name": "Natalia Waniczek",
+        "bio": "<p>Natalia is a web developer building hybrid mobile apps and websites at Elixel. With a passion for environment she's not afraid to voice her opinions and advocate for climate change. If she's not coding or trying to fix the world, she's either exploring Cornwall with her whippet Dobby or in the gym trying to out lift everyone else.<\/p>",
+        "company": "Elixel",
+        "title": " Technology's impact on climate change",
+        "talk": "<p>How can the tech industry do it's bit to slow down climate change? You will walk out of this talking having learned what the current state of tech's impact on climate change is, and steps we can take to prevent this from escalating and reduce the carbon footprint.<\/p>",
+        "country": "UK",
+        "twitter": "lil_natw",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/natalia.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/natalia.jpg"
+        },
+        "order": 8,
+        "event": "talk",
+        "town": "Cornwall",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1594732611,
+        "_created": 1594462930,
+        "_id": "5f0992d265313380ce000291"
+    },
+    {
+        "name": "Pratham Prasoon",
+        "bio": "<p>I'm a 16 year old trying to learn Python and JavaScript, my aim is to someday create a business which empowers millions around the world.<\/p>",
+        "company": "Sophmore at Podar International High School",
+        "title": "Use AI in your website using Tensorflow.js",
+        "talk": "<p>A talk on how to implement Ai in your website\/web-app using JavaScript library called TensorFlow.<\/p>\n<p>I will present how to make a digit recognizer using the MNIST dataset, all running inside a browser, I won't code it on the spot as it will waste time, rather slides will be shown with explanation along with the working app in the end, all under 10 minutes.<\/p>",
+        "country": "India",
+        "twitter": "PrasoonPratham",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/prasson.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/prasson.jpg"
+        },
+        "order": 9,
+        "event": "talk",
+        "town": "Mumbai",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1594733057,
+        "_created": 1594732770,
+        "_id": "5f0db0e2653133895a0003ab"
+    },
+    {
+        "name": "Kyle Simpson",
+        "bio": "<p>Kyle Simpson&nbsp;is an evangelist of the open web, passionate about all things JavaScript. He writes books, teaches JavaScript, speaks, and contributes to the world of OSS.<\/p>",
+        "company": "Director of Web Futures at Getify Solutions",
+        "title": "Types: The JS Way",
+        "talk": "<p>TBC<\/p>",
+        "country": "USA",
+        "twitter": "getify",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/kyle.jpeg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/kyle.jpeg"
+        },
+        "order": 1,
+        "event": "talk",
+        "town": "Austin",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1594734613,
+        "_created": 1594733992,
+        "_id": "5f0db5a865313390230002a0"
     }
 ]

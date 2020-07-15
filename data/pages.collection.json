@@ -1,10 +1,10 @@
 [
     {
         "title": "Home",
-        "subtitle": "An event that is run by four London JavaScript meetups",
+        "subtitle": "An event that is run by four of London's JavaScript meetups",
         "url": "home",
         "type": "Home",
-        "description": "<p>CityJS Conference&nbsp;is a JavaScript festival across London, a joint event from the London's JavaScript meetups, including&nbsp;<a href=\"https:\/\/www.meetup.com\/London-JavaScript-Community\/\">London JS Community<\/a>,&nbsp;<a href=\"https:\/\/www.meetup.com\/js-monthly\/\">JS Monthly<\/a>,&nbsp;<a href=\"https:\/\/www.meetup.com\/halfstack\/\">Halfstack<\/a> and <a href=\"https:\/\/www.meetup.com\/london-nodejs\/\">Node User Group.<\/a><\/p>\n<p>This is a fantastic opportunity<span style=\"font-weight: 400;\">&nbsp;for the&nbsp;JavaScipt community, and for those aiming to stay in touch with the industry, be updated on innovative changes around the industry and JS as an entity, absorb knowledge while you can hop on and off thought-provoking workshops and talks this is possibly the most central and reasonably priced event to attend in London.&nbsp;<\/span><\/p>",
+        "description": "<p>CityJS Conference&nbsp;is a JavaScript festival across London, a joint event from London's JavaScript meetups, including&nbsp;<a href=\"https:\/\/www.meetup.com\/London-JavaScript-Community\/\">London JS Community<\/a>,&nbsp;<a href=\"https:\/\/www.meetup.com\/js-monthly\/\">JS Monthly<\/a>,&nbsp;<a href=\"https:\/\/www.meetup.com\/halfstack\/\">Halfstack<\/a> and <a href=\"https:\/\/www.meetup.com\/london-nodejs\/\">Node User Group.<\/a><\/p>\n<p>This is a fantastic opportunity<span style=\"font-weight: 400;\">&nbsp;for the&nbsp;JavaScipt community, and for those aiming to stay in touch with the industry, to be updated on innovative changes around the industry and JS as an entity. You can absorb knowledge while hopping on and off thought-provoking workshops and talks - this is possibly the most central and reasonably priced event to attend in London.&nbsp;<\/span><\/p>",
         "shortDescription": "<p>An event run for developers, by developers<\/p>",
         "widgets": [
             {
@@ -54,10 +54,10 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1580401040,
+        "_modified": 1593721872,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0003c5",
-        "_mby": "5ba3ca7b6531330bbd0003ca"
+        "_mby": "5ef8a28b65313371010000cf"
     },
     {
         "title": "Speakers",
@@ -538,5 +538,51 @@
         "_modified": 1583767407,
         "_created": 1583767212,
         "_id": "5e665eac6531332fdd000136"
+    },
+    {
+        "title": "micropage",
+        "subtitle": "",
+        "url": "micropage",
+        "type": "",
+        "description": "",
+        "shortDescription": "",
+        "widgets": [
+            {
+                "_id": "5f0f4ada653133da180003c5",
+                "link": "widgets",
+                "display": "Live"
+            },
+            {
+                "_id": "5e2b66c1653133a0b80001e9",
+                "link": "widgets",
+                "display": "Schedule"
+            },
+            {
+                "_id": "5f0f4ac8653133d9f9000109",
+                "link": "widgets",
+                "display": "Sessions"
+            },
+            {
+                "_id": "5f0f4af3653133da330001c1",
+                "link": "widgets",
+                "display": "Competitions"
+            }
+        ],
+        "tags": "",
+        "image": [],
+        "displayAtHome": "",
+        "orderOnTopMenu": "",
+        "isRedirect": "",
+        "topMenu": "",
+        "bannerimage": [],
+        "hide": "Yes",
+        "color": "",
+        "components": "",
+        "year": 2020,
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1594837871,
+        "_created": 1594837871,
+        "_id": "5f0f4b6f653133dab60002e0"
     }
 ]

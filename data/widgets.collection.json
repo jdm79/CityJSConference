@@ -169,5 +169,44 @@
         "_modified": 1579902657,
         "_created": 1579902657,
         "_id": "5e2b66c1653133a0b80001e9"
+    },
+    {
+        "title": "Sessions",
+        "shortDescription": "",
+        "url": "",
+        "image": [],
+        "type": "Component",
+        "custom": "sessions",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1594837704,
+        "_created": 1594837704,
+        "_id": "5f0f4ac8653133d9f9000109"
+    },
+    {
+        "title": "Live",
+        "shortDescription": "",
+        "url": "",
+        "image": [],
+        "type": "Component",
+        "custom": "live",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1594837722,
+        "_created": 1594837722,
+        "_id": "5f0f4ada653133da180003c5"
+    },
+    {
+        "title": "Competitions",
+        "shortDescription": "",
+        "url": "",
+        "image": [],
+        "type": "Component",
+        "custom": "competitions",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1594837747,
+        "_created": 1594837747,
+        "_id": "5f0f4af3653133da330001c1"
     }
 ]
