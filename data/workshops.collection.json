@@ -40,5 +40,19 @@
         "_modified": 1593431898,
         "_created": 1578566990,
         "_id": "5e17054e653133596b000237"
+    },
+    {
+        "title": "Broken Promises Workshop",
+        "description": "<div>In our experience, if you are using promises, you are likely using them wrong (and nearly everybody else is too). This is most often due to misunderstandings about how Promises work, choices that were made by TC39 when designing the promises API, inconsistencies in how Promises are used, or failure to account for the cost of using Promises in an application, and ultimately how the event loop works.<\/div>\n<div>&nbsp;<\/div>\n<div>In this workshop, we aim to help developers do the right thing with Promises. Through a series of hands-on exercises and puzzles, developers will learn the ins and outs of developing with Promises in Node.js, learning everything they should do, and most importantly what they shouldn't do, in order to maximize the effectiveness of their code and avoid common performance pitfalls.<\/div>",
+        "instructor": "Mateo Colina",
+        "date": "2020-09-17",
+        "image": {
+            "path": "images\/2020speakers\/mateo.jpg"
+        },
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1595015211,
+        "_created": 1595015211,
+        "_id": "5f12002b653133bf340001d3"
     }
 ]

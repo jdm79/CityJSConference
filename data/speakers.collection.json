@@ -1499,5 +1499,31 @@
         "_modified": 1594734613,
         "_created": 1594733992,
         "_id": "5f0db5a865313390230002a0"
+    },
+    {
+        "name": "Sophie Koonin",
+        "bio": "<p>Sophie is a full-stack web engineer building Monzo Bank&rsquo;s brand-new web banking platform in React and Go. She&rsquo;s passionate about building inclusive, accessible web applications, as well as finding the right balance between developer and user experience. A mentor at Node Girls London and keen tech blogger, she featured on the Makers Academy Women in Tech Power List in 2019.<\/p>",
+        "company": "Monzo",
+        "title": "Little JavaScript Bundles of Joy",
+        "talk": "<p>Monolithic web apps: slow to build, slow to deploy, but somehow they're still the norm. Find out how we tackled the problem at Monzo using independently deployed and dynamically loaded JavaScript modules for our React-based customer support application.<\/p>",
+        "country": "UK",
+        "twitter": "@type__error",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/sofie.jpeg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/sofie.jpeg"
+        },
+        "order": 15,
+        "event": "talk",
+        "town": "London",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1595014917,
+        "_created": 1595014917,
+        "_id": "5f11ff05653133bdb400003a"
     }
 ]
