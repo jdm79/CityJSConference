@@ -18,7 +18,7 @@
                   <div class="column is-12-mobile is-6">
                      <a href="/buytickets">
                       <h2>
-                        ENTER Lounge Area
+                        Lounge Area
                         <br />
                         <span>Meet other developers and our sponsors</span>
                       </h2>
@@ -27,7 +27,7 @@
                    <div class="column is-12-mobile is-6">
                      <a href="/buytickets">
                       <h2>
-                        Enter Sessions
+                        Watch Sessions
                         <br />
                         <span>NodeJS, Testing, Performance, JAMSTACK</span>
                       </h2>
@@ -36,7 +36,7 @@
                    <div class="column is-12-mobile is-6">
                      <a href="/buytickets">
                       <h2>
-                        Enter Q&amp;A
+                        Speakers Q&amp;A
                         <br />
                         <span>Ask your questions to our Speakers</span>
                       </h2>

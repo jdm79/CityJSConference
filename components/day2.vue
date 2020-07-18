@@ -11,7 +11,10 @@
             v-for="(group, index) in groups"
             v-bind:key="index"
         >
-      
+            <p class="menu-label">
+                {{group.location}}
+            </p>
+
             <ul 
                 class="menulist"
             >
@@ -182,23 +185,6 @@
 
 <style lang="sass" scoped>
   @import '~/assets/css/mq.sass';
-
-  // CSS grid used for the dates
-  .dayevents,
-  .date-grid
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
- 
-  .dayevents
-    margin-top: 1.25em;
-
-  .day-of-week > *
-    font-size: 0.7em;
-    color: var(--blue-grey-400);
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    font-variant: small-caps;
-    text-align: center;
 
   .menu
     &:last-child

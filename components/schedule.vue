@@ -27,12 +27,14 @@
                                     </li>
                                 </ul>
                             </div>
-                              <app-day
+
+                            s
+                                <app-day
                                     :items= 'schedule'
                                     :speakers= 'speakers'
                                     :day= 'selectedDate'
                                 >
-                               </app-day>  
+                                </app-day>  
                         </div>
                           
                     </div> 
