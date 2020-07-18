@@ -1,13 +1,35 @@
 <template>
-    <section class="section bg-gray">
-      competitions12
-      {{competitions}}
-      <div v-for="item in competitions" v-bind:key="item._id">
-          ddd
-          <h4 slot="title">{{item.title}}</h4>
-      </div>
-          
-    </section>
+   <section class="section">
+            <h2>Competitions</h2>
+          	<div class="container">
+                <div class="card" v-for="item in competitions" v-bind:key="item._id">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                        <div class="media-left">
+                            <figure class="image is-48x48">
+                            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">{{item.title}}</p>
+                            <p class="subtitle is-6">@johnsmith</p>
+                        </div>
+                        </div>
+
+                        <div class="content">
+                        {{item.disc}}
+                        <br />
+                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 </template>
 
 <script>
@@ -34,7 +56,14 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-    @import '~/assets/css/mq.sass';
-    
-  
+@import '~/assets/css/mq.sass';
+
+.container
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+	grid-gap: 0.5em;
+
+.card
+	height: max-content;
+
 </style>

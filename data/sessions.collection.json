@@ -10,5 +10,29 @@
         "_modified": 1594730277,
         "_created": 1594730277,
         "_id": "5f0da7256531337bce00009c"
+    },
+    {
+        "title": "JAMSTACK",
+        "speaker": "Debbie O'brian & Maya Shavin",
+        "disc": "A talk about JAMSTACK from two ladies that know a lot about how you could deliver a flexible solution.",
+        "location": "Online",
+        "time": "",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1595069736,
+        "_created": 1595069736,
+        "_id": "5f12d52865313308c80002fa"
+    },
+    {
+        "title": "Performance",
+        "speaker": "Jonathan Fielding & Sia Caramolegos",
+        "disc": "Learn more how you could improve your JS performance",
+        "location": "",
+        "time": "",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1595069796,
+        "_created": 1595069796,
+        "_id": "5f12d564653133091d0000cd"
     }
 ]
