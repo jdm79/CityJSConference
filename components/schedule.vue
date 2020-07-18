@@ -14,21 +14,7 @@
                 <div class="">
                     <div class="container">
                         <div class="">
-                            <div class="tabs">
-                                <ul class="">
-                                    <li 
-                                        v-for="(date, index) in Days"
-                                        v-bind:key="date"
-                                        :class="{'is-active':date === chosen}">
-                                        <a v-on:click="select(date)">
-                                            <span v-if="index > 0">  Day {{index+1}}</span>
-                                            <span v-if="index === 0"> Conference Day</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            s
+                         
                                 <app-day
                                     :items= 'schedule'
                                     :speakers= 'speakers'
@@ -103,17 +89,6 @@
   .schedule
     background: $red;
     color: $white;
-
-    .tabs
-        li
-          a
-            background-color: transparent;
-            border: none;
-            color: $white;
-          &.is-active 
-            a
-              background-color: #c90000;
-              border: none;
 
 
 </style>
