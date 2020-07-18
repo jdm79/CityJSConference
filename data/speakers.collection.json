@@ -1008,8 +1008,8 @@
         "town": "Amsterdam"
     },
     {
-        "name": "Debbie O'brian",
-        "bio": "<p>You can call him Alex. I love Frontend. Since my brother and I had our first computer, it became our passion. Soon after, we created our first website. It was about our favorite sport, basketball. We wanted to learn everything about Web Development, so we could improve our site.<\/p>",
+        "name": "Debbie O'Brien",
+        "bio": "<p>Debbie O&rsquo;Brien is Head of Learning and Developer Advocate at NuxtJS, the progressive VueJS framework. Debbie has over 10 years experience in Frontend development. She has worked as a Tech Lead and consultant for many important clients with varios technologies and often with a strong focus on performance. She has lead teams both in house and remotely as well as giving workshops and training. She has many years of experience as a mentor for online learning platforms, Treehouse and OpenClassrooms. Debbie is a Microsoft Most Valuable Professional in developer technologies, Google Developer Expert in web technologies and Cloudinary Media Developer Expert.<\/p>",
         "company": "NuxtJS",
         "title": "What's new in Nuxt.js",
         "talk": "<p>Nuxt.js, the intuitive web framework, has had some killer features recently released. Debbie will take you through those new features and shed some light on what is to come in Nuxt.js<\/p>",
@@ -1028,7 +1028,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295933,
+        "_modified": 1595088920,
         "_created": 1578522800,
         "_id": "5e1658b065313369d50003cd",
         "town": "Palma de Mallorca"
