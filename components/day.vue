@@ -3,36 +3,23 @@
     <div id="talk" class>
       <div class="columns">
 
-        <vue-cal :disable-views="['years', 'year', 'month']"
+        <vue-cal 
+          class=" vuecal--red-theme"
+          :disable-views="['years', 'year', 'month']"
           selected-date="2018-11-20"
           hide-weekends
           active-view="day"
           :events="events"
           :time-from="9 * 60"
           :time-to="19 * 60"
+          :time-cell-height="30"
           :split-days="daySplits"
           :hide-weekdays="[5, 6, 7]"
           sticky-split-labels>
-          <template v-slot:event="{ event, view }">
-            <v-icon>{{ event.icon }}</v-icon>
-
-            <div class="vuecal__event-title" v-html="event.title" />
-            <!-- Or if your events are editable: -->
-            <div
-              class="vuecal__event-title vuecal__event-title--edit"
-              contenteditable
-              @blur="event.title = $event.target.innerHTML"
-              v-html="event.title"
-            />
-
-            <small class="vuecal__event-time">
-              <!-- Using Vue Cal injected Date prototypes -->
-              <strong>Event start:</strong>
-              <span>{{ event.start.formatTime("h O'clock") }}</span>
-              <br />
-              <strong>Event end:</strong>
-              <span>{{ event.end.formatTime("h O'clock") }}</span>
-            </small>
+          <template v-slot:time-cell="{ hours, minutes }">
+            <div :class="{ 'vuecal__time-cell-line': true, hours: !minutes }">
+              <strong  style="font-size: 15px; color: white">{{ hours }}:{{ minutes }}{{ minutes }}</strong>
+            </div>
           </template>
         </vue-cal>
       </div>
@@ -176,11 +163,50 @@ export default {
 <style lang="sass" scoped>
 @import '~/assets/css/mq.sass';
 
+.test
+  color: blue;
+  .vuecal__time-cell-label
+    color: $white;
+
 .vuecal
   color: $white;
-  background: $black;
+  background: $red;
+  opacity: 0.9;
   .day-split-header
    font-size: 11px;
    color: $white;
+
+.vuecal__event
+  background-color: rgba(173, 216, 230, 0.5);
+  box-sizing: border-box;
+  padding: 5px;
+  
+  &.lunch
+    background: repeating-linear-gradient(45deg, transparent, transparent 10px, #f2f2f2 10px, #f2f2f2 20px);
+
+
+.vuecal__event 
+  cursor: pointer;
+
+.vuecal__event-title
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 4px 0 8px;
+
+.vuecal__event-time
+  display: inline-block;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: $white;
+
+.vuecal__event-content
+  font-style: italic;
+  color: $white;
+
+
+.vuecal__time-column 
+.vuecal__time-cell 
+  color: $white;
 
 </style>

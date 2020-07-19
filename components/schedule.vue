@@ -5,7 +5,7 @@
                 <div>
                     <app-h2
                         title="Schedule"
-                        subtitle="3 days of JS Festivities around the center of London"
+                        subtitle="5 days of JS Festivities around the center of London"
                         :is-h2="true"
                         :white="true"
                     >

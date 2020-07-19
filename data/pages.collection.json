@@ -553,19 +553,39 @@
                 "display": "Live"
             },
             {
-                "_id": "5e2b66c1653133a0b80001e9",
-                "link": "widgets",
-                "display": "Schedule"
-            },
-            {
                 "_id": "5f0f4ac8653133d9f9000109",
                 "link": "widgets",
                 "display": "Sessions"
             },
             {
+                "_id": "5e2b66c1653133a0b80001e9",
+                "link": "widgets",
+                "display": "Schedule"
+            },
+            {
+                "_id": "5de975ff653133d0e70000ba",
+                "link": "widgets",
+                "display": "Speakers"
+            },
+            {
                 "_id": "5f0f4af3653133da330001c1",
                 "link": "widgets",
                 "display": "Competitions"
+            },
+            {
+                "_id": "5d62cea4653133433900015d",
+                "link": "widgets",
+                "display": "Sponsors"
+            },
+            {
+                "_id": "5d69d50c653133384d000350",
+                "link": "widgets",
+                "display": "Gallery"
+            },
+            {
+                "_id": "5d62ce0965313342700002cf",
+                "link": "widgets",
+                "display": "FAQ"
             }
         ],
         "tags": "",
@@ -581,7 +601,7 @@
         "year": 2020,
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1594837871,
+        "_modified": 1595165338,
         "_created": 1594837871,
         "_id": "5f0f4b6f653133dab60002e0"
     }

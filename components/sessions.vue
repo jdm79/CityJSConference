@@ -1,6 +1,12 @@
 <template>
       <section class="section">
-            <h2>Sessions</h2>
+            <app-h2
+                    title="Sessions"
+                    subtitle="Panel Talks"
+                    :is-h2="true"
+                    :white="false"
+            >
+            </app-h2>
           	<div class="container">
                 <div class="card" v-for="item in sessions" v-bind:key="item._id">
                     <div class="card-image">
@@ -34,6 +40,7 @@
 
 <script>
 import { mapGetters } from "vuex";
+import h2 from '@/components/h2';
 
 export default {
   name: "sessions",
@@ -42,7 +49,9 @@ export default {
       type: Array
     }
   },
-  components: {},
+  components: {
+      "app-h2" : h2,
+  },
   created(store) {
     this.$store.dispatch("sessions/get");
   },
