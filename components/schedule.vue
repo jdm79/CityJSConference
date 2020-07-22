@@ -87,7 +87,7 @@
   @import '~/assets/css/mq.sass';
 
   .schedule
-    background: $red;
+    background: $darkred;
     color: $white;
 
 

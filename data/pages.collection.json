@@ -106,8 +106,8 @@
         "subtitle": "",
         "url": "schedule",
         "type": "Standard",
-        "description": "<p>Please scroll below to navigate to our schedule, our talks will go through Frameworks React, VueJS, TypeScript React, Testing, IoT and NodeJS.&nbsp;<\/p>\n<p>In the last two days 16 and 17 of September, we will have using Zoom on React, GraphQL and TypeScript.<\/p>",
-        "shortDescription": "<p>We are currently in the process of picking up the remaining speakers.<\/p>\n<p>Once the process is completed we will print our schedule.&nbsp;<\/p>",
+        "description": "<p>We will be adding the final speaker schedule as soon as we can. We will list the speakers and their times slots.<\/p>\n<p>&nbsp;<\/p>\n<p>The talks will take place on the first two days of the conference (14th and 15th of September) from 2pm onwards.<\/p>\n<p>&nbsp;<\/p>\n<p>The workshops are scheduled to take place on the last three days of the conference (16th to the 18th of September).<\/p>\n<p>&nbsp;<\/p>\n<p>We will send out an email and broadcast on social media when we have confirmed our speaker and time slot schedule.<\/p>",
+        "shortDescription": "<p>We are currently in the process of organising who speaks when.<\/p>\n<p>Once the process is completed we will announce our schedule.&nbsp;<\/p>",
         "widgets": [
             {
                 "_id": "5d6acecf6531334555000322",
@@ -128,10 +128,10 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1593556352,
+        "_modified": 1595415717,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f000094",
-        "_mby": "5ba3ca7b6531330bbd0003ca"
+        "_mby": "5ef8a28b65313371010000cf"
     },
     {
         "title": "Buy Tickets",
@@ -563,14 +563,14 @@
                 "display": "Schedule"
             },
             {
-                "_id": "5de975ff653133d0e70000ba",
-                "link": "widgets",
-                "display": "Speakers"
-            },
-            {
                 "_id": "5f0f4af3653133da330001c1",
                 "link": "widgets",
                 "display": "Competitions"
+            },
+            {
+                "_id": "5de975ff653133d0e70000ba",
+                "link": "widgets",
+                "display": "Speakers"
             },
             {
                 "_id": "5d62cea4653133433900015d",
