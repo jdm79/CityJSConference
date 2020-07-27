@@ -920,11 +920,11 @@
         "thumbnail": {
             "path": "images\/2020speakers\/stefano.jpg"
         },
-        "order": "",
+        "order": 6,
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593292106,
+        "_modified": 1594734451,
         "_created": 1576566255,
         "_id": "5df87def653133c0600001be",
         "town": "Lecco"
@@ -1008,13 +1008,13 @@
         "town": "Amsterdam"
     },
     {
-        "name": "Debbie O'brian",
-        "bio": "<p>You can call him Alex. I love Frontend. Since my brother and I had our first computer, it became our passion. Soon after, we created our first website. It was about our favorite sport, basketball. We wanted to learn everything about Web Development, so we could improve our site.<\/p>",
+        "name": "Debbie O'Brien",
+        "bio": "<p>Debbie O&rsquo;Brien is Head of Learning and Developer Advocate at NuxtJS, the progressive VueJS framework. Debbie has over 10 years experience in Frontend development. She has worked as a Tech Lead and consultant for many important clients with varios technologies and often with a strong focus on performance. She has lead teams both in house and remotely as well as giving workshops and training. She has many years of experience as a mentor for online learning platforms, Treehouse and OpenClassrooms. Debbie is a Microsoft Most Valuable Professional in developer technologies, Google Developer Expert in web technologies and Cloudinary Media Developer Expert.<\/p>",
         "company": "NuxtJS",
         "title": "What's new in Nuxt.js",
         "talk": "<p>Nuxt.js, the intuitive web framework, has had some killer features recently released. Debbie will take you through those new features and shed some light on what is to come in Nuxt.js<\/p>",
         "country": "Spain",
-        "twitter": "iamnuxt",
+        "twitter": "debs_obrien",
         "linkedin": "",
         "year": 2020,
         "videoUrl": "",
@@ -1026,9 +1026,9 @@
         },
         "order": 1,
         "event": "talk",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_mby": "5ef8a28b65313371010000cf",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295933,
+        "_modified": 1595799186,
         "_created": 1578522800,
         "_id": "5e1658b065313369d50003cd",
         "town": "Palma de Mallorca"
@@ -1137,34 +1137,8 @@
         "_id": "5e3b29ef65313352e20002f7"
     },
     {
-        "name": "Jen Looper ",
-        "bio": "<p>Jen Looper is a Google Developer Expert and a Cloud Developer Advocate Lead at Microsoft on the Academic Team with over 20 years' experience as a web and mobile developer, specializing in creating cross-platform mobile and web apps. She's a multilingual multiculturalist with a passion for hardware hacking, mobile apps, Vue.js, machine learning and discovering new things every day. With a PhD in medieval French literature, Jen's area of focus is currently in applied machine learning, applying new techniques to rediscover ancient artifacts. She is the founder and CEO of Vue Vixens, an international nonprofit charity that promotes diversity in the Vue.js community. Visit Vue Vixens Inc at&nbsp;<a href=\"https:\/\/www.vuevixens.org\/\" rel=\"nofollow\">https:\/\/www.vuevixens.org<\/a>. Visit Jen's personal site at&nbsp;<a href=\"https:\/\/www.jenlooper.com\/\" rel=\"nofollow\">https:\/\/www.jenlooper.com<\/a>, or via Twitter @jenlooper.<\/p>",
-        "company": "Microsoft",
-        "title": "Ombromanie: Storytelling with Machine-Learning Infused Hand Shadows",
-        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Remember the spooky shadows you used to make on the walls, late at night, with nothing but a flashlight, your hands, and your imagination? Remember how they used to freak out your younger siblings? Wouldn't it be nice if we could reproduce the experience using the latest technology? Introducing Ombromanie, a new way to tell stories with your hands, on the web.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Remember the spooky shadows you used to make on the walls, late at night, with nothing but a flashlight, your hands, and your imagination? Remember how they used to freak out your younger siblings? Wouldn't it be nice if we could reproduce the experience using the latest technology? Introducing Ombromanie, a new way to tell stories with your hands, on the web.<\/span><\/p>\n<p>&nbsp;<\/p>",
-        "country": "USA",
-        "twitter": "@jenlooper",
-        "linkedin": "",
-        "year": 2020,
-        "videoUrl": "",
-        "image": {
-            "path": "images\/2020speakers\/jen-looper.png"
-        },
-        "thumbnail": {
-            "path": "images\/2020speakers\/jen-looper.png"
-        },
-        "order": 3,
-        "event": "",
-        "town": "Boston",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
-        "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419678,
-        "_created": 1593263931,
-        "_id": "5ef7473b65313334e50003a5"
-    },
-    {
         "name": "Milecia McGregor ",
-        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Milecia is a senior software engineer, but she also has a master's degree in mechanical and aerospace engineering and has published research in machine learning and robotics. She started Flipped Coding in 2017 to help people learn web development with real-world projects.\\n\\nMilecia also speaks at tech conferences around the world and writes about tech. In her free time, she spends time with her husband and dogs while learning kung fu and learning how to play the harmonica. &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Milecia is a senior software engineer, but she also has a master's degree in mechanical and aerospace engineering and has published research in machine learning and robotics. She started Flipped Coding in 2017 to help people learn web development with real-world projects.<br \/><br \/>Milecia also speaks at tech conferences around the world and writes about tech. In her free time, she spends time with her husband and dogs while learning kung fu and learning how to play the harmonica. <\/span><\/p>",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Milecia is a senior software engineer, but she also has a master's degree in mechanical and aerospace engineering and has published research in machine learning and robotics. She started Flipped Coding in 2017 to help people learn web development with real-world projects.\\n\\nMilecia also speaks at tech conferences around the world and writes about tech. In her free time, she spends time with her husband and dogs while learning kung fu and learning how to play the harmonica. &quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Milecia is a senior software engineer, but she also has a Master's degree in mechanical and aerospace engineering and has published research in machine learning and robotics. She started Flipped Coding in 2017 to help people learn web development with real-world projects.<br \/><br \/>Milecia also speaks at tech conferences around the world and writes about tech. In her free time, she spends time with her husband and dogs while learning kung fu and learning how to play the harmonica. <\/span><\/p>",
         "company": "Mediavine",
         "title": "Reading Thoughts With JavaScript",
         "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;An important skill people in tech need to have is learning how to combine unusual, unrelated concepts into things real people can use every day. JavaScript is the most popular programming language and it&rsquo;s already being used in machine learning so why not take it to the next level and add neurology?&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">An important skill people in tech need to have is learning how to combine unusual, unrelated concepts into things real people can use every day. JavaScript is the most popular programming language and it&rsquo;s already being used in machine learning so why not take it to the next level and add neurology?<\/span><\/p>",
@@ -1182,18 +1156,18 @@
         "order": 16,
         "event": "",
         "town": "Oklahoma",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_mby": "5ef8a28b65313371010000cf",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419777,
+        "_modified": 1595848271,
         "_created": 1593268474,
         "_id": "5ef758fa6531334b6d000304"
     },
     {
         "name": "Shodipo Ayomide",
-        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Shodipo Ayomide is a Senior Developer Advocate, Software Engineer, Program manger and teacher, who also contributes to a lot of open-source projects over on GitHub, he also runs some major communities like unStack, Developers Circles Lagos from Facebook, Open Source Community Africa and NaijaHacks driving Nigeria &amp; Africa forward in Technology, he is an international speaker who has spoken at a lot of conferences over time in various locations, in his free time he loves to, Read, See a Movie and Occasionally play video games, Loves Travelling and Family.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Shodipo Ayomide is a Senior Developer Advocate, Software Engineer, Program manger and teacher, who also contributes to a lot of open-source projects over on GitHub, he also runs some major communities like unStack, Developers Circles Lagos from Facebook, Open Source Community Africa and NaijaHacks driving Nigeria &amp; Africa forward in Technology, he is an international speaker who has spoken at a lot of conferences over time in various locations, in his free time he loves to, Read, See a Movie and Occasionally play video games, Loves Travelling and Family.<\/span><\/p>",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Shodipo Ayomide is a Senior Developer Advocate, Software Engineer, Program manger and teacher, who also contributes to a lot of open-source projects over on GitHub, he also runs some major communities like unStack, Developers Circles Lagos from Facebook, Open Source Community Africa and NaijaHacks driving Nigeria &amp; Africa forward in Technology, he is an international speaker who has spoken at a lot of conferences over time in various locations, in his free time he loves to, Read, See a Movie and Occasionally play video games, Loves Travelling and Family.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Shodipo Ayomide is a Senior Developer Advocate, Software Engineer, Program manger and teacher, who also contributes to a lot of open-source projects over on GitHub, he also runs some major communities like unStack, Developers Circles Lagos from Facebook, Open Source Community Africa and NaijaHacks driving Nigeria &amp; Africa forward in Technology, he is an international speaker who has spoken at a lot of conferences over time in various locations. In his free time he loves to read, watch movies and occasionally play video games. Loves Travelling and Family.<\/span><\/p>",
         "company": "Fleek",
         "title": "Getting up to Speed With Deno",
-        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;In this talk, I would be Presentation of the new JavaScript Runtime called Deno the advantages like Security by Default, TypeScript first-class language, ES Modules, Distributed Package Management, Top-Level Await, Standard Library and more.\\n\\nThe key things this talk would cover would be:\\n\\n- Getting you up to speed on how Deno works\\n- The Deno Infrastructure \\n- The Deno CLI\\n- Using Deno in Production&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">In this talk, I would be Presentation of the new JavaScript Runtime called Deno the advantages like Security by Default, TypeScript first-class language, ES Modules, Distributed Package Management, Top-Level Await, Standard Library and more.<br \/><br \/>The key things this talk would cover would be:<br \/><br \/>- Getting you up to speed on how Deno works<br \/>- The Deno Infrastructure <br \/>- The Deno CLI<br \/>- Using Deno in Production<\/span><\/p>",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;In this talk, I would be Presentation of the new JavaScript Runtime called Deno the advantages like Security by Default, TypeScript first-class language, ES Modules, Distributed Package Management, Top-Level Await, Standard Library and more.\\n\\nThe key things this talk would cover would be:\\n\\n- Getting you up to speed on how Deno works\\n- The Deno Infrastructure \\n- The Deno CLI\\n- Using Deno in Production&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">In this talk, I will present the new JavaScript Runtime called Deno, the advantages like Security by Default, TypeScript first-class language, ES Modules, Distributed Package Management, Top-Level Await, Standard Library and more.<br \/><br \/>The key things this talk will cover are:<br \/><br \/>- Getting you up to speed on how Deno works<br \/>- The Deno Infrastructure <br \/>- The Deno CLI<br \/>- Using Deno in Production<\/span><\/p>",
         "country": "Nigeria",
         "twitter": "@developerayo",
         "linkedin": "",
@@ -1208,9 +1182,9 @@
         "order": 4,
         "event": "",
         "town": "Lagos",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_mby": "5ef8a28b65313371010000cf",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593601073,
+        "_modified": 1595848234,
         "_created": 1593269268,
         "_id": "5ef75c146531334ec30000cd"
     },
@@ -1219,7 +1193,7 @@
         "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Max Firtman (@firt) is a mobile + web developer, trainer, speaker, and writer. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web published by O&rsquo;Reilly Media, and many online courses at Lynda, LinkedIn Learning, PluralSight, O'Reilly Learning, Udemy and more publishers. He is a frequent speaker at conferences worldwide and he has been widely recognized for his work in the mobile-web community. He teaches mobile (Android &amp; iOS), HTML5, PWA and web performance trainings for top companies around the world.\\n&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Max Firtman (@firt) is a mobile + web developer, trainer, speaker, and writer. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web published by O&rsquo;Reilly Media, and many online courses at Lynda, LinkedIn Learning, PluralSight, O'Reilly Learning, Udemy and more publishers. He is a frequent speaker at conferences worldwide and he has been widely recognized for his work in the mobile-web community. He teaches mobile (Android &amp; iOS), HTML5, PWA and web performance trainings for top companies around the world.<br \/><\/span><\/p>",
         "company": "",
         "title": "The Mysterious Life of Web Apps in the Background",
-        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Do you know what happens with your code when the user presses the home button, receives a call, or reply to a WhatsApp message while using your web app? Let's spy on the lifecycle of web apps today and uncover the secrets of their mysterious life in the background. \\n&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Do you know what happens with your code when the user presses the home button, receives a call, or reply to a WhatsApp message while using your web app? Let's spy on the lifecycle of web apps today and uncover the secrets of their mysterious life in the background. <br \/><\/span><\/p>",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Do you know what happens with your code when the user presses the home button, receives a call, or reply to a WhatsApp message while using your web app? Let's spy on the lifecycle of web apps today and uncover the secrets of their mysterious life in the background. \\n&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Do you know what happens with your code when the user presses the home button, receives a call, or replies to a WhatsApp message while using your web app? Let's spy on the lifecycle of web apps today and uncover the secrets of their mysterious life in the background. <br \/><\/span><\/p>",
         "country": " Argentina",
         "twitter": "@firt",
         "linkedin": "",
@@ -1234,9 +1208,9 @@
         "order": 15,
         "event": "",
         "town": "Buenos Aires",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_mby": "5ef8a28b65313371010000cf",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419708,
+        "_modified": 1595848145,
         "_created": 1593269644,
         "_id": "5ef75d8c653133504d0003b7"
     },
@@ -1345,13 +1319,13 @@
         "_id": "5ef76697653133599800011c"
     },
     {
-        "name": "ITALO JOSE GONCALVES DE OLIVEIRA",
-        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Italo Jos&eacute; is Microsoft MVP in AI category and works at Vortx as a lead solutions architect, also he's Lead of Developer Circle SP from Facebook in S&atilde;o Paulo and is a Self-driving car assistant teacher at FIAP university in the mechatronic course. He wins (3&ordm;) the real self-driving car global hackathon in China by Pix Moving in 2019 and contributes with the community speaking about AI, mentoring communities by the communup.tech project and writing on medium and in the IMaster (IT Forum) as a columnist.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Italo Jos&eacute; is Microsoft MVP in AI category and works at Vortx as a lead solutions architect, also he's Lead of Developer Circle SP from Facebook in S&atilde;o Paulo and is a Self-driving car assistant teacher at FIAP university in the mechatronic course. He wins (3&ordm;) the real self-driving car global hackathon in China by Pix Moving in 2019 and contributes with the community speaking about AI, mentoring communities by the communup.tech project and writing on medium and in the IMaster (IT Forum) as a columnist.<\/span><\/p>",
+        "name": "Italo Jose Goncalves de Oliveira",
+        "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Italo Jos&eacute; is Microsoft MVP in AI category and works at Vortx as a lead solutions architect, also he's Lead of Developer Circle SP from Facebook in S&atilde;o Paulo and is a Self-driving car assistant teacher at FIAP university in the mechatronic course. He wins (3&ordm;) the real self-driving car global hackathon in China by Pix Moving in 2019 and contributes with the community speaking about AI, mentoring communities by the communup.tech project and writing on medium and in the IMaster (IT Forum) as a columnist.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Italo Jos&eacute; is a Microsoft MVP in the AI category and works at Vortx as a lead solutions architect. Also he's lead of Developer Circle SP at Facebook in S&atilde;o Paulo and is a self-driving car assistant teacher at FIAP university in the mechatronic course. He won (3&ordm;) the real self-driving car global hackathon in China by Pix Moving in 2019 and contributes to the community speaking about AI, mentoring communities by the communup.tech project and writing on medium and in the IMaster (IT Forum) as a columnist.<\/span><\/p>",
         "company": "Vortx",
         "title": "RealTime exoskeleton-mapping and body segmentation on the browser with Tensorflow.js",
-        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;In this talk, we will show how we can implement a deep learning model with Tensorflow.js that makes it for us, and the best part, everything running in the browser!&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">In this talk, we will show how we can implement a deep learning model with Tensorflow.js that makes it for us, and the best part, everything running in the browser!<\/span>https:\/\/twitter.com\/italojs_<\/p>",
-        "country": "Brasil ",
-        "twitter": "https:\/\/twitter.com\/italojs_",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;In this talk, we will show how we can implement a deep learning model with Tensorflow.js that makes it for us, and the best part, everything running in the browser!&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">In this talk, we will show how we can implement a deep learning model with Tensorflow.js, and the best part, everything running in the browser!<\/span><\/p>",
+        "country": "Brazil ",
+        "twitter": "@italojs_",
         "linkedin": "",
         "year": 2020,
         "videoUrl": "",
@@ -1364,9 +1338,9 @@
         "order": 19,
         "event": "",
         "town": "S\u00e3o Paulo",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_mby": "5ef8a28b65313371010000cf",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419423,
+        "_modified": 1595846800,
         "_created": 1593272392,
         "_id": "5ef768486531335b200001d8"
     },
@@ -1375,7 +1349,7 @@
         "bio": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Originally from Malaysia, Li Hau is an expert engineer at Shopee, Svelte core member and Babel contributor. He is a polyglot. He speaks English, Chinese, Malay, JavaScript, CSS, and HTML. In his free time, he writes about JavaScript frameworks and tools.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Originally from Malaysia, Li Hau is an expert engineer at Shopee, Svelte core member and Babel contributor. He is a polyglot. He speaks English, Chinese, Malay, JavaScript, CSS, and HTML. In his free time, he writes about JavaScript frameworks and tools.<\/span><\/p>",
         "company": "Shopee - Svelte Contributor",
         "title": "Looking into the Svelte compiler",
-        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Have you ever wonder how does the Svelte compilation process works?\\nHave you ever feeling curious and want to read Svelte source code but does not know where to start?\\n\\nThis talk will give you an overview of the Svelte compilation process, from parsing the source code, analyse the code to generating final JavaScript code.\\n\\nAt the end of the talk, you will get a deeper understanding of the Svelte compilation process.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Have you ever wonder how does the Svelte compilation process works?<br \/>Have you ever feeling curious and want to read Svelte source code but does not know where to start?<br \/><br \/>This talk will give you an overview of the Svelte compilation process, from parsing the source code, analyse the code to generating final JavaScript code.<br \/><br \/>At the end of the talk, you will get a deeper understanding of the Svelte compilation process.<\/span><\/p>",
+        "talk": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;Have you ever wonder how does the Svelte compilation process works?\\nHave you ever feeling curious and want to read Svelte source code but does not know where to start?\\n\\nThis talk will give you an overview of the Svelte compilation process, from parsing the source code, analyse the code to generating final JavaScript code.\\n\\nAt the end of the talk, you will get a deeper understanding of the Svelte compilation process.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:513,&quot;3&quot;:{&quot;1&quot;:0},&quot;12&quot;:0}\">Have you ever wondered how the Svelte compilation process works?<br \/>Have you ever felt curious and wanted to read Svelte source code but don't know where to start?<br \/><br \/>This talk will give you an overview of the Svelte compilation process, from parsing the source code, analysing the code to generating the final JavaScript code.<br \/><br \/>At the end of the talk, you will get a deeper understanding of the Svelte compilation process.<\/span><\/p>",
         "country": "Singapore",
         "twitter": "@lihautan",
         "linkedin": "",
@@ -1390,9 +1364,9 @@
         "order": 4,
         "event": "",
         "town": "Pulau Ujong",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_mby": "5ef8a28b65313371010000cf",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419060,
+        "_modified": 1595847993,
         "_created": 1593272604,
         "_id": "5ef7691c6531335bed0002e0"
     },
@@ -1424,7 +1398,7 @@
     },
     {
         "name": "Ana Cidre",
-        "bio": "<p>Ana is a Developer Advocate at Auth0. She has a degree in Fine Arts and a Master in International Business Economics and Management, so she is not your usual software developer. She loves to code and she especially likes Angular. As a very active member of the community, she regularly organises meetups and conferences, like the amazing ngSpain. In Spain, where she&rsquo;s currently based, she&rsquo;s an organiser of GDG Vigo and the founder of GalsTech, a group for women in tech from Galicia. Because she is so passionate about diversity, she has also been named a Women Techmaker Ambassador.<\/p>",
+        "bio": "<p>Ana is a Developer Advocate at Auth0. She has a degree in Fine Arts and a Master's in International Business Economics and Management, so she is not your usual software developer. She loves to code and she especially likes Angular. As a very active member of the community, she regularly organises meetups and conferences, like the amazing ngSpain. In Spain, where she&rsquo;s currently based, she&rsquo;s an organiser of GDG Vigo and the founder of GalsTech, a group for women in tech from Galicia. Because she is so passionate about diversity, she has also been named a Women Techmaker Ambassador.<\/p>",
         "company": "Auth0",
         "title": "The state of Web Components",
         "talk": "<p>A decade in the making, Web Components, a standardised set of technologies allowing us to create reusable web components are now widely supported in modern browsers. In this presentation we will take a look at the overall architecture and some common use cases and patterns of Web Components and why they are now a viable option. We will also look at future features to show how powerful web components are constantly improving.<\/p>",
@@ -1442,10 +1416,114 @@
         "order": 10,
         "event": "",
         "town": "Vigo",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_mby": "5ef8a28b65313371010000cf",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593601637,
+        "_modified": 1595847897,
         "_created": 1593600686,
         "_id": "5efc6aae653133489e0000c2"
+    },
+    {
+        "name": "Natalia Waniczek",
+        "bio": "<p>Natalia is a web developer building hybrid mobile apps and websites at Elixel. With a passion for the environment she's not afraid to voice her opinions and advocate for climate change. If she's not coding or trying to fix the world, she's either exploring Cornwall with her whippet Dobby or in the gym trying to out lift everyone else.<\/p>",
+        "company": "Elixel",
+        "title": " Technology's impact on climate change",
+        "talk": "<p>How can the tech industry do its bit to slow down climate change? You will walk out of this talking having learned what the current state of tech's impact on climate change is, and steps we can take to prevent this from escalating, and reduce the carbon footprint.<\/p>",
+        "country": "UK",
+        "twitter": "lil_natw",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/natalia.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/natalia.jpg"
+        },
+        "order": 8,
+        "event": "talk",
+        "town": "Cornwall",
+        "_mby": "5ef8a28b65313371010000cf",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1595847854,
+        "_created": 1594462930,
+        "_id": "5f0992d265313380ce000291"
+    },
+    {
+        "name": "Pratham Prasoon",
+        "bio": "<p>I'm a 16 year old trying to learn Python and JavaScript. My aim is to someday create a business which empowers millions around the world.<\/p>",
+        "company": "Sophmore at Podar International High School",
+        "title": "Use AI in your website using Tensorflow.js",
+        "talk": "<p>A talk on how to implement Ai in your website\/web-app using the JavaScript library TensorFlow.<\/p>\n<p>I will present how to make a digital recogniser using the MNIST dataset, all running inside a browser, I won't code it on the spot as it will waste time, rather slides will be shown with explanations along with the working app in the end, all under 10 minutes.<\/p>",
+        "country": "India",
+        "twitter": "PrasoonPratham",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/prasson.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/prasson.jpg"
+        },
+        "order": 9,
+        "event": "talk",
+        "town": "Mumbai",
+        "_mby": "5ef8a28b65313371010000cf",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1595847078,
+        "_created": 1594732770,
+        "_id": "5f0db0e2653133895a0003ab"
+    },
+    {
+        "name": "Kyle Simpson",
+        "bio": "<p>Kyle Simpson&nbsp;is an evangelist of the open web, passionate about all things JavaScript. He writes books, teaches JavaScript, speaks, and contributes to the world of OSS.<\/p>",
+        "company": "Director of Web Futures at Getify Solutions",
+        "title": "Mo\u2019 problems, Mo\u2019nads",
+        "talk": "<p>TBC<\/p>",
+        "country": "USA",
+        "twitter": "getify",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/kyle.jpeg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/kyle.jpeg"
+        },
+        "order": 1,
+        "event": "talk",
+        "town": "Austin",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1595413757,
+        "_created": 1594733992,
+        "_id": "5f0db5a865313390230002a0"
+    },
+    {
+        "name": "Sophie Koonin",
+        "bio": "<p>Sophie is a full-stack web engineer building Monzo Bank&rsquo;s brand-new web banking platform in React and Go. She&rsquo;s passionate about building inclusive, accessible web applications, as well as finding the right balance between developer and user experience. A mentor at Node Girls London and keen tech blogger, she featured on the Makers Academy Women in Tech Power List in 2019.<\/p>",
+        "company": "Monzo",
+        "title": "Little JavaScript Bundles of Joy",
+        "talk": "<p>Monolithic web apps: slow to build, slow to deploy, but somehow they're still the norm. Find out how we tackled the problem at Monzo using independently deployed and dynamically loaded JavaScript modules for our React-based customer support application.<\/p>",
+        "country": "UK",
+        "twitter": "@type__error",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/sofie.jpeg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/sofie.jpeg"
+        },
+        "order": 15,
+        "event": "talk",
+        "town": "London",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1595014917,
+        "_created": 1595014917,
+        "_id": "5f11ff05653133bdb400003a"
     }
 ]
