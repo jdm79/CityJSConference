@@ -13,26 +13,20 @@
                 <div class="card" v-for="item in competitions" v-bind:key="item._id">
                     <div class="card-image">
                         <figure class="image is-4by3">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
+                        <img src="https://bulma.io/images/placeholders/640x480.png" alt="Placeholder image" />
                         </figure>
                     </div>
                     <div class="card-content">
                         <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4">{{item.title}}</p>
-                            <p class="subtitle is-6">@johnsmith</p>
-                        </div>
+                          <div class="media-content">
+                              <p class="title is-5">
+                                <a :href="item.link" target="_blank">{{item.title}}</a>
+                              </p>
+                          </div>
                         </div>
 
                         <div class="content">
-                        {{item.disc}}
-                        <br />
-                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          <div v-html="item.sortdesc"></div>
                         </div>
                     </div>
                 </div>
@@ -73,10 +67,22 @@ export default {
 
 .container
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 0.5em;
 
 .card
 	height: max-content;
+
+.title
+  padding: 2px;
+  text-align: center;
+  color: #4a4a4a;
+  border: 2px solid #4a4a4a;
+  a
+    color: #4a4a4a;
+.title:hover
+  background-color: #4a4a4a;
+.title:hover a
+      color: white;
 
 </style>
