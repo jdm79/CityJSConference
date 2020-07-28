@@ -65,13 +65,6 @@ export default {
 .competitions
     background: black;
 
-.container
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 0.5em;
-
-.card
-	height: max-content;
 
 .title
   padding: 2px;
@@ -84,5 +77,34 @@ export default {
   background-color: #4a4a4a;
 .title:hover a
       color: white;
+
+.container
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+
+/* Create four equal columns that sits next to each other */
+.card
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: calc(25% - 8px);
+  margin: 0 4px;
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px)
+  .card
+    flex: 50%;
+    max-width: calc(50% - 8px);
+    margin-bottom: 8px;
+
+
+@media screen and (max-width: 600px)
+  .card
+    flex: 100%;
+    max-width: calc(100% - 8px);
+    margin-bottom: 8px;
+
 
 </style>
