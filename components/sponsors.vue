@@ -47,7 +47,7 @@
               </div>
             </div>
              <div class="columns is-centered ">
-               <div class="column is-10 has-text-centered">
+               <div class="column is-12 has-text-centered">
                 <app-sponsor
                   :items="filteredSponsors"
                   level="Bronze"
