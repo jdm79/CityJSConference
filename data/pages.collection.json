@@ -23,6 +23,11 @@
                 "display": "Speakers"
             },
             {
+                "_id": "5e2b66c1653133a0b80001e9",
+                "link": "widgets",
+                "display": "Schedule"
+            },
+            {
                 "_id": "5d98d5966531334af500024d",
                 "link": "widgets",
                 "display": "about-venue"
@@ -54,17 +59,17 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1593721872,
+        "_modified": 1596472034,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0003c5",
-        "_mby": "5ef8a28b65313371010000cf"
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "title": "Speakers",
         "subtitle": "",
         "url": "speakers",
         "type": "Standard",
-        "description": "<p>&nbsp;<\/p>\n<p>The CFP for the 2020 event is now closed.<\/p>\n<p>&nbsp;<\/p>\n<p>We would like to thank everyone for submitting your proposals we have been really excited by your response to our call for papers.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Below you can see some of the speakers selected. We will be revealing some more speakers soon.<\/p>",
+        "description": "<p>&nbsp;<\/p>\n<p>The CFP for the 2020 event is now closed.<\/p>\n<p>&nbsp;<\/p>\n<p>We would like to thank everyone for submitting your proposals - we had some exciting responses to our call for papers.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Below are the speakers selected.<\/p>",
         "shortDescription": "",
         "widgets": [
             {
@@ -96,10 +101,10 @@
         "color": "transparent",
         "components": "",
         "year": 2019,
-        "_modified": 1579601508,
+        "_modified": 1595849931,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0001f7",
-        "_mby": "5ba3ca7b6531330bbd0003ca"
+        "_mby": "5ef8a28b65313371010000cf"
     },
     {
         "title": "Schedule",
@@ -113,6 +118,11 @@
                 "_id": "5d6acecf6531334555000322",
                 "link": "widgets",
                 "display": "About page"
+            },
+            {
+                "_id": "5e2b66c1653133a0b80001e9",
+                "link": "widgets",
+                "display": "Schedule"
             }
         ],
         "tags": "",
@@ -128,17 +138,17 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1595415717,
+        "_modified": 1596399162,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f000094",
-        "_mby": "5ef8a28b65313371010000cf"
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "title": "Buy Tickets",
         "subtitle": "",
         "url": "buytickets",
         "type": "Standard",
-        "description": "<p>Get your tickets now for the Conference day and the workshops, numbers are limited for both get yours as soon as you can. For Workshops, you can optionally donate, all the profits from your donations will be given to non-profit&nbsp;groups.<\/p>\n<p>If the tickets section not loading please get your&nbsp; tickets using our <a href=\"https:\/\/ti.to\/cityjsconf-london\/cityjs-2020\">ticket provider<\/a><\/p>",
+        "description": "<p>Buy your tickets now for the conference day - and the workshops! Numbers are limited for both, so grab your tickets as soon as you can. For workshops, you can optionally donate - all the profits from your donations will be given to non-profit&nbsp;groups.<\/p>\n<p>If the tickets section is not loading, you can use our&nbsp;<a href=\"https:\/\/ti.to\/cityjsconf-london\/cityjs-2020\">ticket provider<\/a>&nbsp;instead.<\/p>",
         "shortDescription": "",
         "widgets": [
             {
@@ -160,10 +170,10 @@
         "color": "transparent",
         "components": "",
         "year": "",
-        "_modified": 1580400930,
+        "_modified": 1595855476,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f00001b",
-        "_mby": "5ba3ca7b6531330bbd0003ca"
+        "_mby": "5ef8a28b65313371010000cf"
     },
     {
         "title": "Venue",
