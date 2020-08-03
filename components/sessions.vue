@@ -26,7 +26,10 @@
                                 v-for="(speaker, index) in item.panelists"
                                 v-bind:key="index"
                             >
-                                {{speaker.display}}
+                                <div class="speaker-wrapper">
+                                  <img class="speaker-img" src="https://via.placeholder.com/30" alt="">
+                                  <div>{{speaker.display}}</div>
+                                </div>
                              </li>
                         </ul>
                        <p>{{item.time}}</p>
@@ -103,5 +106,11 @@ export default {
   display: flex;
   flex-direction: column;
 
+.speaker-img
+  border-radius: 100%;
+  margin-right: 8px;
 
+.speaker-wrapper
+  display: flex;
+  align-items: center;
 </style>
