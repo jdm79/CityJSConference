@@ -8,19 +8,31 @@
             >
             </app-h2>
               <div class="columns features">
-                <div class="column is-3" v-for="item in sessions" v-bind:key="item._id">
+                <div class="column is-3" v-for="(item, i) in sessions" v-bind:key="item._id">
                   <div class="card is-shady">
                     <div class="card-image">
                       <figure class="image is-4by3">
-                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                        <img :src="`/siteimages/images/sessions/${i+1}.png`" alt="Placeholder image">
                       </figure>
                     </div>
                     <div class="card-content">
                       <div class="content">
                         <h4>{{item.title}}</h4>
                         <p>  {{item.disc}} </p>
-                        <p>   {{item.time}} </p>
-                          <a href="/buytickets"><span class="button is-link modal-button" 
+
+                        <h5>Panel</h5>
+                        <ul>
+                             <li 
+                                v-for="(speaker, index) in item.panelists"
+                                v-bind:key="index"
+                            >
+                                {{speaker.display}}
+                             </li>
+                        </ul>
+                       <p>   {{item.time}} </p>
+
+
+                        <a href="/buytickets"><span class="button is-link modal-button" 
                           data-target="modal-card">Coming soon</span></a>
                       </div>
                     </div>
@@ -67,6 +79,13 @@ export default {
 	height: max-content;
 
 .card-content
-  min-height: 250px;
+  min-height: 370px;
+  ul 
+    list-style-type: none;
+    margin:  0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 
 </style>
