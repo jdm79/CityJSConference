@@ -22,7 +22,7 @@
 
                         <h5>Panel</h5>
                         <ul>
-                             <li 
+                             <li
                                 v-for="(speaker, index) in item.panelists"
                                 v-bind:key="index"
                             >
@@ -32,12 +32,12 @@
                        <p>   {{item.time}} </p>
 
 
-                        <a href="/buytickets"><span class="button is-link modal-button" 
+                        <a href="/buytickets"><span class="button button-black is-link modal-button"
                           data-target="modal-card">Coming soon</span></a>
                       </div>
                     </div>
                   </div>
-                </div>   
+                </div>
               </div>
     </section>
 </template>
@@ -80,12 +80,19 @@ export default {
 
 .card-content
   min-height: 370px;
-  ul 
+  ul
     list-style-type: none;
     margin:  0px;
     padding: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
 
+.button-black
+  background-color: black;
+  &:hover
+    border: 1px solid black;
+
+    background-color: white;
+    color: black;
 
 </style>
