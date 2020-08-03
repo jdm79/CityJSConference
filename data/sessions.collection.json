@@ -1,38 +1,103 @@
 [
     {
-        "title": "NodeJS Session",
+        "title": "The future of NodeJS",
         "speaker": "Mateo Collina",
-        "disc": "WIZIWIG",
+        "disc": "Learn more about whats coming in NodeJS from TSC NodeJS Panel",
         "location": "ONLINE",
-        "time": "SADSAD",
+        "time": "15\/09\/2020 16:55 BST",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1594730277,
+        "_modified": 1596465312,
         "_created": 1594730277,
-        "_id": "5f0da7256531337bce00009c"
+        "_id": "5f0da7256531337bce00009c",
+        "panelists": [
+            {
+                "_id": "5f2814a4653133b571000350",
+                "link": "speakers",
+                "display": "Vladimir de Turckheim"
+            },
+            {
+                "_id": "5f281614653133b6e0000116",
+                "link": "speakers",
+                "display": "Guy Bedford"
+            },
+            {
+                "_id": "5ef7655165313358550000e5",
+                "link": "speakers",
+                "display": "Matteo Collina"
+            }
+        ]
     },
     {
         "title": "JAMSTACK",
         "speaker": "Debbie O'brian & Maya Shavin",
         "disc": "A talk about JAMSTACK from two ladies that know a lot about how you could deliver a flexible solution.",
         "location": "Online",
-        "time": "",
+        "time": "15\/09\/2020 16:55",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595069736,
+        "_modified": 1596465352,
         "_created": 1595069736,
-        "_id": "5f12d52865313308c80002fa"
+        "_id": "5f12d52865313308c80002fa",
+        "panelists": [
+            {
+                "_id": "5c61f9e56531330f83000085",
+                "link": "speakers",
+                "display": "Maya Shavin"
+            },
+            {
+                "_id": "5e1658b065313369d50003cd",
+                "link": "speakers",
+                "display": "Debbie O'Brien"
+            }
+        ]
     },
     {
-        "title": "Performance",
+        "title": "Performance Session",
         "speaker": "Jonathan Fielding & Sia Caramolegos",
         "disc": "Learn more how you could improve your JS performance",
-        "location": "",
-        "time": "",
+        "location": "Online",
+        "time": "14\/09\/2020 18:40",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595069796,
+        "_modified": 1596465394,
         "_created": 1595069796,
-        "_id": "5f12d564653133091d0000cd"
+        "_id": "5f12d564653133091d0000cd",
+        "panelists": [
+            {
+                "_id": "5f28032e653133a01f00025e",
+                "link": "speakers",
+                "display": "Sia Karamolegos"
+            },
+            {
+                "_id": "5bb4d7d66531339cca000118",
+                "link": "speakers",
+                "display": "Jonathan Fielding"
+            }
+        ]
+    },
+    {
+        "title": "The future of Testing in JavaScript",
+        "speaker": "",
+        "disc": "",
+        "location": "Online",
+        "time": "14\/09\/2020 18:40",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5f19c530653133a6de000254",
+        "_modified": 1596465438,
+        "_created": 1595525426,
+        "_id": "5f19c932653133ac410000fe",
+        "panelists": [
+            {
+                "_id": "5f280795653133a5660001b5",
+                "link": "speakers",
+                "display": "Yoni Goldberg"
+            },
+            {
+                "_id": "5bb4d9676531339e1c000319",
+                "link": "speakers",
+                "display": "Lucas Fernandes da Costa"
+            }
+        ]
     }
 ]

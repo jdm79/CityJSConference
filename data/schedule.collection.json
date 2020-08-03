@@ -1,494 +1,1035 @@
 [
-  {
-      "date": "2020-09-16",
-      "day": 2,
-      "time": "09:00 - 17:00",
-      "location": "Zoom (Online)",
-      "title": " Building Real-World GraphQL API by Alex Lobera",
-      "type": "Workshop",
-      "link": "TBC",
-      "description": "<p class=\"p-rich_text_section\">In this zero to hero GraphQL workshop, you will learn how to effectively migrate REST APIs to GraphQL avoiding common pitfalls<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p class=\"p-rich_text_section\">Learning outcomes<\/p>\n<p class=\"p-rich_text_section\">- Learn how to migrate a REST API to GraphQL<\/p>\n<p class=\"p-rich_text_section\">- Understand how to design a GraphQL schema solving real-world use cases<\/p>\n<p class=\"p-rich_text_section\">- Error handling &amp; security design<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p>Date: 16\/09\/2020 09:00 - 17:00<br data-v-83a16682=\"\" \/><br data-v-83a16682=\"\" \/><strong data-v-83a16682=\"\"><a href=\"https:\/\/cityjsconf.org\/buytickets\" data-v-83a16682=\"\">Buy Tickets &gt;&gt;<\/a><\/strong><\/p>",
-      "bio": "<h3><strong>&nbsp;Alex Lobera<\/strong><\/h3>\n<p>Alex is a&nbsp;Full-stack JavaScript Developer, very passionate about&nbsp;teaching React to professional developers since May 2016. Alex holds a&nbsp;<strong>computer science degree<\/strong>&nbsp;and he is also a&nbsp;<strong>certified teacher<\/strong>&nbsp;in the Spanish language. He's the organizer of the&nbsp;<a href=\"https:\/\/www.meetup.com\/JavaScript-london\/\" target=\"_blank\" rel=\"noopener\">JavaScript London Meetup<\/a>&nbsp;and other popular meetups in the EU.<\/p>\n<p>&nbsp;<\/p>",
-      "speakers": [
-          {
-              "_id": "5df87d1d653133bf5f000318",
-              "link": "speakers",
-              "display": "Alex Lobera"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/alexlobera.jpg"
-      },
-      "order": 2,
-      "group": "workshop",
-      "_modified": 1583850275,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e920000218",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-15",
-      "day": 2,
-      "time": "09:00 -17:00",
-      "location": "Zoom (Online)",
-      "title": "In Depth TypeScript ",
-      "type": "workshop",
-      "link": "",
-      "description": "<h3 data-v-83a16682=\"\">In-depth TypeScript by Michel Weststrate<\/h3>\n<p>The JavaScript Eco System is moving to TypeScript. Fast. This workshop will explain why and when you might want to use TypeScript, and get you up and running with all the essentials. In this workshop we will cover practically the full language. And we will go deep. That is: do the cool and weird meta programming stuff. Learn all the tricks you won't find in the handbook.<br \/><br \/>This workshop is also suitable for those that have basic experience with TypeScript. Since the basics only take ~2 hours to cover, most of the day is still super valuable to enhance your TypeScript skills, even if you already have real project experience with TypeScript! Did you ever encounter super confusing types in some of the libraries you use? Did you get some super vague compiler errors? After this workshop you will be able to understand them!<\/p>\n<p>Date: 15\/9\/2020 09:00 - 17:00<br data-v-83a16682=\"\" \/><br data-v-83a16682=\"\" \/><strong data-v-83a16682=\"\"><a href=\"https:\/\/cityjsconf.org\/buytickets\" data-v-83a16682=\"\">Buy Tickets &gt;&gt;<\/a><\/strong><\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5e17042a6531335800000066",
-              "link": "speakers",
-              "display": "Michel Weststrate"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/michel.jpg"
-      },
-      "order": 1,
-      "group": "workshop",
-      "_modified": 1583850289,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e920000298",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-16",
-      "day": 3,
-      "time": "09:00 - 17:00",
-      "location": "Zoom (Online)",
-      "title": "React Advanced",
-      "type": "workshop",
-      "link": "",
-      "description": "<h3 data-v-83a16682=\"\">Advanced React Workshop by Alex Lobera<\/h3>\n<p class=\"p-rich_text_section\">In this advanced workshop, you will learn how to implement advanced features and improve performance in React apps leveraging functional programming in JavaScript.<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p class=\"p-rich_text_section\">Learning outcomes<\/p>\n<p class=\"p-rich_text_section\">- Effectively start &ldquo;thinking in hooks&rdquo; to fully comprehend how the new composition model works<\/p>\n<p class=\"p-rich_text_section\">- Leverage functional programming in modern React<\/p>\n<p class=\"p-rich_text_section\">- Learn how to apply the new React patterns and how to identify the right use cases for each one<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p>Date: 16\/9\/2020 09:00 - 17:00<br data-v-83a16682=\"\" \/><br data-v-83a16682=\"\" \/><strong data-v-83a16682=\"\"><a href=\"https:\/\/cityjsconf.org\/buytickets\" data-v-83a16682=\"\">Buy Tickets &gt;&gt;<\/a><\/strong><\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5df87d1d653133bf5f000318",
-              "link": "speakers",
-              "display": "Alex Lobera"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/alexlobera.jpg"
-      },
-      "order": 1,
-      "group": "workshop",
-      "_modified": 1583850305,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e92000012e",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "09:00-09:35",
-      "location": "Regent Street Cinema",
-      "title": "Doors Open",
-      "type": "standard",
-      "link": "",
-      "description": "<p>Doors Open<\/p>",
-      "bio": "",
-      "speakers": "",
-      "image": [],
-      "order": 1,
-      "group": "morning",
-      "_modified": 1583850320,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e9200002eb",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "09:55 - 10:25",
-      "location": "Regent Street Cinema",
-      "title": " theRiseOfTypeScript(rate: Meteoric | Meandering): Story[] { return History; }",
-      "type": "",
-      "link": "",
-      "description": "<div class=\"p-rich_text_section\">TypeScript has many stories which are not well known. For example, did you know that:<\/div>\n<ul class=\"p-rich_text_list p-rich_text_list__bullet\" data-stringify-type=\"unordered-list\" data-indent=\"0\">\n<li>TypeScript was originally called Strada and first started by Luke Hoban and Steve Lucco? (Anders joined shortly thereafter)<\/li>\n<li>Many of the more painful choices made with TypeScript were the result of attempting to implement much needed language features before ES6 was finalized?<\/li>\n<li>TypeScript did not move to GitHub until 2014?<\/li>\n<\/ul>\n<div class=\"p-rich_text_section\">This talk will explore some of the interesting and quirky history of the TypeScript project from outside the walls of Redmond, from the perspective of someone who took a very early look at TypeScript (0.9.2), was skeptical due to a previous open source cease and desist warning from Microsoft, and over many months was grudgingly persuaded of the value of TypeScript. We&rsquo;ll also look at key advances in TypeScript that took the project from promising yet flawed to something that made it possible to rewrite the longest-lived, actively-maintained JavaScript framework in TypeScript and become a development approach that we love and appreciate. Expect a healthy dose of humor and ridiculousness along the way.<\/div>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5c090788653133337b000356",
-              "link": "speakers",
-              "display": "Dylan Schiemann"
-          }
-      ],
-      "image": {
-          "path": "images\/2019-speakers\/JGP8Q6bC_400x400.jpeg"
-      },
-      "order": 3,
-      "group": "morning",
-      "_modified": 1583850331,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e920000067",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "12:50 - 13:30",
-      "location": "Regent Street Cinema",
-      "title": "Lunch",
-      "type": "standard",
-      "link": "",
-      "description": "<p>Lunch to be provided<\/p>",
-      "bio": "",
-      "speakers": "",
-      "image": [],
-      "order": 9,
-      "group": "",
-      "_modified": 1583850337,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e92000028e",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "09:40 - 09:55",
-      "location": "Regent Street Cinema",
-      "title": "Welcome to CityJSConf",
-      "type": "standard",
-      "link": "",
-      "description": "<p>Welcome to CityJSConf<\/p>\n<p>A welcome talk to CityJSConf 2020<\/p>",
-      "bio": "",
-      "speakers": "",
-      "image": [],
-      "order": 2,
-      "group": "morning",
-      "_modified": 1583850344,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e92000004d",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "10:30 - 10:55",
-      "location": "Regent Street Cinema",
-      "title": "TBC",
-      "type": "",
-      "link": "",
-      "description": "<p>TBC<\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5e1658b065313369d50003cd",
-              "link": "speakers",
-              "display": "Alexandre Chopin"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/alexchopin.jpg"
-      },
-      "order": 4,
-      "group": "morning",
-      "_modified": 1583850352,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e9200000f3",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "11:00- 11:25",
-      "location": "Regent Street Cinema",
-      "title": " Simulating Network Conditions with JavaScript",
-      "type": "",
-      "link": "",
-      "description": "<p>When working with video streaming, being able to accurately simulate customer network conditions for development and testing is crucial.<\/p>\n<p>In this talk, I'll be looking at how we can use containers and server-side JavaScript to programmatically shape network conditions and gain valuable insights about the behaviour and performance of our client-side JavaScript - from Adaptive Bitrate video players to entire single-page applications.<\/p>\n<p>&nbsp;<\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5e165a3e6531336bf7000059",
-              "link": "speakers",
-              "display": "Patrick Kunka"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/patrick.jpeg"
-      },
-      "order": 5,
-      "group": "",
-      "_modified": 1583850359,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e920000095",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "11:25 - 11:40",
-      "location": "Regent Street Cinema",
-      "title": "Break 1",
-      "type": "standard",
-      "link": "",
-      "description": "<p>Break 1<\/p>\n<p>&nbsp;<\/p>\n<p>Coffee\/Tea and soft drinks will be offered with snacks<\/p>",
-      "bio": "",
-      "speakers": "",
-      "image": [],
-      "order": 5,
-      "group": "morning",
-      "_modified": 1583850365,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e9200003c3",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "11:40 - 12:10",
-      "location": "Regent Street Cinema",
-      "title": "The subtle art of predictive prefetching",
-      "type": "",
-      "link": "",
-      "description": "<p>Browser hints like prefetch enable you to get critical resources ahead of time and save valuable (next) render time. These speculative optimizations integrate the developers assumptions about the users route.<\/p>\n<p>Speculative pre-fetching can be wasteful due to incidences of fetching resources that will never be used. Leaning on advances in machine learning and analytics data allows us to significantly increase the efficacy of our fetches. Let&rsquo;s explore techniques that move predictive prefetching from idea to reality. <\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5df87e8e653133c12900034f",
-              "link": "speakers",
-              "display": "Divya Sasidharan"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/divya.jpeg"
-      },
-      "order": 7,
-      "group": "midday",
-      "_modified": 1583850371,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e9200003ab",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "12:15 - 12:45",
-      "location": "Regent Street Cinema",
-      "title": "Front-end testing on steroids",
-      "type": "",
-      "link": "",
-      "description": "<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"1650577520\">\n<div class=\"freebirdFormviewerViewItemsTextTextItemContainer\">\n<div class=\"freebirdFormviewerViewItemsTextLongText freebirdFormviewerViewItemsTextDisabledText freebirdThemedInput\">Why testing a front-end application is so hard? What are the main challenges you need to face? Why do the tests fail without a clear reason?<\/div>\n<div class=\"freebirdFormviewerViewItemsTextLongText freebirdFormviewerViewItemsTextDisabledText freebirdThemedInput\">&nbsp;<\/div>\n<div class=\"freebirdFormviewerViewItemsTextLongText freebirdFormviewerViewItemsTextDisabledText freebirdThemedInput\">This talk is about good testing best practices and the tool that is become the de-facto standard of UI Testing: Cypress.<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"1850892412\">\n<div class=\"freebirdFormviewerViewItemsItemItemHeader\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleDescContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleContainer\">&nbsp;<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5df87def653133c0600001be",
-              "link": "speakers",
-              "display": "Stefano Magni"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/stefano.jpg"
-      },
-      "order": 8,
-      "group": "",
-      "_modified": 1583850378,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e920000328",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "12:50 - 13:25",
-      "location": "Regent Street Cinema",
-      "title": "Rise of the robots",
-      "type": "",
-      "link": "",
-      "description": "<p>End-to-end testing has been close to impossible since mobile devices are quite restrictive even for simple use cases. In this talk, you will find out how you can prototype a robot that swipes, pinches and taps using JavaScript.<\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5df87c8e653133bea800007f",
-              "link": "speakers",
-              "display": "Theodore Vorillas"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/theodore.jpg"
-      },
-      "order": 10,
-      "group": "midday",
-      "_modified": 1583850386,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e9200002b3",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "13:30 - 13:55",
-      "location": "Regent Street Cinema",
-      "title": "Building Tesla\u2019s Battery Range Calculator with Vue.js or ReactJS. Here are the Differences!",
-      "type": "",
-      "link": "",
-      "description": "<p>Which language do you like: ReactJS or Vue.js?<\/p>\n<p>During this talk I walk through the process of building a Tesla&rsquo;s Battery Range Calculator with ReactJS and Vue.js.<\/p>\n<p>I compare React and VueJS with each other in terms of syntax, speed of development (number of lines of code &amp; number of files), readability, maintainability, performance etc.<\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5e108be0653133c5e8000056",
-              "link": "speakers",
-              "display": "Peter Eijgermans"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/peter.jpg"
-      },
-      "order": 11,
-      "group": "midday",
-      "_modified": 1583850393,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e9200000c2",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "14:00 - 14:35",
-      "location": "Regent Street Cinema",
-      "title": "MobX, or: going from Mutable to Immutable to Reactive state management",
-      "type": "",
-      "link": "",
-      "description": "<p>MobX is a state management library that is used across the globe, by companies big and small, such as Microsoft, EA, Netflix, Amazon and so on. The library is renown for its ease of use and lack of boilerplate. But also, it is quite magical.<\/p>\n<p>Or isn't it? And shouldn't we have stopped using mutative data structures by know? Or is the world not just limited to mutable and immutable, and is there a third kind of data structures? Join this talk to learn about the wonderful world of reactive data structures and the benefits they yield in both developer and runtime efficiency.<\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5e17042a6531335800000066",
-              "link": "speakers",
-              "display": "Michel Weststrate"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/michel.jpg"
-      },
-      "order": 12,
-      "group": "midday",
-      "_modified": 1583850401,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e92000037b",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "14:35 - 15:00",
-      "location": "Regent Street Cinema",
-      "title": "Break 2",
-      "type": "standard",
-      "link": "",
-      "description": "<p>Break 2&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Time for some coffee and snacks<\/p>",
-      "bio": "",
-      "speakers": "",
-      "image": [],
-      "order": 12,
-      "group": "afternoon",
-      "_modified": 1583850437,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e92000025a",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "15:00 - 15:30",
-      "location": "Regent Street Cinema",
-      "title": "I picked up React Native as a web developer and here's what I learned",
-      "type": "",
-      "link": "",
-      "description": "<p>For six months Laura and her team were involved into the wonderful and mysterious world of native apps. They chose React Native for this, a technology that none of them had any first-hand experience with &ndash; and learned a lot in the process.<\/p>\n<p>&nbsp;<\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5e3b29ef65313352e20002f7",
-              "link": "speakers",
-              "display": "Laura Gonz\u00e1lez"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/laura.jpg"
-      },
-      "order": 13,
-      "group": "afternoon",
-      "_modified": 1583850451,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e92000038b",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "15:35 - 16:05",
-      "location": "Regent Street Cinema",
-      "title": "Build your own IoTshirt",
-      "type": "",
-      "link": "",
-      "description": "<p>Ever wanted your clothing to respond to the music you&rsquo;re listening to? With a bit of JS and soldering, they can! This talk will cover how to make your own wearable LED display using a microcontroller and hook it up to the internet. Then we&rsquo;ll learn how to do music recognition with an API, node and some vanilla JS.<\/p>\n<p>All suitable for absolute beginners! I&rsquo;ll help you to avoid some of the silly mistakes I made while working on my first wearable and encourage you to give IoT a try!<br \/><br \/><\/p>",
-      "bio": "<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"945327643\">\n<div class=\"freebirdFormviewerViewItemsTextTextItemContainer\">\n<div class=\"freebirdFormviewerViewItemsTextLongText freebirdFormviewerViewItemsTextDisabledText freebirdThemedInput\">Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on Dev tooling<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"1364869577\">\n<div class=\"freebirdFormviewerViewItemsItemItemHeader\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleDescContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleContainer\">&nbsp;<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>",
-      "speakers": [
-          {
-              "_id": "5bb4d99d6531339e4c000223",
-              "link": "speakers",
-              "display": "Jo Balletti"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/jo.jpg"
-      },
-      "order": 14,
-      "group": "afternoon",
-      "_modified": 1583850459,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e920000375",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "16:10 - 16:35",
-      "location": "Regent Street Cinema",
-      "title": "Personality Hacking: using Node, WebAudio and Houdini to visualize psychology of song lyrics",
-      "type": "",
-      "link": "",
-      "description": "<p>In this session we use JavaScript to harvest Natural Language Processing data. We serve a beautifully designed app with Node.JS, and explain how to use JavaScript and Canvas within the emerging CSS Houdini Paint API.<\/p>\n<p>The fascinating app, analyzes how a song writer&rsquo;s personality changes through time.<\/p>",
-      "bio": "",
-      "speakers": [
-          {
-              "_id": "5e2c7e35653133c37d000094",
-              "link": "speakers",
-              "display": "Anton McConville"
-          }
-      ],
-      "image": {
-          "path": "images\/2020speakers\/antonmc.jpeg"
-      },
-      "order": 14,
-      "group": "afternoon",
-      "_modified": 1583850466,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e9200002ba",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  },
-  {
-      "date": "2020-09-14",
-      "day": 3,
-      "time": "17:30 - Late",
-      "location": "Afterparty",
-      "title": "After Conference Drinks",
-      "type": "conference",
-      "link": "",
-      "description": "<p>We will be confirming the after-party venue in the next few weeks<\/p>",
-      "bio": "",
-      "speakers": "",
-      "image": [],
-      "order": 17,
-      "group": "",
-      "_modified": 1583850475,
-      "_created": 1579983612,
-      "_id": "5e2ca2fc653133e920000366",
-      "_mby": "5ba3ca7b6531330bbd0003ca"
-  }
+    {
+        "date": "2020-09-16",
+        "day": 3,
+        "time": "09:00 - 17:00",
+        "location": "Online",
+        "title": " Building Real-World GraphQL API by Alex Lobera",
+        "type": "Workshop",
+        "link": "TBC",
+        "description": "<p class=\"p-rich_text_section\">In this zero to hero GraphQL workshop, you will learn how to effectively migrate REST APIs to GraphQL avoiding common pitfalls<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p class=\"p-rich_text_section\">Learning outcomes<\/p>\n<p class=\"p-rich_text_section\">- Learn how to migrate a REST API to GraphQL<\/p>\n<p class=\"p-rich_text_section\">- Understand how to design a GraphQL schema solving real-world use cases<\/p>\n<p class=\"p-rich_text_section\">- Error handling &amp; security design<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p>Date: 16\/09\/2020 09:00 - 17:00<br data-v-83a16682=\"\" \/><br data-v-83a16682=\"\" \/><strong data-v-83a16682=\"\"><a href=\"https:\/\/cityjsconf.org\/buytickets\" data-v-83a16682=\"\">Buy Tickets &gt;&gt;<\/a><\/strong><\/p>",
+        "bio": "<h3><strong>&nbsp;Alex Lobera<\/strong><\/h3>\n<p>Alex is a&nbsp; Full-stack JavaScript Developer very passionate about&nbsp;teaching React to professional developers since May 2016. Alex holds a&nbsp;<strong>computer science degree<\/strong>&nbsp;and he is also a&nbsp;<strong>certified teacher<\/strong>&nbsp;in the Spanish language. He is organizer of the&nbsp;<a href=\"https:\/\/www.meetup.com\/JavaScript-london\/\" target=\"_blank\" rel=\"noopener\">JavaScript London Meetup<\/a>&nbsp;and other popular meetups in the EU.<\/p>\n<p>&nbsp;<\/p>",
+        "speakers": [
+            {
+                "_id": "5df87d1d653133bf5f000318",
+                "link": "speakers",
+                "display": "Alex Lobera"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/alexlobera.jpg"
+        },
+        "order": 2,
+        "group": "workshop",
+        "_modified": 1596467912,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000168",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-16",
+        "day": 3,
+        "time": "09:00 -17:00",
+        "location": "Online",
+        "title": "In Depth TypeScript ",
+        "type": "workshop",
+        "link": "",
+        "description": "<h3 data-v-83a16682=\"\">In-depth TypeScript by Michel Weststrate<\/h3>\n<p>The JavaScript Eco System is moving to TypeScript. Fast. This workshop will explain why and when you might want to use TypeScript, and get you up and running with all the essentials. In this workshop we will cover practically the full language. And we will go deep. That is: do the cool and weird meta programming stuff. Learn all the tricks you won't find in the handbook.<br \/><br \/>This workshop is also suitable for those that have basic experience with TypeScript. Since the basics only take ~2 hours to cover, most of the day is still super valuable to enhance your TypeScript skills, even if you already have real project experience with TypeScript! Did you ever encounter super confusing types in some of the libraries you use? Did you get some super vague compiler errors? After this workshop you will be able to understand them!<\/p>\n<p>Date: 15\/9\/2020 09:00 - 17:00<br data-v-83a16682=\"\" \/><br data-v-83a16682=\"\" \/><strong data-v-83a16682=\"\"><a href=\"https:\/\/cityjsconf.org\/buytickets\" data-v-83a16682=\"\">Buy Tickets &gt;&gt;<\/a><\/strong><\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5e17042a6531335800000066",
+                "link": "speakers",
+                "display": "Michel Weststrate"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/michel.jpg"
+        },
+        "order": 1,
+        "group": "workshop",
+        "_modified": 1596467940,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000363",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-17",
+        "day": 4,
+        "time": "09:00 - 17:00",
+        "location": "Online",
+        "title": "React Advanced",
+        "type": "workshop",
+        "link": "",
+        "description": "<h3 data-v-83a16682=\"\">Advanced React Workshop by Alex Lobera<\/h3>\n<p class=\"p-rich_text_section\">In this advanced workshop, you will learn how to implement advanced features and improve performance in React apps leveraging functional programming in JavaScript<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p class=\"p-rich_text_section\">Learning outcomes<\/p>\n<p class=\"p-rich_text_section\">- Effectively start &ldquo;thinking in hooks&rdquo; to fully comprehend how the new composition model works<\/p>\n<p class=\"p-rich_text_section\">- Leverage functional programming in modern React<\/p>\n<p class=\"p-rich_text_section\">- Learn how to apply the new React patterns and how to identify the right use cases for each one.<\/p>\n<p class=\"p-rich_text_section\">&nbsp;<\/p>\n<p>Date: 16\/9\/2020 09:00 - 17:00<br data-v-83a16682=\"\" \/><br data-v-83a16682=\"\" \/><strong data-v-83a16682=\"\"><a href=\"https:\/\/cityjsconf.org\/buytickets\" data-v-83a16682=\"\">Buy Tickets &gt;&gt;<\/a><\/strong><\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5df87d1d653133bf5f000318",
+                "link": "speakers",
+                "display": "Alex Lobera"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/alexlobera.jpg"
+        },
+        "order": 1,
+        "group": "workshop",
+        "_modified": 1596467964,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000107",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "13:20 - 13:35",
+        "location": "Online",
+        "title": "Welcome",
+        "type": "standard",
+        "link": "",
+        "description": "<p>A welcome from the online event&nbsp;<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": 3,
+        "group": "morning",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0001d9"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "21:50-22:30",
+        "location": "Online",
+        "title": " theRiseOfTypeScript(rate: Meteoric | Meandering): Story[] { return History; }",
+        "type": "",
+        "link": "",
+        "description": "<div class=\"p-rich_text_section\">TypeScript has many stories which are not well known. For example, did you know that:<\/div>\n<ul class=\"p-rich_text_list p-rich_text_list__bullet\" data-stringify-type=\"unordered-list\" data-indent=\"0\">\n<li>TypeScript was originally called Strada and first started by Luke Hoban and Steve Lucco? (Anders joined shortly thereafter)<\/li>\n<li>Many of the more painful choices made with TypeScript were the result of attempting to implement much needed language features before ES6 was finalized?<\/li>\n<li>TypeScript did not move to GitHub until 2014?<\/li>\n<\/ul>\n<div class=\"p-rich_text_section\">This talk will explore some of the interesting and quirky history of the TypeScript project from outside the walls of Redmond, from the perspective of someone who took a very early look at TypeScript (0.9.2), was skeptical due to a previous open source cease and desist warning from Microsoft, and over many months was grudgingly persuaded of the value of TypeScript. We&rsquo;ll also look at key advances in TypeScript that took the project from promising yet flawed to something that made it possible to rewrite the longest-lived, actively-maintained JavaScript framework in TypeScript and become a development approach that we love and appreciate. Expect a healthy dose of humor and ridiculousness along the way.<\/div>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5c090788653133337b000356",
+                "link": "speakers",
+                "display": "Dylan Schiemann"
+            }
+        ],
+        "image": {
+            "path": "images\/2019-speakers\/dylan.jpg"
+        },
+        "order": 19,
+        "group": "morning",
+        "_modified": 1596468015,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0000e4",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "15:35 - 15:50",
+        "location": "Online",
+        "title": "Break 1",
+        "type": "standard",
+        "link": "",
+        "description": "<p>The 1st Break<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": 7,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00038a"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "16:00 - 16:15",
+        "location": "Online",
+        "title": "Break 1",
+        "type": "standard",
+        "link": "",
+        "description": "<p>The 1st Break<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": 7,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0001f0"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "15:20 - 16:00",
+        "location": "Online",
+        "title": " Simulating Network Conditions with JavaScript",
+        "type": "",
+        "link": "",
+        "description": "<p>When working with video streaming, being able to accurately simulate customer network conditions for development and testing is crucial.<\/p>\n<p>In this talk, I'll be looking at how we can use containers and server-side JavaScript to programmatically shape network conditions and gain valuable insights about the behaviour and performance of our client-side JavaScript - from Adaptive Bitrate video players to entire single-page applications.<\/p>\n<p>&nbsp;<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5e165a3e6531336bf7000059",
+                "link": "speakers",
+                "display": "Patrick Kunka"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/patrick.jpeg"
+        },
+        "order": 6,
+        "group": "",
+        "_modified": 1596468044,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000010",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "18:30 - 18:40",
+        "location": "Online",
+        "title": "Break 2",
+        "type": "standard",
+        "link": "",
+        "description": "<p>The 2nd Break<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": 12,
+        "group": "morning",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000338"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "17:25 - 17:35",
+        "location": "Online",
+        "title": "Break 2",
+        "type": "standard",
+        "link": "",
+        "description": "<p>The 2nd Break<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": 11,
+        "group": "morning",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00034e"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "14:15 - 14:55",
+        "location": "Online",
+        "title": "Use AI in your website using Tensorflow.js",
+        "type": "",
+        "link": "",
+        "description": "<p>A talk on how to implement Ai in your website\/web-app using the JavaScript library TensorFlow.<\/p>\n<p>I will present how to make a digital recogniser using the MNIST dataset, all running inside a browser, I won't code it on the spot as it will waste time, rather slides will be shown with explanations along with the working app in the end, all under 10 minutes.<\/p>",
+        "bio": "<p>I'm 16 years old trying to learn Python and JavaScript. My aim is to someday create a business which empowers millions around the world.<\/p>",
+        "speakers": [
+            {
+                "_id": "5f0db0e2653133895a0003ab",
+                "link": "speakers",
+                "display": "Pratham Prasoon"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/prasson.jpg"
+        },
+        "order": 5,
+        "group": "midday",
+        "_modified": 1596468065,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000234",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "17:10 - 17:50",
+        "location": "Online",
+        "title": "Front-end testing on steroids",
+        "type": "",
+        "link": "",
+        "description": "<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"1650577520\">\n<div class=\"freebirdFormviewerViewItemsTextTextItemContainer\">\n<div class=\"freebirdFormviewerViewItemsTextLongText freebirdFormviewerViewItemsTextDisabledText freebirdThemedInput\">Why testing a front-end application is so hard? What are the main challenges you need to face? Why do the tests fail without a clear reason?<\/div>\n<div class=\"freebirdFormviewerViewItemsTextLongText freebirdFormviewerViewItemsTextDisabledText freebirdThemedInput\">&nbsp;<\/div>\n<div class=\"freebirdFormviewerViewItemsTextLongText freebirdFormviewerViewItemsTextDisabledText freebirdThemedInput\">This talk is about good testing best practices and the tool that is become the de-facto standard of UI Testing: Cypress.<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"1850892412\">\n<div class=\"freebirdFormviewerViewItemsItemItemHeader\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleDescContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleContainer\">&nbsp;<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5df87def653133c0600001be",
+                "link": "speakers",
+                "display": "Stefano Magni"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/stefano.jpg"
+        },
+        "order": 10,
+        "group": "",
+        "_modified": 1596468087,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000339",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "14:55 - 15.35",
+        "location": "Online",
+        "title": "Rise of the robots",
+        "type": "",
+        "link": "",
+        "description": "<p>End-to-end testing has been close to impossible since mobile devices are quite restrictive even for simple use cases. In this talk, you will find out how you can prototype a robot that swipes, pinches and taps using JavaScript.<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5df87c8e653133bea800007f",
+                "link": "speakers",
+                "display": "Theodore Vorillas"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/theodore.jpg"
+        },
+        "order": 6,
+        "group": "midday",
+        "_modified": 1596468106,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000126",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "16:30 - 17:10",
+        "location": "Online",
+        "title": "Building Tesla\u2019s Battery Range Calculator with Vue.js or ReactJS. Here are the Differences!",
+        "type": "",
+        "link": "",
+        "description": "<p>Which language do you like: ReactJS or Vue.js?<\/p>\n<p>During this talk I walk through the process of building a Tesla&rsquo;s Battery Range Calculator with ReactJS and Vue.js.<\/p>\n<p>I compare React and VueJS with each other in terms of syntax, speed of development (number of lines of code &amp; number of files), readability, maintainability, performance etc.<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5e108be0653133c5e8000056",
+                "link": "speakers",
+                "display": "Peter Eijgermans"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/peter.jpg"
+        },
+        "order": 9,
+        "group": "midday",
+        "_modified": 1596468128,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0001e9",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "19:05 - 19.45",
+        "location": "Online",
+        "title": "MobX, or: going from Mutable to Immutable to Reactive state management",
+        "type": "",
+        "link": "",
+        "description": "<p>MobX is a state management library that is used across the globe, by companies big and small, such as Microsoft, EA, Netflix, Amazon and so on. The library is renown for its ease of use and lack of boilerplate. But also, it is quite magical.<\/p>\n<p>Or isn't it? And shouldn't we have stopped using mutative data structures by know? Or is the world not just limited to mutable and immutable, and is there a third kind of data structures? Join this talk to learn about the wonderful world of reactive data structures and the benefits they yield in both developer and runtime efficiency.<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5e17042a6531335800000066",
+                "link": "speakers",
+                "display": "Michel Weststrate"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/michel.jpg"
+        },
+        "order": 15,
+        "group": "midday",
+        "_modified": 1596468241,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00039f",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "19:45 - 20:00",
+        "location": "Online",
+        "title": "Break 3",
+        "type": "standard",
+        "link": "",
+        "description": "<p>The 3rd Break<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": 16,
+        "group": "afternoon",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00031b"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "20:15 - 20:30",
+        "location": "Online",
+        "title": "Break 3",
+        "type": "standard",
+        "link": "",
+        "description": "<p>The 3rd Break<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": 16,
+        "group": "afternoon",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000230"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "15:50 - 16:30",
+        "location": "Online",
+        "title": " Getting up to Speed With Deno",
+        "type": "",
+        "link": "",
+        "description": "<p>In this talk, I will present the new JavaScript Runtime called Deno, the advantages like Security by Default, TypeScript first-class language, ES Modules, Distributed Package Management, Top-Level Await, Standard Library and more.<br \/><br \/>The key things this talk will cover are:<br \/><br \/>- Getting you up to speed on how Deno works<br \/>- The Deno Infrastructure<br \/>- The Deno CLI<br \/>- Using Deno in Production<\/p>",
+        "bio": "<p>Shodipo Ayomide is a Senior Developer Advocate, Software Engineer, Program Manager and teacher, who also contributes to a lot of open-source projects over on GitHub, he also runs some major communities like unStack, Developers Circles Lagos from Facebook, Open Source Community Africa and NaijaHacks driving Nigeria &amp; Africa forward in Technology, he is an international speaker who has spoken at a lot of conferences over time in various locations. In his free time, he loves to read, watch movies and occasionally play video games. Loves Travelling and Family.<\/p>",
+        "speakers": [
+            {
+                "_id": "5ef75c146531334ec30000cd",
+                "link": "speakers",
+                "display": "Shodipo Ayomide"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/shopido.jpg"
+        },
+        "order": 8,
+        "group": "afternoon",
+        "_modified": 1596468261,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000399",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "16.15 - 16.55",
+        "location": "Online",
+        "title": "Build your own IoTshirt",
+        "type": "",
+        "link": "",
+        "description": "<p>Ever wanted your clothing to respond to the music you&rsquo;re listening to? With a bit of JS and soldering, they can! This talk will cover how to make your own wearable LED display using a microcontroller and hook it up to the internet. Then we&rsquo;ll learn how to do music recognition with an API, node and some vanilla JS.<\/p>\n<p>All suitable for absolute beginners! I&rsquo;ll help you to avoid some of the silly mistakes I made while working on my first wearable and encourage you to give IoT a try!<br \/><br \/><\/p>",
+        "bio": "<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"945327643\">\n<div class=\"freebirdFormviewerViewItemsTextTextItemContainer\">\n<div class=\"freebirdFormviewerViewItemsTextLongText freebirdFormviewerViewItemsTextDisabledText freebirdThemedInput\">Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on Dev tooling<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"freebirdFormviewerViewNumberedItemContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem\" role=\"listitem\" data-item-id=\"1364869577\">\n<div class=\"freebirdFormviewerViewItemsItemItemHeader\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleDescContainer\">\n<div class=\"freebirdFormviewerViewItemsItemItemTitleContainer\">&nbsp;<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>",
+        "speakers": [
+            {
+                "_id": "5bb4d99d6531339e4c000223",
+                "link": "speakers",
+                "display": "Jo Balletti"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/jo.jpg"
+        },
+        "order": 8,
+        "group": "afternoon",
+        "_modified": 1596468280,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00009b",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "17:35 - 18:15",
+        "location": "Online",
+        "title": "Personality Hacking: using Node, WebAudio and Houdini to visualize psychology of song lyrics",
+        "type": "",
+        "link": "",
+        "description": "<p>In this session we use JavaScript to harvest Natural Language Processing data. We serve a beautifully designed app with Node.JS, and explain how to use JavaScript and Canvas within the emerging CSS Houdini Paint API.<\/p>\n<p>The fascinating app, analyzes how a song writer&rsquo;s personality changes through time.<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5e2c7e35653133c37d000094",
+                "link": "speakers",
+                "display": "Anton McConville"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/antonmc.jpeg"
+        },
+        "order": 12,
+        "group": "afternoon",
+        "_modified": 1596468297,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000039",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "20:00 - 20:35",
+        "location": "Online",
+        "title": "Webpack 5 Module Federation",
+        "type": "conference",
+        "link": "",
+        "description": "<p>Consume parts of independently deployed Javascript applications at runtime.<\/p>",
+        "bio": "<p>Principal Engineer, specializing in distributed application architecture at scale<\/p>",
+        "speakers": [
+            {
+                "_id": "5ef763fd65313357190002cc",
+                "link": "speakers",
+                "display": "Zack Jackson"
+            }
+        ],
+        "image": "",
+        "order": 17,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00024a"
+    },
+    {
+        "date": "2020-09-14",
+        "day": "",
+        "time": "20:35 - 21:15",
+        "location": "Online",
+        "title": "Reading Thoughts With JavaScript",
+        "type": "",
+        "link": "",
+        "description": "<p>An important skill people in tech need to have is learning how to combine unusual, unrelated concepts into things real people can use every day. JavaScript is the most popular programming language and it&rsquo;s already being used in machine learning so why not take it to the next level and add neurology?<\/p>",
+        "bio": "<p>Milecia is a senior software engineer, but she also has a Master's degree in mechanical and aerospace engineering and has published research in machine learning and robotics. She started Flipped Coding in 2017 to help people learn web development with real-world projects.<br \/><br \/>Milecia also speaks at tech conferences around the world and writes about tech. In her free time, she spends time with her husband and dogs while learning kung fu and learning how to play the harmonica.<\/p>",
+        "speakers": [
+            {
+                "_id": "5ef758fa6531334b6d000304",
+                "link": "speakers",
+                "display": "Milecia McGregor "
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/milecia.jpg"
+        },
+        "order": 18,
+        "group": "",
+        "_modified": 1596468382,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0003c4",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "14:00 - 14:40",
+        "location": "Online",
+        "title": "Node.js - Scalability tips",
+        "type": "",
+        "link": "",
+        "description": "<p>Did you hear that Node.js is single threaded and therefore it does not scale, right? Well, this is a myth and, once again, we need to bust this myth! In this talk, I will walk you through about the architecture of Node.js and show you a few tips and tricks about web application scalability and how they can be applied to Node.js.<\/p>",
+        "bio": "<p>Luciano Mammino wrote his first line of code at the age of 12 on his father's old i386. Since then, he has never stopped coding. He is currently working at FabFitFun as Principal Software Engineer where he is building microservices to serve millions of users every day. Luciano is co-author of Node.js Design Patterns (nodejsdp.link) and he runs Fullstack Bulletin (fstack.link), a free weekly newsletter for fullstack developers.<\/p>",
+        "speakers": [
+            {
+                "_id": "5ef760da65313353f100038f",
+                "link": "speakers",
+                "display": "Luciano Mammino"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/luciano.jpg"
+        },
+        "order": 4,
+        "group": "",
+        "_modified": 1596468347,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0001a7",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "21:15 - 21:55",
+        "location": "Online",
+        "title": " RealTime exoskeleton-mapping and body segmentation on the browser with Tensorflow.js",
+        "type": "",
+        "link": "",
+        "description": "<p>In this talk, we will show how we can implement a deep learning model with Tensorflow.js, and the best part, everything running in the browser!<\/p>",
+        "bio": "<p>Italo Jos&eacute; is a Microsoft MVP in the AI category and works at Vortx as a lead solutions architect. Also, he's lead of Developer Circle SP at Facebook in S&atilde;o Paulo and is a self-driving car assistant teacher at FIAP university in the mechatronic course. He won (3&ordm;) the real self-driving car global hackathon in China by Pix Moving in 2019 and contributes to the community speaking about AI, mentoring communities by the communup.tech project and writing on medium and in the IMaster (IT Forum) as a columnist.<\/p>",
+        "speakers": [
+            {
+                "_id": "5ef768486531335b200001d8",
+                "link": "speakers",
+                "display": "Italo Jose Goncalves de Oliveira"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/italo.jpg"
+        },
+        "order": 19,
+        "group": "",
+        "_modified": 1596468427,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000264",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "21.55 - 22:35",
+        "location": "Online",
+        "title": "Mo\u2019 problems, Mo\u2019nads",
+        "type": "",
+        "link": "",
+        "description": "<p>Monads; just that word alone probably&nbsp;<em><u>either<\/u><\/em>&nbsp;made you shudder or roll your eyes. But don't run away!<\/p>\n<p>Functional Programming (FP) offers many benefits to our programs, even in a loose\/flexible language like JS. But we often avoid them&nbsp;<em><u>just<\/u><\/em>&nbsp;because of intimidating terminology, notation, and math theory. Rarely is this more prevalent than with monads?<\/p>\n<p>This talk is not a dissertation on monads and broader category theory. We're merely dipping our toe into the shallow end here, not plunging headfirst into the deep end. But I hope&nbsp;<em><u>maybe<\/u><\/em>&nbsp;it entices you to swim around because the water's actually quite pleasant!<\/p>\n<p>We'll look at familiar problems in code that we typically solve imperatively, and then see how some of the de-mystified behaviours associated with monads (and friends!) can help. After this talk, I hope you'll look more closely at monads and other algebraic structures.<\/p>\n<p>Topics illustrated: selecting values with conditional logic, forking behaviour on exceptions, and juggling asynchronous side effects.<\/p>",
+        "bio": "<p>Kyle Simpson is Director of Web Futures at Getify Solutions, where he envisions and evangelizes what's next for Open Web technologies, especially JS. He writes, speaks, teaches, and codes OSS.<\/p>",
+        "speakers": [
+            {
+                "_id": "5f0db5a865313390230002a0",
+                "link": "speakers",
+                "display": "Kyle Simpson"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/kyle.jpeg"
+        },
+        "order": 20,
+        "group": "",
+        "_modified": 1596468451,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000284",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 2,
+        "time": "13:20 - 14:00",
+        "location": "Online",
+        "title": " Deno, and the future of JavaScript runtimes",
+        "type": "",
+        "link": "",
+        "description": "<p>Deno is a secure runtime of JavaScript and TypeScript built in Rust. I have been working on it since its early prototype days and want to share some insights with you on what the current state of Deno is and runtimes in general. I will explain how Deno works, what the future of Deno looks like, and what sort of challenges and problems come with running JavaScript and TypeScript.<\/p>",
+        "bio": "<p>An IT consultant by day, a long-term contributor to Deno by night. Prior to ThoughtWorks, was CTO at SitePen, ran technology at NOW TV, worked for Sky for several years as well as other IT consulting firms.<\/p>",
+        "speakers": [
+            {
+                "_id": "5ef9a509653133a98a0000ca",
+                "link": "speakers",
+                "display": "Kitson P. Kelly"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/kits.jpg"
+        },
+        "order": 3,
+        "group": "",
+        "_modified": 1596468470,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00035c",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "14:40 - 15.20",
+        "location": "Online",
+        "title": "GraphQL. Accelerated",
+        "type": "",
+        "link": "",
+        "description": "<p>GraphQL is a query language that combines type validation with a query and filtering syntax that makes it easy to get up-and-running with a powerful web API in almost no time. Add to that a vibrant community that keeps creating excellent tooling and documentation, it&rsquo;s clear why GraphQL has become so popular with developers.<br \/><br \/>Every abstraction has a cost, and GraphQL is no exception. The added complexity and a new schema format to parse and execute mean new performance bottlenecks. In addition to performance issues, the wrong use of GraphQL can lead to architectural bottlenecks.<br \/><br \/>Instead of viewing this as a problem, we took this as a challenge, and in this talk, we will unveil how we made it run a lot faster on Node.js using different performance techniques that we have learned in the last few years.<\/p>",
+        "bio": "<p>Matteo is Technical Director at NearForm, where he consults for some of the top brands in the world. In 2014, he defended his Ph.D. thesis titled \"Application Platforms for the Internet of Things\". Matteo is a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast logger Pino and of the Fastify web framework. Matteo is a renowned international speaker after presenting at more than 50 conferences, including Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. He is also co-author of the book \"Node.js Cookbook, Third Edition\" edited by Packt. In the summer he loves sailing the Sirocco.<\/p>",
+        "speakers": [
+            {
+                "_id": "5ef7655165313358550000e5",
+                "link": "speakers",
+                "display": "Matteo Collina"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/mateo.jpg"
+        },
+        "order": 5,
+        "group": "",
+        "_modified": 1596468494,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00026f",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "18:15 - 18.55",
+        "location": "Online",
+        "title": " Accessible.JS",
+        "type": "",
+        "link": "",
+        "description": "<p>It&rsquo;s no secret that modern JavaScript is taking over the web. While this is great for performance and optimization, it begs the question &ldquo;Just how accessible is JavaScript?&rdquo; In this talk, we&rsquo;ll cover all the ways to make your JavaScript site as accessible and unobtrusive as possible.<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5ef76697653133599800011c",
+                "link": "speakers",
+                "display": "Jemima Abu"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/jemina.jpg"
+        },
+        "order": 13,
+        "group": "",
+        "_modified": 1596468517,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0002a2",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "18:55 - 19:35",
+        "location": "Online",
+        "title": " The state of Web Components",
+        "type": "",
+        "link": "",
+        "description": "<p>A decade in the making, Web Components, a standardised set of technologies allowing us to create reusable web components are now widely supported in modern browsers. In this presentation, we will take a look at the overall architecture and some common use cases and patterns of Web Components and why they are now a viable option. We will also look at future features to show how powerful web components are constantly improving.<\/p>",
+        "bio": "<p>Ana is a Developer Advocate at Auth0. She has a degree in Fine Arts and a Master's in International Business Economics and Management, so she is not your usual software developer. She loves to code and she especially likes Angular. As a very active member of the community, she regularly organises meetups and conferences, like the amazing ngSpain. In Spain, where she&rsquo;s currently based, she&rsquo;s an organiser of GDG Vigo and the founder of GalsTech, a group for women in tech from Galicia. Because she is so passionate about diversity, she has also been named a Women Techmaker Ambassador.<\/p>",
+        "speakers": [
+            {
+                "_id": "5efc6aae653133489e0000c2",
+                "link": "speakers",
+                "display": "Ana Cidre"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/anacidre.jpg"
+        },
+        "order": 14,
+        "group": "",
+        "_modified": 1596468540,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000226",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "19:35 - 20:15",
+        "location": "Online",
+        "title": " Little JavaScript Bundles of Joy",
+        "type": "",
+        "link": "",
+        "description": "<p>Monolithic web apps: slow to build, slow to deploy, but somehow they're still the norm. Find out how we tackled the problem at Monzo using independently deployed and dynamically loaded JavaScript modules for our React-based customer support application.<\/p>",
+        "bio": "<p>Sophie is a full-stack web engineer building Monzo Bank&rsquo;s brand-new web banking platform in React and Go. She&rsquo;s passionate about building inclusive, accessible web applications, as well as finding the right balance between developer and user experience. A mentor at Node Girls London and keen tech blogger, she featured on the Makers Academy Women in Tech Power List in 2019.<\/p>",
+        "speakers": [
+            {
+                "_id": "5f11ff05653133bdb400003a",
+                "link": "speakers",
+                "display": "Sophie Koonin"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/sofie.jpeg"
+        },
+        "order": 15,
+        "group": "",
+        "_modified": 1596468568,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00029f",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "20:30 - 21:10",
+        "location": "Online",
+        "title": "The Mysterious Life of Web Apps in the Background",
+        "type": "",
+        "link": "",
+        "description": "<p>Do you know what happens with your code when the user presses the home button, receives a call, or replies to a WhatsApp message while using your web app? Let's spy on the lifecycle of web apps today and uncover the secrets of their mysterious life in the background.<\/p>",
+        "bio": "<p>Max Firtman (@firt) is a mobile + web developer, trainer, speaker, and writer. He has authored many books, including Programming the Mobile Web and High Performance Mobile Web published by O&rsquo;Reilly Media, and many online courses at Lynda, LinkedIn Learning, PluralSight, O'Reilly Learning, Udemy and more publishers. He is a frequent speaker at conferences worldwide and he has been widely recognized for his work in the mobile-web community. He teaches mobile (Android &amp; iOS), HTML5, PWA and web performance trainings for top companies around the world.<\/p>",
+        "speakers": [
+            {
+                "_id": "5ef75d8c653133504d0003b7",
+                "link": "speakers",
+                "display": "Maximiliano Firtman"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/firt.jpg"
+        },
+        "order": 17,
+        "group": "",
+        "_modified": 1596468594,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0002df",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 1,
+        "time": "21.10 - 21.50",
+        "location": "Online",
+        "title": "Technology's impact on climate change",
+        "type": "",
+        "link": "",
+        "description": "<p>How can the tech industry do its bit to slow down climate change? You will walk out of this talking having learned what the current state of tech's impact on climate change is, and steps we can take to prevent this from escalating, and reduce the carbon footprint.<\/p>",
+        "bio": "<p>Natalia is a web developer building hybrid mobile apps and websites at Elixel. With a passion for the environment she's not afraid to voice her opinions and advocate for climate change. If she's not coding or trying to fix the world, she's either exploring Cornwall with her whippet Dobby or in the gym trying to out lift everyone else.<\/p>",
+        "speakers": [
+            {
+                "_id": "5f0992d265313380ce000291",
+                "link": "speakers",
+                "display": "Natalia Waniczek"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/natalia.jpg"
+        },
+        "order": 18,
+        "group": "",
+        "_modified": 1596468618,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000043",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "13:35 - 14:15",
+        "location": "Online",
+        "title": "Looking into the Svelte compiler",
+        "type": "talk",
+        "link": "",
+        "description": "<p>Have you ever wondered how the Svelte compilation process works?<br \/>Have you ever felt curious and wanted to read Svelte source code but don't know where to start?<br \/><br \/>This talk will give you an overview of the Svelte compilation process, from parsing the source code, analysing the code to generating the final JavaScript code.<br \/><br \/>At the end of the talk, you will get a deeper understanding of the Svelte compilation process.<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5ef7691c6531335bed0002e0",
+                "link": "speakers",
+                "display": "Tan Li Hau"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/lihautan.jpg"
+        },
+        "order": 4,
+        "group": "morning",
+        "_modified": 1596468642,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0001e8",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-18",
+        "day": 5,
+        "time": "09:00 - 17:00",
+        "location": "Online",
+        "title": "Broken Promises ",
+        "type": "workshop",
+        "link": "",
+        "description": "<div>In our experience, if you are using promises, you are likely using them wrong (and nearly everybody else is too). This is most often due to misunderstandings about how Promises work, choices that were made by TC39 when designing the promises API, inconsistencies in how Promises are used, or failure to account for the cost of using Promises in an application, and ultimately how the event loop works.<\/div>\n<div>&nbsp;<\/div>\n<div>In this workshop, we aim to help developers do the right thing with Promises. Through a series of hands-on exercises and puzzles, developers will learn the ins and outs of developing with Promises in Node.js, learning everything they should do, and most importantly what they shouldn't do, in order to maximize the effectiveness of their code and avoid common performance pitfalls.<\/div>",
+        "bio": "<ol>\n<li>&nbsp;<\/li>\n<\/ol>",
+        "speakers": [
+            {
+                "_id": "5ef7655165313358550000e5",
+                "link": "speakers",
+                "display": "Matteo Collina"
+            }
+        ],
+        "image": "",
+        "order": 1,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0003d7"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "12:00 - 12:40",
+        "location": "Online",
+        "title": "Sponsor Session 1",
+        "type": "",
+        "link": "",
+        "description": "<p>TBC<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": 0,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0000f4"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "12:40 - 13:20",
+        "location": "Online",
+        "title": "Sponsor Session 2",
+        "type": "",
+        "link": "",
+        "description": "<p>TBC<\/p>",
+        "bio": "",
+        "speakers": "",
+        "image": [],
+        "order": 1,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000139"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "18:40 - 19:10",
+        "location": "Online",
+        "title": "Performance Session",
+        "type": "Session",
+        "link": "",
+        "description": "<p>Find how to Finetune your JavaScript, with Sia Karamolegos and Jonathan Fielding&nbsp;<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5bb4d7d66531339cca000118",
+                "link": "speakers",
+                "display": "Jonathan Fielding"
+            },
+            {
+                "_id": "5f28032e653133a01f00025e",
+                "link": "speakers",
+                "display": "Sia Karamolegos"
+            }
+        ],
+        "image": [],
+        "order": 13,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000193"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "18:40 - 19:05",
+        "location": "Online",
+        "title": "The future of Testing in JavaScript",
+        "type": "Session",
+        "link": "",
+        "description": "<p>Find more about the future of Testing from the Testing Experts<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5bb4d9676531339e1c000319",
+                "link": "speakers",
+                "display": "Lucas Fernandes da Costa"
+            },
+            {
+                "_id": "5f280795653133a5660001b5",
+                "link": "speakers",
+                "display": "Yoni Goldberg"
+            }
+        ],
+        "image": [],
+        "order": 14,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e00004b"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 2,
+        "time": "16:55 - 17:25",
+        "location": "Online",
+        "title": "The future of NodeJS",
+        "type": "",
+        "link": "",
+        "description": "<p>Find about the future of NodeJS from the members of NodeJS steering group.<\/p>",
+        "bio": "",
+        "speakers": [
+            {
+                "_id": "5f2814a4653133b571000350",
+                "link": "speakers",
+                "display": "Vladimir de Turckheim"
+            },
+            {
+                "_id": "5f281614653133b6e0000116",
+                "link": "speakers",
+                "display": "Guy Bedford"
+            },
+            {
+                "_id": "5ef7655165313358550000e5",
+                "link": "speakers",
+                "display": "Matteo Collina"
+            }
+        ],
+        "image": [],
+        "order": 9,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0003d9"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 2,
+        "time": "16:55 - 17:25",
+        "location": "Online",
+        "title": "The future of JAMstack",
+        "type": "Session",
+        "link": "",
+        "description": "",
+        "bio": "<p>Find more about JAMstack<\/p>",
+        "speakers": [
+            {
+                "_id": "5e1658b065313369d50003cd",
+                "link": "speakers",
+                "display": "Debbie O'Brien"
+            },
+            {
+                "_id": "5c61f9e56531330f83000085",
+                "link": "speakers",
+                "display": "Maya Shavin"
+            }
+        ],
+        "image": [],
+        "order": 10,
+        "group": "",
+        "_modified": 1596467849,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e0000a2"
+    },
+    {
+        "date": "2020-09-14",
+        "day": 1,
+        "time": "17:50 - 18:30",
+        "location": "Online",
+        "title": "What's new in NuxtJS",
+        "type": "Talk",
+        "link": "",
+        "description": "<p>Nuxt.js, the intuitive web framework, has had some killer features recently released. Debbie will take you through those new features and shed some light on what is to come in Nuxt.js<\/p>",
+        "bio": "<p>Debbie O&rsquo;Brien is Head of Learning and Developer Advocate at NuxtJS, the progressive VueJS framework. Debbie has over 10 years experience in Frontend development. She has worked as a Tech Lead and consultant for many important clients with varios technologies and often with a strong focus on performance. She has lead teams both in house and remotely as well as giving workshops and training. She has many years of experience as a mentor for online learning platforms, Treehouse and OpenClassrooms. Debbie is a Microsoft Most Valuable Professional in developer technologies, Google Developer Expert in web technologies and Cloudinary Media Developer Expert.<\/p>",
+        "speakers": [
+            {
+                "_id": "5e1658b065313369d50003cd",
+                "link": "speakers",
+                "display": "Debbie O'Brien"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/debbieo.jpg"
+        },
+        "order": 11,
+        "group": "",
+        "_modified": 1596468665,
+        "_created": 1596467849,
+        "_id": "5f282a89653133cd1e000360",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
+    }
 ]

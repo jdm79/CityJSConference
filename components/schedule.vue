@@ -5,7 +5,7 @@
                 <div>
                     <app-h2
                         title="Schedule"
-                        subtitle="5 days of JS Festivities around the center of London"
+                        subtitle="5 days of JS Festivities around the world <br /> (UK BST times)"
                         :is-h2="true"
                         :white="true"
                     >
@@ -14,13 +14,26 @@
                 <div class="">
                     <div class="container">
                         <div class="">
-                         
-                                <app-day
+                            <div class="tabs">
+                                <ul class="">
+                                    <li 
+                                        v-for="(date, index) in Days"
+                                        v-bind:key="date"
+                                        :class="{'is-active':date === chosen}">
+                                        <a v-on:click="select(date)">
+                                            <span v-if="index > 1">  Day {{index+1}}</span>
+                                             <span v-if="index === 0"> Conference Day 1</span>
+                                            <span v-if="index === 1"> Conference Day 2</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                              <app-day
                                     :items= 'schedule'
                                     :speakers= 'speakers'
                                     :day= 'selectedDate'
                                 >
-                                </app-day>  
+                               </app-day>  
                         </div>
                           
                     </div> 
@@ -34,7 +47,6 @@
     import h2 from '@/components/h2';
     import day from '@/components/day';
     import { mapGetters } from "vuex";
-
     export default {
         data: function() {
             return {
@@ -75,7 +87,6 @@
                    if (this.chosen === '' && this.schedule.length > 0) {
                        this.chosen = this.schedule[3].date;
                    }
-
                    return this.chosen
                 }
             }
@@ -85,10 +96,17 @@
 
 <style lang="sass" scoped>
   @import '~/assets/css/mq.sass';
-
   .schedule
-    background: $darkred;
+    background: $red;
     color: $white;
-
-
+    .tabs
+        li
+          a
+            background-color: transparent;
+            border: none;
+            color: $white;
+          &.is-active 
+            a
+              background-color: #c90000;
+              border: none;
 </style>
