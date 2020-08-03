@@ -8,7 +8,7 @@
             >
             </app-h2>
               <div class="columns features">
-                <div class="column is-3" v-for="(item, i) in sessions" v-bind:key="item._id">
+                <div class="column is-3 card-column" v-for="(item, i) in sessions" v-bind:key="item._id">
                   <div class="card is-shady">
                     <div class="card-image">
                       <figure class="image is-4by3">
@@ -18,7 +18,7 @@
                     <div class="card-content">
                       <div class="content">
                         <h4>{{item.title}}</h4>
-                        <p>  {{item.disc}} </p>
+                        <p>{{item.disc}}</p>
 
                         <h5>Panel</h5>
                         <ul>
@@ -29,12 +29,12 @@
                                 {{speaker.display}}
                              </li>
                         </ul>
-                       <p>   {{item.time}} </p>
-
-
-                        <a href="/buytickets"><span class="button button-black is-link modal-button"
-                          data-target="modal-card">Coming soon</span></a>
+                       <p>{{item.time}}</p>
                       </div>
+                    </div>
+                    <div class="button-wrapper">
+                      <a href="/buytickets"><span class="button button-black is-link modal-button"
+                                                  data-target="modal-card">Coming soon</span></a>
                     </div>
                   </div>
                 </div>
@@ -76,10 +76,10 @@ export default {
 	grid-gap: 0.5em;
 
 .card
-	height: max-content;
+	height: 100%
 
 .card-content
-  min-height: 370px;
+  padding: 1.5rem;
   ul
     list-style-type: none;
     margin:  0px;
@@ -87,12 +87,21 @@ export default {
     margin-top: 20px;
     margin-bottom: 20px;
 
+.button-wrapper
+  text-align: center;
+  padding-bottom: 1.5rem;
+  margin-top: auto;
+
 .button-black
   background-color: black;
   &:hover
     border: 1px solid black;
-
     background-color: white;
     color: black;
+
+.card-column .card
+  display: flex;
+  flex-direction: column;
+
 
 </style>
