@@ -2,39 +2,34 @@
       <section class="section">
             <app-h2
                     title="Sessions"
-                    subtitle="Panel Talks"
+                    subtitle="Private Panel Talks"
                     :is-h2="true"
                     :white="false"
             >
             </app-h2>
-          	<div class="container">
-                <div class="card" v-for="item in sessions" v-bind:key="item._id">
+              <div class="columns features">
+                <div class="column is-3" v-for="item in sessions" v-bind:key="item._id">
+                  <div class="card is-shady">
                     <div class="card-image">
-                        <figure class="image">
-                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
-                        </figure>
+                      <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/6Ticnhs1AG0" alt="Placeholder image">
+                      </figure>
                     </div>
                     <div class="card-content">
-                        <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-48x48">
-                            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image" />
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4">{{item.title}}</p>
-                            <p class="subtitle is-6">@johnsmith</p>
-                        </div>
-                        </div>
-
-                        <div class="content">
-                        {{item.disc}}
-                        <br />
-                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                        </div>
+                      <div class="content">
+                        <h4>{{item.title}}</h4>
+                        <p>  {{item.disc}} </p>
+                        <p>   {{item.time}} </p>
+                          <a href="/buytickets"><span class="button is-link modal-button" 
+                          data-target="modal-card">Coming soon</span></a>
+                      </div>
                     </div>
-                </div>
-            </div>
+                  </div>
+                </div>   
+              </div>
+    </section>
+
+
         </section>
 </template>
 
@@ -73,5 +68,8 @@ export default {
 
 .card
 	height: max-content;
+
+.card-content
+  min-height: 250px;
 
 </style>
