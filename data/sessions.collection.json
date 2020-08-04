@@ -2,7 +2,7 @@
     {
         "title": "The future of NodeJS",
         "speaker": "Mateo Collina",
-        "disc": "Learn more about whats coming in NodeJS from TSC NodeJS Panel",
+        "disc": "Learn more about what's in the pipeline for NodeJS, from the TSC NodeJS Panel",
         "location": "ONLINE",
         "time": "15\/09\/2020 16:55 BST",
         "_mby": "5ba3ca7b6531330bbd0003ca",
@@ -14,24 +14,27 @@
             {
                 "_id": "5f2814a4653133b571000350",
                 "link": "speakers",
-                "display": "Vladimir de Turckheim"
+                "display": "Vladimir de Turckheim",
+                "img": "images\/2020speakers\/vladimir.jpg"
             },
             {
                 "_id": "5f281614653133b6e0000116",
                 "link": "speakers",
-                "display": "Guy Bedford"
+                "display": "Guy Bedford",
+                "img": "images\/2020speakers\/guy.png"
             },
             {
                 "_id": "5ef7655165313358550000e5",
                 "link": "speakers",
-                "display": "Matteo Collina"
+                "display": "Matteo Collina",
+                "img": "images\/2020speakers\/mateo.jpg"
             }
         ]
     },
     {
         "title": "JAMSTACK",
         "speaker": "Debbie O'brian & Maya Shavin",
-        "disc": "A talk about JAMSTACK from two ladies that know a lot about how you could deliver a flexible solution.",
+        "disc": "A panel about JAMSTACK guiding you on how to deliver a flexible solution.",
         "location": "Online",
         "time": "15\/09\/2020 16:55",
         "_mby": "5ba3ca7b6531330bbd0003ca",
@@ -43,19 +46,21 @@
             {
                 "_id": "5c61f9e56531330f83000085",
                 "link": "speakers",
-                "display": "Maya Shavin"
+                "display": "Maya Shavin",
+                "img": "images\/2019-speakers\/maya1.jpg"
             },
             {
                 "_id": "5e1658b065313369d50003cd",
                 "link": "speakers",
-                "display": "Debbie O'Brien"
+                "display": "Debbie O'Brien",
+                "img": "images\/2020speakers\/debbieo.jpg"
             }
         ]
     },
     {
         "title": "Performance Session",
         "speaker": "Jonathan Fielding & Sia Caramolegos",
-        "disc": "Learn more how you could improve your JS performance",
+        "disc": "Learn more on how you can improve the performance of your JS app",
         "location": "Online",
         "time": "14\/09\/2020 18:40",
         "_mby": "5ba3ca7b6531330bbd0003ca",
@@ -67,19 +72,21 @@
             {
                 "_id": "5f28032e653133a01f00025e",
                 "link": "speakers",
-                "display": "Sia Karamolegos"
+                "display": "Sia Karamolegos",
+                "img": "images\/2020speakers\/sia.jpg"
             },
             {
                 "_id": "5bb4d7d66531339cca000118",
                 "link": "speakers",
-                "display": "Jonathan Fielding"
+                "display": "Jonathan Fielding",
+                "img": "images\/2020speakers\/HopI5nMr.jpg"
             }
         ]
     },
     {
         "title": "The future of Testing in JavaScript",
         "speaker": "",
-        "disc": "",
+        "disc": "Learn more on how you can improve the testing in your JS Development",
         "location": "Online",
         "time": "14\/09\/2020 18:40",
         "_mby": "5ba3ca7b6531330bbd0003ca",
@@ -91,12 +98,14 @@
             {
                 "_id": "5f280795653133a5660001b5",
                 "link": "speakers",
-                "display": "Yoni Goldberg"
+                "display": "Yoni Goldberg",
+                "img": "images\/2020speakers\/yoni.png"
             },
             {
                 "_id": "5bb4d9676531339e1c000319",
                 "link": "speakers",
-                "display": "Lucas Fernandes da Costa"
+                "display": "Lucas Fernandes da Costa",
+                "img": "images\/2020speakers\/lucas.png"
             }
         ]
     }

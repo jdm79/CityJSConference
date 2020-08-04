@@ -1,10 +1,10 @@
 <template>
-      <section class="section">
+      <section id="sessions" class="section">
             <app-h2
                     title="Sessions"
                     subtitle="Private Panel Talks"
                     :is-h2="true"
-                    :white="false"
+                    :white="true"
             >
             </app-h2>
               <div class="columns features">
@@ -26,8 +26,9 @@
                                 v-for="(speaker, index) in item.panelists"
                                 v-bind:key="index"
                             >
+
                                 <div class="speaker-wrapper">
-                                  <img class="speaker-img" src="https://via.placeholder.com/30" alt="">
+                                  <img class="speaker-img" :src="`siteimages/${speaker.img}`" alt="">
                                   <div>{{speaker.display}}</div>
                                 </div>
                              </li>
@@ -37,7 +38,7 @@
                     </div>
                     <div class="button-wrapper">
                       <a href="/buytickets"><span class="button button-black is-link modal-button"
-                                                  data-target="modal-card">Coming soon</span></a>
+                                                  data-target="modal-card">Register now</span></a>
                     </div>
                   </div>
                 </div>
@@ -73,6 +74,9 @@ export default {
 <style lang="sass" scoped>
 @import '~/assets/css/mq.sass';
 
+.section
+  background: $black;
+
 .container
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
@@ -81,6 +85,9 @@ export default {
 .card
 	height: 100%
 
+.speaker-img
+  width: 10px;
+  
 .card-content
   padding: 1.5rem;
   ul

@@ -18,14 +18,15 @@
                   <div class="column is-12-mobile is-6">
                      <a href="/buytickets">
                       <h2>
-                        Lounge Area
+                       14-18 Sep - ONLINE EVENT 
                         <br />
-                        <span>Meet other developers and our sponsors</span>
+                     
+                        <span>Meet other developers, watch Speakers Q&amp;A, and our sponsors</span>
                       </h2>
                      </a>
                   </div>
                    <div class="column is-12-mobile is-6">
-                     <a href="/buytickets">
+                     <a href="#sessions">
                       <h2>
                         Watch Sessions
                         <br />
@@ -36,13 +37,15 @@
                    <div class="column is-12-mobile is-6">
                      <a href="/buytickets">
                       <h2>
-                        Speakers Q&amp;A
+                        26-29 Mar 2021
                         <br />
-                        <span>Ask your questions to our Speakers</span>
+                        <span>@
+                          Regent Street Cinema,   London</span> 
+                        
                       </h2>
                      </a>
                   </div>
-                   <div class="column is-12-mobile is-6">
+                   <!-- <div class="column is-12-mobile is-6">
                      <a href="/buytickets">
                       <h2>
                         Win
@@ -50,13 +53,13 @@
                         <span>Apply for our Competitions offered by our sponsors</span>
                       </h2>
                      </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="column is-multiline is-mobile is-5-desktop is-offset-1-desktop content">
                 <div class="info" style="background: black; padding: 20px; color: #fff;">
                   <section>
-                    <h2>Live</h2>
+                    <h2>Coming soon ...</h2>
                     <div class="container">
                       <div class="columns is-multiline is-mobile">
                        
@@ -71,6 +74,7 @@
               </div>
             </div>
              <div class="timer">
+                <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
              </div>
           </div>
         </div>
