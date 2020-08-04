@@ -21,7 +21,7 @@
                        14-18 Sep - ONLINE EVENT 
                         <br />
                      
-                        <span>Meet other developers, watch Speakers Q&amp;A, and our sponsors</span>
+                        <span>Meet other developers, and our sponsors, and watch Speakers Q&amp;As </span>
                       </h2>
                      </a>
                   </div>

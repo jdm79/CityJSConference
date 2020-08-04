@@ -8,9 +8,9 @@
         "shortDescription": "<p>An event run for developers, by developers<\/p>",
         "widgets": [
             {
-                "_id": "5f0f4ada653133da180003c5",
+                "_id": "5d64ffc1653133ae130002de",
                 "link": "widgets",
-                "display": "Live"
+                "display": "Carousel"
             },
             {
                 "_id": "5ba4b07d653133fabc000236",
@@ -64,7 +64,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1596542280,
+        "_modified": 1596543517,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0003c5",
         "_mby": "5ba3ca7b6531330bbd0003ca"
