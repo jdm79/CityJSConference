@@ -139,26 +139,29 @@
     },
     {
         "name": "Jonathan Fielding",
-        "bio": "<p>Jonathan is a Engineering Manager at Beamly, where he focuses on building out and improving the site to offer users the best possible experience. The main drive behind anything that Jonathan does is whether it will benefit someone in some way, whether that be through improving UX on or through contributing to open source to help push the web forward. Outside of work, he has written Beginning Responsive Design with HTML5 and CSS3 and has worked on many open source projects including SimpleStateManager, Echo.js ResponsiveJavascript.com and Doccy. Aside from development he also has an awesome collection of geeky t-shirts.<\/p>",
-        "company": "Engineering Manager @Beamly",
-        "talk": "<p>As developers we make choices every day such as what framework to use, what tools to use and what browsers to support. All these decisions have a huge impact on both our experience as developers and the users experience when using out sites. Unfortunately these two areas are not aligned so lets have a look at how we can be pragmatic as developers taking into account both our users and developers experiences.<\/p>",
+        "bio": "<p>Jonathan is a Lead Developer at RVU, where he focuses on building out and improving the site to offer users the best possible experience. The main drive behind anything that Jonathan does is whether it will benefit someone in some way, whether that be through improving UX on or through contributing to open source to help push the web forward. Outside of work, he has written Beginning Responsive Design with HTML5 and CSS3 and has worked on many open source projects including SimpleStateManager, Echo.js ResponsiveJavascript.com and Doccy. Aside from development he also has an awesome collection of geeky t-shirts.<\/p>",
+        "company": "Lead Developer @RVU",
+        "talk": "",
         "country": "UK",
         "twitter": "",
         "linkedin": "",
-        "year": 2018,
+        "year": 2020,
         "videoUrl": "https:\/\/cityjsconf2018.streameventlive.com\/home\/video\/8",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1548973286,
+        "_modified": 1596706011,
         "_created": 1538578390,
         "_id": "5bb4d7d66531339cca000118",
         "image": {
-            "path": "images\/jonathan.png"
+            "path": "images\/2020speakers\/HopI5nMr.jpg"
         },
-        "title": "How to make pragmatic choices around developer experience vs user experience",
-        "thumbnail": [],
+        "title": "Performance Session",
+        "thumbnail": {
+            "path": "images\/2020speakers\/HopI5nMr.jpg"
+        },
         "order": 7,
-        "event": "talk"
+        "event": "talk",
+        "town": "London"
     },
     {
         "name": "Mark Wubben",
@@ -254,26 +257,29 @@
     },
     {
         "name": "Lucas Fernandes da Costa",
-        "bio": "",
+        "bio": "<p>I&rsquo;m a Brazilian software engineer living in London. I write JavaScript most of the time, and I&rsquo;m passionate about open-source. For the past few years, I have been a maintainer of Chai.js and Sinon.js. I&rsquo;m very active on GitHub and have contributed to numerous projects, including Jest and NodeSchool. As an author, I&rsquo;ve written Testing JavaScript Applications, a book published by Manning Publications. I like opinionated books, beautiful code, well-engineered prose, command-line interfaces, and vim. In fact, I like vim so much that I got a :w tattoed on my ankle.<\/p>",
         "company": "Software Engineer at Converge, Chai Core Team, Sinon maintainer",
-        "talk": "<p>When writing JavaScript there are lots of details about how the language itself works most people don&rsquo;t see, such as what happens when you define or retrieve a property, when you use the new operator or when you invoke a function.<\/p>\n<p>In this talk we will dive deep into the language&rsquo;s inner workings and see how to improve performance, write cleaner and better APIs and create more extensible and adaptable programs by redefining operator&rsquo;s behaviors using things such as the new ES6 Proxy\/Reflect objects and many other features. By learning about meta programming you will not only be able to improve your code, you will be able to bend JavaScript to your will. Using meta programming techniques we are able to create powerful data structures and emulate some of other language&rsquo;s powerful features, such as Haskell&rsquo;s lazy properties and infinite sequences.<\/p>\n<p>Also, instead of only showing what you can do,I will show you how to do itand use real world examples to make it easier for everyone to apply these techniques in their job and personal projects as soon as possible. Learning meta programming is just like watching Sixth Sense for the first time: the perspective change blows your mind. Learning objectives:<\/p>\n<ul>\n<li>Meta Programming techniques in JavaScript<\/li>\n<li>Better understanding of how the language works behind the scenes<\/li>\n<li>How to take advantage of the Reflect\/Proxy\/Object\/Symbol APIs.<\/li>\n<\/ul>",
-        "country": "Brasil",
+        "talk": "<p>Testing Session<\/p>",
+        "country": "UK",
         "twitter": "",
         "linkedin": "",
-        "year": 2018,
+        "year": 2020,
         "videoUrl": "https:\/\/cityjsconf2018.streameventlive.com\/home\/video\/11",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1548973137,
+        "_modified": 1596463690,
         "_created": 1538578791,
         "_id": "5bb4d9676531339e1c000319",
         "image": {
-            "path": "images\/lucas.png"
+            "path": "images\/2020speakers\/lucas.png"
         },
-        "title": "JavaScript Behind The Scenes - Meta Programming",
-        "thumbnail": [],
+        "title": "Testing Session",
+        "thumbnail": {
+            "path": "images\/2020speakers\/lucas.png"
+        },
         "order": 11,
-        "event": "talk"
+        "event": "talk",
+        "town": "London"
     },
     {
         "name": "Jo Balletti",
@@ -615,12 +621,12 @@
         "name": "Maya Shavin",
         "bio": "<p>I am currently Senior Frontend Developer @Cloudinary and also a writer on Frontend Weekly, where I mainly write articles about JavaScript tutorials and good practices. I have been developing web apps with Angular, VueJS and recently ReactJS. I love to learn and experiment with new framework, while believing that a strong Vanilla JavaScript knowledge is necessary for being a good web developer.<\/p>\n<p>When not coding, I enjoy traveling, reading manga, and sketching. My favorite Marvel character is Tony Stark, and yes, I know what I'm talking about.<\/p>",
         "company": "Senior Frontend Developer @Cloudinary ",
-        "title": "Syntactic sugar - Diabetes alert & WORKSHOP - Optimize your eCommerce app stack with the JAMstack",
-        "talk": "<p>JavaScript starting with ES6 offered a lot of new syntax and features. Most helps saving lines of code needs, while improves code readability and reduces the learning curve for the language.<\/p>\n<p>Yet usage of these syntax without considering consequences nor situation can bring the exact opposite result. In this session, we will discuss about these pitfalls, and how to develop more proactive coding habit .<\/p>",
-        "country": "",
+        "title": "JAMstack Session",
+        "talk": "<p>TBC<\/p>",
+        "country": "Israel",
         "twitter": "MayaShavin",
         "linkedin": "",
-        "year": 2019,
+        "year": 2020,
         "videoUrl": "https:\/\/www.youtube.com\/watch?v=17XXubHZ7n4&list=PL8xuokhAnn4pv5CimOe9DnAGRosVkTF4r&index=4",
         "image": {
             "path": "images\/maya2.jpeg"
@@ -632,9 +638,10 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1559231001,
+        "_modified": 1596463622,
         "_created": 1549924837,
-        "_id": "5c61f9e56531330f83000085"
+        "_id": "5c61f9e56531330f83000085",
+        "town": "Tel Aviv"
     },
     {
         "name": "Simona Cotin",
@@ -1476,10 +1483,10 @@
     },
     {
         "name": "Kyle Simpson",
-        "bio": "<p>Kyle Simpson&nbsp;is an evangelist of the open web, passionate about all things JavaScript. He writes books, teaches JavaScript, speaks, and contributes to the world of OSS.<\/p>",
+        "bio": "<p>Kyle Simpson is Director of Web Futures at Getify Solutions, where he envisions and evangelizes what's next for Open Web technologies, especially JS. He writes, speaks, teaches, and codes OSS.<\/p>\n<div>&nbsp;<\/div>",
         "company": "Director of Web Futures at Getify Solutions",
         "title": "Mo\u2019 problems, Mo\u2019nads",
-        "talk": "<p>TBC<\/p>",
+        "talk": "<p>Monads; just that word alone probably&nbsp;<em><u>either<\/u><\/em>&nbsp;made you shudder or roll your eyes. But don't run away!<\/p>\n<p>Functional Programming (FP) offers many benefits to our programs, even in a loose\/flexible language like JS. But we often avoid them&nbsp;<em><u>just<\/u><\/em>&nbsp;because of intimidating terminology, notation, and math theory. Rarely is this more prevalent than with monads.<\/p>\n<p>This talk is not a dissertation on monads and broader category theory. We're merely dipping our toe into the shallow end here, not plunging head first into the deep end. But I hope&nbsp;<em><u>maybe<\/u><\/em>&nbsp;it entices you to swim around, because the water's actually quite pleasant!<\/p>\n<p>We'll look at familiar problems in code that we typically solve imperatively, and then see how some of the de-mystified behaviors associated with monads (and friends!) can help. After this talk, I hope you'll look more closely at monads and other algebraic structures.<\/p>\n<p>Topics illustrated: selecting values with conditional logic, forking behavior on exceptions, and juggling asynchronous side effects.<\/p>",
         "country": "USA",
         "twitter": "getify",
         "linkedin": "",
@@ -1496,7 +1503,7 @@
         "town": "Austin",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595413757,
+        "_modified": 1596363037,
         "_created": 1594733992,
         "_id": "5f0db5a865313390230002a0"
     },
@@ -1525,5 +1532,109 @@
         "_modified": 1595014917,
         "_created": 1595014917,
         "_id": "5f11ff05653133bdb400003a"
+    },
+    {
+        "name": "Sia Karamalegos",
+        "bio": "<p>Sia Karamalegos is the founder and lead developer Clio + Calliope, a mobile and web design and development firm based in New Orleans. She has over 15 years of experience in technology, strategy, project management, and operations from small startups to large corporations across multiple industries, especially high-tech and education. She taught web development to adults at Tech Talent South, a southern-based tech education company, and wrote curriculum for Viking Code School, the top online software engineering training and job placement program.<\/p>\n<p>Sia is a Google Developer Expert in Web Technologies and a Women Techmakers ambassador. She co-organizes GDG New Orleans and its marquee event, DevFest New Orleans. She has been recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana. She graduated from Texas A&amp;M University with a BS in chemical engineering and received her MBA from Harvard Business School. When she's not coding, speaking, or consulting, Sia likes to write short stories and dabble in charcoal figure drawing. She's also an avid endurance athlete.<\/p>",
+        "company": " Clio + Calliope",
+        "title": "Performance Session",
+        "talk": "<p>Performance Session<\/p>",
+        "country": "USA",
+        "twitter": "@TheGreenGreek",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/sia.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/sia.jpg"
+        },
+        "order": 6,
+        "event": "both",
+        "town": "New Orleans",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1596705976,
+        "_created": 1596457774,
+        "_id": "5f28032e653133a01f00025e"
+    },
+    {
+        "name": "Yoni Goldberg",
+        "bio": "<p>Yoni Goldberg is an independent consultant who works with 500 fortune corporates and garage startups on polishing their JS &amp; Node.js applications. He's also the author of Node.js' largest best practices collection. More than any other topic he is fascinated by and aims to master the art of testing. At his spare time, he likes to write in his blog and debug production application using console.log<\/p>",
+        "company": "Independent Node.js Consultant",
+        "title": "Testing Session",
+        "talk": "<p>Testing Session<\/p>",
+        "country": "Israel",
+        "twitter": "nodepractices",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/yoni.png"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/yoni.png"
+        },
+        "order": 15,
+        "event": "",
+        "town": "Tel aviv",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1596458901,
+        "_created": 1596458901,
+        "_id": "5f280795653133a5660001b5"
+    },
+    {
+        "name": "Vladimir de Turckheim",
+        "bio": "<p>Vladimir works as a software engineer at Sqreen where he builds a tool to secure web applications. He used to be a professional security auditor and a web developer in agencies. He is one of the most active members of the Node.js Security Working Group where he handles the security of Node.js and its ecosystem. Vladimir also often give talks and training to software engineers to teach them about application security. He has been speaking at OWASP conferences (California and Europe), Node Summit, NodeConf (NL and Colombia) and Node+JS Interactive.<\/p>",
+        "company": "Sqreen",
+        "title": "Future of NodeJS",
+        "talk": "<p>TBC<\/p>",
+        "country": "France",
+        "twitter": "",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/vladimir.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/vladimir.jpg"
+        },
+        "order": 20,
+        "event": "talk",
+        "town": "Paris",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1596462851,
+        "_created": 1596462244,
+        "_id": "5f2814a4653133b571000350"
+    },
+    {
+        "name": "Guy Bedford",
+        "bio": "<p>Guy is an open source contributor to Node.js and RollupJS and the creator of SystemJS and jspm. The common thread through this open source work is integrating ES modules in JavaScript workflows, open source contributions which he self-funds through consulting contracts because it is far more interesting than real work.<\/p>",
+        "company": "Verve Interactive",
+        "title": "Future of NodeJS",
+        "talk": "<p>Guy is an open source contributor to Node.js and RollupJS and the creator of SystemJS and jspm. The common thread through this open source work is integrating ES modules in JavaScript workflows, open source contributions which he self-funds through consulting contracts because it is far more interesting than real work.<\/p>",
+        "country": "Canada",
+        "twitter": "guybedford",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/guy.png"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/guy.png"
+        },
+        "order": 30,
+        "event": "talk",
+        "town": "Canada",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1596462612,
+        "_created": 1596462612,
+        "_id": "5f281614653133b6e0000116"
     }
 ]
