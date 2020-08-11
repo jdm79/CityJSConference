@@ -28,6 +28,12 @@
                 "link": "speakers",
                 "display": "Matteo Collina",
                 "img": "images\/2020speakers\/mateo.jpg"
+            },
+            {
+                "_id": "5f32baa06531338d1e0000a6",
+                "link": "speakers",
+                "display": "Beth Griggs",
+                "img": "images\/2020speakers\/bethgriggs.jpg"
             }
         ]
     },

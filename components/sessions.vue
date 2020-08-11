@@ -86,7 +86,7 @@ export default {
 	height: 100%
 
 .speaker-img
-  width: 10px;
+  width: 30px;
   
 .card-content
   padding: 1.5rem;
