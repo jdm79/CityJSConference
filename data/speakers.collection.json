@@ -140,7 +140,7 @@
     {
         "name": "Jonathan Fielding",
         "bio": "<p>Jonathan is a Lead Developer at RVU, where he focuses on building out and improving the site to offer users the best possible experience. The main drive behind anything that Jonathan does is whether it will benefit someone in some way, whether that be through improving UX on or through contributing to open source to help push the web forward. Outside of work, he has written Beginning Responsive Design with HTML5 and CSS3 and has worked on many open source projects including SimpleStateManager, Echo.js ResponsiveJavascript.com and Doccy. Aside from development he also has an awesome collection of geeky t-shirts.<\/p>",
-        "company": "Engineering Manager @Beamly",
+        "company": "Lead Developer @RVU",
         "talk": "",
         "country": "UK",
         "twitter": "",
@@ -149,7 +149,7 @@
         "videoUrl": "https:\/\/cityjsconf2018.streameventlive.com\/home\/video\/8",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596460983,
+        "_modified": 1596706011,
         "_created": 1538578390,
         "_id": "5bb4d7d66531339cca000118",
         "image": {
@@ -1534,7 +1534,7 @@
         "_id": "5f11ff05653133bdb400003a"
     },
     {
-        "name": "Sia Karamolegos",
+        "name": "Sia Karamalegos",
         "bio": "<p>Sia Karamalegos is the founder and lead developer Clio + Calliope, a mobile and web design and development firm based in New Orleans. She has over 15 years of experience in technology, strategy, project management, and operations from small startups to large corporations across multiple industries, especially high-tech and education. She taught web development to adults at Tech Talent South, a southern-based tech education company, and wrote curriculum for Viking Code School, the top online software engineering training and job placement program.<\/p>\n<p>Sia is a Google Developer Expert in Web Technologies and a Women Techmakers ambassador. She co-organizes GDG New Orleans and its marquee event, DevFest New Orleans. She has been recognized in the Silicon Bayou 100, the 100 most influential and active people in tech and entrepreneurship in Louisiana. She graduated from Texas A&amp;M University with a BS in chemical engineering and received her MBA from Harvard Business School. When she's not coding, speaking, or consulting, Sia likes to write short stories and dabble in charcoal figure drawing. She's also an avid endurance athlete.<\/p>",
         "company": " Clio + Calliope",
         "title": "Performance Session",
@@ -1555,7 +1555,7 @@
         "town": "New Orleans",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596460937,
+        "_modified": 1596705976,
         "_created": 1596457774,
         "_id": "5f28032e653133a01f00025e"
     },
@@ -1636,5 +1636,31 @@
         "_modified": 1596462612,
         "_created": 1596462612,
         "_id": "5f281614653133b6e0000116"
+    },
+    {
+        "name": "Beth Griggs",
+        "bio": "<p>Beth is a Software Engineer working in IBM Runtime Technologies on a variety of projects all with a focus on Node.js. Her work spans from contributing to, building, and releasing the open-source Node.js runtime, to focusing on development and deployment methods for cloud-native Node.js applications.<\/p>",
+        "company": "IBM && Node.js TSC Member",
+        "title": "Future of Node",
+        "talk": "<p>Future of Node<\/p>",
+        "country": "UK",
+        "twitter": "@BethGriggs_",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/bethgriggs.jpg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/bethgriggs.jpg"
+        },
+        "order": 23,
+        "event": "talk",
+        "town": "Southampton",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1597161456,
+        "_created": 1597160096,
+        "_id": "5f32baa06531338d1e0000a6"
     }
 ]
