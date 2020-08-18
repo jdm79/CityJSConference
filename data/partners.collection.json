@@ -266,10 +266,10 @@
             "path": "images\/2019-sponsors\/nexmo_vonageapi_vert.png"
         },
         "url": "http:\/\/www.nexmo.com",
-        "level": "Silver",
+        "level": "Gold",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1582811242,
+        "_modified": 1597746694,
         "_created": 1545143168,
         "_id": "5c19038065313351040001be",
         "middle": "Yes",
@@ -552,5 +552,22 @@
         "_modified": 1595934938,
         "_created": 1595934938,
         "_id": "5f2008da653133ce5a0001f2"
+    },
+    {
+        "name": "20i",
+        "image": {
+            "path": "images\/sponsors\/20i.jpg"
+        },
+        "url": "https:\/\/www.20i.com\/",
+        "level": "Bronze",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1596363560,
+        "_created": 1596363560,
+        "_id": "5f269328653133ca5a00010a"
     }
 ]
