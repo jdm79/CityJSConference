@@ -129,9 +129,6 @@
     font-size: 0.9rem;
     z-index: 10000;
     background: $white;
-    +mobile
-      background: initial;
-
     a
       color: $darkred;
     h2 

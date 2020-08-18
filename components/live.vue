@@ -15,7 +15,7 @@
                   </b>
                 </h1>
                 <div class="columns is-mobile is-multiline events">
-                  <div class="column is-12-mobile is-6">
+                  <div class="column is-12-mobile is-6-desktop">
                      <a href="/buytickets">
                       <h2>
                        14-18 Sep - ONLINE EVENT 
@@ -25,7 +25,7 @@
                       </h2>
                      </a>
                   </div>
-                   <div class="column is-12-mobile is-6">
+                   <div class="column is-12-mobile is-6-desktop">
                      <a href="#sessions">
                       <h2>
                         Watch Sessions
@@ -34,7 +34,7 @@
                       </h2>
                      </a>
                   </div>
-                   <div class="column is-12-mobile is-6">
+                   <div class="column is-12-mobile is-6-desktop">
                      <a href="/buytickets">
                       <h2>
                         26-29 Mar 2021
@@ -56,8 +56,8 @@
                   </div> -->
                 </div>
               </div>
-              <div class="column is-multiline is-mobile is-5-desktop is-offset-1-desktop content">
-                <div class="info" style="background: black; padding: 20px; color: #fff;">
+              <div class="column is-multiline is-12-mobile is-5-desktop is-offset-1-desktop content">
+                <div class="info" style="background: black; padding: 40px; color: #fff;">
                   <section>
                     <h2>Coming soon ...</h2>
                     <div class="container">
@@ -106,7 +106,7 @@ export default {
 
   h1 
     margin-bottom: 3.2rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 2rem;
     +mobile
       line-height: 1.2rem;
@@ -142,7 +142,7 @@ export default {
     text-transform: uppercase
     font-family: 'Oswald', sans-serif;
     margin: 0 auto;
-    margin-top: 10vw;
+
 
   .location
     font-size: 1.8rem;
@@ -257,6 +257,7 @@ export default {
         margin-top: 3rem;
       +mobile
         margin-top: 80px
+        background: $black;
 
 
 
