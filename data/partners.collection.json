@@ -469,6 +469,23 @@
         ]
     },
     {
+        "name": "20i",
+        "image": {
+            "path": "images\/sponsors\/20i.jpg"
+        },
+        "url": "https:\/\/www.20i.com\/",
+        "level": "Bronze",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1596363560,
+        "_created": 1596363560,
+        "_id": "5f269328653133ca5a00010a"
+    },
+    {
         "name": "Twillio",
         "image": {
             "path": "images\/sponsors\/twilio-logo-red.dfec78ee.png"
@@ -554,20 +571,20 @@
         "_id": "5f2008da653133ce5a0001f2"
     },
     {
-        "name": "20i",
+        "name": "Auth0",
         "image": {
-            "path": "images\/sponsors\/20i.jpg"
+            "path": "images\/sponsors\/auth0.png"
         },
-        "url": "https:\/\/www.20i.com\/",
-        "level": "Bronze",
+        "url": "https:\/\/auth0.com\/",
+        "level": "Diversity",
         "middle": "Yes",
         "Year": [
             2020
         ],
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596363560,
-        "_created": 1596363560,
-        "_id": "5f269328653133ca5a00010a"
+        "_modified": 1598184553,
+        "_created": 1598184553,
+        "_id": "5f425c69653133483f000238"
     }
 ]
