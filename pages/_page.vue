@@ -36,7 +36,8 @@
               script: [
                 // hid is used as unique identifier. Do not use `vmid` for it as it will not work
                 {
-                  src: '/scripts/mailchimp.js'
+                  src: '/scripts/mailchimp.js',
+                  id: 'mcjs'
                 }
               ]
             }
