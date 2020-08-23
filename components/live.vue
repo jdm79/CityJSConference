@@ -25,35 +25,42 @@
                       </h2>
                      </a>
                   </div>
-                   <div class="column is-12-mobile is-6-desktop">
+                  <div class="column is-12-mobile is-6-desktop">
                      <a href="#sessions">
                       <h2>
-                        Watch Sessions
+                        Watch 4 Panel Sessions
                         <br />
-                        <span>NodeJS, Testing, Performance, JAMSTACK</span>
+                        <span>The future of NodeJS, JavaScript Testing, Performance in JavaScript, and JAMSTACK</span>
                       </h2>
                      </a>
                   </div>
+                    <div class="column is-12-mobile is-6-desktop">
+                      <h2>
+                        SUBSCRIBE TO WATCH FREE
+                          <span class="smalltext">Excludes SPEAKERS Q/A, Private Lounge, and Freebies</span>
+                          <vue-mailchimp-email-signup-form
+                          :element-id="'first-email-signup-form'"
+                          :url="'https://cityjsconf.us19.list-manage.com/subscribe/post?u=eb9cc5d08a5ecc02a40df6f40&amp;id=11ac48b4f8'"
+                        />
+                      
+                      </h2>
+                  </div>
+                   
                    <div class="column is-12-mobile is-6-desktop">
                      <a href="/buytickets">
                       <h2>
                         26-29 Mar 2021
                         <br />
+                        Buy your Early bird ticket <br/>
                         <span>@
                           Regent Street Cinema,   London</span> 
                         
                       </h2>
                      </a>
                   </div>
-                   <!-- <div class="column is-12-mobile is-6">
-                     <a href="/buytickets">
-                      <h2>
-                        Win
-                        <br />
-                        <span>Apply for our Competitions offered by our sponsors</span>
-                      </h2>
-                     </a>
-                  </div> -->
+
+              
+                  
                 </div>
               </div>
               <div class="column is-multiline is-12-mobile is-5-desktop is-offset-1-desktop content">
@@ -117,6 +124,9 @@ export default {
       line-height: 1.2rem;
       font-size: 0.9rem;
 
+  .subscribe-container
+    width: 100%;
+
   .events 
     margin-top: 50px;
     font-size: 3rem;
@@ -135,6 +145,9 @@ export default {
         padding: 10px;
         span 
           font-size: 1.1rem;
+          &.smalltext
+           line-height: 0.9rem;
+           font-size: 0.7rem;
 
   .contend
     color: $white;
@@ -259,6 +272,12 @@ export default {
       +mobile
         margin-top: 80px
         background: $black;
+
+    input
+      width: 100%;
+
+    button
+      width: 100%;
 
 
 

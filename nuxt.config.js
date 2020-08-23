@@ -92,6 +92,7 @@ module.exports = {
     { src: '~plugins/async', ssr: false },
     { src: '~plugins/vue-lazysizes.client.js', ssr: true },
     { src: '~plugins/vcal.js', ssr: true },
+    { src: '~plugins/mailchimp.js', ssr: false },
   ],
   modules: [
     '@nuxtjs/dotenv',

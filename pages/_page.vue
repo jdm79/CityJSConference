@@ -20,15 +20,6 @@
          data: () => ({
           pagename: 'Home',
         }),
-        head() {
-          if (this.$route.path === '/') {
-            return {
-              script: [
-               { src: '/scripts/mailchimp.js',  async: true }
-              ]
-            }
-          }
-      },
       created (store) {
           this.$store.dispatch('pages/get');
         },
