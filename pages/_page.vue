@@ -28,6 +28,12 @@
           if (typeof pagename !== 'undefined') {
             this.pagename = pagename;
           }
+
+          const script = document.createElement("script");
+          script.type = "text/javascript";
+          script.src = "https://chimpstatic.com/mcjs-connected/js/users/eb9cc5d08a5ecc02a40df6f40/067d4fda4995ba80e25e3726d.js";
+          document.body.appendChild(script);
+
         },
         computed: { 
           ...mapGetters({
