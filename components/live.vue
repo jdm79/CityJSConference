@@ -74,6 +74,9 @@
               </div>
             </div>
              <div class="timer">
+                 <!--Signup-->
+                 Time Left
+                 <script id="mcjs" src='/scripts/mailchimp.js' async></script>
                 <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
              </div>
           </div>
@@ -81,8 +84,7 @@
       </div>
     </section>
   </div>
-  <!--Signup-->
-   <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/eb9cc5d08a5ecc02a40df6f40/067d4fda4995ba80e25e3726d.js");</script>
+
   </div>
 </template>
 
