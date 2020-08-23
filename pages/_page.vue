@@ -36,8 +36,8 @@
               script: [
                 // hid is used as unique identifier. Do not use `vmid` for it as it will not work
                 {
-                  src: '/scripts/mailchimp.js',
-                  id: 'mcjs'
+                  id: 'mcjs',
+                  innerHTML: '!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/eb9cc5d08a5ecc02a40df6f40/067d4fda4995ba80e25e3726d.js");'
                 }
               ]
             }
