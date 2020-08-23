@@ -30,6 +30,18 @@
           }
 
         },
+        head() {
+          if (this.$route.path === "/"){ 
+            return {
+              script: [
+                // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+                {
+                  src: '/scripts/mailchimp.js'
+                }
+              ]
+            }
+          }
+        },
         computed: { 
           ...mapGetters({
             pages: 'pages/pages',
