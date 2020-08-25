@@ -68,7 +68,7 @@
                   <section>
                     <h2>Coming soon ...</h2>
                     <div class="container">
-                      <div class="columns is-multiline is-mobile">
+                      <div class="columns is-multiline is-mobile video-container">
                        
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/ask3b6YJvcc" 
                             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -111,6 +111,19 @@ export default {
 
 <style lang="sass">
   @import '~/assets/css/mq.sass';
+
+  .video-container
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+    iframe
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
 
   h1 
     margin-bottom: 3.2rem;
@@ -278,6 +291,8 @@ export default {
 
     button
       width: 100%;
+
+
 
 
 
