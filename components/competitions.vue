@@ -1,19 +1,20 @@
 <template>
-   <section class="section competitions">
+   <section class="section competitions ">
             <div>
                 <app-h2
-                    title="Competitions"
-                    subtitle="Thanks to our sponsors"
+                    title="CityJS 2020 Offers"
+                    subtitle="Your chance to get"
                     :is-h2="true"
                     :white="true"
                 >
                 </app-h2>
             </div>
-          	<div class="container">
-                <div class="card" v-for="item in competitions" v-bind:key="item._id">
+          <div class="columns features">
+                <div class="card" v-for="(item, i) in competitions" v-bind:key="item._id">
                     <div class="card-image">
-                        <figure class="image is-4by3">
-                        <img src="https://bulma.io/images/placeholders/640x480.png" alt="Placeholder image" />
+                        <figure class="image is-4">
+                        <img :src="`/siteimages/images/freebies/${i+1}.png`" alt="Placeholder image">
+
                         </figure>
                     </div>
                     <div class="card-content">
@@ -64,7 +65,7 @@ export default {
 
 .competitions
     background: black;
-
+    margin-top: -20%;
 
 .title
   padding: 2px;

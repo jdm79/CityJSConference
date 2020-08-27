@@ -18,6 +18,11 @@
                 "display": "About our event"
             },
             {
+                "_id": "5f0f4af3653133da330001c1",
+                "link": "widgets",
+                "display": "Competitions"
+            },
+            {
                 "_id": "5de975ff653133d0e70000ba",
                 "link": "widgets",
                 "display": "Speakers"
@@ -64,7 +69,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1598190939,
+        "_modified": 1598534414,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0003c5",
         "_mby": "5ba3ca7b6531330bbd0003ca"

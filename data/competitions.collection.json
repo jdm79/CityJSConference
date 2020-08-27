@@ -1,46 +1,46 @@
 [
     {
-        "title": "COMPETITION 1",
-        "link": "www.dazn.com",
+        "title": "Attendees competition",
+        "link": "\/buytickets",
         "image": [],
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595071259,
+        "_modified": 1598535860,
         "_created": 1594839934,
         "_id": "5f0f537e653133e7330002c7",
-        "sortdesc": "<p>Win a tshirt<\/p>"
+        "sortdesc": "<p>Manning Publications offer 3 ebooks to draw for our attendees:&nbsp;<\/p>\n<p>- <strong>Get Programming with JavaScript&nbsp;<\/strong> (200 copies)<\/p>\n<p>-<strong> Testing JavaScript<\/strong>&nbsp; (200 copies)<\/p>\n<p>- <strong>Svelte and Sapper in Action<\/strong> (4 copies)<\/p>"
     },
     {
-        "title": "COMPETITION 2",
-        "link": "",
+        "title": "Attendees competition",
+        "link": "\/buytickets",
         "image": [],
-        "sortdesc": "<p>win laala<\/p>",
+        "sortdesc": "<p>Packt Publications offer:<\/p>\n<p>a copy of <strong>Node.js<span class=\"css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0\"> Design Patterns <\/span><\/strong><\/p>\n<p><span class=\"css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0\">by <strong>Luciano Mammino<\/strong> &amp; <strong>Mario Casciaro<\/strong> <\/span><\/p>\n<p><span class=\"css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0\">to 4 winners!<\/span><\/p>",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595071239,
+        "_modified": 1598535923,
         "_created": 1595071239,
         "_id": "5f12db0765313310b70002ee"
     },
     {
-        "title": "COMPETITION 3",
-        "link": "",
+        "title": "Win $300 credit",
+        "link": "https:\/\/dashboard.imgix.com\/sign-up?",
         "image": [],
-        "sortdesc": "<p>DDDD<\/p>",
+        "sortdesc": "<p>Sign-up here to redeem<\/p>\n<p>$300<\/p>\n<p>in account credit for a new imgix account!<\/p>",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595071272,
+        "_modified": 1598535879,
         "_created": 1595071272,
         "_id": "5f12db2865313310b700002a"
     },
     {
-        "title": "COMPETITION 4",
-        "link": "",
+        "title": "Attendees freebies",
+        "link": "\/buytickets",
         "image": [],
-        "sortdesc": "<p>DDDD<\/p>",
-        "_mby": "5ba3ca7b6531330bbd0003aa",
-        "_by": "5ba3ca7b6531330bbd0003aa",
-        "_modified": 1595071272,
-        "_created": 1595071272,
-        "_id": "5f12db2865313310b700002b"
+        "sortdesc": "<p>All attendees get a copy of Kyle Simpsons' ebook 'You don't know JS Yet',<\/p>\n<p>Get your ticket now!<\/p>",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1598535413,
+        "_created": 1598533532,
+        "_id": "5f47af9c653133a7420003d1"
     }
 ]
