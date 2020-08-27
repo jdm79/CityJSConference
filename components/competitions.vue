@@ -13,8 +13,9 @@
                 <div class="card" v-for="(item, i) in competitions" v-bind:key="item._id">
                     <div class="card-image">
                         <figure class="image is-4">
-                        <img :src="`/siteimages/images/freebies/${i+1}.png`" alt="Placeholder image">
-
+                          <a :href="item.extlink" target="_blank">
+                            <img :src="`/siteimages/images/freebies/${i+1}.png`" alt="Placeholder image">
+                          </a>
                         </figure>
                     </div>
                     <div class="card-content">
