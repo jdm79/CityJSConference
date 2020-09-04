@@ -1045,7 +1045,7 @@
         "bio": "<p>Principal Software Engineer at DAZN<\/p>",
         "company": "DAZN",
         "title": "Simulating Network Conditions with JavaScript",
-        "talk": "<p>When working with video streaming, being able to accurately simulate customer network conditions for development and testing is crucial. In this talk, I'll be looking at how we can use containers and server-side JavaScript to programmatically shape network conditions and gain valuable insights about the behaviour and performance of our client-side JavaScript - from Adaptive Bitrate video players to entire single-page applications.<\/p>",
+        "talk": "<p style=\"font-weight: 400;\">When working with video streaming, being able to accurately simulate customer network conditions for development and testing is crucial.<\/p>\n<p style=\"font-weight: 400;\">In this talk, I'll be looking at how we can use containers and server-side JavaScript&nbsp;(with Deno)&nbsp;to programmatically shape network conditions and gain valuable insights about the behaviour and performance of our client-side JavaScript - from Adaptive Bitrate video players to entire single-page applications.<\/p>",
         "country": "UK",
         "twitter": "patrickkunka",
         "linkedin": "",
@@ -1059,9 +1059,9 @@
         },
         "order": 10,
         "event": "talk",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_mby": "5ef8a28b65313371010000cf",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295771,
+        "_modified": 1598893925,
         "_created": 1578523198,
         "_id": "5e165a3e6531336bf7000059",
         "town": "London"
@@ -1662,5 +1662,31 @@
         "_modified": 1597161456,
         "_created": 1597160096,
         "_id": "5f32baa06531338d1e0000a6"
+    },
+    {
+        "name": "Frederick Fogerty",
+        "bio": "<p>Software Engineer working on OSS<\/p>",
+        "company": "imgix",
+        "title": "A real-world example of Functional Programming with fp-ts - no experience required!",
+        "talk": "<p>In this talk I'll walk through a real-world Javascript project and discussing how we can refactor it to a more functional style using a TS library, fp-ts.<\/p>",
+        "country": "Switzerland",
+        "twitter": "",
+        "linkedin": "fredfogerty",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/frederick.jpeg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/frederick.jpeg"
+        },
+        "order": 5,
+        "event": "talk",
+        "town": "Geneva",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1599206010,
+        "_created": 1599206010,
+        "_id": "5f51f27a6531332a37000364"
     }
 ]
