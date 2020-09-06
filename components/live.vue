@@ -10,18 +10,27 @@
               <div class="column is-6-desktop is-12-mobile is-12-tablet">
                 <h1>
                   <b>
-                    City of London JS Community Conference
-                    <br />CityJS Conference
+                    CityJS Conference
+                    <br />CITY of London Community Conference
                   </b>
                 </h1>
                 <div class="columns is-mobile is-multiline events">
                   <div class="column is-12-mobile is-6-desktop">
-                     <a href="/buytickets">
+                     <a href="https://live.remo.co/e/cityjs-conference-2">
                       <h2>
-                       14-18 Sep - ONLINE EVENT 
+                       ENTER the Lounge Area
                         <br />
                      
                         <span>Meet other developers, and our sponsors, and watch Speakers Q&amp;As </span>
+                      </h2>
+                     </a>
+                  </div>
+                  <div class="column is-12-mobile is-6-desktop">
+                     <a href="#sessions">
+                      <h2>
+                        Workshops
+                        <br />
+                        <span>Learn TypeScript, NodeJS, React &amp; GraphQL from our specialists tutors</span>
                       </h2>
                      </a>
                   </div>
@@ -34,18 +43,6 @@
                       </h2>
                      </a>
                   </div>
-                    <div class="column is-12-mobile is-6-desktop">
-                      <h2>
-                        SUBSCRIBE TO WATCH FREE
-                          <span class="smalltext">Excludes SPEAKERS Q/A, Private Lounge, and Freebies</span>
-                          <vue-mailchimp-email-signup-form
-                          :element-id="'first-email-signup-form'"
-                          :url="'https://cityjsconf.us19.list-manage.com/subscribe/post?u=eb9cc5d08a5ecc02a40df6f40&amp;id=11ac48b4f8'"
-                        />
-                      
-                      </h2>
-                  </div>
-                   
                    <div class="column is-12-mobile is-6-desktop">
                      <a href="/buytickets">
                       <h2>
@@ -66,7 +63,7 @@
               <div class="column is-multiline is-12-mobile is-5-desktop is-offset-1-desktop content">
                 <div class="info" style="background: black; padding: 40px; color: #fff;">
                   <section>
-                    <h2>Coming soon ...</h2>
+                    <h2>LIVE</h2>
                     <div class="container">
                       <div class="columns is-multiline is-mobile video-container">
                        
