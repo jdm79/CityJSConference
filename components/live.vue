@@ -19,7 +19,7 @@
                      <!-- <a href="https://live.remo.co/e/cityjs-conference"> -->
                      <a href="/buytickets">
                       <h2>
-                        CITYJS 2020 0NLINE - 14-18 SEP
+                       14-18 SEP 2020 -  0NLINE
                         <br />
                      
                         <span>Meet other developers, and our sponsors, and watch Speakers Q&amp;As </span>
