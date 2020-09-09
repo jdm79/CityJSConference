@@ -16,7 +16,7 @@
                 </h1>
                 <div class="columns is-mobile is-multiline events">
                   <div class="column is-12-mobile is-6-desktop">
-                     <a href="https://live.remo.co/e/cityjs-conference-2">
+                     <a href="https://live.remo.co/e/cityjs-conference">
                       <h2>
                        ENTER the Lounge Area
                         <br />
