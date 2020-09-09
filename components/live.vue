@@ -16,7 +16,8 @@
                 </h1>
                 <div class="columns is-mobile is-multiline events">
                   <div class="column is-12-mobile is-6-desktop">
-                     <a href="https://live.remo.co/e/cityjs-conference">
+                     <!-- <a href="https://live.remo.co/e/cityjs-conference"> -->
+                     <a href="/buytickets">
                       <h2>
                        ENTER the Lounge Area
                         <br />
@@ -25,14 +26,16 @@
                       </h2>
                      </a>
                   </div>
-                  <div class="column is-12-mobile is-6-desktop">
-                     <a href="#sessions">
+                 <div class="column is-12-mobile is-6-desktop">
                       <h2>
-                        Workshops
-                        <br />
-                        <span>Learn TypeScript, NodeJS, React &amp; GraphQL from our specialists tutors</span>
+                        SUBSCRIBE TO WATCH FREE
+                          <span class="smalltext">Excludes SPEAKERS Q/A, Private Lounge, and Freebies</span>
+                          <vue-mailchimp-email-signup-form
+                          :element-id="'first-email-signup-form'"
+                          :url="'https://cityjsconf.us19.list-manage.com/subscribe/post?u=eb9cc5d08a5ecc02a40df6f40&amp;id=11ac48b4f8'"
+                        />
+
                       </h2>
-                     </a>
                   </div>
                   <div class="column is-12-mobile is-6-desktop">
                      <a href="#sessions">
