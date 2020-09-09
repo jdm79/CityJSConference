@@ -43,16 +43,17 @@
         "image": {
             "path": "images\/2018sponsors\/IG_flat_red_bg.png"
         },
-        "url": "https:\/\/www.iggroup.com\/",
+        "url": "https:\/\/www.iggroup.com\/careers",
         "level": "Diversity",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1582811448,
+        "_modified": 1599684920,
         "_created": 1538945013,
         "_id": "5bba6ff5653133f74b0002f8",
         "middle": null,
         "Year": [
             2018,
+            2020,
             2020
         ]
     },
@@ -444,11 +445,12 @@
         "middle": "No",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1572205719,
+        "_modified": 1599684893,
         "_created": 1555305674,
         "_id": "5cb414ca65313333090001e9",
         "Year": [
-            2019
+            2019,
+            2020
         ]
     },
     {
@@ -604,5 +606,22 @@
         "_modified": 1598369525,
         "_created": 1598369472,
         "_id": "5f452ec0653133548f000223"
+    },
+    {
+        "name": "Devpost",
+        "image": {
+            "path": "images\/sponsors\/devpost.jpeg"
+        },
+        "url": "https:\/\/devpost.com",
+        "level": "Community",
+        "middle": "Yes",
+        "Year": [
+            2020
+        ],
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1599684876,
+        "_created": 1599684876,
+        "_id": "5f59410c65313335170001eb"
     }
 ]

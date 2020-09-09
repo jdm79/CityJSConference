@@ -1592,7 +1592,7 @@
         "title": "Future of NodeJS",
         "talk": "<p>TBC<\/p>",
         "country": "France",
-        "twitter": "",
+        "twitter": "poledesfetes",
         "linkedin": "",
         "year": 2020,
         "videoUrl": "",
@@ -1607,7 +1607,7 @@
         "town": "Paris",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596462851,
+        "_modified": 1599685938,
         "_created": 1596462244,
         "_id": "5f2814a4653133b571000350"
     },
@@ -1688,5 +1688,31 @@
         "_modified": 1599206010,
         "_created": 1599206010,
         "_id": "5f51f27a6531332a37000364"
+    },
+    {
+        "name": "Garann Means",
+        "bio": "<p>Garann has been a JavaScript and web developer for a long time. In addition to code, she writes in English, and this led her to become a Developer Educator at Vonage. She's had the pleasure of speaking at conferences around the world, launching some developer meetups, and teaching people the skills to get started as coders. She lives in Glasgow with two babies and a cheeky dog.<\/p>",
+        "company": "Vonage",
+        "title": "The Vonage Messages API Sandbox",
+        "talk": "<p>Learn how to work with the Vonage Message API Sandbox, sending and receiving messages through WhatsApp, Viber, and Facebook Messenger.<\/p>\n<p>Learn how to work with the Vonage Message API Sandbox, sending and receiving messages through WhatsApp, Viber, and Facebook Messenger. We'll talk about how to create a request to the Messages API, including setting your credentials. We'll go over setting up webhooks and exposing endpoints on your local machine to handle incoming messages. We'll also discuss the next step, moving your code from the Sandbox to production.<\/p>",
+        "country": "UK",
+        "twitter": "@garannm",
+        "linkedin": "",
+        "year": 2020,
+        "videoUrl": "",
+        "image": {
+            "path": "images\/2020speakers\/garann.jpeg"
+        },
+        "thumbnail": {
+            "path": "images\/2020speakers\/garann.jpeg"
+        },
+        "order": 6,
+        "event": "talk",
+        "town": "Glasgow",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1599685893,
+        "_created": 1599685793,
+        "_id": "5f5944a16531333968000082"
     }
 ]

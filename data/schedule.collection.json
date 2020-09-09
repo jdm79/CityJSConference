@@ -841,12 +841,15 @@
                 "display": "Matteo Collina"
             }
         ],
-        "image": "",
+        "image": {
+            "path": "images\/2020speakers\/mateo.jpg"
+        },
         "order": 1,
         "group": "",
-        "_modified": 1596467849,
+        "_modified": 1599686670,
         "_created": 1596467849,
-        "_id": "5f282a89653133cd1e0003d7"
+        "_id": "5f282a89653133cd1e0003d7",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-09-14",
@@ -871,18 +874,27 @@
         "day": 1,
         "time": "12:40 - 13:20",
         "location": "Online",
-        "title": "Sponsor Session 2",
-        "type": "",
+        "title": "The Vonage Messages API Sandbox",
+        "type": "standard",
         "link": "",
-        "description": "<p>TBC<\/p>",
-        "bio": "",
-        "speakers": "",
-        "image": [],
+        "description": "<p>Learn how to work with the Vonage Message API Sandbox, sending and receiving messages through WhatsApp, Viber, and Facebook Messenger.<\/p>\n<p>Learn how to work with the Vonage Message API Sandbox, sending and receiving messages through WhatsApp, Viber, and Facebook Messenger. We'll talk about how to create a request to the Messages API, including setting your credentials. We'll go over setting up webhooks and exposing endpoints on your local machine to handle incoming messages. We'll also discuss the next step, moving your code from the Sandbox to production.<\/p>",
+        "bio": "<p>Garann has been a JavaScript and web developer for a long time. In addition to code, she writes in English, and this led her to become a Developer Educator at Vonage. She's had the pleasure of speaking at conferences around the world, launching some developer meetups, and teaching people the skills to get started as coders. She lives in Glasgow with two babies and a cheeky dog.<\/p>",
+        "speakers": [
+            {
+                "_id": "5f5944a16531333968000082",
+                "link": "speakers",
+                "display": "Garann Means"
+            }
+        ],
+        "image": {
+            "path": "images\/2020speakers\/garann.jpeg"
+        },
         "order": 1,
         "group": "",
-        "_modified": 1596467849,
+        "_modified": 1599686400,
         "_created": 1596467849,
-        "_id": "5f282a89653133cd1e000139"
+        "_id": "5f282a89653133cd1e000139",
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "date": "2020-09-14",
@@ -1031,5 +1043,27 @@
         "_created": 1596467849,
         "_id": "5f282a89653133cd1e000360",
         "_mby": "5ba3ca7b6531330bbd0003ca"
+    },
+    {
+        "date": "2020-09-15",
+        "day": 2,
+        "time": "12:40 - 13:20",
+        "location": "Online",
+        "title": "A real-world example of Functional Programming with fp-ts - no experience required!",
+        "type": "talk",
+        "link": "",
+        "description": "<p>In this talk I'll walk through a real-world Javascript project and discussing how we can refactor it to a more functional style using a TS library, fp-ts.<\/p>",
+        "bio": "<p>Software Engineer working on OSS<\/p>",
+        "speakers": "",
+        "image": {
+            "path": "images\/2020speakers\/frederick.jpeg"
+        },
+        "order": 0,
+        "group": "",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1599686530,
+        "_created": 1599686530,
+        "_id": "5f5947826531333cd600008f"
     }
 ]
