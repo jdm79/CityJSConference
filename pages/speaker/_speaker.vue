@@ -37,15 +37,13 @@
       if (typeof pagename !== 'undefined') {
         this.pagename = pagename;
       }
+      this.$store.dispatch("pages/get");
+        this.id = this.$route.params.speaker;
     },
     head () {
       return {
         title: 'CityJS Conference 2020, London UK'
       }
-    },
-    mounted() {
-        this.$store.dispatch("pages/get");
-        this.id = this.$route.params.speaker;
     },
   }
 </script>

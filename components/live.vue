@@ -31,6 +31,7 @@
                         SUBSCRIBE TO WATCH FREE
                           <span class="smalltext">Excludes SPEAKERS Q/A, Private Lounge, and Freebies</span>
                           <vue-mailchimp-email-signup-form
+                          title=""
                           :element-id="'first-email-signup-form'"
                           :url="'https://cityjsconf.us19.list-manage.com/subscribe/post?u=eb9cc5d08a5ecc02a40df6f40&amp;id=11ac48b4f8'"
                         />
