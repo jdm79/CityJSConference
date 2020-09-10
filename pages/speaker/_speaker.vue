@@ -9,7 +9,7 @@
               bannerImage='Page.bannerimage'
             >
             </banner>
-            <Speaker :id="id" />
+            <!-- <speaker :id="id" /> -->
         </div>
       </div>
     </section> 
@@ -26,7 +26,7 @@
     components: {
       'app-nav': nav,
       'banner': banner,
-      'Speaker': speaker
+      'speaker': speaker
     },
     data: () => ({
       pagename: 'Speaker page',
