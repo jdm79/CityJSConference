@@ -2,7 +2,6 @@
     <div id="inner">
     <section class="hero">
       <div class="home">
-       <div class="home">
             <banner 
               title='Speaker name'
               description='Speaker'
@@ -10,7 +9,6 @@
             >
             </banner>
             <speaker :id="id" />
-        </div>
       </div>
     </section> 
     </div>
