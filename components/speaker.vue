@@ -1,7 +1,7 @@
 <template>
   <section class="speaker">
     <div class="testimonials is-text  container "
-        v-show="selectedSpeaker"
+        v-if="selectedSpeaker"
     >
         <div class="columns is-multiline is-mobile " > 
              <div class="column marginless">

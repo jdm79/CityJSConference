@@ -44,6 +44,7 @@
       }
     },
     mounted() {
+        this.$store.dispatch("pages/get");
         this.id = this.$route.params.speaker;
     },
   }
