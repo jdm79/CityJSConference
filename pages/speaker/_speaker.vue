@@ -2,7 +2,7 @@
     <div id="inner">
     <section class="hero">
       <div class="home">
-            <div style="display:hidden">&nbsp;</div>
+            &nbsp;
             <banner 
               title='Speaker name'
               description='Speaker'
