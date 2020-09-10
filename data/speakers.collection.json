@@ -1485,7 +1485,7 @@
         "name": "Kyle Simpson",
         "bio": "<p>Kyle Simpson is Director of Web Futures at Getify Solutions, where he envisions and evangelizes what's next for Open Web technologies, especially JS. He writes, speaks, teaches, and codes OSS.<\/p>\n<div>&nbsp;<\/div>",
         "company": "Director of Web Futures at Getify Solutions",
-        "title": "Mo\u2019 problems, Mo\u2019nads",
+        "title": "Mo'Problems, Mo'Nads",
         "talk": "<p>Monads; just that word alone probably&nbsp;<em><u>either<\/u><\/em>&nbsp;made you shudder or roll your eyes. But don't run away!<\/p>\n<p>Functional Programming (FP) offers many benefits to our programs, even in a loose\/flexible language like JS. But we often avoid them&nbsp;<em><u>just<\/u><\/em>&nbsp;because of intimidating terminology, notation, and math theory. Rarely is this more prevalent than with monads.<\/p>\n<p>This talk is not a dissertation on monads and broader category theory. We're merely dipping our toe into the shallow end here, not plunging head first into the deep end. But I hope&nbsp;<em><u>maybe<\/u><\/em>&nbsp;it entices you to swim around, because the water's actually quite pleasant!<\/p>\n<p>We'll look at familiar problems in code that we typically solve imperatively, and then see how some of the de-mystified behaviors associated with monads (and friends!) can help. After this talk, I hope you'll look more closely at monads and other algebraic structures.<\/p>\n<p>Topics illustrated: selecting values with conditional logic, forking behavior on exceptions, and juggling asynchronous side effects.<\/p>",
         "country": "USA",
         "twitter": "getify",
@@ -1503,7 +1503,7 @@
         "town": "Austin",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596363037,
+        "_modified": 1599767961,
         "_created": 1594733992,
         "_id": "5f0db5a865313390230002a0"
     },

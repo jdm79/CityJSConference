@@ -586,7 +586,7 @@
         "day": 1,
         "time": "21.55 - 22:35",
         "location": "Online",
-        "title": "Mo\u2019 problems, Mo\u2019nads",
+        "title": "Mo'Problems, Mo'Nads ",
         "type": "",
         "link": "",
         "description": "<p>Monads; just that word alone probably&nbsp;<em><u>either<\/u><\/em>&nbsp;made you shudder or roll your eyes. But don't run away!<\/p>\n<p>Functional Programming (FP) offers many benefits to our programs, even in a loose\/flexible language like JS. But we often avoid them&nbsp;<em><u>just<\/u><\/em>&nbsp;because of intimidating terminology, notation, and math theory. Rarely is this more prevalent than with monads?<\/p>\n<p>This talk is not a dissertation on monads and broader category theory. We're merely dipping our toe into the shallow end here, not plunging headfirst into the deep end. But I hope&nbsp;<em><u>maybe<\/u><\/em>&nbsp;it entices you to swim around because the water's actually quite pleasant!<\/p>\n<p>We'll look at familiar problems in code that we typically solve imperatively, and then see how some of the de-mystified behaviours associated with monads (and friends!) can help. After this talk, I hope you'll look more closely at monads and other algebraic structures.<\/p>\n<p>Topics illustrated: selecting values with conditional logic, forking behaviour on exceptions, and juggling asynchronous side effects.<\/p>",
@@ -603,7 +603,7 @@
         },
         "order": 20,
         "group": "",
-        "_modified": 1596468451,
+        "_modified": 1599767775,
         "_created": 1596467849,
         "_id": "5f282a89653133cd1e000284",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -875,7 +875,7 @@
         "time": "12:40 - 13:20",
         "location": "Online",
         "title": "The Vonage Messages API Sandbox",
-        "type": "standard",
+        "type": "",
         "link": "",
         "description": "<p>Learn how to work with the Vonage Message API Sandbox, sending and receiving messages through WhatsApp, Viber, and Facebook Messenger.<\/p>\n<p>Learn how to work with the Vonage Message API Sandbox, sending and receiving messages through WhatsApp, Viber, and Facebook Messenger. We'll talk about how to create a request to the Messages API, including setting your credentials. We'll go over setting up webhooks and exposing endpoints on your local machine to handle incoming messages. We'll also discuss the next step, moving your code from the Sandbox to production.<\/p>",
         "bio": "<p>Garann has been a JavaScript and web developer for a long time. In addition to code, she writes in English, and this led her to become a Developer Educator at Vonage. She's had the pleasure of speaking at conferences around the world, launching some developer meetups, and teaching people the skills to get started as coders. She lives in Glasgow with two babies and a cheeky dog.<\/p>",
@@ -891,7 +891,7 @@
         },
         "order": 1,
         "group": "",
-        "_modified": 1599686400,
+        "_modified": 1599768186,
         "_created": 1596467849,
         "_id": "5f282a89653133cd1e000139",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -1050,11 +1050,17 @@
         "time": "12:40 - 13:20",
         "location": "Online",
         "title": "A real-world example of Functional Programming with fp-ts - no experience required!",
-        "type": "talk",
+        "type": "",
         "link": "",
         "description": "<p>In this talk I'll walk through a real-world Javascript project and discussing how we can refactor it to a more functional style using a TS library, fp-ts.<\/p>",
         "bio": "<p>Software Engineer working on OSS<\/p>",
-        "speakers": "",
+        "speakers": [
+            {
+                "_id": "5f51f27a6531332a37000364",
+                "link": "speakers",
+                "display": "Frederick Fogerty"
+            }
+        ],
         "image": {
             "path": "images\/2020speakers\/frederick.jpeg"
         },
@@ -1062,7 +1068,7 @@
         "group": "",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1599686530,
+        "_modified": 1599768488,
         "_created": 1599686530,
         "_id": "5f5947826531333cd600008f"
     }
