@@ -9,7 +9,7 @@
               bannerImage='Page.bannerimage'
             >
             </banner>
-            <!-- <speaker :id="id" /> -->
+            <speaker :id="id" />
         </div>
       </div>
     </section> 
