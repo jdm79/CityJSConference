@@ -37,8 +37,8 @@
                       </div>
                     </div>
                     <div class="button-wrapper">
-                      <a href="/buytickets"><span class="button button-black is-link modal-button"
-                                                  data-target="modal-card">Register now</span></a>
+                      <a :href="item.link"><span class="button button-black is-link modal-button"
+                                                  data-target="modal-card">Enter (Ticket holders)</span></a>
                     </div>
                   </div>
                 </div>

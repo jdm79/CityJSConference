@@ -11,8 +11,6 @@ export default {
       for (let i = 0; i< state.list.length; i++) {
         if (Array.isArray(state.list[i].speakers)) {
           slot = state.list[i].speakers.filter(speaker => {
-              console.log("Speaker", speaker._id);
-              console.log("input", id)
               return speaker._id === id
           })
           if (slot.length > 0) {
