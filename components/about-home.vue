@@ -63,11 +63,11 @@ export default {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 220px 0;
+        padding: 320px 0;
         +ipadpro
           padding: 320px 0;
         +mobile
-          height: 140vh;
+          height: 120vh;
         &.lazyloaded
           background-image: url(/images/audience.jpg); 
           background-repeat: no-repeat; 

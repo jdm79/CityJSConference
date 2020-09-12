@@ -17,16 +17,16 @@
                 <div class="columns is-mobile is-multiline events">
                   <div class="column is-12-mobile is-6-desktop">
                      <!-- <a href="https://live.remo.co/e/cityjs-conference"> -->
-                     <a href="/buytickets">
+                     <a href="https://live.remo.co/e/cityjs-conference">
                       <h2>
-                       14-18 SEP 2020 -  0NLINE
+                      ENTER NOW - LOUNGE AREA
                         <br />
                      
-                        <span>Meet other developers, and our sponsors, and watch Speakers Q&amp;As </span>
+                        <span>Meet other developers, our sponsors, and Speakers and watch  Q&amp;As </span>
                       </h2>
                      </a>
                   </div>
-                 <div class="column is-12-mobile is-6-desktop">
+                 <!-- <div class="column is-12-mobile is-6-desktop">
                       <h2>
                         SUBSCRIBE TO WATCH FREE
                           <span class="smalltext">Excludes SPEAKERS Q/A, Private Lounge, and Freebies</span>
@@ -37,7 +37,7 @@
                         />
 
                       </h2>
-                  </div>
+                  </div> -->
                   <div class="column is-12-mobile is-6-desktop">
                      <a href="#sessions">
                       <h2>
