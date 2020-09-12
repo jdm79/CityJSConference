@@ -7,6 +7,7 @@
               title='Speaker name'
               description='Speaker'
               bannerImage='Page.bannerimage'
+              style="margin-top: -25px;"
             >
             </banner>
             <speaker :id="id" />

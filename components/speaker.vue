@@ -22,7 +22,14 @@
                 </span>
                                       
                 <h2> {{selectedSpeaker.title}} </h2>
+ <p>
+           <strong> Live on: {{new Date( Date.parse( getSelectedSlot(this.id).date)).getDate()}}/0{{new Date( Date.parse( getSelectedSlot(this.id).date)).getMonth() +1 }}/2020
+                 - {{  getSelectedSlot(this.id).time }} (GMT +1) BST</strong>
+                 </p>
+                 <br/>
+                 
                 <p v-html="selectedSpeaker.talk" />
+               
                 <h2>Bio</h2>
                  <p v-html="selectedSpeaker.bio" />
             </div>
@@ -43,10 +50,9 @@
                     </div>
            </div>
             </div>
+           
           </div>
           
-          
- 
     </section>
 </template>
 
@@ -64,24 +70,35 @@ export default {
   props: ['id'],
   mounted: function() {
     this.$store.dispatch("speakers/get");
+    this.$store.dispatch("schedule/get");
   },
   methods: {
   },
   computed: {
     ...mapGetters({
         speakers: 'speakers/speakers',
+        getSpeaker: 'schedule/getSpeaker'
     }),
     isMobile () {
         return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) ? true : false;
     }, 
      selectedSpeaker() {
-      if (typeof this.speakers !== "undefined") {
-        return this.speakers.filter(speaker => {
-          return speaker.year === 2020 & speaker._id === this.id;
-        })[0]
-      }
-      }
+        if (typeof this.speakers !== "undefined") {
+            return this.speakers.filter(speaker => {
+            return speaker.year === 2020 & speaker._id === this.id;
+            })[0];
+        }
+      },
+
+  }, 
+  methods: { 
+    getSelectedSlot(id) {
+        const slot =  this.getSpeaker(id);
+        return slot
+    }
   }
+
+
 };
 </script>
 
