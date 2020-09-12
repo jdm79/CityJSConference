@@ -24,7 +24,7 @@
                 <h2> {{selectedSpeaker.title}} </h2>
  <p>
            <strong> Live on: {{new Date( Date.parse( getSelectedSlot(this.id).date)).getDate()}}/0{{new Date( Date.parse( getSelectedSlot(this.id).date)).getMonth() +1 }}/2020
-                 - {{  getSelectedSlot(this.id).time }} (GMT +1) BST</strong>
+                  {{  getSelectedSlot(this.id).time }} (GMT +1) BST</strong>
                  </p>
                  <br/>
                  
