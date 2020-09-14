@@ -16,10 +16,9 @@
                 </h1>
                 <div class="columns is-mobile is-multiline events">
                   <div class="column is-12-mobile is-6-desktop">
-                     <!-- <a href="https://live.remo.co/e/cityjs-conference"> -->
                      <a href="https://live.remo.co/e/cityjs-conference">
                       <h2>
-                      ENTER NOW - LOUNGE AREA
+                      ENTER OUR LOUNGE AREA
                         <br />
                      
                         <span>Meet other developers, our sponsors, and Speakers and watch  Q&amp;As </span>
@@ -39,7 +38,16 @@
                       </h2>
                   </div> -->
                   <div class="column is-12-mobile is-6-desktop">
-                     <a href="#sessions">
+                     <a href="#workshops">
+                      <h2>
+                       Get a workshop
+                        <br />
+                        <span>8hrs Online using Zoom, learn NodeJS, React, GraphQL, and TypeScript</span>
+                      </h2>
+                     </a>
+                  </div>
+                  <div class="column is-12-mobile is-6-desktop">
+                     <a href="#workshops">
                       <h2>
                         Watch 4 Panel Sessions
                         <br />
@@ -82,7 +90,7 @@
               </div>
             </div>
              <div class="timer">
-                <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
+                <!-- <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer> -->
              </div>
           </div>
         </div>

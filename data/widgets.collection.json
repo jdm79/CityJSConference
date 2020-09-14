@@ -208,5 +208,18 @@
         "_modified": 1594837747,
         "_created": 1594837747,
         "_id": "5f0f4af3653133da330001c1"
+    },
+    {
+        "title": "WorkshopsVertical",
+        "shortDescription": "",
+        "url": "",
+        "image": [],
+        "type": "Component",
+        "custom": "workshops-vertical",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
+        "_by": "5ba3ca7b6531330bbd0003ca",
+        "_modified": 1600049282,
+        "_created": 1600049188,
+        "_id": "5f5ed025653133230e000125"
     }
 ]

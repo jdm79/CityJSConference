@@ -1,5 +1,5 @@
 <template>
-   <section class="section competitions ">
+  <section class="section competitions ">
             <div>
                 <app-h2
                     title="CityJS 2020 Offers"
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+  </section>
 </template>
 
 <script>
