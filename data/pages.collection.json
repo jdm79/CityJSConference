@@ -126,8 +126,8 @@
         "subtitle": "",
         "url": "schedule",
         "type": "Standard",
-        "description": "<p>We will be adding the final speaker schedule as soon as we can. We will list the speakers and their times slots.<\/p>\n<p>&nbsp;<\/p>\n<p>The talks will take place on the first two days of the conference (14th and 15th of September) from 2pm onwards.<\/p>\n<p>&nbsp;<\/p>\n<p>The workshops are scheduled to take place on the last three days of the conference (16th to the 18th of September).<\/p>\n<p>&nbsp;<\/p>\n<p>We will send out an email and broadcast on social media when we have confirmed our speaker and time slot schedule.<\/p>",
-        "shortDescription": "<p>We are currently in the process of organising who speaks when.<\/p>\n<p>Once the process is completed we will announce our schedule.&nbsp;<\/p>",
+        "description": "<p>The talks will take place on the first two days of the conference (14th and 15th of September) from 2pm onwards.<\/p>\n<p>&nbsp;<\/p>\n<p>The workshops are scheduled to take place on the last three days of the conference (16th to the 18th of September).<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>",
+        "shortDescription": "",
         "widgets": [
             {
                 "_id": "5d6acecf6531334555000322",
@@ -153,7 +153,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1596399162,
+        "_modified": 1600132634,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f000094",
         "_mby": "5ba3ca7b6531330bbd0003ca"

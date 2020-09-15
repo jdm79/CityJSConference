@@ -47,7 +47,7 @@
                      </a>
                   </div>
                   <div class="column is-12-mobile is-6-desktop">
-                     <a href="#workshops">
+                     <a href="#sessions">
                       <h2>
                         Watch 4 Panel Sessions
                         <br />
@@ -89,7 +89,7 @@
               </div>
             </div>
              <div class="timer">
-                <!-- <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer> -->
+                <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
              </div>
           </div>
         </div>

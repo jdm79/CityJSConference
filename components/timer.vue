@@ -9,7 +9,25 @@
           </h2>
         </div>
         <div class="column is-4">
-            <div class="columns is-mobile is-8-desktop">
+
+        <a href="/buytickets" style="color: white">
+        <div class="columns is-mobile is-8-desktop">
+           <div class="block column is-2-desktop is-4-mobile">
+             TKTS
+             OFFER
+            </div>
+          <div class="block column is-2-desktop is-4-mobile">
+          70% off  
+          </div>
+            <div class="block column is-2-desktop is-4-mobile">
+          buy now
+          </div>
+           <div class="block column is-2-desktop is-4-mobile">
+        only £10 
+          </div>
+        </div>
+        </a>
+            <!-- <div class="columns is-mobile is-8-desktop">
             <div class="block column is-2-desktop is-3-mobile">
               <span>{{ days }}</span><br/>
               {{ wordString.day }}
@@ -25,7 +43,7 @@
             <div class="block column is-2-desktop is-3-mobile is-offset-1-desktop">
               <span>{{ seconds }}</span><br/>
               {{ wordString.seconds }}
-            </div>
+            </div> -->
             </div>
         </div>
       </div>
