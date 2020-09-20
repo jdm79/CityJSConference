@@ -8,39 +8,14 @@
         "shortDescription": "<p>An event run for developers, by developers<\/p>",
         "widgets": [
             {
-                "_id": "5f0f4ada653133da180003c5",
+                "_id": "5d64ffc1653133ae130002de",
                 "link": "widgets",
-                "display": "Live"
+                "display": "Carousel"
             },
             {
                 "_id": "5ba4b07d653133fabc000236",
                 "link": "widgets",
                 "display": "About our event"
-            },
-            {
-                "_id": "5f0f4af3653133da330001c1",
-                "link": "widgets",
-                "display": "Competitions"
-            },
-            {
-                "_id": "5de975ff653133d0e70000ba",
-                "link": "widgets",
-                "display": "Speakers"
-            },
-            {
-                "_id": "5f0f4ac8653133d9f9000109",
-                "link": "widgets",
-                "display": "Sessions"
-            },
-            {
-                "_id": "5f5ed025653133230e000125",
-                "link": "widgets",
-                "display": "WorkshopsVertical"
-            },
-            {
-                "_id": "5e2b66c1653133a0b80001e9",
-                "link": "widgets",
-                "display": "Schedule"
             },
             {
                 "_id": "5d98d5966531334af500024d",
@@ -74,7 +49,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1600050996,
+        "_modified": 1600638850,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0003c5",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -84,18 +59,13 @@
         "subtitle": "",
         "url": "speakers",
         "type": "Standard",
-        "description": "<p>&nbsp;<\/p>\n<p>The CFP for the 2020 event is now closed.<\/p>\n<p>&nbsp;<\/p>\n<p>We would like to thank everyone for submitting your proposals - we had some exciting responses to our call for papers.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Below are the speakers selected.<\/p>",
+        "description": "<p>&nbsp;<\/p>\n<p>The CFP for the 2021 event will open soon.<\/p>\n<p>&nbsp;<\/p>\n<p>We would like to thank everyone for submitting your proposals - we had some exciting responses to our call for papers.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Below are the speakers selected.<\/p>",
         "shortDescription": "",
         "widgets": [
             {
                 "_id": "5d6acecf6531334555000322",
                 "link": "widgets",
                 "display": "About page"
-            },
-            {
-                "_id": "5de975ff653133d0e70000ba",
-                "link": "widgets",
-                "display": "Speakers"
             },
             {
                 "_id": "5d6abf6565313335bf0002f2",
@@ -116,28 +86,23 @@
         "color": "transparent",
         "components": "",
         "year": 2019,
-        "_modified": 1595849931,
+        "_modified": 1600639945,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0001f7",
-        "_mby": "5ef8a28b65313371010000cf"
+        "_mby": "5ba3ca7b6531330bbd0003ca"
     },
     {
         "title": "Schedule",
         "subtitle": "",
         "url": "schedule",
         "type": "Standard",
-        "description": "<p>The talks will take place on the first two days of the conference (14th and 15th of September) from 2pm onwards.<\/p>\n<p>&nbsp;<\/p>\n<p>The workshops are scheduled to take place on the last three days of the conference (16th to the 18th of September).<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>",
+        "description": "<p>Our Schedule for 2021 will be announced once we have confirmed all the speakers.<\/p>\n<p>The workshops are scheduled to take place on the last three days of the conference (24th to the 25th of September).<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>",
         "shortDescription": "",
         "widgets": [
             {
                 "_id": "5d6acecf6531334555000322",
                 "link": "widgets",
                 "display": "About page"
-            },
-            {
-                "_id": "5e2b66c1653133a0b80001e9",
-                "link": "widgets",
-                "display": "Schedule"
             }
         ],
         "tags": "",
@@ -153,7 +118,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1600132634,
+        "_modified": 1600640159,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f000094",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -325,18 +290,13 @@
         "subtitle": "",
         "url": "workshops",
         "type": "Standard",
-        "description": "<h3>Coaches<\/h3>\n<h3><strong>&nbsp;Alex Lobera<\/strong><\/h3>\n<p>Alex is a&nbsp; Full-stack JavaScript Developer very passionate about&nbsp;teaching React to professional developers since May 2016. Alex holds a&nbsp;<strong>computer science degree<\/strong>&nbsp;and he is also a&nbsp;<strong>certified teacher<\/strong>&nbsp;in the Spanish language. He is organizer of the&nbsp;<a href=\"https:\/\/www.meetup.com\/JavaScript-london\/\" target=\"_blank\" rel=\"noopener\">JavaScript London Meetup<\/a>&nbsp;and other popular meetups in the EU.<\/p>\n<p>&nbsp;<\/p>\n<h3><strong>Michel Weststrate&nbsp;<\/strong><\/h3>\n<p>Author of MobX, MobX-State-Tree, Immer and a plethora of smaller packages. On a quest to make programming as natural as possible. React, JavaScript and TypeScript fan. Working at Facebook on Dev tooling<\/p>\n<p>&nbsp;<\/p>\n<h3><strong>Matteo Collina<\/strong><\/h3>\n<p>Matteo is Technical Director at NearForm, where he consults for some of the top brands in the world. In 2014, he defended his Ph.D. thesis titled \"Application Platforms for the Internet of Things\". Matteo is a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast logger Pino and of the Fastify web framework. Matteo is a renowned international speaker after presenting at more than 50 conferences, including Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. He is also co-author of the book \"Node.js Cookbook, Third Edition\" edited by Packt. In the summer he loves sailing the Sirocco.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Workshops Venue&nbsp;<\/strong><\/p>\n<p>Online using Zoom<\/p>\n<p>&nbsp;<\/p>\n<h3>Workshops<\/h3>\n<p>Our workshops for this year can be seen below:<\/p>\n<div class=\"Box__StyledBox-sc-15eb79u-0 FZPeL Card__StyledCard-sc-1h5y10m-0 eUrMtZ\">&nbsp;<\/div>",
+        "description": "<div class=\"Box__StyledBox-sc-15eb79u-0 FZPeL Card__StyledCard-sc-1h5y10m-0 eUrMtZ\">Our workshops will be announced soon.<\/div>",
         "shortDescription": "",
         "widgets": [
             {
                 "_id": "5d6acecf6531334555000322",
                 "link": "widgets",
                 "display": "About page"
-            },
-            {
-                "_id": "5e163bbd653133428700002e",
-                "link": "widgets",
-                "display": "Workshops"
             }
         ],
         "tags": "",
@@ -354,7 +314,7 @@
         "color": "",
         "components": "",
         "year": "",
-        "_modified": 1598369934,
+        "_modified": 1600640068,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f00032f",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -428,7 +388,7 @@
         "subtitle": "",
         "url": "scholarships",
         "type": "Standard",
-        "description": "<div id=\":c8\">\n<div class=\"btm\"><strong>CityJSConf<\/strong> is a community joint event created by our Londons JavaScript meet-up groups. This is a non-profitable&nbsp;conference and our purpose is to give back to our community. Thanks to the great generosity of our sponsors we are giving away 20 tickets for this year&rsquo;s main event.<\/div>\n<\/div>\n<div class=\"\">\n<div id=\":ca\" class=\"ii gt adO\">\n<div id=\":c9\" class=\"a3s aXjCH \">\n<p>&nbsp;<\/p>\n<p>We wish to support our community and highly encourage students and others coming from diverse backgrounds (people of color, LGBTQIA, people with disabilities, refugees, women, students and people facing economic or social hardships) to apply for scholarships. Travel and accommodation expenses are not included.<\/p>\n<p>&nbsp;<\/p>\n<p>If you are keen to attend CityJSConf but have difficulty attending the conference due to lack of money or resources, this is your chance. We will be delighted to have you with us!<\/p>\n<p><a href=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSe2vlQbWtjWY-x02gpf3E9GIuxN6VoHY9blzSYTXBUzDipsDQ\/viewform?usp=sf_link\">Apply for a scholarship for our Online event&nbsp;<\/a><\/p>\n<h2>&nbsp;<\/h2>\n<h2>QUESTIONS<\/h2>\n<p>For any questions please contact us by email&nbsp;<a href=\"mailto:cityjsconf@gmail.com\" target=\"_blank\" rel=\"noopener\">cityjsconf@gmail.com<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<p>&nbsp;<\/p>",
+        "description": "<div id=\":c8\">\n<div class=\"btm\"><strong>CityJSConf<\/strong> is a community joint event created by our Londons JavaScript meet-up groups. This is a non-profitable&nbsp;conference and our purpose is to give back to our community. Thanks to the great generosity of our sponsors we are giving away 20 tickets for this year&rsquo;s main event.<\/div>\n<\/div>\n<div class=\"\">\n<div id=\":ca\" class=\"ii gt adO\">\n<div id=\":c9\" class=\"a3s aXjCH \">\n<p>&nbsp;<\/p>\n<p>We wish to support our community and highly encourage students and others coming from diverse backgrounds (people of color, LGBTQIA, people with disabilities, refugees, women, students and people facing economic or social hardships) to apply for scholarships. Travel and accommodation expenses are not included.<\/p>\n<p>&nbsp;<\/p>\n<p>If you are keen to attend CityJSConf but have difficulty attending the conference due to lack of money or resources, this is your chance. We will be delighted to have you with us!<\/p>\n<p>We will announce our scholarships for 2021 soon!<\/p>\n<p>&nbsp;<\/p>\n<h2>QUESTIONS<\/h2>\n<p>For any questions please contact us by email&nbsp;<a href=\"mailto:cityjsconf@gmail.com\" target=\"_blank\" rel=\"noopener\">cityjsconf@gmail.com<\/a><\/p>\n<\/div>\n<\/div>\n<\/div>\n<p>&nbsp;<\/p>",
         "shortDescription": "<p>dT<\/p>",
         "widgets": [
             {
@@ -450,7 +410,7 @@
         "color": "",
         "components": "",
         "year": "",
-        "_modified": 1596886710,
+        "_modified": 1600639559,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0002f7",
         "_mby": "5ba3ca7b6531330bbd0003ca"

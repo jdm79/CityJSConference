@@ -41,7 +41,7 @@
                     <div class="container">
                       <div class="columns is-multiline is-mobile">
                         <div class="column is-1-tablet is-1-desktop is-1-mobile info-vertical ">
-                          <div class="info-number">2</div>
+                          <div class="info-number">3</div>
                         </div>
                         <div class="column is-9-desktop is-9-tablet is-9-mobile info-vertical is-offset-2">
                           <div class="info-text">
@@ -50,7 +50,7 @@
                           </div>
                         </div>
                         <div class="column is-1-tablet is-1-desktop  is-1-mobile info-vertical ">
-                          <div class="info-number">25+</div>
+                          <div class="info-number">12+</div>
                         </div>
                         <div class="column is-9-desktop  is-9-tablet  is-9-mobile info-vertical  is-offset-2">
                           <div class="info-text">
@@ -74,7 +74,7 @@
               </div>
             </div>
              <div class="timer">
-                <Timer starttime="September 14, 2020 09:00:00" endtime="September 14, 2020 17:00:00"></Timer>
+                <Timer starttime="September 14, 2020 09:00:00" endtime="March 26, 2021 17:00:00"></Timer>
              </div>
           </div>
         </div>

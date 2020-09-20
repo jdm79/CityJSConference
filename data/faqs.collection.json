@@ -4,7 +4,7 @@
         "answer": "<p>We would advise you to first let us know what is the title\/subject of your talk before we make a decision on paying for travel and accommodation.<\/p>",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1538557895,
+        "_modified": 1600640297,
         "_created": 1538557895,
         "_id": "5bb487c76531335783000282"
     },
@@ -19,21 +19,12 @@
     },
     {
         "question": "What is your refund policy?",
-        "answer": "<p>Refunds permitted until 22th of July all tickets that were bought for the March event, tickets are fully transferrable to another attendee until the day prior to the event.&nbsp;<\/p>\n<p>Your ticket is transferred to next year after that and you get a free ticket for this years online event.<\/p>",
+        "answer": "<p>Refunds are permitted until the 31st of December 2020 for all tickets that were bought for the March event. Tickets are fully transferrable to another attendee until the day prior to the event.&nbsp;<\/p>\n<p>If you have bought a ticket for March 2020 is transferred to the March 2021 event.<\/p>\n<p>If you would like a refund, email us at reservations@cityjsconf.org.<\/p>\n<article class=\"clearfix\"><\/article>",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595087977,
+        "_modified": 1600640283,
         "_created": 1538557961,
         "_id": "5bb4880965313357c40003b2"
-    },
-    {
-        "question": "Do I get a free workshop with my ticket?",
-        "answer": "<p>Due to limited spaces, you will have to buy your workshop tickets separately.<\/p>",
-        "_mby": "5ef8a28b65313371010000cf",
-        "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595849665,
-        "_created": 1544023651,
-        "_id": "5c07ee63653133f69a00015d"
     },
     {
         "question": "Coronavirus update",
@@ -43,14 +34,5 @@
         "_modified": 1595849769,
         "_created": 1583766918,
         "_id": "5e665d866531332ecc0003cb"
-    },
-    {
-        "question": "Do I get a free ticket for the Private Online Event?",
-        "answer": "<p>If you have purchased a ticket (Workshop, Combo Workshop, Standard, NewYears and Early Bird) for our postponed March event you automatically get a FREE online ticket.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>You will have access to:<\/p>\n<p>&nbsp;<\/p>\n<p>- Speakers Q\/A<\/p>\n<p>- Speakers Sessions<\/p>\n<p>- The private lounge area where you can meet the speakers and other attendees and sponsors booths<\/p>\n<p>- Participate in Sponsors Workshops&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Your venue ticket will automatically move to next year's event.&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>Alternatively, if you choose to cancel your ticket you will need to buy a ticket for the private online event.&nbsp;<\/p>",
-        "_mby": "5ba3ca7b6531330bbd0003ca",
-        "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593436764,
-        "_created": 1593434557,
-        "_id": "5ef9e1bd653133f259000086"
     }
 ]

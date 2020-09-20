@@ -63,7 +63,7 @@ export default {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 320px 0;
+        padding: 160px 0;
         +ipadpro
           padding: 320px 0;
         +mobile
