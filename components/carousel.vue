@@ -18,7 +18,7 @@
                   <div class="column is-12-mobile is-6-desktop">
                     <a href="/buytickets">
                       <h2>
-                        2021 EVEMNT @ 26-29 Mar 
+                        2021 EVENT @ 26-29 Mar 
                         <br />
                         <span>Hybrid Event</span><br />
                         <span>Regent Street Cinema / Online</span><br />
