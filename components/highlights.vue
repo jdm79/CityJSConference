@@ -1,21 +1,25 @@
 <template>
-    <section class="section bg-red">
+    <section class="section bg-red" id="highlights">
         <div class id="videos">
             <app-h2
-                :title="`Our ${this.current.url ==='home'? '2019' : this.current.year} Highlights`"
+                :title="`Our ${this.current.url ==='home'? '2020' : this.current.year} Highlights`"
                 :subtitle="
-                    `View from our amazing ${this.current.url ==='home'? '2019' : this.current.year} speakers (sponsored by Pusher)`
+                    `View from our amazing ${this.current.url ==='home'? '2020' : this.current.year} speakers`
                 "
                 :is-h2="true"
                 :white="true"
             ></app-h2>
             <div class="carouselWrap">
                 <Carousel :autoplay="true" :perPage="slideCount" :centerMode="true">
+     
                     <Slide
                         v-for="item in speakers"
                         v-bind:key="item._id"
                     >
-                        <HighlightCard :item="item" />
+                    
+                        <HighlightCard :item="item" :year="item.year"/>
+
+                        
                     </Slide>
                 </Carousel>
             </div>
@@ -57,8 +61,8 @@ export default {
             if (typeof this.items !== "undefined") {
                 return this.items.filter(item => {
                     return (
-                        item.year === parseInt((this.current.title === 'Home') ? '2019' : this.current.year) &&
-                        (item.event === "talk" || item.event === "both")
+                        item.year === parseInt((this.current.title === 'Home') ? '2020' : this.current.year) &&
+                        (item.event === "talk")
                     );
                 });
             } else {

@@ -16,7 +16,7 @@
                 </h1>
                 <div class="columns is-mobile is-multiline events">
                   <div class="column is-12-mobile">
-                     <a href="/buytickets">
+                     <a href="/#highlights">
                       <h2>
                         14-18 Sep 2020
                         <br />

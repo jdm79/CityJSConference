@@ -18,6 +18,11 @@
                 "display": "About our event"
             },
             {
+                "_id": "5d6abf6565313335bf0002f2",
+                "link": "widgets",
+                "display": "Highlights"
+            },
+            {
                 "_id": "5d98d5966531334af500024d",
                 "link": "widgets",
                 "display": "about-venue"
@@ -49,7 +54,7 @@
         "color": "transparent",
         "components": "",
         "year": 2020,
-        "_modified": 1600638850,
+        "_modified": 1601934234,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0003c5",
         "_mby": "5ba3ca7b6531330bbd0003ca"
@@ -85,8 +90,8 @@
         "hide": "No",
         "color": "transparent",
         "components": "",
-        "year": 2019,
-        "_modified": 1600639945,
+        "year": 2020,
+        "_modified": 1601931093,
         "_created": 1575213910,
         "_id": "5de3db56653133e56f0001f7",
         "_mby": "5ba3ca7b6531330bbd0003ca"

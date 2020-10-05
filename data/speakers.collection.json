@@ -149,7 +149,7 @@
         "videoUrl": "https:\/\/cityjsconf2018.streameventlive.com\/home\/video\/8",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596706011,
+        "_modified": 1601933660,
         "_created": 1538578390,
         "_id": "5bb4d7d66531339cca000118",
         "image": {
@@ -160,7 +160,7 @@
             "path": "images\/2020speakers\/HopI5nMr.jpg"
         },
         "order": 7,
-        "event": "talk",
+        "event": "panel",
         "town": "London"
     },
     {
@@ -267,7 +267,7 @@
         "videoUrl": "https:\/\/cityjsconf2018.streameventlive.com\/home\/video\/11",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596463690,
+        "_modified": 1601933687,
         "_created": 1538578791,
         "_id": "5bb4d9676531339e1c000319",
         "image": {
@@ -278,7 +278,7 @@
             "path": "images\/2020speakers\/lucas.png"
         },
         "order": 11,
-        "event": "talk",
+        "event": "panel",
         "town": "London"
     },
     {
@@ -290,10 +290,10 @@
         "twitter": "ThisIsJoFrank",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "https:\/\/cityjsconf2018.streameventlive.com\/home\/video\/30",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/yf32yvfnRr0",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295116,
+        "_modified": 1601933208,
         "_created": 1538578845,
         "_id": "5bb4d99d6531339e4c000223",
         "image": {
@@ -340,7 +340,7 @@
         "twitter": "dylans",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "https:\/\/www.youtube.com\/watch?v=2cX_NSos11k&list=PL8xuokhAnn4pv5CimOe9DnAGRosVkTF4r&index=2&t=0s",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/mvJU-iw_B8A",
         "image": {
             "path": "images\/2019-speakers\/dylans.jpg"
         },
@@ -349,7 +349,7 @@
         },
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593296795,
+        "_modified": 1601933164,
         "_created": 1544095624,
         "_id": "5c090788653133337b000356",
         "order": 4,
@@ -635,10 +635,10 @@
             "path": "images\/2019-speakers\/maya1.jpg"
         },
         "order": 7,
-        "event": "talk",
+        "event": "panel",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596463622,
+        "_modified": 1601933763,
         "_created": 1549924837,
         "_id": "5c61f9e56531330f83000085",
         "town": "Tel Aviv"
@@ -868,7 +868,7 @@
         "twitter": "vorillaz",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/slwaq16nuho",
         "image": {
             "path": "images\/2020speakers\/theodore.jpg"
         },
@@ -879,7 +879,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295604,
+        "_modified": 1601933023,
         "_created": 1576565902,
         "_id": "5df87c8e653133bea800007f",
         "town": "Athens"
@@ -920,7 +920,7 @@
         "twitter": "NoriSte",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/9DVZOAYUQ1M",
         "image": {
             "path": "images\/2020speakers\/stefano.jpg"
         },
@@ -931,7 +931,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1594734451,
+        "_modified": 1601932978,
         "_created": 1576566255,
         "_id": "5df87def653133c0600001be",
         "town": "Lecco"
@@ -980,10 +980,10 @@
             "path": "images\/2020speakers\/tonyedwards.jpg"
         },
         "order": 20,
-        "event": "talk",
+        "event": "both",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295865,
+        "_modified": 1601933826,
         "_created": 1578142581,
         "_id": "5e108b75653133c56a000273",
         "town": "Cornwall"
@@ -998,7 +998,7 @@
         "twitter": "EijgermansPeter",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/CII2mzWQt1Q",
         "image": {
             "path": "images\/2020speakers\/peter.jpg"
         },
@@ -1009,7 +1009,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295564,
+        "_modified": 1601932931,
         "_created": 1578142688,
         "_id": "5e108be0653133c5e8000056",
         "town": "Amsterdam"
@@ -1024,7 +1024,7 @@
         "twitter": "debs_obrien",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/cppypvbgUBs",
         "image": {
             "path": "images\/2020speakers\/debbieo.jpg"
         },
@@ -1033,9 +1033,9 @@
         },
         "order": 1,
         "event": "talk",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595799186,
+        "_modified": 1601932902,
         "_created": 1578522800,
         "_id": "5e1658b065313369d50003cd",
         "town": "Palma de Mallorca"
@@ -1050,7 +1050,7 @@
         "twitter": "patrickkunka",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/xTNDa6OMI_0",
         "image": {
             "path": "images\/2020speakers\/patrick.jpeg"
         },
@@ -1059,9 +1059,9 @@
         },
         "order": 10,
         "event": "talk",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1598893925,
+        "_modified": 1601932875,
         "_created": 1578523198,
         "_id": "5e165a3e6531336bf7000059",
         "town": "London"
@@ -1076,7 +1076,7 @@
         "twitter": "mweststrate",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/ZHxFrbK3VB0",
         "image": {
             "path": "images\/2020speakers\/michel.jpg"
         },
@@ -1084,10 +1084,10 @@
             "path": "images\/2020speakers\/michel.jpg"
         },
         "order": "",
-        "event": "both",
+        "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295728,
+        "_modified": 1601932854,
         "_created": 1578566698,
         "_id": "5e17042a6531335800000066",
         "town": "London"
@@ -1102,7 +1102,7 @@
         "twitter": "antonmc",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/yM2d8ZQGdw8",
         "image": {
             "path": "images\/2020speakers\/antonmc.jpeg"
         },
@@ -1113,7 +1113,7 @@
         "event": "talk",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593295089,
+        "_modified": 1601932827,
         "_created": 1579974197,
         "_id": "5e2c7e35653133c37d000094",
         "town": "Ottawa"
@@ -1153,7 +1153,7 @@
         "twitter": "@FlippedCoding ",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/PVdkfYsn_KE",
         "image": {
             "path": "images\/2020speakers\/milecia.jpg"
         },
@@ -1161,11 +1161,11 @@
             "path": "images\/2020speakers\/milecia.jpg"
         },
         "order": 16,
-        "event": "",
+        "event": "talk",
         "town": "Oklahoma",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595848271,
+        "_modified": 1601932813,
         "_created": 1593268474,
         "_id": "5ef758fa6531334b6d000304"
     },
@@ -1179,7 +1179,7 @@
         "twitter": "@developerayo",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/dmnbh1ck0G0",
         "image": {
             "path": "images\/2020speakers\/shopido.jpg"
         },
@@ -1187,11 +1187,11 @@
             "path": "images\/2020speakers\/shopido.jpg"
         },
         "order": 4,
-        "event": "",
+        "event": "talk",
         "town": "Lagos",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595848234,
+        "_modified": 1601932798,
         "_created": 1593269268,
         "_id": "5ef75c146531334ec30000cd"
     },
@@ -1205,7 +1205,7 @@
         "twitter": "@firt",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/8aSHuNLoTNM",
         "image": {
             "path": "images\/2020speakers\/firt.jpg"
         },
@@ -1213,11 +1213,11 @@
             "path": "images\/2020speakers\/firt.jpg"
         },
         "order": 15,
-        "event": "",
+        "event": "talk",
         "town": "Buenos Aires",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595848145,
+        "_modified": 1601932784,
         "_created": 1593269644,
         "_id": "5ef75d8c653133504d0003b7"
     },
@@ -1231,7 +1231,7 @@
         "twitter": "@loige",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/LpHoTEw2vKg",
         "image": {
             "path": "images\/2020speakers\/luciano.jpg"
         },
@@ -1239,11 +1239,11 @@
             "path": "images\/2020speakers\/luciano.jpg"
         },
         "order": 20,
-        "event": "",
+        "event": "talk",
         "town": "Dublin",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419356,
+        "_modified": 1601932771,
         "_created": 1593270490,
         "_id": "5ef760da65313353f100038f"
     },
@@ -1257,7 +1257,7 @@
         "twitter": "@ScriptedAlchemy",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/-ei6RqZilYI",
         "image": {
             "path": "images\/2020speakers\/zack.jpg"
         },
@@ -1265,11 +1265,11 @@
             "path": "images\/2020speakers\/zack.jpg"
         },
         "order": "",
-        "event": "",
+        "event": "talk",
         "town": "Redmond, WA",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419883,
+        "_modified": 1601932758,
         "_created": 1593271293,
         "_id": "5ef763fd65313357190002cc"
     },
@@ -1283,7 +1283,7 @@
         "twitter": "@matteocollina",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/2WEzL8kX2oc",
         "image": {
             "path": "images\/2020speakers\/mateo.jpg"
         },
@@ -1291,11 +1291,11 @@
             "path": "images\/2020speakers\/mateo.jpg"
         },
         "order": 7,
-        "event": "",
+        "event": "talk",
         "town": "Forli",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419612,
+        "_modified": 1601933119,
         "_created": 1593271633,
         "_id": "5ef7655165313358550000e5"
     },
@@ -1309,7 +1309,7 @@
         "twitter": "@jemimaabu",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/lFzWAsA76DU",
         "image": {
             "path": "images\/2020speakers\/jemina.jpg"
         },
@@ -1317,11 +1317,11 @@
             "path": "images\/2020speakers\/jemina.jpg"
         },
         "order": 2,
-        "event": "",
+        "event": "talk",
         "town": "Kaunas",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593600967,
+        "_modified": 1601932714,
         "_created": 1593271959,
         "_id": "5ef76697653133599800011c"
     },
@@ -1335,7 +1335,7 @@
         "twitter": "@italojs_",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/M2hN_8fQ7K8",
         "image": {
             "path": "images\/2020speakers\/italo.jpg"
         },
@@ -1343,11 +1343,11 @@
             "path": "images\/2020speakers\/italo.jpg"
         },
         "order": 19,
-        "event": "",
+        "event": "talk",
         "town": "S\u00e3o Paulo",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595846800,
+        "_modified": 1601932702,
         "_created": 1593272392,
         "_id": "5ef768486531335b200001d8"
     },
@@ -1361,7 +1361,7 @@
         "twitter": "@lihautan",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/zVfd4ou9qaw",
         "image": {
             "path": "images\/2020speakers\/lihautan.jpg"
         },
@@ -1369,11 +1369,11 @@
             "path": "images\/2020speakers\/lihautan.jpg"
         },
         "order": 4,
-        "event": "",
+        "event": "talk",
         "town": "Pulau Ujong",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595847993,
+        "_modified": 1601932689,
         "_created": 1593272604,
         "_id": "5ef7691c6531335bed0002e0"
     },
@@ -1387,7 +1387,7 @@
         "twitter": "@kitsonk",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/2eRyZpX4qvI",
         "image": {
             "path": "images\/2020speakers\/kits.jpg"
         },
@@ -1399,7 +1399,7 @@
         "town": "Melburne",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1593419027,
+        "_modified": 1601932671,
         "_created": 1593419017,
         "_id": "5ef9a509653133a98a0000ca"
     },
@@ -1413,7 +1413,7 @@
         "twitter": "@AnaCidre_",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/xMGRF6pE764",
         "image": {
             "path": "images\/2020speakers\/anacidre.jpg"
         },
@@ -1423,9 +1423,9 @@
         "order": 10,
         "event": "",
         "town": "Vigo",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595847897,
+        "_modified": 1601932652,
         "_created": 1593600686,
         "_id": "5efc6aae653133489e0000c2"
     },
@@ -1439,7 +1439,7 @@
         "twitter": "lil_natw",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/dx8N9euZ2hk",
         "image": {
             "path": "images\/2020speakers\/natalia.jpg"
         },
@@ -1449,9 +1449,9 @@
         "order": 8,
         "event": "talk",
         "town": "Cornwall",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595847854,
+        "_modified": 1601932639,
         "_created": 1594462930,
         "_id": "5f0992d265313380ce000291"
     },
@@ -1465,7 +1465,7 @@
         "twitter": "PrasoonPratham",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/ds6qdp1TVDg",
         "image": {
             "path": "images\/2020speakers\/prasson.jpg"
         },
@@ -1475,9 +1475,9 @@
         "order": 9,
         "event": "talk",
         "town": "Mumbai",
-        "_mby": "5ef8a28b65313371010000cf",
+        "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595847078,
+        "_modified": 1601932626,
         "_created": 1594732770,
         "_id": "5f0db0e2653133895a0003ab"
     },
@@ -1491,7 +1491,7 @@
         "twitter": "getify",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/TKJPwRLQwsA",
         "image": {
             "path": "images\/2020speakers\/kyle.jpeg"
         },
@@ -1503,7 +1503,7 @@
         "town": "Austin",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1599767961,
+        "_modified": 1601931688,
         "_created": 1594733992,
         "_id": "5f0db5a865313390230002a0"
     },
@@ -1517,7 +1517,7 @@
         "twitter": "@type__error",
         "linkedin": "",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/WMCvyjehH_g",
         "image": {
             "path": "images\/2020speakers\/sofie.jpeg"
         },
@@ -1529,7 +1529,7 @@
         "town": "London",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1595014917,
+        "_modified": 1601932478,
         "_created": 1595014917,
         "_id": "5f11ff05653133bdb400003a"
     },
@@ -1551,11 +1551,11 @@
             "path": "images\/2020speakers\/sia.jpg"
         },
         "order": 6,
-        "event": "both",
+        "event": "panel",
         "town": "New Orleans",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596705976,
+        "_modified": 1601929001,
         "_created": 1596457774,
         "_id": "5f28032e653133a01f00025e"
     },
@@ -1577,11 +1577,11 @@
             "path": "images\/2020speakers\/yoni.png"
         },
         "order": 15,
-        "event": "",
+        "event": "panel",
         "town": "Tel aviv",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596458901,
+        "_modified": 1601928992,
         "_created": 1596458901,
         "_id": "5f280795653133a5660001b5"
     },
@@ -1603,11 +1603,11 @@
             "path": "images\/2020speakers\/vladimir.jpg"
         },
         "order": 20,
-        "event": "talk",
+        "event": "panel",
         "town": "Paris",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1599685938,
+        "_modified": 1601928984,
         "_created": 1596462244,
         "_id": "5f2814a4653133b571000350"
     },
@@ -1629,11 +1629,11 @@
             "path": "images\/2020speakers\/guy.png"
         },
         "order": 30,
-        "event": "talk",
+        "event": "panel",
         "town": "Canada",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1596462612,
+        "_modified": 1601928975,
         "_created": 1596462612,
         "_id": "5f281614653133b6e0000116"
     },
@@ -1655,11 +1655,11 @@
             "path": "images\/2020speakers\/bethgriggs.jpg"
         },
         "order": 23,
-        "event": "talk",
+        "event": "panel",
         "town": "Southampton",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1597161456,
+        "_modified": 1601928965,
         "_created": 1597160096,
         "_id": "5f32baa06531338d1e0000a6"
     },
@@ -1673,7 +1673,7 @@
         "twitter": "",
         "linkedin": "fredfogerty",
         "year": 2020,
-        "videoUrl": "",
+        "videoUrl": "https:\/\/www.youtube.com\/embed\/-U9HQembktY",
         "image": {
             "path": "images\/2020speakers\/frederick.jpeg"
         },
@@ -1685,7 +1685,7 @@
         "town": "Geneva",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1599206010,
+        "_modified": 1601932582,
         "_created": 1599206010,
         "_id": "5f51f27a6531332a37000364"
     },
@@ -1707,11 +1707,11 @@
             "path": "images\/2020speakers\/garann.jpeg"
         },
         "order": 6,
-        "event": "talk",
+        "event": "sponsor",
         "town": "Glasgow",
         "_mby": "5ba3ca7b6531330bbd0003ca",
         "_by": "5ba3ca7b6531330bbd0003ca",
-        "_modified": 1599685893,
+        "_modified": 1601928921,
         "_created": 1599685793,
         "_id": "5f5944a16531333968000082"
     }
