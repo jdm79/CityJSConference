@@ -14,25 +14,28 @@
                     <br />CityJS Conference
                   </b>
                 </h1>
-                <div class="columns is-mobile is-multiline events">
-                  <div class="column is-12-mobile">
-                     <a href="/#highlights">
-                      <h2>
-                        14-18 Sep 2020
-                        <br />
-                        <span>GLOBAL ONLINE EVENT</span>
-                      </h2>
-                     </a>
-                  </div>
-                  <div class="column is-12-mobile">
+                <div class="columns is-mobile is-multiline events eqheights">
+                  <div class="column is-12-mobile is-6-desktop">
                     <a href="/buytickets">
                       <h2>
-                        26-29 Mar 2021
+                        2021 EVEMNT @ 26-29 Mar 
                         <br />
-                        <span>Regent Street Cinema</span>
+                        <span>Hybrid Event</span><br />
+                        <span>Regent Street Cinema / Online</span><br />
                       </h2>
                     </a>
                   </div>
+                  <!-- <div class="column is-12-mobile is-6-desktop eqheights">
+                      <h2>
+                        SUBSCRIBE TO WIN A TICKET
+                         <br /> 
+                          <vue-mailchimp-email-signup-form
+                          title=""
+                          :element-id="'first-email-signup-form'"
+                          :url="'https://cityjsconf.us19.list-manage.com/subscribe/post?u=eb9cc5d08a5ecc02a40df6f40&amp;id=11ac48b4f8'"
+                        />
+                      </h2>
+                  </div> -->
                 </div>
               </div>
               <div class="column is-multiline is-mobile is-4-desktop is-offset-2-desktop">
@@ -119,6 +122,9 @@ export default {
   .events 
     margin-top: 50px;
     font-size: 3rem;
+  
+  .subscribe-container
+    width: 100%;
 
   .content
     margin-bottom: 0px;
@@ -255,6 +261,13 @@ export default {
       +mobile
         margin-top: 80px
 
+  input
+    width: 100%;
 
+  button
+    width: 100%;
+
+  .eqheights
+    max-height: 300px;
 
 </style>

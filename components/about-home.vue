@@ -58,21 +58,21 @@ export default {
     .about-home
         background: rgba(255, 48, 48, 0.9);
         +mobile
-          margin-top: -20vw;
+          margin-top: -100vw;
     .backimg
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 160px 0;
+        padding: 200px 0;
         +ipadpro
           padding: 320px 0;
         +mobile
-          height: 120vh;
+          height: 100vh;
         &.lazyloaded
           background-image: url(/images/audience.jpg); 
           background-repeat: no-repeat; 
           background-size: cover;
-          background-position-y: -300px;
+          background-position-y: -100px;
           +mobile
               background-position: 41% -273px;
               background-repeat: no-repeat;
