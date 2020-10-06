@@ -10,7 +10,7 @@
                 :white="true"
             ></app-h2>
             <div class="carouselWrap">
-                <Carousel :autoplay="true" :perPage="slideCount" :centerMode="true">
+                <Carousel :perPage="slideCount" :centerMode="true" :autoplayDelay="7000">
      
                     <Slide
                         v-for="item in speakers"
@@ -64,7 +64,9 @@ export default {
                         item.year === parseInt((this.current.title === 'Home') ? '2020' : this.current.year) &&
                         (item.event === "talk")
                     );
-                });
+                }).sort(function(a, b) {
+                     return a.order-b.order
+                 });;
             } else {
                 return [];
             }

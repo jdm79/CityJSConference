@@ -7,7 +7,6 @@
 }
 
 .imageDiv {
-    width: 560px;
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,4 +63,21 @@
         width: 100%;
         background-position-x: -84px;
     }
+}
+
+
+.responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    background: white;
+}
+
+.iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }

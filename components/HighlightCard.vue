@@ -5,9 +5,11 @@
             </div>
         </a>
 
-      <iframe  v-if="this.year===2020" width="560" height="315" :src="item.videoUrl"
-       frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div :class="$style.responsive">
+        <iframe :class="$style.iframe" v-if="this.year===2020" width="560" height="315" :src="item.videoUrl"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
         <div :class="$style.infoWrap">
             <div :class="$style.talkTitle">{{ item.title }}</div>
