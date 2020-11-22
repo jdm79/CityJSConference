@@ -48,8 +48,8 @@
                         </div>
                         <div class="column is-9-desktop is-9-tablet is-9-mobile info-vertical is-offset-2">
                           <div class="info-text">
-                            <span class="info-text__main">DAYS Conference</span>
-                            <span class="info-text__sub">inc 2 DAYS Workshops</span>
+                            <span class="info-text__main">DAYS of Talks</span>
+                            <span class="info-text__sub">plus 2 DAYS of Workshops</span>
                           </div>
                         </div>
                         <div class="column is-1-tablet is-1-desktop  is-1-mobile info-vertical ">
@@ -58,11 +58,11 @@
                         <div class="column is-9-desktop  is-9-tablet  is-9-mobile info-vertical  is-offset-2">
                           <div class="info-text">
                             <span class="info-text__main">SPEAKERS</span>
-                            <span class="info-text__sub">Across 5 continents</span>
+                            <span class="info-text__sub">From across 5 continents</span>
                           </div>
                         </div>
                         <div class="column is-1-tablet is-1-desktop is-1-mobile info-vertical">
-                          <div class="info-number">1000</div>
+                          <div class="info-number">1000+</div>
                         </div>
                         <div class="column is-8-desktop  is-9-tablet  is-9-mobile info-vertical  is-offset-2">
                           <div class="info-text">
